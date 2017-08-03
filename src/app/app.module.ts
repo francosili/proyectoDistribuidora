@@ -8,6 +8,7 @@ import { ProductsPage } from '../pages/products/products';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { ShowProductPage } from '../pages/showProduct/showProduct';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,7 +23,8 @@ import { StorageService } from '../services/storageService';
     ProductsPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    ShowProductPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { StorageService } from '../services/storageService';
     ProductsPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    ShowProductPage
   ],
   providers: [
     StatusBar,

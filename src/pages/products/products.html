@@ -1,14 +1,19 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Products</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>Products</ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-searchbar (ionInput)="reloadProducts($event)"></ion-searchbar>
-  <ion-list>
-    <button ion-item  *ngFor="let prod of products" (click)="onClickProduct(prod)">
-      {{ prod }}
-    </button>
-  </ion-list>
+    <ion-searchbar (ionInput)="reloadProducts($event)"></ion-searchbar>
+    <ion-list class="listProducts">
+        <ion-item *ngFor="let prod of products">
+            <ion-thumbnail item-start>
+                <img src="assets/img/products/masticableSugus.jpg">
+            </ion-thumbnail>
+            <h2>{{ prod }}</h2>
+            <p>Esta es una golosina muy ricota</p>
+            <button (click)="onClickProduct(prod)" ion-button clear item-end>View</button>
+        </ion-item>
+    </ion-list>
 </ion-content>
