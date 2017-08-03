@@ -1,4 +1,5 @@
 export const categoriesMock = [
+    'todos',
     'caramelos',
     'galletitas',
     'gomitas',
