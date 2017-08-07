@@ -1,3 +1,15 @@
 page-home {
+    ion-content .scroll-content {
+        overflow-y: hidden;
+    }
 
+    .slide-zoom {
+        height: 100%;
+    }
+
+    .main-slide {
+        position: relative;
+        top: 37%;
+        height: 100%;
+    }
 }

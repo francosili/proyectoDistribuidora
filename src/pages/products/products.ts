@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { StorageService } from '../../services/storageService';
 import { productsMock } from '../../test/mocks/productsMock'
@@ -12,16 +12,17 @@ import { ShowProductPage } from '../showProduct/showProduct';
     templateUrl: 'products.html'
 })
 export class ProductsPage {
-    category: string;
+    @Input() category: string;
+    // category: string;
     products: string[];
 
     constructor(
         public navCtrl: NavController,
-        params: NavParams,
+        // params: NavParams,
         private storageService: StorageService,
         public modalCtrl: ModalController
     ) {
-        this.category = params.get('category');
+        // this.category = params.get('category') ? params.get('category') : 'todos';
         // Esta linea es para testear, dsps se borra
         this.storageService.setStorage('products', productsMock);
     }
@@ -32,7 +33,15 @@ export class ProductsPage {
 
     getProducts() {
         return this.storageService.getStorage('products').then(respProducts => {
-            this.products = _.get(respProducts, this.category);
+            if (this.category === 'todos') {
+                this.products = _.uniqBy(_.flatMap(respProducts), e => {
+                    return e;
+                });
+            } else {
+                this.products = _.get(respProducts, this.category);
+                console.log(this.category);
+                console.log(this.products);
+            }
         })
     }
 

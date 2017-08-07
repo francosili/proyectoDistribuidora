@@ -1,13 +1,7 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Categorias</ion-title>
-  </ion-navbar>
-</ion-header>
-
 <ion-content padding>
   <ion-searchbar (ionInput)="reloadCategories($event)"></ion-searchbar>
-  <ion-list>
-    <button ion-item  *ngFor="let cat of categories" (click)="onClickCategory(cat)">
+  <ion-list class="listCategories">
+    <button ion-item *ngFor="let cat of categories" (click)="onClickCategory(cat)">
       {{ cat }}
     </button>
   </ion-list>

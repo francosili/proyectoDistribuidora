@@ -13,9 +13,10 @@ export class CategoriesPage {
 
   constructor(
       public navCtrl: NavController, 
-      private storageService: StorageService) { 
+      private storageService: StorageService,
+    ) { 
     // Esta linea es para testear, dsps se borra
-    this.storageService.setStorage('products', categoriesMock);
+    this.storageService.setStorage('categories', categoriesMock);
   }
     
   ngOnInit() {
@@ -29,11 +30,8 @@ export class CategoriesPage {
   }
 
   reloadCategories(ev: any) {
-    // Reset items back to all of the items
     this.getCategories().then(()=>{
-      // set val to the value of the searchbar
       let val = ev.target.value;
-      // if the value is an empty string don't filter the items
       if (val && val.trim() != '') {
         this.categories = this.categories.filter((cat) => {
           return (cat.toLowerCase().indexOf(val.toLowerCase()) > -1);
