@@ -3,19 +3,25 @@
   <ion-slides (ionSlideDidChange)="slideChanged()" direction="vertical"  pager>
 
     <ion-slide >
-      <div class="main-slide"> 
-        <h2>Pantalla principal</h2>
-        <button (click)="goToSlide(1)" ion-button>Categorias</button>
-        <button (click)="goToSlide(2)" ion-button outline>Todos los productos</button>
-      </div> 
-    </ion-slide>
-
-    <ion-slide class="slide">
-      <page-categories (SelectCategory)="selectCategory($event)"></page-categories>
+      
+        <div class="main-slide">
+          <h2>Pantalla principal</h2>
+          <button (click)="goToSlide(1)" ion-button>Categorias</button>
+          <button (click)="goToSlide(2)" ion-button outline>Todos los productos</button>
+        </div>
+      
     </ion-slide>
 
     <ion-slide>
-      <page-products category="{{categorySearched}}" ></page-products>
+      
+        <page-categories (SelectCategory)="selectCategory($event)"></page-categories>
+      
+    </ion-slide>
+
+    <ion-slide>
+      
+        <page-products category="{{categorySearched}}" ></page-products>
+      
     </ion-slide>
 
   </ion-slides>

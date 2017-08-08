@@ -1,11 +1,15 @@
 page-home {
+    ion-slide {
+        position: relative;
+        height: 100%;
+    }
+
     .slide-zoom {
         height: 100%;
     }
 
     .main-slide {
         position: relative;
-        top: 37%;
-        height: 100%;
+        top: 39%;
     }
 }
