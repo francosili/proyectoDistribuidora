@@ -5,8 +5,12 @@ import { Slides } from 'ionic-angular';
 
 import { CategoriesPage } from '../categories/categories';
 import { ProductsPage } from '../../pages/products/products';
+import { MenuOptionsPage } from '../../pages/menuOptions/menuOptions';
 
 import { categoriesMock } from '../../test/mocks/categoriesMock'
+
+import { MenuController } from 'ionic-angular';
+
 
 @Component({
     selector: 'page-home',
@@ -19,8 +23,11 @@ export class HomePage {
 
     categorySearched: string;
 
+    mycontent: string = 'ojasdojdas';
+
     constructor(
-        public navCtrl: NavController
+        public navCtrl: NavController,
+        public menuCtrl: MenuController
     ) {};
 
     goToSlide(indexSlide) {
@@ -43,5 +50,9 @@ export class HomePage {
         this.productsPage.setCategory(event.category);
         this.productsPage.getProducts();
         this.goToSlide(2);
+    }
+
+    openSettings() {
+        this.menuCtrl.open();
     }
 }

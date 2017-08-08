@@ -1,31 +1,55 @@
 <ion-content padding>
 
-  <ion-slides (ionSlideDidChange)="slideChanged()" direction="vertical"  pager>
+    <ion-menu side="right" [content]="mycontent">
+        <ion-header>
+            <ion-toolbar>
+                <ion-title>Menu</ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-list>
+                <button ion-item (click)="openPage(homePage)">
+                Home
+            </button>
+                <button ion-item (click)="openPage(friendsPage)">
+                Friends
+            </button>
+                <button ion-item (click)="openPage(eventsPage)">
+                Events
+            </button>
+                <button ion-item (click)="closeMenu()">
+                Close Menu
+            </button>
+            </ion-list>
+        </ion-content>
+    </ion-menu>
 
-    <ion-slide >
-      
-        <div class="main-slide">
-          <h2>Pantalla principal</h2>
-          <button (click)="goToSlide(1)" ion-button>Categorias</button>
-          <button (click)="goToSlide(2)" ion-button outline>Todos los productos</button>
-        </div>
-      
-    </ion-slide>
+    <ion-nav #mycontent [root]="rootPage"></ion-nav>
 
-    <ion-slide>
-      
-        <page-categories (SelectCategory)="selectCategory($event)"></page-categories>
-      
-    </ion-slide>
 
-    <ion-slide>
-      
-        <page-products category="{{categorySearched}}" ></page-products>
-      
-    </ion-slide>
+    <ion-slides (ionSlideDidChange)="slideChanged()" direction="vertical" pager>
+        <ion-slide>
+            
+                 <div class="slide-footer">
+                    <button (click)="openSettings()" clear=true ion-button icon-only>
+                        <ion-icon color="dark" name="menu"></ion-icon>
+                    </button>
+                </div> 
 
-  </ion-slides>
- 
+                <div class="slide-body">
+                    <h2>Pantalla principal</h2>
+                    <button (click)="goToSlide(1)" ion-button>Categorias</button>
+                    <button (click)="goToSlide(2)" ion-button outline>Todos los productos</button>
+                </div>
+            
+        </ion-slide>
+
+        <ion-slide>
+            <page-categories (SelectCategory)="selectCategory($event)"></page-categories>
+        </ion-slide>
+
+        <ion-slide>
+            <page-products category="{{categorySearched}}"></page-products>
+        </ion-slide>
+    </ion-slides>
 </ion-content>
-
-
