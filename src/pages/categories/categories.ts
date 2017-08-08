@@ -1,35 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { StorageService } from '../../services/storageService';
 import { ProductsPage } from '../../pages/products/products';
-import { categoriesMock } from '../../test/mocks/categoriesMock'
-
-import { InteractionService } from '../../services/interactionService';
 
 @Component({
 	selector: 'page-categories',
-	templateUrl: 'categories.html',
-	providers: [InteractionService]
+	templateUrl: 'categories.html'
 })
 export class CategoriesPage {
+	@Output() SelectCategory = new EventEmitter();
+
 	categories: string[];
 	categorySearched: string;
 
 	constructor(
 		public navCtrl: NavController,
-		private storageService: StorageService,
-		private interactionService: InteractionService
-	) {
-		// Esta linea es para testear, dsps se borra
-		this.storageService.setStorage('categories', categoriesMock);
-		interactionService.categorySearched$.subscribe(category => {
-			this.categorySearched = category;
-		});
-	}
-
-	ngOnInit() {
-		this.getCategories();
-	}
+		private storageService: StorageService
+	) {}
 
 	getCategories() {
 		return this.storageService.getStorage('categories').then(respCat => {
@@ -49,7 +36,7 @@ export class CategoriesPage {
 	}
 
 	onClickCategory(cat: any) {
-		this.interactionService.setCategorySearched(cat);
+		this.SelectCategory.emit({category: cat});
 		// this.navCtrl.push(ProductsPage, { category: cat.toLowerCase() });
 	}
 

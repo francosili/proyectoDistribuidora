@@ -2,7 +2,7 @@ import * as _ from 'lodash';
 import { Component, Input } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { StorageService } from '../../services/storageService';
-import { productsMock } from '../../test/mocks/productsMock'
+
 
 import { ModalController } from 'ionic-angular';
 import { ShowProductPage } from '../showProduct/showProduct';
@@ -13,22 +13,20 @@ import { ShowProductPage } from '../showProduct/showProduct';
 })
 export class ProductsPage {
     @Input() category: string;
-    // category: string;
     products: string[];
 
     constructor(
         public navCtrl: NavController,
-        // params: NavParams,
         private storageService: StorageService,
         public modalCtrl: ModalController
-    ) {
-        // this.category = params.get('category') ? params.get('category') : 'todos';
-        // Esta linea es para testear, dsps se borra
-        this.storageService.setStorage('products', productsMock);
+    ) { }
+
+    setProducts(products: string []){
+        this.products = products;
     }
 
-    ngOnInit() {
-        this.getProducts();
+    setCategory(cat) {
+        this.category = cat;
     }
 
     getProducts() {
@@ -39,7 +37,7 @@ export class ProductsPage {
                 });
             } else {
                 this.products = _.get(respProducts, this.category);
-                console.log(this.category);
+                console.log('Categ de Products: ' + this.category);
                 console.log(this.products);
             }
         })
