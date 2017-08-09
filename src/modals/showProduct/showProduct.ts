@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-showProduct',
+  selector: 'modal-showProduct',
   templateUrl: 'showProduct.html'
 })
-export class ShowProductPage {
+export class ShowProductModal {
     productName: string;
 
     constructor(

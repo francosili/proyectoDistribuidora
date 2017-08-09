@@ -1,3 +1,9 @@
-page-about {
-
+page-menu-options {
+    .menu-inner {
+        // TODO: Checkear esto bien si es responsivo
+        width: 31%;
+    }
+    .scroll-content {
+        overflow-y: hidden;
+    }
 }

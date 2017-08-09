@@ -1,18 +1,18 @@
 page-home {
     ion-slide {
-        position: relative;
-        height: 100%;
-
-        .slide-footer {
+        .slide {
             position: relative;
-            width: 57px;
-            left: 96%;
-            
-        }
+            height: 100%;
 
-        .slide-body {
-            position: relative;
-            top: 39%;            
+            .main-slide-footer {
+                position: relative;
+                width: 57px;
+            }
+
+            .main-slide-body {
+                position: relative;
+                top: 36%;            
+            }
         }
 
     }

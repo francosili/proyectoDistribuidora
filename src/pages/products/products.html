@@ -2,7 +2,7 @@
     <ion-searchbar (ionInput)="reloadProducts($event)"></ion-searchbar>
     <ion-list class="listProducts">
         <ion-item *ngFor="let prod of products">
-            <ion-thumbnail item-start>
+            <ion-thumbnail *ngIf="showThumbnail" item-start>
                 <img src="assets/img/products/masticableSugus.jpg">
             </ion-thumbnail>
             <h2>{{ prod }}</h2>

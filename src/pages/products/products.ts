@@ -5,7 +5,7 @@ import { StorageService } from '../../services/storageService';
 
 
 import { ModalController } from 'ionic-angular';
-import { ShowProductPage } from '../showProduct/showProduct';
+import { ShowProductModal } from '../../modals/showProduct/showProduct';
 
 @Component({
     selector: 'page-products',
@@ -14,12 +14,16 @@ import { ShowProductPage } from '../showProduct/showProduct';
 export class ProductsPage {
     @Input() category: string;
     products: string[];
+    showThumbnail: boolean;
 
     constructor(
         public navCtrl: NavController,
         private storageService: StorageService,
         public modalCtrl: ModalController
-    ) { }
+    ) { 
+        // TODO: Cheackear si esta linea va acá
+        this.showThumbnail = true;
+    }
 
     setProducts(products: string []){
         this.products = products;
@@ -58,7 +62,7 @@ export class ProductsPage {
     }
 
     onClickProduct(prod: any) {
-        let modal = this.modalCtrl.create(ShowProductPage, { product: prod });
+        let modal = this.modalCtrl.create(ShowProductModal, { product: prod });
         modal.present();
     }
 

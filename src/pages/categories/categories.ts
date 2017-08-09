@@ -37,7 +37,6 @@ export class CategoriesPage {
 
 	onClickCategory(cat: any) {
 		this.SelectCategory.emit({category: cat});
-		// this.navCtrl.push(ProductsPage, { category: cat.toLowerCase() });
 	}
 
 }

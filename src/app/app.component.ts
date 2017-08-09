@@ -24,16 +24,18 @@ export class MyApp {
     platform: Platform, 
     statusBar: StatusBar, 
     splashScreen: SplashScreen,
-    storageService: StorageService
+    private storageService: StorageService
   ) {
     platform.ready().then(() => {
       statusBar.styleDefault();
       splashScreen.hide();
-
-      // Data Mockeada
-      storageService.setStorage('categories', categoriesMock);
-      storageService.setStorage('products', productsMock);
-
     });
+  }
+
+
+  ionViewDidEnter(){
+      // Data Mockeada
+      this.storageService.setStorage('categories', categoriesMock);
+      this.storageService.setStorage('products', productsMock);
   }
 }

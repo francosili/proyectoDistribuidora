@@ -5,11 +5,12 @@ import { Slides } from 'ionic-angular';
 
 import { CategoriesPage } from '../categories/categories';
 import { ProductsPage } from '../../pages/products/products';
+
 import { MenuOptionsPage } from '../../pages/menuOptions/menuOptions';
+import { MenuController } from 'ionic-angular';
 
 import { categoriesMock } from '../../test/mocks/categoriesMock'
 
-import { MenuController } from 'ionic-angular';
 
 
 @Component({
@@ -30,19 +31,32 @@ export class HomePage {
         public menuCtrl: MenuController
     ) {};
 
-    goToSlide(indexSlide) {
-        // 1: categorias, 2: todos los productos
-        if (indexSlide === 1) {
-            this.categoriesPage.getCategories();
-        } else if (indexSlide === 2) {
-            this.productsPage.setCategory('todos');
-            this.productsPage.getProducts();
-        }
-        this.slides.slideTo(indexSlide, 500);
+    ngAfterViewInit(){
+        this.initSlides();
     }
 
-    slideChanged() {
+    // Inicializa las categorias y los productos (todos)
+    initSlides() {
+        this.categoriesPage.getCategories();
+        this.productsPage.setCategory('todos');
+        this.productsPage.getProducts();
+    }
+
+    slideDidChanged() {
         let currentIndex = this.slides.getActiveIndex();
+        //El pager (3 puntitos) no se muestra en el primer slide
+        if (currentIndex !== 0){
+            this.slides.pager = true;
+        } else {
+            this.slides.pager = false;
+        }
+    }
+
+    goToSlide(indexSlide) {
+        // 1: categorias, 2: todos los productos
+        
+
+        this.slides.slideTo(indexSlide, 500);
     }
 
     selectCategory(event) {
@@ -52,7 +66,11 @@ export class HomePage {
         this.goToSlide(2);
     }
 
-    openSettings() {
+    openMenu() {
         this.menuCtrl.open();
+    }
+
+    closeMenu(){
+        this.menuCtrl.close();
     }
 }
