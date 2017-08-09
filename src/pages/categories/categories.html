@@ -5,7 +5,7 @@
     </div>
     <ion-list class="listCategories">
         <button ion-item *ngFor="let cat of categories" (click)="onClickCategory(cat)">
-      {{ cat }}
+      {{ cat.descripcionCategorias.toLowerCase() }}
     </button>
     </ion-list>
 </ion-content>

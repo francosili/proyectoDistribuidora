@@ -20,6 +20,7 @@ export class CategoriesPage {
 
 	getCategories() {
 		return this.storageService.getStorage('categories').then(respCat => {
+			console.log(respCat);
 			this.categories = respCat;
 		})
 	}

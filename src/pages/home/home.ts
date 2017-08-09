@@ -60,7 +60,7 @@ export class HomePage {
     }
 
     selectCategory(event) {
-        this.categorySearched = event.category;
+        this.categorySearched = event.category.descripcionCategorias;
         this.productsPage.setCategory(event.category);
         this.productsPage.getProducts();
         this.goToSlide(2);

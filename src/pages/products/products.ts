@@ -40,9 +40,10 @@ export class ProductsPage {
                     return e;
                 });
             } else {
-                this.products = _.get(respProducts, this.category);
-                console.log('Categ de Products: ' + this.category);
                 console.log(this.products);
+                this.products = _.get(respProducts, this.category);
+                // console.log('Categ de Products: ' + this.category);
+                // console.log(this.products);
             }
         })
     }

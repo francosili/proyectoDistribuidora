@@ -21,6 +21,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { IonicStorageModule } from '@ionic/storage';
 import { StorageService } from '../services/storageService';
 import { AuthServiceProvider } from '../providers/auth-service/auth-service';
+import { HttpModule } from '@angular/http';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { AuthServiceProvider } from '../providers/auth-service/auth-service';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -60,7 +63,6 @@ import { AuthServiceProvider } from '../providers/auth-service/auth-service';
     StorageService,
     Geolocation,
     AuthServiceProvider
-
   ]
 })
 export class AppModule {}
