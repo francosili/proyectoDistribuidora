@@ -27,7 +27,7 @@ export class MapModal {
     // TODO: Setear real ubicación negocio
     loadMap() {
 
-        let latLng = new google.maps.LatLng(-34.9290, 138.6010);
+        let latLng = new google.maps.LatLng(-32.628347, -60.147488);
 
         let mapOptions = {
             center: latLng,
@@ -37,6 +37,11 @@ export class MapModal {
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
 
+        let marker = new google.maps.Marker({
+            position: latLng,
+            map: this.map,
+            title: 'Distribuidora!'
+        });
     }
 
     dismiss() {
