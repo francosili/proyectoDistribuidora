@@ -20,7 +20,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { IonicStorageModule } from '@ionic/storage';
 import { StorageService } from '../services/storageService';
-import { AuthServiceProvider } from '../providers/auth-service/auth-service';
+import { AuthService } from '../services/authService';
 import { HttpModule } from '@angular/http';
 
 
@@ -62,7 +62,7 @@ import { HttpModule } from '@angular/http';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     StorageService,
     Geolocation,
-    AuthServiceProvider
+    AuthService
   ]
 })
 export class AppModule {}

@@ -2,7 +2,30 @@
 
     <page-menu-options (CloseMenu)="closeMenu($event)"></page-menu-options> 
 
-    <ion-slides (ionSlideDidChange)="slideDidChanged()" direction="vertical" >
+    <div class="slide"> 
+        <div class="main-slide-footer">
+            <button (click)="openMenu()" clear=true ion-button icon-only>
+                <ion-icon color="dark" name="menu"></ion-icon>
+            </button>
+        </div> 
+
+        <div class="main-slide-body">
+            <h2>Pantalla principal</h2>
+            <button (click)="goToPage('categoriesPage')" ion-button>Categorias</button>
+            <button (click)="goToPage('productsPage')" ion-button outline>Todos los productos</button>
+        </div>
+    </div>
+    
+</ion-content>
+
+<!-- 
+
+
+<ion-content padding>
+
+    <page-menu-options (CloseMenu)="closeMenu($event)"></page-menu-options> 
+
+    <ion-slides  (ionSlideTap)="slideClick()" (ionSlideDidChange)="slideDidChanged()" direction="vertical" >
         <ion-slide>
             <div class="slide"> 
                 <div class="main-slide-footer">
@@ -31,4 +54,4 @@
             </div> 
         </ion-slide>
     </ion-slides>
-</ion-content>
+</ion-content> -->

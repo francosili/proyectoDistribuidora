@@ -10,7 +10,7 @@ import { CategoriesPage } from '../pages/categories/categories';
 
 // Estos 3 imports para testear data mockeada
 import { StorageService } from '../services/storageService';
-import { AuthServiceProvider } from '../providers/auth-service/auth-service';
+import { AuthService } from '../services/authService';
 import { productsMock } from '../test/mocks/productsMock'
 import { categoriesMock } from '../test/mocks/categoriesMock'
 
@@ -26,19 +26,22 @@ export class MyApp {
     statusBar: StatusBar, 
     splashScreen: SplashScreen,
     private storageService: StorageService,
-    private authServiceProvider: AuthServiceProvider
+    private authService: AuthService
   ) {
     platform.ready().then(() => {
       statusBar.styleDefault();
       splashScreen.hide();
 
-      this.authServiceProvider.getProductos().subscribe(resp => {
-        this.storageService.setStorage('products', resp.json());
-      });
+      // this.authService.getProductos().subscribe(resp => {
+      //   this.storageService.setStorage('products', resp.json());
+      // });
 
-      this.authServiceProvider.getCategorias().subscribe(resp => {
-        this.storageService.setStorage('categories', resp.json());
-      });
+      // this.authService.getCategorias().subscribe(resp => {
+      //   this.storageService.setStorage('categories', resp.json());
+      // });
+
+      this.storageService.setStorage('categories', categoriesMock);
+      this.storageService.setStorage('products', productsMock);
 
     });
   }

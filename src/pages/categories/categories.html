@@ -1,11 +1,12 @@
-<ion-content padding>
+<ion-slides loop=false (ionSlideTap)="slideClick()" pager>
+    <ion-slide *ngFor="let catRef of categoriesReformated"> 
+        <!-- <div> -->
+            <ion-card *ngFor="let cat of catRef">
+                <!-- <img src="img/card-saopaolo.png" /> -->
+                <div class="card-title">{{ cat }}</div>
+                <div class="card-subtitle">Descripcion categoria</div>
+            </ion-card>
+        <!-- </div> -->
 
-    <div class="categories-footer">
-        <ion-searchbar (ionInput)="reloadCategories($event)"></ion-searchbar>
-    </div>
-    <ion-list class="listCategories">
-        <button ion-item *ngFor="let cat of categories" (click)="onClickCategory(cat)">
-      {{ cat.descripcionCategorias.toLowerCase() }}
-    </button>
-    </ion-list>
-</ion-content>
+    </ion-slide>
+</ion-slides>

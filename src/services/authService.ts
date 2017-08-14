@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-export class AuthServiceProvider {
+export class AuthService {
 
   constructor(public http: Http) {}
 

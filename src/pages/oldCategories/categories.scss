@@ -1,20 +1,10 @@
 page-categories {
     overflow: hidden;
-
-    .swiper-slide {
-        height: 166px;
-    }
-
     .listCategories button{
         text-transform: capitalize;
     }
 
     .categories-footer {
         
-    }
-
-    .swiper-pagination-bullet {
-        height: 21px;
-        width: 21px;
     }
 }

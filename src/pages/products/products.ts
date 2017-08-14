@@ -17,12 +17,20 @@ export class ProductsPage {
     showThumbnail: boolean;
 
     constructor(
+        private params: NavParams,
         public navCtrl: NavController,
         private storageService: StorageService,
         public modalCtrl: ModalController
     ) { 
         // TODO: Cheackear si esta linea va acá
         this.showThumbnail = true;
+
+        this.category = params.data.category;
+
+    }
+
+    ngOnInit() {
+        this.getProducts();
     }
 
     setProducts(products: string []){
@@ -35,15 +43,12 @@ export class ProductsPage {
 
     getProducts() {
         return this.storageService.getStorage('products').then(respProducts => {
-            if (this.category === 'todos') {
+            if (this.category === 'all') {
                 this.products = _.uniqBy(_.flatMap(respProducts), e => {
                     return e;
                 });
             } else {
-                console.log(this.products);
                 this.products = _.get(respProducts, this.category);
-                // console.log('Categ de Products: ' + this.category);
-                // console.log(this.products);
             }
         })
     }
