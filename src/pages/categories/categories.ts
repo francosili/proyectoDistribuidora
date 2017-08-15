@@ -24,7 +24,7 @@ export class CategoriesPage {
 
 	ngOnInit(){
 		this.getCategories().then((resp)=>{
-
+			//TODO: Setear cantidad de categorias a mostrar en las opciones
 			this.reformatCategories(6);
 		});
 	}

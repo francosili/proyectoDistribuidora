@@ -8,14 +8,14 @@
 <ion-slides loop=false (ionSlideTap)="slideClick()" pager>
 
     
-    <ion-slide *ngFor="let catRef of categoriesReformated">
+    <ion-slide  *ngFor="let catRef of categoriesReformated">
         <div  class="grid"
-                fxLayout
-                fxLayout.xs="column"
-                fxLayoutAlign="center"
-                fxLayoutGap="10px"
-                fxLayoutGap.xs="0">
-            <ion-card fxFlex="15%" class="category" *ngFor="let cat of catRef">
+              fxLayout
+              fxLayout.xs="column"
+              fxLayoutAlign="center"
+              fxLayoutGap="10px"
+              fxLayoutGap.xs="0">
+            <ion-card fxFlex="30" class="category" *ngFor="let cat of catRef">
                 <div class="card-title">{{ cat }}</div>
                 <div class="card-subtitle">Descripcion categoria</div>
             </ion-card>
