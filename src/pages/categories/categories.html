@@ -6,22 +6,13 @@
     </ion-navbar>
 </ion-header>
 
-<ion-slides loop=false (ionSlideTap)="slideClick()" pager>
-
-    
+<ion-slides (ionSlideTap)="slideClick()" pager loop>
     <ion-slide  *ngFor="let catRef of categoriesReformated">
-        <div  class="grid"
-              fxLayout
-              fxLayout.xs="column"
-              fxLayoutAlign="center"
-              fxLayoutGap="10px"
-              fxLayoutGap.xs="0">
-            <ion-card fxFlex="31" class="category" *ngFor="let cat of catRef">
+         <div class="grid">
+            <ion-card class="category" *ngFor="let cat of catRef">
                 <div class="card-title">{{ cat }}</div>
                 <div class="card-subtitle">41 Productos</div>
             </ion-card>
-        </div>
-
+        </div> 
     </ion-slide>
-
 </ion-slides>

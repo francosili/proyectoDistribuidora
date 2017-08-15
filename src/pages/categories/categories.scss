@@ -1,13 +1,54 @@
 page-categories {
     ion-header {
         position: static;
+        margin-bottom: 10px;
     }
 
+    ////////////////////////////////////////
+    //        Estilos ionic custom        // 
+    ////////////////////////////////////////
     .toolbar-background-md {
         border-color: #fff;
         background: #fff;
     }
+
+    .toolbar-content-md {
+        position: relative;
+        right: -4.1%;
+        ion-searchbar {
+            width: 87.7%;
+        }
+    }
+
+    .back-button.show-back-button {
+        left: 2%;
+    }
+
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        //TODO: Esto mejorar
+        bottom: 80px;
+    }
+
+    .slide-zoom{
+        height: 100%;
+    }
     
+    ////////////////////////////////////////
+    //        Otros estilos               // 
+    ////////////////////////////////////////
+    .grid {
+        height: 86%;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content:center;
+    }
+
+    .category {
+        margin-top: 10px;
+        width:20%;
+        max-height:50%;
+    }
+
     .card-title {
         text-transform: capitalize;
         position: relative;
@@ -26,70 +67,6 @@ page-categories {
         color: #000;
     }
    
-   .slide-zoom{
-       height: 100%;
-   }
 
-   .grid {
-       height: 100%;
-       flex-wrap: wrap;
-   }
-
+   
 }
-
-
-
-
-
-    // .slide-zoom {
-    //     display: grid;
-    //     position: static;
-    //     height: 100%;
-    //     justify-content: stretch;	
-    //     justify-items: stretch;
-    //       align-content: stretch;	
-
-    //     grid-gap: 1px;
-    //     grid-auto-flow: row dense;
-    //     // grid-template-columns: repeat(3, auto);
-    //     // grid-template-rows: repeat(2, auto);
-                               
-    // }
-
-    // .card-title {
-    //     text-transform: capitalize;
-    //     position: absolute;
-    //     top: 36%;
-    //     font-size: 2.0em;
-    //     width: 100%;
-    //     font-weight: bold;
-    //     color: #000;
-    // }
-
-    // .card-subtitle {
-    //     font-size: 1.0em;
-    //     position: absolute;
-    //     top: 52%;
-    //     width: 100%;
-    //     color: #000;
-    // }
-
-
-    // ion-card {
-    //     position: relative;
-    //     text-align: center;
-    //     max-width: 100px;
-    //     max-height: 100px;
-    // }
-
-    // .category {
-    //     position: relative;
-    //     text-align: center;
-    //     max-width: 250px;
-    //     max-height: 250px;
-    // }
-
-    // .slide-zoom {
-    //     display: block;
-    //     height: 100%;
-    // }
