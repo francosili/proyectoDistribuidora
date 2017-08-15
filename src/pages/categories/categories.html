@@ -1,7 +1,8 @@
 
 <ion-header>
     <ion-navbar>
-        <ion-title>Categorias</ion-title>
+        <!-- <ion-title>Categorias</ion-title> -->
+        <ion-searchbar (ionInput)="reloadCategories($event)"></ion-searchbar>
     </ion-navbar>
 </ion-header>
 
@@ -15,23 +16,12 @@
               fxLayoutAlign="center"
               fxLayoutGap="10px"
               fxLayoutGap.xs="0">
-            <ion-card fxFlex="30" class="category" *ngFor="let cat of catRef">
+            <ion-card fxFlex="31" class="category" *ngFor="let cat of catRef">
                 <div class="card-title">{{ cat }}</div>
-                <div class="card-subtitle">Descripcion categoria</div>
+                <div class="card-subtitle">41 Productos</div>
             </ion-card>
         </div>
 
     </ion-slide>
 
 </ion-slides>
-
-<!--<div class="container"
-     fxLayout
-     fxLayout.xs="column"
-     fxLayoutAlign="center"
-     fxLayoutGap="10px"
-     fxLayoutGap.xs="0">
-  <div class="item item-1" fxFlex="15%">Item 1</div>
-  <div class="item item-2" fxFlex="20%" fxFlexOrder="3">Item 2</div>
-  <div class="item item-3" fxFlex>Item 3</div>
-</div>-->

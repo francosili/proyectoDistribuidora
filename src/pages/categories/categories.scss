@@ -3,6 +3,44 @@ page-categories {
         position: static;
     }
 
+    .toolbar-background-md {
+        border-color: #fff;
+        background: #fff;
+    }
+    
+    .card-title {
+        text-transform: capitalize;
+        position: relative;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .card-subtitle {
+        font-size: 1.0em;
+        position: relative;
+        top: 38%;
+        width: 100%;
+        color: #000;
+    }
+   
+   .slide-zoom{
+       height: 100%;
+   }
+
+   .grid {
+       height: 100%;
+       flex-wrap: wrap;
+   }
+
+}
+
+
+
+
+
     // .slide-zoom {
     //     display: grid;
     //     position: static;
@@ -55,21 +93,3 @@ page-categories {
     //     display: block;
     //     height: 100%;
     // }
-
-   
-   .slide-zoom{
-       height: 100%;
-   }
-
-   .grid {
-       height: 100%;
-       flex-wrap: wrap;
-   }
-
-   .category {
-    //    height: auto;
-    //    width: auto;
-   }
-
-
-}

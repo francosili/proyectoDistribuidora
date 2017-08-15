@@ -1,5 +1,6 @@
 page-home {
-    ion-slide {
+    
+    .scroll-content {        
         .slide {
             position: relative;
             height: 100%;
@@ -11,11 +12,14 @@ page-home {
 
             .main-slide-body {
                 position: relative;
-                top: 36%;            
+                text-align: center;
+                top: 36%;      
+
             }
         }
-
     }
+
+    
 
     .slide-zoom {
         height: 100%;

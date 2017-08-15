@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Output, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { StorageService } from '../../services/storageService';
+import { reformatCategories } from '../../services/utilsService';
 import { ProductsPage } from '../../pages/products/products';
 import { Slides } from 'ionic-angular';
 
@@ -15,6 +16,7 @@ export class CategoriesPage {
 	categories: string[];
 	categorySearched: string;
 	categoriesReformated;
+	cantCategoriesShowed: number;
 
 	constructor(
 		public navCtrl: NavController,
@@ -23,30 +25,14 @@ export class CategoriesPage {
 
 
 	ngOnInit(){
+		this.cantCategoriesShowed = 6;
 		this.getCategories().then((resp)=>{
 			//TODO: Setear cantidad de categorias a mostrar en las opciones
-			this.reformatCategories(6);
+			this.categoriesReformated = reformatCategories(this.cantCategoriesShowed, this.categories);
 		});
 	}
 
-	// formatea array categories en un array con varios arrays de 9 categoira
-	// esto pa poder mostrar mejor
-	reformatCategories(cantCategs: number){
-		let categoriesReformated = [];
-		let auxNineCategoties = [];
-		for (let i=0; i <= this.categories.length; i++) {
-			auxNineCategoties.push(this.categories[i])
-			if (i === this.categories.length-1 || (i+1) % cantCategs === 0) {
-				categoriesReformated.push(auxNineCategoties);
-				auxNineCategoties = [];
-			}
-		}
-		console.log(categoriesReformated);
-		this.categoriesReformated = categoriesReformated;
-	}
-
 	slideClick(){
-		console.log('CATEGORIES');
 		this.slides.slideNext();
 	}
 
@@ -64,6 +50,7 @@ export class CategoriesPage {
 					return (cat.toLowerCase().indexOf(val.toLowerCase()) > -1);
 				})
 			}
+			this.categoriesReformated = reformatCategories(this.cantCategoriesShowed, this.categories);
 		});
 	}
 
