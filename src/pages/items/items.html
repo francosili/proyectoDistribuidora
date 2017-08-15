@@ -7,7 +7,7 @@
 <ion-slides (ionSlideTap)="slideClick()" pager loop>
     <ion-slide  *ngFor="let catRef of categoriesReformated">
          <div class="grid">
-            <ion-card class="category" *ngFor="let cat of catRef">
+            <ion-card (click)="onClickItem(cat)" class="category" *ngFor="let cat of catRef">
                 <div class="card-title">{{ cat }}</div>
                 <div class="card-subtitle">41 Productos</div>
             </ion-card>

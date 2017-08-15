@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Output, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { StorageService } from '../../services/storageService';
-import { reformatCategories } from '../../services/utilsService';
+// import { reformatCategories } from '../../services/utilsService';
 import { ProductsPage } from '../../pages/products/products';
 import { Slides } from 'ionic-angular';
 

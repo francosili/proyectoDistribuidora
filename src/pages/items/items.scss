@@ -1,0 +1,72 @@
+page-categories {
+    ion-header {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    ////////////////////////////////////////
+    //        Estilos ionic custom        // 
+    ////////////////////////////////////////
+    .toolbar-background-md {
+        border-color: #fff;
+        background: #fff;
+    }
+
+    .toolbar-content-md {
+        position: relative;
+        right: -4.1%;
+        ion-searchbar {
+            width: 87.7%;
+        }
+    }
+
+    .back-button.show-back-button {
+        left: 2%;
+    }
+
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        //TODO: Esto mejorar
+        bottom: 80px;
+    }
+
+    .slide-zoom{
+        height: 100%;
+    }
+    
+    ////////////////////////////////////////
+    //        Otros estilos               // 
+    ////////////////////////////////////////
+    .grid {
+        height: 86%;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content:center;
+    }
+
+    .category {
+        margin-top: 10px;
+        width:20%;
+        max-height:50%;
+    }
+
+    .card-title {
+        text-transform: capitalize;
+        position: relative;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .card-subtitle {
+        font-size: 1.0em;
+        position: relative;
+        top: 38%;
+        width: 100%;
+        color: #000;
+    }
+   
+
+   
+}

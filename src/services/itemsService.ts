@@ -1,7 +1,7 @@
 // Formatea array categories en un array con varios arrays de 9 categoira
 // esto pa poder mostrar mejor
 
-export const reformatCategories = (cantCategs: number, categoriesCollection) => {
+export const reformatItems = (cantCategs: number, categoriesCollection) => {
     let categoriesReformated = [];
     let auxNineCategoties = [];
     for (let i=0; i <= categoriesCollection.length; i++) {
@@ -11,7 +11,12 @@ export const reformatCategories = (cantCategs: number, categoriesCollection) => 
             auxNineCategoties = [];
         }
     }
-    console.log(categoriesReformated);
-
     return categoriesReformated;
+}
+
+export const getItems = (type: string) => {
+    if (type === 'categories')
+    return this.storageService.getStorage('categories').then(respCat => {
+        this.items = respCat;
+    })
 }
