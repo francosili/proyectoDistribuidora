@@ -1,12 +1,37 @@
+
+<ion-header>
+    <ion-navbar>
+        <ion-title>Categorias</ion-title>
+    </ion-navbar>
+</ion-header>
+
 <ion-slides loop=false (ionSlideTap)="slideClick()" pager>
-    <ion-slide *ngFor="let catRef of categoriesReformated"> 
-        <!-- <div> -->
-            <ion-card *ngFor="let cat of catRef">
-                <!-- <img src="img/card-saopaolo.png" /> -->
+
+    
+    <ion-slide *ngFor="let catRef of categoriesReformated">
+        <div  class="grid"
+                fxLayout
+                fxLayout.xs="column"
+                fxLayoutAlign="center"
+                fxLayoutGap="10px"
+                fxLayoutGap.xs="0">
+            <ion-card fxFlex="15%" class="category" *ngFor="let cat of catRef">
                 <div class="card-title">{{ cat }}</div>
                 <div class="card-subtitle">Descripcion categoria</div>
             </ion-card>
-        <!-- </div> -->
+        </div>
 
     </ion-slide>
+
 </ion-slides>
+
+<!--<div class="container"
+     fxLayout
+     fxLayout.xs="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0">
+  <div class="item item-1" fxFlex="15%">Item 1</div>
+  <div class="item item-2" fxFlex="20%" fxFlexOrder="3">Item 2</div>
+  <div class="item item-3" fxFlex>Item 3</div>
+</div>-->

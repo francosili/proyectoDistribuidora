@@ -1,20 +1,62 @@
 page-categories {
-    overflow: hidden;
-
-    .swiper-slide {
-        height: 166px;
+    ion-header {
+        position: static;
     }
 
-    .listCategories button{
-        text-transform: capitalize;
-    }
+    // .slide-zoom {
+    //     display: grid;
+    //     position: static;
+    //     height: 100%;
+    //     justify-content: stretch;	
+    //     justify-items: stretch;
+    //       align-content: stretch;	
 
-    .categories-footer {
-        
-    }
+    //     grid-gap: 1px;
+    //     grid-auto-flow: row dense;
+    //     // grid-template-columns: repeat(3, auto);
+    //     // grid-template-rows: repeat(2, auto);
+                               
+    // }
 
-    .swiper-pagination-bullet {
-        height: 21px;
-        width: 21px;
-    }
+    // .card-title {
+    //     text-transform: capitalize;
+    //     position: absolute;
+    //     top: 36%;
+    //     font-size: 2.0em;
+    //     width: 100%;
+    //     font-weight: bold;
+    //     color: #000;
+    // }
+
+    // .card-subtitle {
+    //     font-size: 1.0em;
+    //     position: absolute;
+    //     top: 52%;
+    //     width: 100%;
+    //     color: #000;
+    // }
+
+
+    // ion-card {
+    //     position: relative;
+    //     text-align: center;
+    //     max-width: 100px;
+    //     max-height: 100px;
+    // }
+
+    // .category {
+    //     position: relative;
+    //     text-align: center;
+    //     max-width: 250px;
+    //     max-height: 250px;
+    // }
+
+    // .slide-zoom {
+    //     display: block;
+    //     height: 100%;
+    // }
+
+   
+
+
 }

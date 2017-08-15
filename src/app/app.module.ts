@@ -23,6 +23,8 @@ import { StorageService } from '../services/storageService';
 import { AuthService } from '../services/authService';
 import { HttpModule } from '@angular/http';
 
+import { FlexLayoutModule } from "@angular/flex-layout";
+
 
 @NgModule({
   declarations: [
@@ -41,7 +43,8 @@ import { HttpModule } from '@angular/http';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot(),
-    HttpModule
+    HttpModule,
+    FlexLayoutModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

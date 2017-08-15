@@ -25,23 +25,23 @@ export class CategoriesPage {
 	ngOnInit(){
 		this.getCategories().then((resp)=>{
 
-			this.reformatCategories();
+			this.reformatCategories(6);
 		});
 	}
 
 	// formatea array categories en un array con varios arrays de 9 categoira
 	// esto pa poder mostrar mejor
-	reformatCategories(){
+	reformatCategories(cantCategs: number){
 		let categoriesReformated = [];
 		let auxNineCategoties = [];
 		for (let i=0; i <= this.categories.length; i++) {
 			auxNineCategoties.push(this.categories[i])
-			// TODO: este if mejorarlo
-			if ( i === this.categories.length-1 || i+1 === 9 || i+1 === 18 || i+1 === 27) {
+			if (i === this.categories.length-1 || (i+1) % cantCategs === 0) {
 				categoriesReformated.push(auxNineCategoties);
 				auxNineCategoties = [];
 			}
 		}
+		console.log(categoriesReformated);
 		this.categoriesReformated = categoriesReformated;
 	}
 
