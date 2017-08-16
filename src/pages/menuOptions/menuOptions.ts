@@ -35,4 +35,8 @@ export class MenuOptionsPage {
         console.log(this.showThumbnail);
     }
 
+    actualizarStorage() {
+        
+    }
+
 }

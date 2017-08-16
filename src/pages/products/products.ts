@@ -2,8 +2,6 @@ import * as _ from 'lodash';
 import { Component, Input } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { StorageService } from '../../services/storageService';
-
-
 import { ModalController } from 'ionic-angular';
 import { ShowProductModal } from '../../modals/showProduct/showProduct';
 
