@@ -11,13 +11,19 @@ import { SettingsModal } from '../../modals/settings/settings';
 })
 export class MenuOptionsPage {
     @Output() CloseMenu = new EventEmitter();
-    // TODO: Hacerlo output para pasarlo a products? home?
-    showThumbnail: boolean;
+    categsToShow: number;
+    productsToShow: number;
 
     constructor(
         public navCtrl: NavController,
         public modalCtrl: ModalController
     ) {}
+
+    ngOnInit() {
+        //TODO: Valores por defecto, quizas extraer en un json aparte como variabels globales.
+        this.categsToShow = 9;
+        this.productsToShow = 15;
+    }
 
     openModal(nameModal: string) {
         if (nameModal === 'map') {
@@ -32,7 +38,7 @@ export class MenuOptionsPage {
     }
 
     onClickShowThumbnail(){
-        console.log(this.showThumbnail);
+     
     }
 
     actualizarStorage() {
