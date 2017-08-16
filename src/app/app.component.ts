@@ -3,10 +3,7 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { TabsPage } from '../pages/tabs/tabs';
-
 import { HomePage } from '../pages/home/home';
-import { CategoriesPage } from '../pages/categories/categories';
 
 // Estos 3 imports para testear data mockeada
 import { StorageService } from '../services/storageService';
@@ -18,7 +15,6 @@ import { categoriesMock } from '../test/mocks/categoriesMock'
   templateUrl: 'app.html'
 })
 export class MyApp {
-  // rootPage:any = TabsPage;
   rootPage: any = HomePage;
 
   constructor(

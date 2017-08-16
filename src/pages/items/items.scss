@@ -1,12 +1,13 @@
-page-categories {
+page-items {
+    ////////////////////////////////////////
+    //        Estilos ionic custom        // 
+    ////////////////////////////////////////
+
     ion-header {
         position: static;
         margin-bottom: 10px;
     }
 
-    ////////////////////////////////////////
-    //        Estilos ionic custom        // 
-    ////////////////////////////////////////
     .toolbar-background-md {
         border-color: #fff;
         background: #fff;
@@ -43,7 +44,7 @@ page-categories {
         justify-content:center;
     }
 
-    .category {
+    .item {
         margin-top: 10px;
         width:20%;
         max-height:50%;
@@ -66,7 +67,5 @@ page-categories {
         width: 100%;
         color: #000;
     }
-   
-
    
 }

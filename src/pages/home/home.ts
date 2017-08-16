@@ -2,8 +2,8 @@ import * as _ from 'lodash';
 import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { CategoriesPage } from '../categories/categories';
-import { ProductsPage } from '../../pages/products/products';
+
+import { ItemsPage } from '../../pages/items/items';
 
 import { MenuOptionsPage } from '../../pages/menuOptions/menuOptions';
 import { MenuController } from 'ionic-angular';
@@ -29,11 +29,11 @@ export class HomePage {
     goToPage(page: string) {
         switch (page) {
             case 'categoriesPage':
-                this.navCtrl.push(CategoriesPage);
+                this.navCtrl.push(ItemsPage, { itemType: 'categories' });
                 // this.categoriesPage.getCategories();
                 break;
             case 'productsPage':
-                this.navCtrl.push(ProductsPage, { category: 'all' });
+                this.navCtrl.push(ItemsPage, { itemType: 'products', category: 'all' });
                 break;                
         }
         

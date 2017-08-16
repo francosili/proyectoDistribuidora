@@ -2,13 +2,12 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { Geolocation } from '@ionic-native/geolocation';
 
-import { CategoriesPage } from '../pages/categories/categories';
+// import { CategoriesPage } from '../pages/categories/categories';
 import { ProductsPage } from '../pages/products/products';
+import { ItemsPage } from '../pages/items/items';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
-import { TabsPage } from '../pages/tabs/tabs';
 import { MenuOptionsPage } from '../pages/menuOptions/menuOptions';
 
 import { ShowProductModal } from '../modals/showProduct/showProduct';
@@ -19,6 +18,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { IonicStorageModule } from '@ionic/storage';
+import { ItemsService } from '../services/itemsService';
 import { StorageService } from '../services/storageService';
 import { AuthService } from '../services/authService';
 import { HttpModule } from '@angular/http';
@@ -29,11 +29,11 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 @NgModule({
   declarations: [
     MyApp,
-    CategoriesPage,
+    // CategoriesPage,
+    ItemsPage,
     ProductsPage,
     ContactPage,
     HomePage,
-    TabsPage,
     MenuOptionsPage,
     ShowProductModal,
     MapModal,
@@ -49,11 +49,11 @@ import { FlexLayoutModule } from "@angular/flex-layout";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    CategoriesPage,
+    // CategoriesPage,
+    ItemsPage,
     ProductsPage,
     ContactPage,
     HomePage,
-    TabsPage,
     MenuOptionsPage,
     ShowProductModal,
     MapModal,
@@ -64,8 +64,8 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     StorageService,
-    Geolocation,
-    AuthService
+    AuthService,
+    ItemsService
   ]
 })
 export class AppModule {}
