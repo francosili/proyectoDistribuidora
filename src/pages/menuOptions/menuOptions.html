@@ -11,12 +11,38 @@
                 <ion-label>Ubicanos</ion-label>
                 <button (click)="openModal('map')" ion-button outline item-end>Ver mapa</button>
             </ion-item>
+            
             <ion-item>
                 <ion-icon name="images" item-start color="danger"></ion-icon>
-                <ion-label>Miniaturas productos</ion-label>
+                <ion-label>Nada</ion-label>
                 <ion-toggle (click)="onClickShowThumbnail()" [(ngModel)]="showThumbnail" color="secondary"></ion-toggle>
             </ion-item>
            
+        </ion-list>
+
+        <ion-list>
+            <ion-list-header>
+                <ion-label>Cantidad categorias</ion-label>
+                <ion-label text-right>{{categsToShow}}</ion-label>
+            </ion-list-header>
+            <ion-item>
+                <ion-range min="0" max="28" step="2" snaps="true" [(ngModel)]="categsToShow">
+                    <ion-label range-left class="small-text">0</ion-label>
+                    <ion-label range-right>28</ion-label>
+                </ion-range>
+            </ion-item>
+        </ion-list>
+
+        <ion-list>
+            <ion-list-header>
+                Cantidad productos
+            </ion-list-header>
+            <ion-item>
+                <ion-range min="0" max="28" step="2" snaps="true" [(ngModel)]="productsToShow">
+                    <ion-label range-left class="small-text">0</ion-label>
+                    <ion-label range-right>28</ion-label>
+                </ion-range>
+            </ion-item>
         </ion-list>
 
         <ion-list>
