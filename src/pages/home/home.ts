@@ -1,8 +1,6 @@
 import * as _ from 'lodash';
 import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
-
-
 import { ItemsPage } from '../../pages/items/items';
 
 import { MenuOptionsPage } from '../../pages/menuOptions/menuOptions';
@@ -33,7 +31,7 @@ export class HomePage {
                 // this.categoriesPage.getCategories();
                 break;
             case 'productsPage':
-                this.navCtrl.push(ItemsPage, { itemType: 'products', category: 'all' });
+                this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: 'all' });
                 break;                
         }
         
@@ -41,9 +39,8 @@ export class HomePage {
 
     selectCategory(event) {
         this.categorySearched = event.category.descripcionCategorias;
-        // this.productsPage.setCategory(event.category);
-        // this.productsPage.getProducts();
-        this.goToPage('productsPage');
+        console.log(this.categorySearched);
+        // this.goToPage('productsPage');
     }
 
     openMenu() {

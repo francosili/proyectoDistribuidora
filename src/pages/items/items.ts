@@ -1,4 +1,5 @@
-import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import * as _ from 'lodash';
+import { Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { StorageService } from '../../services/storageService';
 import { ItemsService } from '../../services/itemsService';
@@ -11,7 +12,8 @@ import { Slides } from 'ionic-angular';
 })
 export class ItemsPage {
 	@Input() itemType: string;
-	
+	@Input() categorySelected: string;
+
 	@Output() SelectItem = new EventEmitter();
     @ViewChild(Slides) slides: Slides;
 
@@ -27,6 +29,7 @@ export class ItemsPage {
 		private params: NavParams
 	) {
 		this.itemType = params.data.itemType;
+		this.categorySelected = params.data.categorySelected;
 	}
 
 
@@ -36,8 +39,20 @@ export class ItemsPage {
 		this.cantItemsShowed = 28;
 		this.itemsService.getItems(this.itemType).then((resp)=>{
 			this.items = resp;
+
+			if (this.categorySelected) {
+				if (this.categorySelected === 'all') {
+					this.items = _.uniqBy(_.flatMap(resp), e => {
+						return e;
+					});
+				} else {
+					this.items = _.filter(resp, (item) => {
+						return (item.categoria.descripcionCategorias === this.categorySelected);
+					});
+				}
+			}
+
 			this.itemsReformated = this.itemsService.reformatItems(this.cantItemsShowed, this.items);
-			console.log(this.itemsReformated);
 		});
 		
 	}
@@ -59,8 +74,8 @@ export class ItemsPage {
 		});
 	}
 
-	onClickItem(cat: any) {
-		this.SelectItem.emit({category: cat});
+	onClickItem(category: any) {
+		this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.toUpperCase()});
 	}
 
 }

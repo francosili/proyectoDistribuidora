@@ -1,5 +1,8 @@
 export const categoriesMock = [
-    'caramelos',
+    'jugos concentrados',
+    'gaseosas',
+    'vinos comunes',
+    'gas.cimes',
     'galletitas',
     'gomitas',
     'pastillas',
