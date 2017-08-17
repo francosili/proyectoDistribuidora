@@ -53,7 +53,7 @@ export class ItemsPage {
 
 			this.itemsReformated = this.itemsService.reformatItems(this.cantItemsShowed, this.items);
 		});
-		
+
 	}
 
 	slideClick(){

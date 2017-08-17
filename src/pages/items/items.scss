@@ -46,8 +46,10 @@ page-items {
 
     .item {
         margin-top: 10px;
-        width:20%;
-        max-height:35%;
+        // width:20%;
+        max-height:40%;
+        max-width: 20%;
+        // min-width: 20%;
     }
    
    .card-background-page {
@@ -55,30 +57,41 @@ page-items {
         ion-card {
             position: relative;
             text-align: center;
+
+            ion-row{
+                position: absolute;
+                width: 100%;
+                bottom: 3%;
+                right: 2%;
+            }
         }
 
         img {
+            position: absolute;
             width: 100%;
             height: 100%;
         }
 
+
         .card-title {
             text-transform: capitalize;
-            font-size: 2.0em !important;
-            position: absolute;
-            top: 36%;
-            // font-size: 2.0em;
-            width: 100%;
             font-weight: bold;
             color: #fff;
+            position: absolute;
+            width: 100%;
+            top: 26%;
+            font-size: 150%;
+            text-shadow: -1px 0 #545454, 0 1px #545454, 1px 0 #545454, 0 -1px #545454;
         }
 
         .card-subtitle {
-            font-size: 1.0em;
-            position: absolute;
-            top: 52%;
-            width: 100%;
+            // position: absolute;
             color: #fff;
+            // top: 90%;
+            font-size: 90%;
+            // width: 100%;
+            text-shadow: -1px 0 #545454, 0 1px #545454, 1px 0 #545454, 0 -1px #545454;
+
         }
 
     }
