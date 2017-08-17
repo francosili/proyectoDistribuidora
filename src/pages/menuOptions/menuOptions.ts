@@ -22,11 +22,13 @@ export class MenuOptionsPage {
     ) {}
 
     ngOnInit() {
-        let categsToShowPromise = this.storageService.getStorage('categsToShow');
+        let categsToShowPromise = this.storageService.getStorage('categsToShow') ;
         let productsToShowPromise = this.storageService.getStorage('productsToShow');
         Promise.all([categsToShowPromise, productsToShowPromise]).then(itemsToShow => {
-            this.categsToShow = itemsToShow[0];
-            this.productsToShow = itemsToShow[1];;
+            let defectItemsToShow = 9;
+            this.categsToShow = itemsToShow[0] ? itemsToShow[0] : defectItemsToShow;
+            this.productsToShow = itemsToShow[1] ? itemsToShow[1] : defectItemsToShow;;
+            
         })
     }
 

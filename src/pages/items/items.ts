@@ -2,7 +2,6 @@ import * as _ from 'lodash';
 import { Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { ItemsService } from '../../services/itemsService';
-import { ProductsPage } from '../../pages/products/products';
 import { Slides } from 'ionic-angular';
 
 @Component({
@@ -20,6 +19,7 @@ export class ItemsPage {
 	itemSearched: string;
 	itemsReformated;
 	cantItemsShowed: number;
+	itemTitleFontSize: string;
 
 	constructor(
 		public navCtrl: NavController,
@@ -33,7 +33,11 @@ export class ItemsPage {
 
 	ngOnInit(){
 		this.itemsService.getCantItemsShowed(this.itemType).then(itemsToShow => {
-			this.cantItemsShowed = itemsToShow;
+			if (itemsToShow) {
+				this.cantItemsShowed = itemsToShow;
+			} else {
+				this.cantItemsShowed = 8;
+			}
 		});
 
 		this.itemsService.getItems(this.itemType).then((resp)=>{
@@ -52,7 +56,17 @@ export class ItemsPage {
 			}
 
 			this.itemsReformated = this.itemsService.reformatItems(this.cantItemsShowed, this.items);
+
+			let lengthActualSlide = this.itemsReformated[0].length;
+			if (lengthActualSlide <= 12) {
+				this.itemTitleFontSize = '130%';
+			} else if (lengthActualSlide > 12 && lengthActualSlide <= 20){
+				this.itemTitleFontSize = '110%';
+			} else {
+				this.itemTitleFontSize = '100%';
+			}
 		});
+
 
 	}
 
@@ -69,7 +83,6 @@ export class ItemsPage {
 				})
 			}
 			this.itemsReformated = this.itemsService.reformatItems(this.cantItemsShowed, this.items);
-			console.log(this.itemsReformated);
 		});
 	}
 

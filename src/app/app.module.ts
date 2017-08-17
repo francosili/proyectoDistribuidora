@@ -3,8 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-// import { CategoriesPage } from '../pages/categories/categories';
-import { ProductsPage } from '../pages/products/products';
 import { ItemsPage } from '../pages/items/items';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
@@ -31,7 +29,6 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MyApp,
     // CategoriesPage,
     ItemsPage,
-    ProductsPage,
     ContactPage,
     HomePage,
     MenuOptionsPage,
@@ -51,7 +48,6 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MyApp,
     // CategoriesPage,
     ItemsPage,
-    ProductsPage,
     ContactPage,
     HomePage,
     MenuOptionsPage,

@@ -11,7 +11,7 @@
 
                 <img src="assets/img/test.jpg"/>   
                 <div  *ngIf="itemType === 'categories'">
-                    <h2 class="card-title"> {{item}} </h2>
+                    <h2 [style.font-size]="itemTitleFontSize" class="card-title"> {{item}} </h2>
                     <ion-row  no-padding>
                         <ion-col >
                             <button class="card-subtitle" ion-button clear small color="danger" icon-start>
@@ -23,10 +23,10 @@
 
                 </div>
                 <div *ngIf="itemType === 'products'">
-                    <h2 class="card-title">{{ item.descripcionProductos }}</h2>
+                    <h2 [style.font-size]="itemTitleFontSize" class="card-title">{{ item.descripcionProductos }}</h2>
                     <ion-row  no-padding>
                         <ion-col >
-                            <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
+                            <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
                             <ion-icon name='logo-usd'></ion-icon>
                             Precio: 10$
                             </button>

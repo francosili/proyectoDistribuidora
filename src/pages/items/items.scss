@@ -26,7 +26,7 @@ page-items {
     }
 
     .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
-        //TODO: Esto mejorar
+        //TODO: Esto mejorar (por ahora queda bien, probar en tablet)
         bottom: 80px;
     }
 
@@ -80,8 +80,8 @@ page-items {
             position: absolute;
             width: 100%;
             top: 26%;
-            font-size: 150%;
             text-shadow: -1px 0 #545454, 0 1px #545454, 1px 0 #545454, 0 -1px #545454;
+            font-size: 130%;
         }
 
         .card-subtitle {

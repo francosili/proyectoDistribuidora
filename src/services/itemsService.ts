@@ -37,8 +37,6 @@ export class ItemsService {
             return this.storageService.getStorage('categsToShow'); 
         } else if (itemType === 'products') { 
             return this.storageService.getStorage('productsToShow');
-        } else {
-            return Promise.resolve(this.defaultItemsToShow);
-         }
+        };
 	}
 }
