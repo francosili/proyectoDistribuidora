@@ -50,4 +50,8 @@ export class HomePage {
     closeMenu(){
         this.menuCtrl.close();
     }
+
+    receiveItemsToShowFromMenuOptions(itemsToShow: number[]) {
+        console.log(itemsToShow);
+    }
 }

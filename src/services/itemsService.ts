@@ -3,7 +3,11 @@ import { StorageService } from './storageService';
 
 @Injectable()
 export class ItemsService {
-    constructor(private storageService: StorageService) { }
+    defaultItemsToShow: number;
+    
+    constructor(private storageService: StorageService) {
+        this.defaultItemsToShow = 9;
+    }
 
     // Formatea array categories en un array con varios arrays de 9 categoira
     // esto pa poder mostrar mejor
@@ -27,4 +31,14 @@ export class ItemsService {
             return this.storageService.getStorage('products');
         }
     }
+
+    getCantItemsShowed(itemType: string) {
+		if (itemType === 'categories') {
+            return this.storageService.getStorage('categsToShow'); 
+        } else if (itemType === 'products') { 
+            return this.storageService.getStorage('productsToShow');
+        } else {
+            return Promise.resolve(this.defaultItemsToShow);
+         }
+	}
 }

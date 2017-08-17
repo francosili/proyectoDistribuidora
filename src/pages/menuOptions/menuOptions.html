@@ -26,7 +26,7 @@
                 <ion-label text-right>{{categsToShow}}</ion-label>
             </ion-list-header>
             <ion-item>
-                <ion-range min="0" max="28" step="2" snaps="true" [(ngModel)]="categsToShow">
+                <ion-range  (ionChange)="onRangeChange('categories')" min="0" max="28" step="2" snaps="true" [(ngModel)]="categsToShow">
                     <ion-label range-left class="small-text">0</ion-label>
                     <ion-label range-right>28</ion-label>
                 </ion-range>
@@ -35,10 +35,11 @@
 
         <ion-list>
             <ion-list-header>
-                Cantidad productos
+                <ion-label>Cantidad productos</ion-label>
+                <ion-label text-right>{{productsToShow}}</ion-label>
             </ion-list-header>
             <ion-item>
-                <ion-range min="0" max="28" step="2" snaps="true" [(ngModel)]="productsToShow">
+                <ion-range  (ionChange)="onRangeChange('products')" min="0" max="28" step="2" snaps="true" [(ngModel)]="productsToShow">
                     <ion-label range-left class="small-text">0</ion-label>
                     <ion-label range-right>28</ion-label>
                 </ion-range>

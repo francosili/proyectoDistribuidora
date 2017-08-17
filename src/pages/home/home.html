@@ -1,6 +1,6 @@
 <ion-content padding>
 
-    <page-menu-options (CloseMenu)="closeMenu($event)"></page-menu-options> 
+    <page-menu-options (OnRangeChange)="receiveItemsToShowFromMenuOptions($event)" (CloseMenu)="closeMenu($event)"></page-menu-options> 
 
     <div class="slide"> 
         <div class="main-slide-footer">

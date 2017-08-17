@@ -1,7 +1,6 @@
 import * as _ from 'lodash';
 import { Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { StorageService } from '../../services/storageService';
 import { ItemsService } from '../../services/itemsService';
 import { ProductsPage } from '../../pages/products/products';
 import { Slides } from 'ionic-angular';
@@ -24,7 +23,6 @@ export class ItemsPage {
 
 	constructor(
 		public navCtrl: NavController,
-		private storageService: StorageService,
 		private itemsService: ItemsService,
 		private params: NavParams
 	) {
@@ -34,9 +32,10 @@ export class ItemsPage {
 
 
 	ngOnInit(){
-		//TODO: Setear cantidad de categorias a mostrar en las opciones
-		//TODO: Por ahora MAX=28, sino quedan muy chicos y rompe el grid
-		this.cantItemsShowed = 28;
+		this.itemsService.getCantItemsShowed(this.itemType).then(itemsToShow => {
+			this.cantItemsShowed = itemsToShow;
+		});
+
 		this.itemsService.getItems(this.itemType).then((resp)=>{
 			this.items = resp;
 

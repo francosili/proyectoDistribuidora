@@ -4,6 +4,7 @@ import { ModalController } from 'ionic-angular';
 
 import { MapModal } from '../../modals/map/map';
 import { SettingsModal } from '../../modals/settings/settings';
+import { StorageService } from '../../services/storageService';
 
 @Component({
     selector: 'page-menu-options',
@@ -16,13 +17,17 @@ export class MenuOptionsPage {
 
     constructor(
         public navCtrl: NavController,
-        public modalCtrl: ModalController
+        public modalCtrl: ModalController,
+        private storageService: StorageService
     ) {}
 
     ngOnInit() {
-        //TODO: Valores por defecto, quizas extraer en un json aparte como variabels globales.
-        this.categsToShow = 9;
-        this.productsToShow = 15;
+        let categsToShowPromise = this.storageService.getStorage('categsToShow');
+        let productsToShowPromise = this.storageService.getStorage('productsToShow');
+        Promise.all([categsToShowPromise, productsToShowPromise]).then(itemsToShow => {
+            this.categsToShow = itemsToShow[0];
+            this.productsToShow = itemsToShow[1];;
+        })
     }
 
     openModal(nameModal: string) {
@@ -37,12 +42,16 @@ export class MenuOptionsPage {
         this.CloseMenu.emit();
     }
 
-    onClickShowThumbnail(){
-     
+    onRangeChange(itemType) {
+        if(itemType === 'categories') {
+            this.storageService.setStorage('categsToShow', this.categsToShow);
+        } else if(itemType === 'products') {
+            this.storageService.setStorage('productsToShow', this.productsToShow);
+        } else {
+            console.log('No se esta seteando el rango en el storage')
+        }
     }
 
-    actualizarStorage() {
-        
-    }
+
 
 }
