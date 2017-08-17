@@ -11,12 +11,12 @@
 
                 <img src="assets/img/test.jpg"/>   
                 <div  *ngIf="itemType === 'categories'">
-                    <h2 [style.font-size]="itemTitleFontSize" class="card-title"> {{item}} </h2>
+                    <h2 [style.font-size]="itemTitleFontSize" class="card-title"> {{item.descripcionCategorias}} </h2>
                     <ion-row  no-padding>
                         <ion-col >
                             <button class="card-subtitle" ion-button clear small color="danger" icon-start>
-                            <ion-icon name='star'></ion-icon>
-                            40 Productos
+                            <ion-icon name='basket'></ion-icon>
+                            {{item.cantProductos}} Productos
                             </button>
                         </ion-col>
                     </ion-row>
@@ -28,41 +28,18 @@
                         <ion-col >
                             <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
                             <ion-icon name='logo-usd'></ion-icon>
-                            Precio: 10$
+                            Precio: {{item.precioUnitario}}
                             </button>
                         </ion-col>
                         
                         <ion-col text-right>
                             <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
                             <ion-icon name='logo-dropbox'></ion-icon>
-                            Stock: 50
+                            Stock: {{item.stock}}
                             </button>
                         </ion-col>
                     </ion-row>
                 </div>
-
-
-                <!-- <ion-row no-padding>
-                    <ion-col>
-                        <button ion-button clear small color="danger" icon-start>
-                        <ion-icon name='star'></ion-icon>
-                        Favorite
-                        </button>
-                    </ion-col>
-                    <ion-col text-center>
-                        <button ion-button clear small color="danger" icon-start>
-                        <ion-icon name='musical-notes'></ion-icon>
-                        Listen
-                        </button>
-                    </ion-col>
-                    <ion-col text-right>
-                        <button ion-button clear small color="danger" icon-start>
-                        <ion-icon name='share-alt'></ion-icon>
-                        Share
-                        </button>
-                    </ion-col>
-                </ion-row> -->
-
 
             </ion-card>
         </div> 

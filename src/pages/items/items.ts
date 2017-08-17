@@ -55,15 +55,26 @@ export class ItemsPage {
 				}
 			}
 
-			this.itemsReformated = this.itemsService.reformatItems(this.cantItemsShowed, this.items);
+					console.log(this.items);
+			if (this.itemType === 'categories') {
+				this.itemsService.setCantProductsInCategories(this.items);
+			}
 
-			let lengthActualSlide = this.itemsReformated[0].length;
-			if (lengthActualSlide <= 12) {
-				this.itemTitleFontSize = '130%';
-			} else if (lengthActualSlide > 12 && lengthActualSlide <= 20){
-				this.itemTitleFontSize = '110%';
-			} else {
-				this.itemTitleFontSize = '100%';
+			this.items = this.itemsService.itemsToLowerCase(this.items, this.itemType);
+			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
+
+
+
+			// Si existe this.itemsReformate[0] es porque hay alguna card
+			if (this.itemsReformated[0]) {
+				let lengthActualSlide = this.itemsReformated[0].length;
+				if (lengthActualSlide <= 12) {
+					this.itemTitleFontSize = '130%';
+				} else if (lengthActualSlide > 12 && lengthActualSlide <= 20){
+					this.itemTitleFontSize = '110%';
+				} else {
+					this.itemTitleFontSize = '100%';
+				}
 			}
 		});
 
@@ -71,7 +82,9 @@ export class ItemsPage {
 	}
 
 	slideClick(){
-		this.slides.slideNext();
+		// TODO: Probar esto en tablet (Por ahora lo saco porque al clickear a veces mueve
+		//en vez de seleccionar una categoria)
+		// this.slides.slideNext();
 	}
 	
 	reloadItems(ev: any) {
@@ -82,12 +95,12 @@ export class ItemsPage {
 					return (item.toLowerCase().indexOf(val.toLowerCase()) > -1);
 				})
 			}
-			this.itemsReformated = this.itemsService.reformatItems(this.cantItemsShowed, this.items);
+			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
 		});
 	}
 
 	onClickItem(category: any) {
-		this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.toUpperCase()});
+		this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcionCategorias.toUpperCase()});
 	}
 
 }

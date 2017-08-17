@@ -1,4 +1,3 @@
-import * as _ from 'lodash';
 import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ItemsPage } from '../../pages/items/items';
