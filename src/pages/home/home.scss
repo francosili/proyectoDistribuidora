@@ -1,28 +1,27 @@
 page-home {
-    
-    .scroll-content {        
-        .slide {
-            position: relative;
-            height: 100%;
-
-            .main-slide-footer {
-                position: relative;
-                width: 57px;
-            }
-
-            .main-slide-body {
-                position: relative;
-                text-align: center;
-                top: 16%;      
-
-            }
-        }
+    .main-header {
+        position: relative;
+        width: 57px;
     }
 
-    
-
-    .slide-zoom {
-        height: 100%;
+    .main-body {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
     }
 
+    .main-footer{
+
+    }
+
+
+
+    .logo {
+        
+        position: relative;
+        right: 2%;
+        background: none;
+    }
 }

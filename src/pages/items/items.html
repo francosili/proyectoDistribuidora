@@ -6,18 +6,59 @@
 
 <ion-slides (ionSlideTap)="slideClick()" pager loop = false>
     <ion-slide *ngFor="let itemRef of itemsReformated">
-         <div class="grid">
-            <ion-card (click)="onClickItem(item)" class="item" *ngFor="let item of itemRef">
-                <div *ngIf="itemType === 'categories'">
-                    <div class="card-title">{{ item }}</div>
-                    <div class="card-subtitle">41 Productos</div>
-                </div>
-                <div *ngIf="itemType === 'products'">
-                    <div class="card-title">{{ item.descripcionProductos }}</div>
-                     <div class="card-subtitle">Precio: {{ item.precioUnitario }}</div> 
-                </div>
+         <div class="grid card-background-page">
+            <!--<ion-content class="card-background-page">-->
 
-            </ion-card>
+                <ion-card (click)="onClickItem(item)" class="item" *ngFor="let item of itemRef">
+
+
+                    <img src="assets/img/test.jpg"/>  
+                    <!--<div class="card-title">{{ item }}</div>
+                    <div class="card-subtitle">41 Productos</div>-->
+
+
+                    <div *ngIf="itemType === 'categories'">
+                        <div class="card-title">{{ item }}</div>
+                        <div class="card-subtitle">41 Productos</div>
+                    </div>
+                    <div *ngIf="itemType === 'products'">
+                        <div class="card-title">{{ item.descripcionProductos }}</div>
+                        <div class="card-subtitle">Precio: {{ item.precioUnitario }}</div> 
+                    </div>
+
+                    <!--<ion-row no-padding>
+                        <ion-col>
+                            <button ion-button clear small color="danger" icon-start>
+                            <ion-icon name='star'></ion-icon>
+                            Favorite
+                            </button>
+                        </ion-col>
+                        <ion-col text-center>
+                            <button ion-button clear small color="danger" icon-start>
+                            <ion-icon name='musical-notes'></ion-icon>
+                            Listen
+                            </button>
+                        </ion-col>
+                        <ion-col text-right>
+                            <button ion-button clear small color="danger" icon-start>
+                            <ion-icon name='share-alt'></ion-icon>
+                            Share
+                            </button>
+                        </ion-col>
+                    </ion-row>-->
+    <!--
+                    <div *ngIf="itemType === 'categories'">
+                        <div class="card-title">{{ item }}</div>
+                        <div class="card-subtitle">41 Productos</div>
+                    </div>
+                    <div *ngIf="itemType === 'products'">
+                        <div class="card-title">{{ item.descripcionProductos }}</div>
+                        <div class="card-subtitle">Precio: {{ item.precioUnitario }}</div> 
+                    </div>-->
+
+                </ion-card>
+            <!--</ion-content>-->
+
         </div> 
     </ion-slide>
 </ion-slides>

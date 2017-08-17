@@ -39,8 +39,6 @@ export class HomePage {
 
     selectCategory(event) {
         this.categorySearched = event.category.descripcionCategorias;
-        console.log(this.categorySearched);
-        // this.goToPage('productsPage');
     }
 
     openMenu() {
