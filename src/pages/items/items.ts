@@ -1,8 +1,9 @@
 import * as _ from 'lodash';
 import { Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, AlertController } from 'ionic-angular';
 import { ItemsService } from '../../services/itemsService';
 import { Slides } from 'ionic-angular';
+
 
 @Component({
 	selector: 'page-items',
@@ -24,15 +25,17 @@ export class ItemsPage {
 	constructor(
 		public navCtrl: NavController,
 		private itemsService: ItemsService,
-		private params: NavParams
+		private params: NavParams,
+		public alertCtrl: AlertController
+
 	) {
 		this.itemType = params.data.itemType;
 		this.categorySelected = params.data.categorySelected;
 	}
 
-
 	ngOnInit(){
 		this.itemsService.getCantItemsShowed(this.itemType).then(itemsToShow => {
+			// TODO: POner valor por defecto de cantItemsShowed en variabels globales en algun lado
 			if (itemsToShow) {
 				this.cantItemsShowed = itemsToShow;
 			} else {
@@ -40,57 +43,33 @@ export class ItemsPage {
 			}
 		});
 
-		this.itemsService.getItems(this.itemType).then((resp)=>{
-			this.items = resp;
+		this.itemsService.getItems(this.itemType).then((allItems)=>{
+			this.items = allItems;
 
 			if (this.categorySelected) {
-				if (this.categorySelected === 'all') {
-					this.items = _.uniqBy(_.flatMap(resp), e => {
-						return e;
-					});
-				} else {
-					this.items = _.filter(resp, (item) => {
-						return (item.categoria.descripcionCategorias === this.categorySelected);
-					});
-				}
+				this.items = this.itemsService.getProductsByCategory(this.categorySelected, allItems);
 			}
 			if (this.itemType === 'categories') {
 				this.itemsService.setCantProductsInCategories(this.items);
 			}
 
 			this.items = this.itemsService.itemsToLowerCase(this.items, this.itemType);
+
 			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
 
-
-
-			// Si existe this.itemsReformate[0] es porque hay alguna card
-			if (this.itemsReformated[0]) {
-				let lengthActualSlide = this.itemsReformated[0].length;
-				if (lengthActualSlide <= 12) {
-					this.itemTitleFontSize = '130%';
-				} else if (lengthActualSlide > 12 && lengthActualSlide <= 20){
-					this.itemTitleFontSize = '110%';
-				} else {
-					this.itemTitleFontSize = '100%';
-				}
-			}
+			this.itemTitleFontSize = this.itemsService.setTitleFontSize(this.itemsReformated[0]);
+			
 		});
 
-
 	}
 
-	slideClick(){
-		// TODO: Probar esto en tablet (Por ahora lo saco porque al clickear a veces mueve
-		//en vez de seleccionar una categoria)
-		// this.slides.slideNext();
-	}
 	
 	reloadItems(ev: any) {
-		this.itemsService.getItems(this.itemType).then(() => {
+		this.itemsService.getItems(this.itemType).then(allItems => {
 			let val = ev.target.value;
-			console.log(val);
+			let allItemsLower = this.itemsService.itemsToLowerCase(allItems, this.itemType);
 			if (val && val.trim() != '') {
-				this.items = this.items.filter((item) => {
+				this.items = allItemsLower.filter((item) => {
 					let keyToFind: string;
 					if (this.itemType === 'categories') {
 						keyToFind = 'descripcionCategorias';
@@ -100,12 +79,32 @@ export class ItemsPage {
 					return (item[keyToFind].toLowerCase().indexOf(val.toLowerCase()) > -1);
 				})
 			}
+
 			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
+			console.log(this.items);
+			console.log(this.itemsReformated);
 		});
 	}
 
 	onClickItem(category: any) {
-		this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcionCategorias.toUpperCase()});
+		this.itemsService.getCantProductsOfACategory(category.descripcionCategorias).then(cantItems => {
+			if (cantItems) {
+				this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcionCategorias.toUpperCase()});
+			} else {
+				let alert = this.alertCtrl.create({
+					title: 'No hay stock',
+					subTitle: 'No nos queda nada guacho',
+					buttons: ['Sape']
+				});
+				alert.present();
+			}
+		});
+	}
+
+	slideClick(){
+		// TODO: Probar esto en tablet (Por ahora lo saco porque al clickear a veces mueve
+		//en vez de seleccionar una categoria)
+		// this.slides.slideNext();
 	}
 
 }

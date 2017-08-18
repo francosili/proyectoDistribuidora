@@ -69,4 +69,34 @@ export class ItemsService {
             return cantProducts;
         })
     }
+
+
+	setTitleFontSize(firstArrayItems){
+		let newTitleFontSize
+		if (firstArrayItems) {
+			let lengthActualSlide = firstArrayItems.length;
+			if (lengthActualSlide <= 12) {
+				newTitleFontSize = '130%';
+			} else if (lengthActualSlide > 12 && lengthActualSlide <= 20){
+				newTitleFontSize = '110%';
+			} else {
+				newTitleFontSize = '100%';
+			}
+		}
+		return newTitleFontSize
+    }
+    
+    getProductsByCategory(categorySelected, allProducts){
+        let selectedProducts;
+        if (categorySelected === 'all') {
+            selectedProducts = _.uniqBy(_.flatMap(allProducts), e => {
+                return e;
+            });
+        } else {
+            selectedProducts = _.filter(allProducts, (item) => {
+                return (item.categoria.descripcionCategorias === categorySelected);
+            });
+        }
+        return selectedProducts;
+    }
 }

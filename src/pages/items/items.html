@@ -9,8 +9,8 @@
          <div class="grid card-background-page">
             <ion-card (click)="onClickItem(item)" class="item" *ngFor="let item of itemRef">
 
-                <img src="assets/img/fondo.jpg"/>   
                 <div  *ngIf="itemType === 'categories'">
+                    <img src="assets/img/fondo.jpg"/>   
                     <h2 [style.font-size]="itemTitleFontSize" class="card-title"> {{item.descripcionCategorias}} </h2>
                     <ion-row  no-padding>
                         <ion-col >
@@ -20,9 +20,10 @@
                             </button>
                         </ion-col>
                     </ion-row>
-
                 </div>
+
                 <div *ngIf="itemType === 'products'">
+                    <img src="assets/img/productos/{{item.fotoProductos}}"/>   
                     <h2 [style.font-size]="itemTitleFontSize" class="card-title">{{ item.descripcionProductos }}</h2>
                     <ion-row  no-padding>
                         <ion-col >
