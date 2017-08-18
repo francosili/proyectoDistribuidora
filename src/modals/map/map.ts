@@ -1,7 +1,6 @@
 import { ViewController  } from 'ionic-angular';
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Geolocation } from '@ionic-native/geolocation';
 
 declare var google;
 
@@ -15,8 +14,7 @@ export class MapModal {
     map: any;
 
     constructor(
-        public viewCtrl: ViewController,
-        public geolocation: Geolocation
+        public viewCtrl: ViewController
     ) { }
 
 

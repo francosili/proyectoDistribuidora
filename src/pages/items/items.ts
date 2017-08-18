@@ -54,8 +54,6 @@ export class ItemsPage {
 					});
 				}
 			}
-
-					console.log(this.items);
 			if (this.itemType === 'categories') {
 				this.itemsService.setCantProductsInCategories(this.items);
 			}
@@ -90,9 +88,16 @@ export class ItemsPage {
 	reloadItems(ev: any) {
 		this.itemsService.getItems(this.itemType).then(() => {
 			let val = ev.target.value;
+			console.log(val);
 			if (val && val.trim() != '') {
 				this.items = this.items.filter((item) => {
-					return (item.toLowerCase().indexOf(val.toLowerCase()) > -1);
+					let keyToFind: string;
+					if (this.itemType === 'categories') {
+						keyToFind = 'descripcionCategorias';
+					} if (this.itemType === 'products') {
+						keyToFind = 'descripcionProductos';
+					};
+					return (item[keyToFind].toLowerCase().indexOf(val.toLowerCase()) > -1);
 				})
 			}
 			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
