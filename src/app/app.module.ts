@@ -4,7 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { ItemsPage } from '../pages/items/items';
-import { ContactPage } from '../pages/contact/contact';
+// import { FiltersPage } from '../pages/filters/filters';
 import { HomePage } from '../pages/home/home';
 import { MenuOptionsPage } from '../pages/menuOptions/menuOptions';
 
@@ -27,14 +27,13 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 @NgModule({
   declarations: [
     MyApp,
-    // CategoriesPage,
     ItemsPage,
-    ContactPage,
     HomePage,
     MenuOptionsPage,
     ShowProductModal,
     MapModal,
-    SettingsModal
+    SettingsModal,
+    // FiltersPage
   ],
   imports: [
     BrowserModule,
@@ -46,14 +45,13 @@ import { FlexLayoutModule } from "@angular/flex-layout";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    // CategoriesPage,
     ItemsPage,
-    ContactPage,
     HomePage,
     MenuOptionsPage,
     ShowProductModal,
     MapModal,
-    SettingsModal
+    SettingsModal,
+    // FiltersPage
   ],
   providers: [
     StatusBar,

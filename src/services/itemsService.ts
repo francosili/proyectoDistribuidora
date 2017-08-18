@@ -45,17 +45,26 @@ export class ItemsService {
         };
     }
     
-    setCantProductsInCategories(categoriesArray){
-        // TODO: Esto esta funcando pero muta el this.items que llega
-        // Mi idea era retornar una promise que de un nuevo array, fijarme
-        // despues con mas tiempo.
-        _.map(categoriesArray, cat => {
-            return this.getCantProductsOfACategory(cat.descripcionCategorias).then(cantProducts => {
+    setCantProductsInCategoriesAndGet(categoriesArray){
+        // TODO: Mejorar?
+        return Promise.all(_.map(categoriesArray, cat => {
+            return this.getCantProductsOfACategory(cat.descripcionCategorias);
+        })).then(cantProdInCat => {
+            return _.map(categoriesArray, (cat, indexCat) => {
                 let newCat = cat;
-                newCat.cantProductos = cantProducts;
+                newCat.cantProductos = cantProdInCat[indexCat];
                 return newCat;
-            })
-        })
+            });   
+        });
+
+
+        // return Promise.all(_.map(categoriesArray, cat => {
+        //     return this.getCantProductsOfACategory(cat.descripcionCategorias).then(cantProducts => {
+        //         let newCat = cat;
+        //         newCat.cantProductos = cantProducts;
+        //         return newCat;
+        //     })
+        // }));
     }
 
     getCantProductsOfACategory(category: string) {
@@ -98,5 +107,15 @@ export class ItemsService {
             });
         }
         return selectedProducts;
+    }
+
+    filterCategories(filterParam: string, categoriesCollection) {
+        let newCategoriesCollection = categoriesCollection;
+        if (filterParam === 'onlyWithProducts') {
+            newCategoriesCollection = _.filter(newCategoriesCollection, (cat) => {
+                return cat.cantProductos > 0;    
+            });
+        }
+        return newCategoriesCollection;
     }
 }

@@ -1,18 +1,33 @@
 <ion-header>
     <ion-navbar>
-        <ion-searchbar (ionInput)="reloadItems($event)"></ion-searchbar>
+        <ion-searchbar showCancelButton (ionInput)="reloadItems($event)">
+        </ion-searchbar>
+          <div ion-button clear color="dark" class="funnel-button">
+
+            <ion-icon name='funnel'></ion-icon>
+             
+            <ion-select [(ngModel)]="catFilterParam" interface="popover">
+                <ion-option value="all">Todos</ion-option>
+                <ion-option (click)="test()" value="onlyWithProducts">onlyWithProducts</ion-option>
+            </ion-select>
+            
+         </div>  
+
     </ion-navbar>
 </ion-header>
 
 <ion-slides (ionSlideTap)="slideClick()" pager loop = false>
     <ion-slide *ngFor="let itemRef of itemsReformated">
          <div class="grid card-background-page">
-            <ion-card (click)="onClickItem(item)" class="item" *ngFor="let item of itemRef">
-
-                <div  *ngIf="itemType === 'categories'">
+            <ion-card 
+                (click)="onClickItem(item)" 
+                class="item" 
+                *ngFor="let item of itemRef">
+                
+                <div *ngIf="itemType === 'categories'">
                     <img src="assets/img/fondo.jpg"/>   
                     <h2 [style.font-size]="itemTitleFontSize" class="card-title"> {{item.descripcionCategorias}} </h2>
-                    <ion-row  no-padding>
+                    <ion-row no-padding>
                         <ion-col >
                             <button class="card-subtitle" ion-button clear small color="danger" icon-start>
                             <ion-icon name='basket'></ion-icon>
@@ -23,7 +38,9 @@
                 </div>
 
                 <div *ngIf="itemType === 'products'">
-                    <img src="assets/img/productos/{{item.fotoProductos}}"/>   
+                    <!-- TODO: Comentado momentaneamente tambien -->
+                    <!-- <img src="assets/img/productos/{{item.fotoProductos}}"/>     -->
+                    <!-- <img src="assets/img/fondo.jpg"/>    -->
                     <h2 [style.font-size]="itemTitleFontSize" class="card-title">{{ item.descripcionProductos }}</h2>
                     <ion-row  no-padding>
                         <ion-col >
@@ -43,6 +60,7 @@
                 </div>
 
             </ion-card>
+            
         </div> 
     </ion-slide>
 </ion-slides>

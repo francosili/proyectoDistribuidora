@@ -16,8 +16,31 @@ page-items {
     .toolbar-content-md {
         position: relative;
         right: -4.1%;
+
         ion-searchbar {
-            width: 87.7%;
+            display: inline-block;
+            width: 84.7%;
+        }
+
+        .funnel-button {
+            display: inline-block;
+            position: absolute;
+            width: 2.7%;
+            top: 0;
+            bottom: 0;
+
+            ion-icon {
+                position: absolute;
+                top: 34%;
+                right: 32%;
+            }
+
+            ion-select .select-text {
+                display: none;
+            }
+            ion-select .select-icon {
+                display: none;
+            }
         }
     }
 
@@ -37,6 +60,7 @@ page-items {
     ////////////////////////////////////////
     //        Otros estilos               // 
     ////////////////////////////////////////
+
     .grid {
         height: 86%;
         display:flex;
@@ -91,8 +115,12 @@ page-items {
             font-size: 90%;
             // width: 100%;
             text-shadow: -1px 0 #545454, 0 1px #545454, 1px 0 #545454, 0 -1px #545454;
-
         }
 
     }
+}
+
+
+.popover-wrapper .popover-content {
+    overflow: hidden;
 }

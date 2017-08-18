@@ -1,36 +1,61 @@
 import * as _ from 'lodash';
-import { Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewChild, OnInit,DoCheck, SimpleChanges} from '@angular/core';
 import { NavController, NavParams, AlertController } from 'ionic-angular';
 import { ItemsService } from '../../services/itemsService';
 import { Slides } from 'ionic-angular';
+import { PopoverController, PopoverOptions } from 'ionic-angular';
+// import { FiltersPage } from '../../pages/filters/filters';
 
 
 @Component({
 	selector: 'page-items',
 	templateUrl: 'items.html'
 })
-export class ItemsPage {
+export class ItemsPage implements DoCheck {
 	@Input() itemType: string;
 	@Input() categorySelected: string;
 
 	@Output() SelectItem = new EventEmitter();
     @ViewChild(Slides) slides: Slides;
 
-	items: string[];
+	items;
 	itemSearched: string;
 	itemsReformated;
 	cantItemsShowed: number;
 	itemTitleFontSize: string;
 
+	catFilterParam: string;
+	oldCatFilterParam: string;
+	allReformatedCategories;
+
 	constructor(
 		public navCtrl: NavController,
 		private itemsService: ItemsService,
 		private params: NavParams,
-		public alertCtrl: AlertController
-
+		public alertCtrl: AlertController,
+		public popoverCtrl: PopoverController
 	) {
+		this.initValueItems(params)
+	}
+
+	initValueItems(params){
 		this.itemType = params.data.itemType;
 		this.categorySelected = params.data.categorySelected;
+		this.catFilterParam = 'all';
+		this.oldCatFilterParam = 'all';
+	}
+
+	ngDoCheck(){
+		if (this.catFilterParam !== this.oldCatFilterParam) {
+			if (this.catFilterParam === 'all') {
+				this.itemsReformated = this.allReformatedCategories;
+				this.oldCatFilterParam = this.catFilterParam;
+			} else {
+				let auxItems = this.itemsService.filterCategories(this.catFilterParam, this.items);
+				this.initItems(auxItems);
+				this.oldCatFilterParam = this.catFilterParam;
+			}
+		}
 	}
 
 	ngOnInit(){
@@ -44,23 +69,32 @@ export class ItemsPage {
 		});
 
 		this.itemsService.getItems(this.itemType).then((allItems)=>{
-			this.items = allItems;
-
-			if (this.categorySelected) {
-				this.items = this.itemsService.getProductsByCategory(this.categorySelected, allItems);
-			}
 			if (this.itemType === 'categories') {
-				this.itemsService.setCantProductsInCategories(this.items);
+				this.itemsService.setCantProductsInCategoriesAndGet(allItems).then(newItems => {
+					// let auxItems = this.itemsService.filterCategories(this.catFilterParam, newItems);
+					this.initItems(newItems);
+					this.allReformatedCategories = this.itemsReformated;
+				});	
+			} else if (this.itemType === 'products' && this.categorySelected) {
+				let auxItems = this.itemsService.getProductsByCategory(this.categorySelected, allItems);
+				this.initItems(auxItems);
 			}
-
-			this.items = this.itemsService.itemsToLowerCase(this.items, this.itemType);
-
-			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
-
-			this.itemTitleFontSize = this.itemsService.setTitleFontSize(this.itemsReformated[0]);
 			
 		});
 
+	}
+
+	ngOnChanges(changes: SimpleChanges) {
+		console.log ('ngonchanges');
+		console.log(changes);
+	}
+
+	initItems(itemsArray){
+		this.items = this.itemsService.itemsToLowerCase(itemsArray, this.itemType);
+
+		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
+
+		this.itemTitleFontSize = this.itemsService.setTitleFontSize(this.itemsReformated[0]);
 	}
 
 	
@@ -100,6 +134,13 @@ export class ItemsPage {
 			}
 		});
 	}
+
+	// onClickFilters(event){
+	// 	let popover = this.popoverCtrl.create(FiltersPage, {}, {showBackdrop: true});		
+    // 	popover.present({
+	// 		ev: event
+	// 	});
+	// }
 
 	slideClick(){
 		// TODO: Probar esto en tablet (Por ahora lo saco porque al clickear a veces mueve
