@@ -37,23 +37,28 @@
                     </ion-row>
                 </div>
 
-                <div *ngIf="itemType === 'products'">
-                    <!-- TODO: Comentado momentaneamente tambien -->
-                    <!-- <img src="assets/img/productos/{{item.fotoProductos}}"/>     -->
-                    <!-- <img src="assets/img/fondo.jpg"/>    -->
-                    <h2 [style.font-size]="itemTitleFontSize" class="card-title">{{ item.descripcionProductos }}</h2>
+                <div class="product-item" *ngIf="itemType === 'products'">
+                    <img src="assets/img/productos/{{item.fotoProductos}}"/>    
+                    
+                    <div class="card-title-container">
+                        <!-- [style.font-size]="itemTitleFontSize" -->
+                        <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
+                            {{item.descripcionProductos}}
+                        </button>
+                    </div>
+
                     <ion-row  no-padding>
                         <ion-col >
-                            <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
+                            <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
                             <ion-icon name='logo-usd'></ion-icon>
-                            Precio: {{item.precioUnitario}}
+                            {{item.precioUnitario}}
                             </button>
                         </ion-col>
                         
                         <ion-col text-right>
                             <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
                             <ion-icon name='logo-dropbox'></ion-icon>
-                            Stock: {{item.stock}}
+                            {{item.stock}}
                             </button>
                         </ion-col>
                     </ion-row>

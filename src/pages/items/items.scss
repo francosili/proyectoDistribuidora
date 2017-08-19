@@ -56,6 +56,8 @@ page-items {
     .slide-zoom{
         height: 100%;
     }
+
+
     
     ////////////////////////////////////////
     //        Otros estilos               // 
@@ -71,9 +73,43 @@ page-items {
     .item {
         margin-top: 10px;
         // width:20%;
+        min-height: 50%;        
         max-height:40%;
-        max-width: 20%;
+        max-width: 16%;
         // min-width: 20%;
+
+        .row {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 27%;
+            background: black;
+            opacity: 0.2;
+            left: 0;
+            // border-radius: 12px 12px 12px 12px;
+        }
+
+        ion-col {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            top: 0;
+            left: 0;
+        }
+
+        ion-col + ion-col {
+            left: 50%;
+        }
+
+        button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+        }
+
     }
    
    .card-background-page {
@@ -89,13 +125,39 @@ page-items {
                 right: 2%;
             }
         }
-
-        img {
+        
+        .product-item {
             position: absolute;
             width: 100%;
             height: 100%;
         }
+        
+        img {
+            position: relative;
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+        }
 
+        .card-title-container {
+            position: absolute;
+            width: 100%;
+            height: 30%;
+            top: 0;
+            background: black;
+            opacity: 0.2;
+            
+
+            h2 {
+                text-transform: capitalize;
+                font-family: Roboto;
+                text-align: left;
+                font-size: 127%;
+                top: 21%;
+                left: 0;
+                color: #fff;
+            }
+        }
 
         .card-title {
             text-transform: capitalize;
@@ -103,22 +165,35 @@ page-items {
             color: #fff;
             position: absolute;
             width: 100%;
-            top: 26%;
+            top: 85%;
             text-shadow: -1px 0 #545454, 0 1px #545454, 1px 0 #545454, 0 -1px #545454;
-            font-size: 130%;
+            font-size: 107%;
         }
 
         .card-subtitle {
-            // position: absolute;
+            text-transform: capitalize;
             color: #fff;
-            // top: 90%;
-            font-size: 90%;
-            // width: 100%;
-            text-shadow: -1px 0 #545454, 0 1px #545454, 1px 0 #545454, 0 -1px #545454;
+            font-size: 100%;
+                        
+
         }
 
     }
+
+    .image-container {
+        position: absolute;
+        width: 69%;
+        height: 81%;    
+    }
+
+
 }
+
+// .image-container {
+//     position: absolute;
+//     width: 69%;
+//     height: 81%;    
+// }
 
 
 .popover-wrapper .popover-content {

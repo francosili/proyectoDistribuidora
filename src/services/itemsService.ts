@@ -81,17 +81,17 @@ export class ItemsService {
 
 
 	setTitleFontSize(firstArrayItems){
-		let newTitleFontSize
-		if (firstArrayItems) {
-			let lengthActualSlide = firstArrayItems.length;
-			if (lengthActualSlide <= 12) {
-				newTitleFontSize = '130%';
-			} else if (lengthActualSlide > 12 && lengthActualSlide <= 20){
-				newTitleFontSize = '110%';
-			} else {
-				newTitleFontSize = '100%';
-			}
-		}
+		let newTitleFontSize = '83%';
+		// if (firstArrayItems) {
+		// 	let lengthActualSlide = firstArrayItems.length;
+		// 	if (lengthActualSlide <= 12) {
+		// 		newTitleFontSize = '90%';
+        //     } else if (lengthActualSlide > 12 && lengthActualSlide <= 20){
+		// 		newTitleFontSize = '60%';
+		// 	} else {
+		// 		newTitleFontSize = '40%';
+		// 	}
+		// }
 		return newTitleFontSize
     }
     
