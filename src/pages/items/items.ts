@@ -126,9 +126,9 @@ export class ItemsPage implements DoCheck {
 				this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcionCategorias.toUpperCase()});
 			} else {
 				let alert = this.alertCtrl.create({
-					title: 'No hay stock',
-					subTitle: 'No nos queda nada guacho',
-					buttons: ['Sape']
+					title: 'Sin productos',
+					subTitle: 'No hay productos en esta categoria',
+					buttons: ['Ok']
 				});
 				alert.present();
 			}

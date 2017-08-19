@@ -13,7 +13,14 @@ page-home {
     }
 
     .main-footer{
+        height: 20%;
+        width: 110%;
+        position: absolute;
 
+        button {
+            position: relative;
+            display: inline-block;
+        }
     }
 
 

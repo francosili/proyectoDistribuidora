@@ -8,7 +8,7 @@
              
             <ion-select [(ngModel)]="catFilterParam" interface="popover">
                 <ion-option value="all">Todos</ion-option>
-                <ion-option (click)="test()" value="onlyWithProducts">onlyWithProducts</ion-option>
+                <ion-option (click)="test()" value="onlyWithProducts">Contienen Productos</ion-option>
             </ion-select>
             
          </div>  
@@ -18,17 +18,33 @@
 
 <ion-slides (ionSlideTap)="slideClick()" pager loop = false>
     <ion-slide *ngFor="let itemRef of itemsReformated">
-         <div class="grid card-background-page">
-            <ion-card 
+         <div class="grid card-background-page row">
+            <ion-card col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
                 (click)="onClickItem(item)" 
                 class="item" 
                 *ngFor="let item of itemRef">
                 
                 <div *ngIf="itemType === 'categories'">
-                    <img src="assets/img/fondo.jpg"/>   
-                    <h2 [style.font-size]="itemTitleFontSize" class="card-title"> {{item.descripcionCategorias}} </h2>
+                    <!-- <img src="assets/img/fondo.jpg"/>    -->
+
+                    <div class="card-title-container">
+                        <!-- [style.font-size]="itemTitleFontSize" -->
+
+                        <div class="otro-div">
+                            <a class="card-subtitle">
+                                {{item.descripcionCategorias}}
+                            </a>
+                        </div>
+
+                        <!-- <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
+                            {{item.descripcionCategorias}}
+                        </button> -->
+                    </div>
+    
+
+                    <!-- <h2 [style.font-size]="itemTitleFontSize" class="card-title"> {{item.descripcionCategorias}} </h2> -->
                     <ion-row no-padding>
-                        <ion-col >
+                        <ion-col class="category-col">
                             <button class="card-subtitle" ion-button clear small color="danger" icon-start>
                             <ion-icon name='basket'></ion-icon>
                             {{item.cantProductos}} Productos
@@ -38,17 +54,30 @@
                 </div>
 
                 <div class="product-item" *ngIf="itemType === 'products'">
-                    <img src="assets/img/productos/{{item.fotoProductos}}"/>    
-                    
+                    <div class="img-container">
+                        <img src="assets/img/productos/{{item.fotoProductos}}"/>    
+                    </div>
                     <div class="card-title-container">
                         <!-- [style.font-size]="itemTitleFontSize" -->
-                        <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
+                        <div class="otro-div">
+                        <a class="card-subtitle"> 
                             {{item.descripcionProductos}}
-                        </button>
+                        </a>
+                        </div>
+
+                        <!-- <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
+                            {{item.descripcionProductos}}
+                        </button> -->
                     </div>
 
                     <ion-row  no-padding>
                         <ion-col >
+
+                            <!-- <a class="card-subtitle">
+                                <ion-icon name='logo-usd'></ion-icon>
+                                {{item.precioUnitario}}    
+                            </a> -->
+
                             <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
                             <ion-icon name='logo-usd'></ion-icon>
                             {{item.precioUnitario}}
@@ -56,6 +85,11 @@
                         </ion-col>
                         
                         <ion-col text-right>
+
+                            <!-- <a class="card-subtitle">
+                                <ion-icon name='logo-dropbox'></ion-icon>
+                                {{item.stock}}
+                            </a> -->
                             <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
                             <ion-icon name='logo-dropbox'></ion-icon>
                             {{item.stock}}
