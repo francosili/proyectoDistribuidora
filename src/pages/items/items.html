@@ -79,6 +79,7 @@
                             </a> -->
 
                             <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
+                            Unidad:
                             <ion-icon name='logo-usd'></ion-icon>
                             {{item.precioUnitario}}
                             </button>
@@ -91,8 +92,9 @@
                                 {{item.stock}}
                             </a> -->
                             <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
-                            <ion-icon name='logo-dropbox'></ion-icon>
-                            {{item.stock}}
+                            Bulto:
+                            <ion-icon name='logo-usd'></ion-icon>
+                            {{(item.precioUnitario*item.bulto.unidades).toFixed(2)}}
                             </button>
                         </ion-col>
                     </ion-row>

@@ -3,10 +3,10 @@ import { NavController } from 'ionic-angular';
 import { ItemsPage } from '../../pages/items/items';
 
 import { MenuOptionsPage } from '../../pages/menuOptions/menuOptions';
+
 import { MenuController } from 'ionic-angular';
 
-import { categoriesMock } from '../../test/mocks/categoriesMock'
-
+import { categoriesMock } from '../../test/mocks/categoriesMock';
 
 
 @Component({
@@ -16,7 +16,9 @@ import { categoriesMock } from '../../test/mocks/categoriesMock'
 export class HomePage {
     categorySearched: string;
 
-    mycontent: string = 'ojasdojdas';
+    // paramsItemsTest = { itemType: 'categories' }
+
+    sales = 'sales';
 
     constructor(
         public navCtrl: NavController,

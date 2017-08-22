@@ -14,6 +14,7 @@ import { PopoverController, PopoverOptions } from 'ionic-angular';
 export class ItemsPage implements DoCheck {
 	@Input() itemType: string;
 	@Input() categorySelected: string;
+	@Input() testInput: string;
 
 	@Output() SelectItem = new EventEmitter();
     @ViewChild(Slides) slides: Slides;
@@ -28,6 +29,7 @@ export class ItemsPage implements DoCheck {
 	oldCatFilterParam: string;
 	allReformatedCategories;
 
+
 	constructor(
 		public navCtrl: NavController,
 		private itemsService: ItemsService,
@@ -35,12 +37,18 @@ export class ItemsPage implements DoCheck {
 		public alertCtrl: AlertController,
 		public popoverCtrl: PopoverController
 	) {
-		this.initValueItems(params)
+		this.initValueItems(this.params)
 	}
 
 	initValueItems(params){
-		this.itemType = params.data.itemType;
-		this.categorySelected = params.data.categorySelected;
+		console.log(this.testInput);
+		debugger;
+		if (!this.itemType) {
+			this.itemType = params.data.itemType;
+		}
+		if (!this.categorySelected) {
+			this.categorySelected = params.data.categorySelected;
+		}
 		this.catFilterParam = 'all';
 		this.oldCatFilterParam = 'all';
 	}
@@ -84,9 +92,10 @@ export class ItemsPage implements DoCheck {
 
 	}
 
+	//TODO: despues probar este a ver si da mas performance
 	ngOnChanges(changes: SimpleChanges) {
-		console.log ('ngonchanges');
-		console.log(changes);
+		// console.log ('ngonchanges');
+		// console.log(changes);
 	}
 
 	initItems(itemsArray){

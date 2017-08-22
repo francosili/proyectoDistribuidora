@@ -7,6 +7,7 @@ import { ItemsPage } from '../pages/items/items';
 // import { FiltersPage } from '../pages/filters/filters';
 import { HomePage } from '../pages/home/home';
 import { MenuOptionsPage } from '../pages/menuOptions/menuOptions';
+import { SalesPage } from '../pages/sales/sales';
 
 import { ShowProductModal } from '../modals/showProduct/showProduct';
 import { MapModal } from '../modals/map/map';
@@ -33,7 +34,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     ShowProductModal,
     MapModal,
     SettingsModal,
-    // FiltersPage
+    SalesPage
   ],
   imports: [
     BrowserModule,
@@ -51,7 +52,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     ShowProductModal,
     MapModal,
     SettingsModal,
-    // FiltersPage
+    SalesPage
   ],
   providers: [
     StatusBar,
