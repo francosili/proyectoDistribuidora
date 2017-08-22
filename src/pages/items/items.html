@@ -19,7 +19,7 @@
 <ion-slides (ionSlideTap)="slideClick()" pager loop = false>
     <ion-slide *ngFor="let itemRef of itemsReformated">
          <div class="grid card-background-page row">
-            <ion-card col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
+            <ion-card [ngStyle]="changeStyleCards()" col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
                 (click)="onClickItem(item)" 
                 class="item" 
                 *ngFor="let item of itemRef">

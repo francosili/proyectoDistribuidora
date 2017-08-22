@@ -89,6 +89,16 @@ export class ItemsPage implements DoCheck {
 
 	}
 
+	changeStyleCards() {
+		let newStyleCards;
+		if (this.cantItemsShowed <= 6) {
+			newStyleCards = {'max-height': '50%', 'max-width': '50%'}
+		} else {
+			newStyleCards = {'max-height': '40%', 'max-width': '16%'}
+		}
+		return newStyleCards;
+	}
+
 	//TODO: despues probar este a ver si da mas performance
 	ngOnChanges(changes: SimpleChanges) {
 		// console.log ('ngonchanges');
