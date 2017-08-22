@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header *ngIf="categorySelected !== 'sales'">
     <ion-navbar>
         <ion-searchbar showCancelButton (ionInput)="reloadItems($event)">
         </ion-searchbar>
@@ -26,7 +26,7 @@
                 
                 <div *ngIf="itemType === 'categories'">
                     <div class="img-container">
-                        <img src="assets/img/fondo.jpg"/>    
+                        <!-- <img src="assets/img/fondo.jpg"/>     -->
                     </div>
                     <div class="footer-card">
                         <h1><ion-icon name='basket'></ion-icon>{{item.cantProductos}} Productos</h1>

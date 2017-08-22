@@ -16,10 +16,6 @@ import { categoriesMock } from '../../test/mocks/categoriesMock';
 export class HomePage {
     categorySearched: string;
 
-    // paramsItemsTest = { itemType: 'categories' }
-
-    sales = 'sales';
-
     constructor(
         public navCtrl: NavController,
         public menuCtrl: MenuController

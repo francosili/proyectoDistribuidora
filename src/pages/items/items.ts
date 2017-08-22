@@ -80,7 +80,11 @@ export class ItemsPage implements DoCheck {
 					this.initItems(newItems);
 					this.allReformatedCategories = this.itemsReformated;
 				});	
-			} else if (this.itemType === 'products' && this.categorySelected) {
+			} else if (this.itemType === 'products' && this.categorySelected === 'sales') {
+				
+				let auxItems = this.itemsService.getSales(allItems);
+				this.initItems(auxItems);
+			} else if (this.itemType === 'products' && this.categorySelected !== 'sales') {
 				let auxItems = this.itemsService.getProductsByCategory(this.categorySelected, allItems);
 				this.initItems(auxItems);
 			}
@@ -88,32 +92,13 @@ export class ItemsPage implements DoCheck {
 		});
 
 	}
-
-	changeStyleCards() {
-		let newStyleCards;
-		if (this.cantItemsShowed <= 6) {
-			newStyleCards = {'max-height': '50%', 'max-width': '50%'}
-		} else {
-			newStyleCards = {'max-height': '40%', 'max-width': '16%'}
-		}
-		return newStyleCards;
-	}
-
-	//TODO: despues probar este a ver si da mas performance
-	ngOnChanges(changes: SimpleChanges) {
-		// console.log ('ngonchanges');
-		// console.log(changes);
-	}
+	
 
 	initItems(itemsArray){
 		this.items = this.itemsService.itemsToLowerCase(itemsArray, this.itemType);
-
 		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
-
-		this.itemTitleFontSize = this.itemsService.setTitleFontSize(this.itemsReformated[0]);
 	}
 
-	
 	reloadItems(ev: any) {
 		this.itemsService.getItems(this.itemType).then(allItems => {
 			let val = ev.target.value;
@@ -129,10 +114,7 @@ export class ItemsPage implements DoCheck {
 					return (item[keyToFind].toLowerCase().indexOf(val.toLowerCase()) > -1);
 				})
 			}
-
 			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
-			console.log(this.items);
-			console.log(this.itemsReformated);
 		});
 	}
 
@@ -151,17 +133,20 @@ export class ItemsPage implements DoCheck {
 		});
 	}
 
-	// onClickFilters(event){
-	// 	let popover = this.popoverCtrl.create(FiltersPage, {}, {showBackdrop: true});		
-    // 	popover.present({
-	// 		ev: event
-	// 	});
-	// }
+	changeStyleCards() {
+		return this.itemsService.changeStyleCards(this.cantItemsShowed);
+	}
 
 	slideClick(){
 		// TODO: Probar esto en tablet (Por ahora lo saco porque al clickear a veces mueve
 		//en vez de seleccionar una categoria)
 		// this.slides.slideNext();
+	}
+
+	//TODO: despues probar este a ver si da mas performance
+	ngOnChanges(changes: SimpleChanges) {
+		// console.log ('ngonchanges');
+		// console.log(changes);
 	}
 
 }

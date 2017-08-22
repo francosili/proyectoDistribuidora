@@ -78,22 +78,6 @@ export class ItemsService {
             return cantProducts;
         })
     }
-
-
-	setTitleFontSize(firstArrayItems){
-		let newTitleFontSize = '83%';
-		// if (firstArrayItems) {
-		// 	let lengthActualSlide = firstArrayItems.length;
-		// 	if (lengthActualSlide <= 12) {
-		// 		newTitleFontSize = '90%';
-        //     } else if (lengthActualSlide > 12 && lengthActualSlide <= 20){
-		// 		newTitleFontSize = '60%';
-		// 	} else {
-		// 		newTitleFontSize = '40%';
-		// 	}
-		// }
-		return newTitleFontSize
-    }
     
     getProductsByCategory(categorySelected, allProducts){
         let selectedProducts;
@@ -118,4 +102,34 @@ export class ItemsService {
         }
         return newCategoriesCollection;
     }
+
+    // Busco los productos que tienen en la categoria la palabra 'oferta'
+    getSales(allProducts) {
+        let selectedProducts = _.filter(allProducts, (item) => {
+            return ~item.categoria.descripcionCategorias.indexOf('oferta');
+        });
+        console.log(selectedProducts);
+        return selectedProducts;
+    }
+
+
+    changeStyleCards(cantItemsShowed) {
+		let newStyleCards = {};
+
+		if (cantItemsShowed <= 6) {
+			newStyleCards['max-height'] = '50%';
+			newStyleCards['max-width'] = '50%';
+			if (cantItemsShowed <= 3){
+				newStyleCards['top'] = '18%';
+			}
+		} else if (cantItemsShowed > 6 && cantItemsShowed < 10) {
+			newStyleCards['max-height'] = '50%';
+			newStyleCards['max-width'] = '20%';
+		} else {
+			newStyleCards['max-height'] = '40%';
+			newStyleCards['max-width'] = '16%';
+		}
+		return newStyleCards;
+	}
+
 }

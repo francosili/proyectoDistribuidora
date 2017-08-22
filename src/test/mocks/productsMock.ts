@@ -262,7 +262,7 @@ export const productsMock = [
             "unidades": 6
         },
         "categoria": {
-            "descripcionCategorias": "VINOS COMUNES",
+            "descripcionCategorias": "blancos oferta",
             "idCategorias": 33
         },
         "descripcionProductos": "Z-VINO RESERO 6*700CC TTO.",
@@ -326,7 +326,7 @@ export const productsMock = [
             "unidades": 12
         },
         "categoria": {
-            "descripcionCategorias": "VINOS COMUNES",
+            "descripcionCategorias": "blancos oferta",
             "idCategorias": 33
         },
         "descripcionProductos": "Z-VINO RESERO 12*1L. ROSADO",
@@ -342,7 +342,7 @@ export const productsMock = [
             "unidades": 12
         },
         "categoria": {
-            "descripcionCategorias": "VINOS COMUNES",
+            "descripcionCategorias": "blancos oferta",
             "idCategorias": 33
         },
         "descripcionProductos": "Z-VINO ZUMUVA  12*1L TTO.",
@@ -374,7 +374,7 @@ export const productsMock = [
             "unidades": 12
         },
         "categoria": {
-            "descripcionCategorias": "VINOS COMUNES",
+            "descripcionCategorias": "blancos oferta",
             "idCategorias": 33
         },
         "descripcionProductos": "Z-VINO ZUMUVA  12*1L BCO.DULCE",
@@ -390,7 +390,7 @@ export const productsMock = [
             "unidades": 12
         },
         "categoria": {
-            "descripcionCategorias": "VINOS COMUNES",
+            "descripcionCategorias": "blancos oferta",
             "idCategorias": 33
         },
         "descripcionProductos": "Z-VINO ZUMUVA  *1L ROSADO",
@@ -406,7 +406,7 @@ export const productsMock = [
             "unidades": 8
         },
         "categoria": {
-            "descripcionCategorias": "VINOS COMUNES",
+            "descripcionCategorias": "blancos oferta",
             "idCategorias": 33
         },
         "descripcionProductos": "Y-VINO ZUMUVA BOT. 8*930 ML TTO.",
@@ -422,7 +422,7 @@ export const productsMock = [
             "unidades": 8
         },
         "categoria": {
-            "descripcionCategorias": "VINOS COMUNES",
+            "descripcionCategorias": "blancos oferta",
             "idCategorias": 33
         },
         "descripcionProductos": "Z-VINO ZUMUVA BOT. 8*930 ML BCO.",
