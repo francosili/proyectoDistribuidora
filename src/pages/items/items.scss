@@ -1,3 +1,8 @@
+$palet-brown: #7d4627;
+$palet-grey: #a8b6bf;
+$palet-green: #c9d8c5;
+$palet-yellow: #edd9c0;
+
 page-items {
     ////////////////////////////////////////
     //        Estilos ionic custom        // 
@@ -83,8 +88,7 @@ page-items {
             width: 100%;
             height: 18%;
 
-            background: black;
-            opacity: 0.4;
+            background: $palet-brown;
             left: 0;
             // border-radius: 12px 12px 12px 12px;
         }
@@ -128,7 +132,6 @@ page-items {
     }
    
    .card-background-page {
-
         ion-card {
             position: relative;
             text-align: center;
@@ -141,88 +144,45 @@ page-items {
             }
         }
         
-        .product-item {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-        }
-        
         .img-container {
             position: absolute;
-            top: 5%;
-        }
-
-        img {
-            position: relative;
-            max-width: 100%;
-            max-height: 100%;
-            margin: auto;
-            bottom: 3%;
-        }
-        
-        .otro-div {
-            margin-bottom: 5%;
-            margin-top: 5%;
-        }
-
-        .card-title-container {
-            position: absolute;
-            width: 100%;
-            height: auto;
+            left: 0;
             top: 0;
-            right: 0;
-            background: black;
-            opacity: 0.4;
-            
+            height: 67%;
+            width: 100%;
+            // background: $palet-yellow;
 
-            h2 {
-                text-transform: capitalize;
-                font-family: Roboto;
-                text-align: left;
-                font-size: 127%;
-                top: 21%;
-                left: 0;
-                color: #fff;
+            img {
+                position: absolute;
+                top: 0;
+                left: 10%;
             }
         }
 
-        // .card-title {
-        //     text-transform: capitalize;
-        //     font-weight: bold;
-        //     color: #fff;
-        //     position: absolute;
-        //     width: 100%;
-        //     top: 85%;
-        //     text-shadow: -1px 0 #545454, 0 1px #545454, 1px 0 #545454, 0 -1px #545454;
-        //     font-size: 107%;
-        // }
+        .footer-card {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding-bottom: 3%;
+            padding-top: 5%;
+            background: $palet-grey;
+            text-align: left;
 
-        .card-subtitle {
-            text-transform: capitalize;
-            color: #fff;
-            font-size: 100%;
-            
+            h1, h2 {
+                text-transform: capitalize;
+                color: #fff;
+                padding-left: 10px;
+                ion-icon{
+                    font-size: 23px;
+                    padding-right: 6px;
+                }
+            }
         }
 
     }
 
-    .image-container {
-        position: absolute;
-        width: 69%;
-        height: 81%;    
-    }
-
-
 }
-
-// .image-container {
-//     position: absolute;
-//     width: 69%;
-//     height: 81%;    
-// }
-
 
 .popover-wrapper .popover-content {
     overflow: hidden;

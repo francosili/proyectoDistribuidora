@@ -14,7 +14,6 @@ import { PopoverController, PopoverOptions } from 'ionic-angular';
 export class ItemsPage implements DoCheck {
 	@Input() itemType: string;
 	@Input() categorySelected: string;
-	@Input() testInput: string;
 
 	@Output() SelectItem = new EventEmitter();
     @ViewChild(Slides) slides: Slides;
@@ -41,8 +40,6 @@ export class ItemsPage implements DoCheck {
 	}
 
 	initValueItems(params){
-		console.log(this.testInput);
-		debugger;
 		if (!this.itemType) {
 			this.itemType = params.data.itemType;
 		}

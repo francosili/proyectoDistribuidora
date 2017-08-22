@@ -25,79 +25,23 @@
                 *ngFor="let item of itemRef">
                 
                 <div *ngIf="itemType === 'categories'">
-                    <!-- <img src="assets/img/fondo.jpg"/>    -->
-
-                    <div class="card-title-container">
-                        <!-- [style.font-size]="itemTitleFontSize" -->
-
-                        <div class="otro-div">
-                            <a class="card-subtitle">
-                                {{item.descripcionCategorias}}
-                            </a>
-                        </div>
-
-                        <!-- <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
-                            {{item.descripcionCategorias}}
-                        </button> -->
+                    <div class="img-container">
+                        <img src="assets/img/fondo.jpg"/>    
                     </div>
-    
-
-                    <!-- <h2 [style.font-size]="itemTitleFontSize" class="card-title"> {{item.descripcionCategorias}} </h2> -->
-                    <ion-row no-padding>
-                        <ion-col class="category-col">
-                            <button class="card-subtitle" ion-button clear small color="danger" icon-start>
-                            <ion-icon name='basket'></ion-icon>
-                            {{item.cantProductos}} Productos
-                            </button>
-                        </ion-col>
-                    </ion-row>
+                    <div class="footer-card">
+                        <h1><ion-icon name='basket'></ion-icon>{{item.cantProductos}} Productos</h1>
+                        <h2>{{item.descripcionCategorias}}</h2>                    
+                    </div>
                 </div>
 
-                <div class="product-item" *ngIf="itemType === 'products'">
+                <div *ngIf="itemType === 'products'">
                     <div class="img-container">
                         <img src="assets/img/productos/{{item.fotoProductos}}"/>    
                     </div>
-                    <div class="card-title-container">
-                        <!-- [style.font-size]="itemTitleFontSize" -->
-                        <div class="otro-div">
-                        <a class="card-subtitle"> 
-                            {{item.descripcionProductos}}
-                        </a>
-                        </div>
-
-                        <!-- <button  class="card-subtitle" ion-button clear small color="button-color" icon-start>
-                            {{item.descripcionProductos}}
-                        </button> -->
-                    </div>
-
-                    <ion-row  no-padding>
-                        <ion-col >
-
-                            <!-- <a class="card-subtitle">
-                                <ion-icon name='logo-usd'></ion-icon>
-                                {{item.precioUnitario}}    
-                            </a> -->
-
-                            <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
-                            Unidad:
-                            <ion-icon name='logo-usd'></ion-icon>
-                            {{item.precioUnitario}}
-                            </button>
-                        </ion-col>
-                        
-                        <ion-col text-right>
-
-                            <!-- <a class="card-subtitle">
-                                <ion-icon name='logo-dropbox'></ion-icon>
-                                {{item.stock}}
-                            </a> -->
-                            <button class="card-subtitle" ion-button clear small color="button-color" icon-start>
-                            Bulto:
-                            <ion-icon name='logo-usd'></ion-icon>
-                            {{(item.precioUnitario*item.bulto.unidades).toFixed(2)}}
-                            </button>
-                        </ion-col>
-                    </ion-row>
+                    <div class="footer-card">
+                        <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioUnitario*item.bulto.unidades).toFixed(2)}}</h1>
+                        <h2>{{item.descripcionProductos}}</h2>                    
+                    </div>                  
                 </div>
 
             </ion-card>
