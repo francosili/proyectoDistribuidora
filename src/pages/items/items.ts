@@ -64,7 +64,7 @@ export class ItemsPage implements DoCheck {
 	}
 
 	ngOnInit(){
-		this.itemsService.getCantItemsShowed(this.itemType).then(itemsToShow => {
+		this.itemsService.getCantItemsShowed(this.itemType, this.categorySelected).then(itemsToShow => {
 			// TODO: POner valor por defecto de cantItemsShowed en variabels globales en algun lado
 			if (itemsToShow) {
 				this.cantItemsShowed = itemsToShow;
@@ -81,7 +81,6 @@ export class ItemsPage implements DoCheck {
 					this.allReformatedCategories = this.itemsReformated;
 				});	
 			} else if (this.itemType === 'products' && this.categorySelected === 'sales') {
-				
 				let auxItems = this.itemsService.getSales(allItems);
 				this.initItems(auxItems);
 			} else if (this.itemType === 'products' && this.categorySelected !== 'sales') {

@@ -114,8 +114,8 @@ page-items {
             bottom: 0;
             left: 0;
             width: 100%;
-            padding-bottom: 3%;
-            padding-top: 5%;
+            padding-bottom: 1%;
+            padding-top: 2%;
             background: $palet-grey;
             text-align: left;
 
@@ -123,10 +123,19 @@ page-items {
                 text-transform: capitalize;
                 color: #fff;
                 padding-left: 10px;
+            }
+
+            h1 {
+                font-size: 1.9vw;
+                white-space: nowrap;
                 ion-icon{
-                    font-size: 23px;
+                    font-size: 2vw;
                     padding-right: 6px;
                 }
+            }
+
+            h2 {
+                font-size: 1.09vw
             }
         }
 
