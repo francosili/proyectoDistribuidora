@@ -24,7 +24,6 @@ import { HttpModule } from '@angular/http';
 
 import { FlexLayoutModule } from "@angular/flex-layout";
 
-
 @NgModule({
   declarations: [
     MyApp,

@@ -1,0 +1,18 @@
+<ion-slide class="sales" *ngFor="let itemRef of salesReformated">
+    <ion-card [ngStyle]="changeStyleCards()" col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
+        (click)="onClickItem(item)" 
+        class="item" 
+        *ngFor="let item of itemRef">
+
+        <div *ngIf="itemType === 'products'">
+            <div class="img-container">
+                <img src="assets/img/productos/{{item.fotoProductos}}"/>    
+            </div>
+            <div class="footer-card">
+                <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioUnitario*item.bulto.unidades).toFixed(2)}}</h1>
+                <h2>{{item.descripcionProductos}}</h2>                    
+            </div>                  
+        </div>
+
+    </ion-card>
+</ion-slide>
