@@ -37,14 +37,19 @@ export class ItemsService {
         return newItemsArray;
     }
 
-    getCantItemsShowed(itemType: string) {
+    getCantItemsShowed(itemType: string, categorySelected: string) {
+        let cantSalesShowed: Number = 3;
 		if (itemType === 'categories') {
             return this.storageService.getStorage('categsToShow'); 
         } else if (itemType === 'products') { 
+            if (categorySelected === 'sales') {
+                return Promise.resolve(cantSalesShowed);
+            }
             return this.storageService.getStorage('productsToShow');
         };
     }
     
+    // TODO: Esto va a estar en backend
     setCantProductsInCategoriesAndGet(categoriesArray){
         // TODO: Mejorar?
         return Promise.all(_.map(categoriesArray, cat => {
@@ -56,17 +61,10 @@ export class ItemsService {
                 return newCat;
             });   
         });
-
-
-        // return Promise.all(_.map(categoriesArray, cat => {
-        //     return this.getCantProductsOfACategory(cat.descripcionCategorias).then(cantProducts => {
-        //         let newCat = cat;
-        //         newCat.cantProductos = cantProducts;
-        //         return newCat;
-        //     })
-        // }));
     }
 
+
+    // TODO: Esto va a quedar obsoleto cuando lo de arriba este en backend
     getCantProductsOfACategory(category: string) {
         return this.getItems('products').then(products => {
             let cantProducts: number = 0;
@@ -78,6 +76,7 @@ export class ItemsService {
             return cantProducts;
         })
     }
+    
     
     getProductsByCategory(categorySelected, allProducts){
         let selectedProducts;
@@ -108,7 +107,6 @@ export class ItemsService {
         let selectedProducts = _.filter(allProducts, (item) => {
             return ~item.categoria.descripcionCategorias.indexOf('oferta');
         });
-        console.log(selectedProducts);
         return selectedProducts;
     }
 

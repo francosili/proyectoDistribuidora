@@ -9,6 +9,15 @@ page-home {
         top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
+
+        // display: flex;
+        // justify-content: center;
+        // align-content: center;
+        // flex-direction: column;
+
+        div {
+            margin: 0 auto;
+        }
     }
 
     .main-footer{
@@ -23,5 +32,9 @@ page-home {
         position: relative;
         right: 2%;
         background: none;
+    }
+
+    .sales-container {
+        max-width: 34%;
     }
 }

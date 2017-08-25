@@ -64,18 +64,14 @@ export class ItemsPage implements DoCheck {
 	}
 
 	ngOnInit(){
-		if (this.categorySelected !== 'sales') {
-			this.itemsService.getCantItemsShowed(this.itemType).then(itemsToShow => {
-				// TODO: POner valor por defecto de cantItemsShowed en variabels globales en algun lado
-				if (itemsToShow) {
-					this.cantItemsShowed = itemsToShow;
-				} else {
-					this.cantItemsShowed = 8;
-				}
-			});
-		} else {
-			this.cantItemsShowed = 3;
-		}
+		this.itemsService.getCantItemsShowed(this.itemType, this.categorySelected).then(itemsToShow => {
+			// TODO: POner valor por defecto de cantItemsShowed en variabels globales en algun lado
+			if (itemsToShow) {
+				this.cantItemsShowed = itemsToShow;
+			} else {
+				this.cantItemsShowed = 8;
+			}
+		});
 
 		this.itemsService.getItems(this.itemType).then((allItems)=>{
 			if (this.itemType === 'categories') {
@@ -85,7 +81,6 @@ export class ItemsPage implements DoCheck {
 					this.allReformatedCategories = this.itemsReformated;
 				});	
 			} else if (this.itemType === 'products' && this.categorySelected === 'sales') {
-				
 				let auxItems = this.itemsService.getSales(allItems);
 				this.initItems(auxItems);
 			} else if (this.itemType === 'products' && this.categorySelected !== 'sales') {
