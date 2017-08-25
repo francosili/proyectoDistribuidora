@@ -1,503 +1,489 @@
-// export const categoriesMock = [
-//     'jugos concentrados',
-//     'gaseosas',
-//     'vinos comunes',
-//     'gas.cimes',
-//     'galletitas',
-//     'gomitas',
-//     'pastillas',
-//     'alfajores',
-//     'snack',
-//     'sidras',
-//     'jugos en polvo',
-//     'aguas',
-//     'chupetines',
-//     'varios'
-// ]
 
-export const categoriesMock = [
-    {
-        "descripcionCategorias": "DESCONOCIDA",
-        "idCategorias": 1
-    },
-    {
-        "descripcionCategorias": "CARAMELOS MASTICABLES",
-        "idCategorias": 2
-    },
-    {
-        "descripcionCategorias": "GALLETITAS DULCES",
-        "idCategorias": 3
-    },
-    {
-        "descripcionCategorias": "GALLETITAS CRACKERS",
-        "idCategorias": 4
-    },
-    {
-        "descripcionCategorias": "CARAMELOS DUROS",
-        "idCategorias": 5
-    },
-    {
-        "descripcionCategorias": "PASTILLAS",
-        "idCategorias": 6
-    },
-    {
-        "descripcionCategorias": "GOMITAS",
-        "idCategorias": 7
-    },
-    {
-        "descripcionCategorias": "ALFAJORES",
-        "idCategorias": 8
-    },
-    {
-        "descripcionCategorias": "SNACK",
-        "idCategorias": 9
-    },
-    {
-        "descripcionCategorias": "PRD.FIESTA",
-        "idCategorias": 10
-    },
-    {
-        "descripcionCategorias": "SIDRAS",
-        "idCategorias": 13
-    },
-    {
-        "descripcionCategorias": "JUGOS EN POLVO",
-        "idCategorias": 15
-    },
-    {
-        "descripcionCategorias": "FERNANDO",
-        "idCategorias": 16
-    },
-    {
-        "descripcionCategorias": "AGUAS",
-        "idCategorias": 17
-    },
-    {
-        "descripcionCategorias": "CHUPETINES",
-        "idCategorias": 18
-    },
-    {
-        "descripcionCategorias": "TOPPS",
-        "idCategorias": 19
-    },
-    {
-        "descripcionCategorias": "CHOCOLATES",
-        "idCategorias": 20
-    },
-    {
-        "descripcionCategorias": "VARIOS",
-        "idCategorias": 21
-    },
-    {
-        "descripcionCategorias": "MERM. POTE",
-        "idCategorias": 22
-    },
-    {
-        "descripcionCategorias": "MERM.FRASCO",
-        "idCategorias": 23
-    },
-    {
-        "descripcionCategorias": "DULCES CAJON *5",
-        "idCategorias": 24
-    },
-    {
-        "descripcionCategorias": "DULCES LATAS *5",
-        "idCategorias": 25
-    },
-    {
-        "descripcionCategorias": "DULCES *500",
-        "idCategorias": 26
-    },
-    {
-        "descripcionCategorias": "MERM.PRO-LIGHT",
-        "idCategorias": 27
-    },
-    {
-        "descripcionCategorias": "MERM.LIGHT",
-        "idCategorias": 28
-    },
-    {
-        "descripcionCategorias": "GALLETITAS A GRANEL",
-        "idCategorias": 29
-    },
-    {
-        "descripcionCategorias": "CHICLES",
-        "idCategorias": 30
-    },
-    {
-        "descripcionCategorias": "BISCOCHUELOS",
-        "idCategorias": 31
-    },
-    {
-        "descripcionCategorias": "VINOS FINOS",
-        "idCategorias": 32
-    },
-    {
-        "descripcionCategorias": "VINOS COMUNES",
-        "idCategorias": 33
-    },
-    {
-        "descripcionCategorias": "espumantes",
-        "idCategorias": 34
-    },
-    {
-        "descripcionCategorias": "GASEOSAS",
-        "idCategorias": 35
-    },
-    {
-        "descripcionCategorias": "PASTILLAS",
-        "idCategorias": 37
-    },
-    {
-        "descripcionCategorias": "MERMELADAS",
-        "idCategorias": 38
-    },
-    {
-        "descripcionCategorias": "CEREALES",
-        "idCategorias": 39
-    },
-    {
-        "descripcionCategorias": "ENCENDEDORES",
-        "idCategorias": 40
-    },
-    {
-        "descripcionCategorias": "PAÃ‘UELOS",
-        "idCategorias": 41
-    },
-    {
-        "descripcionCategorias": "      ",
-        "idCategorias": 42
-    },
-    {
-        "descripcionCategorias": "HARINAS",
-        "idCategorias": 43
-    },
-    {
-        "descripcionCategorias": "ACEITES",
-        "idCategorias": 44
-    },
-    {
-        "descripcionCategorias": "PAN RALLADO",
-        "idCategorias": 45
-    },
-    {
-        "descripcionCategorias": "PROD. FIESTAS",
-        "idCategorias": 46
-    },
-    {
-        "descripcionCategorias": "SECCO",
-        "idCategorias": 47
-    },
-    {
-        "descripcionCategorias": "PESCADOS",
-        "idCategorias": 48
-    },
-    {
-        "descripcionCategorias": "COMESTIBLES",
-        "idCategorias": 50
-    },
-    {
-        "descripcionCategorias": "YERBAS",
-        "idCategorias": 51
-    },
-    {
-        "descripcionCategorias": "INFUSIONES",
-        "idCategorias": 52
-    },
-    {
-        "descripcionCategorias": "GAS.CIMES",
-        "idCategorias": 53
-    },
-    {
-        "descripcionCategorias": "MANAOS",
-        "idCategorias": 54
-    },
-    {
-        "descripcionCategorias": "DULCE *500",
-        "idCategorias": 55
-    },
-    {
-        "descripcionCategorias": "MANAOS *2.25L.",
-        "idCategorias": 56
-    },
-    {
-        "descripcionCategorias": "SECCO",
-        "idCategorias": 57
-    },
-    {
-        "descripcionCategorias": "MAURI",
-        "idCategorias": 58
-    },
-    {
-        "descripcionCategorias": "pico dulce",
-        "idCategorias": 59
-    },
-    {
-        "descripcionCategorias": "MAST.OPEN",
-        "idCategorias": 60
-    },
-    {
-        "descripcionCategorias": "POZO",
-        "idCategorias": 61
-    },
-    {
-        "descripcionCategorias": "JUGOS CONCENTRADOS",
-        "idCategorias": 62
-    },
-    {
-        "descripcionCategorias": "MOLINOS CAÃ‘UELAS",
-        "idCategorias": 63
-    },
-    {
-        "descripcionCategorias": "edulcorante",
-        "idCategorias": 64
-    },
-    {
-        "descripcionCategorias": "MOCONA",
-        "idCategorias": 65
-    },
-    {
-        "descripcionCategorias": "baggio fresh *1.5L.",
-        "idCategorias": 66
-    },
-    {
-        "descripcionCategorias": "baggio fresh *500cc.",
-        "idCategorias": 67
-    },
-    {
-        "descripcionCategorias": "leches",
-        "idCategorias": 68
-    },
-    {
-        "descripcionCategorias": "pure tomates",
-        "idCategorias": 69
-    },
-    {
-        "descripcionCategorias": "cruz del sur",
-        "idCategorias": 70
-    },
-    {
-        "descripcionCategorias": "BIO",
-        "idCategorias": 71
-    },
-    {
-        "descripcionCategorias": "SIFON",
-        "idCategorias": 73
-    },
-    {
-        "descripcionCategorias": "BRANCA",
-        "idCategorias": 74
-    },
-    {
-        "descripcionCategorias": "la casa",
-        "idCategorias": 75
-    },
-    {
-        "descripcionCategorias": "FELFORT",
-        "idCategorias": 76
-    },
-    {
-        "descripcionCategorias": "ARAYA",
-        "idCategorias": 77
-    },
-    {
-        "descripcionCategorias": "hamlet",
-        "idCategorias": 78
-    },
-    {
-        "descripcionCategorias": "chocolatada",
-        "idCategorias": 79
-    },
-    {
-        "descripcionCategorias": "soy yo *1l.",
-        "idCategorias": 80
-    },
-    {
-        "descripcionCategorias": "soy yo *200cc.",
-        "idCategorias": 81
-    },
-    {
-        "descripcionCategorias": "DALE",
-        "idCategorias": 82
-    },
-    {
-        "descripcionCategorias": "DESFILE",
-        "idCategorias": 83
-    },
-    {
-        "descripcionCategorias": "MERCI",
-        "idCategorias": 84
-    },
-    {
-        "descripcionCategorias": "RONDA",
-        "idCategorias": 85
-    },
-    {
-        "descripcionCategorias": "MATERO",
-        "idCategorias": 86
-    },
-    {
-        "descripcionCategorias": "JORGITO",
-        "idCategorias": 87
-    },
-    {
-        "descripcionCategorias": "VAINILLAS *80",
-        "idCategorias": 88
-    },
-    {
-        "descripcionCategorias": "VAINILLAS *160",
-        "idCategorias": 89
-    },
-    {
-        "descripcionCategorias": "VAINILLAS *320",
-        "idCategorias": 90
-    },
-    {
-        "descripcionCategorias": "FAUNA *150",
-        "idCategorias": 91
-    },
-    {
-        "descripcionCategorias": "FAUNA *400",
-        "idCategorias": 92
-    },
-    {
-        "descripcionCategorias": "LUNA *170G",
-        "idCategorias": 93
-    },
-    {
-        "descripcionCategorias": "SIN SAL/SALVADO",
-        "idCategorias": 94
-    },
-    {
-        "descripcionCategorias": "SALVADO *210",
-        "idCategorias": 95
-    },
-    {
-        "descripcionCategorias": "MAURITA *330",
-        "idCategorias": 96
-    },
-    {
-        "descripcionCategorias": "MEDIA TARDE *330",
-        "idCategorias": 97
-    },
-    {
-        "descripcionCategorias": "MAGDALENAS",
-        "idCategorias": 98
-    },
-    {
-        "descripcionCategorias": "ESPECIAS",
-        "idCategorias": 99
-    },
-    {
-        "descripcionCategorias": "PETERS",
-        "idCategorias": 100
-    },
-    {
-        "descripcionCategorias": "UVITA",
-        "idCategorias": 101
-    },
-    {
-        "descripcionCategorias": "promo secco",
-        "idCategorias": 102
-    },
-    {
-        "descripcionCategorias": "LECHE 7 DIAS",
-        "idCategorias": 103
-    },
-    {
-        "descripcionCategorias": "GAS.MOCORETA",
-        "idCategorias": 104
-    },
-    {
-        "descripcionCategorias": "VINOS RPB",
-        "idCategorias": 105
-    },
-    {
-        "descripcionCategorias": "promo sab.*500cc.",
-        "idCategorias": 106
-    },
-    {
-        "descripcionCategorias": "promo est.mendoza",
-        "idCategorias": 107
-    },
-    {
-        "descripcionCategorias": "finos RPB",
-        "idCategorias": 108
-    },
-    {
-        "descripcionCategorias": "PROMO SUPREMO",
-        "idCategorias": 109
-    },
-    {
-        "descripcionCategorias": "PROMO SABORIZADAS",
-        "idCategorias": 110
-    },
-    {
-        "descripcionCategorias": "sab.vida *500cc.",
-        "idCategorias": 111
-    },
-    {
-        "descripcionCategorias": "PROMO 7*6",
-        "idCategorias": 112
-    },
-    {
-        "descripcionCategorias": "PURE 7 DIAS",
-        "idCategorias": 113
-    },
-    {
-        "descripcionCategorias": "HUERTA 133",
-        "idCategorias": 114
-    },
-    {
-        "descripcionCategorias": "8*1 PROMO",
-        "idCategorias": 115
-    },
-    {
-        "descripcionCategorias": "PURE 7 DIAS",
-        "idCategorias": 116
-    },
-    {
-        "descripcionCategorias": "PROMO ARROZ",
-        "idCategorias": 117
-    },
-    {
-        "descripcionCategorias": "PROMO HUERTA",
-        "idCategorias": 118
-    },
-    {
-        "descripcionCategorias": "blancos oferta",
-        "idCategorias": 119
-    },
-    {
-        "descripcionCategorias": "cavic oferta",
-        "idCategorias": 120
-    },
-    {
-        "descripcionCategorias": "CHOCOLATADA *330 7 DIAS",
-        "idCategorias": 121
-    },
-    {
-        "descripcionCategorias": "MERM. \"LA HUERTA\"",
-        "idCategorias": 122
-    },
-    {
-        "descripcionCategorias": "PROMO CHOC. 4+1",
-        "idCategorias": 123
-    },
-    {
-        "descripcionCategorias": "lipo",
-        "idCategorias": 124
-    },
-    {
-        "descripcionCategorias": "FIDEOS",
-        "idCategorias": 125
-    },
-    {
-        "descripcionCategorias": "est.mendoza",
-        "idCategorias": 126
-    },
-    {
-        "descripcionCategorias": "PROMO ROSADO",
-        "idCategorias": 127
-    }
+
+export const categoriesMock = 
+[
+  {
+    "descripcion": "DESCONOCIDA",
+    "idcategoria": 1
+  },
+  {
+    "descripcion": "CARAMELOS MASTICABLES",
+    "idcategoria": 2
+  },
+  {
+    "descripcion": "GALLETITAS DULCES",
+    "idcategoria": 3
+  },
+  {
+    "descripcion": "GALLETITAS CRACKERS",
+    "idcategoria": 4
+  },
+  {
+    "descripcion": "CARAMELOS DUROS",
+    "idcategoria": 5
+  },
+  {
+    "descripcion": "PASTILLAS",
+    "idcategoria": 6
+  },
+  {
+    "descripcion": "GOMITAS",
+    "idcategoria": 7
+  },
+  {
+    "descripcion": "ALFAJORES",
+    "idcategoria": 8
+  },
+  {
+    "descripcion": "SNACK",
+    "idcategoria": 9
+  },
+  {
+    "descripcion": "PRD.FIESTA",
+    "idcategoria": 10
+  },
+  {
+    "descripcion": "SIDRAS",
+    "idcategoria": 13
+  },
+  {
+    "descripcion": "JUGOS EN POLVO",
+    "idcategoria": 15
+  },
+  {
+    "descripcion": "FERNANDO",
+    "idcategoria": 16
+  },
+  {
+    "descripcion": "AGUAS",
+    "idcategoria": 17
+  },
+  {
+    "descripcion": "CHUPETINES",
+    "idcategoria": 18
+  },
+  {
+    "descripcion": "TOPPS",
+    "idcategoria": 19
+  },
+  {
+    "descripcion": "CHOCOLATES",
+    "idcategoria": 20
+  },
+  {
+    "descripcion": "VARIOS",
+    "idcategoria": 21
+  },
+  {
+    "descripcion": "MERM. POTE",
+    "idcategoria": 22
+  },
+  {
+    "descripcion": "MERM.FRASCO",
+    "idcategoria": 23
+  },
+  {
+    "descripcion": "DULCES CAJON *5",
+    "idcategoria": 24
+  },
+  {
+    "descripcion": "DULCES LATAS *5",
+    "idcategoria": 25
+  },
+  {
+    "descripcion": "DULCES *500",
+    "idcategoria": 26
+  },
+  {
+    "descripcion": "MERM.PRO-LIGHT",
+    "idcategoria": 27
+  },
+  {
+    "descripcion": "MERM.LIGHT",
+    "idcategoria": 28
+  },
+  {
+    "descripcion": "GALLETITAS A GRANEL",
+    "idcategoria": 29
+  },
+  {
+    "descripcion": "CHICLES",
+    "idcategoria": 30
+  },
+  {
+    "descripcion": "BISCOCHUELOS",
+    "idcategoria": 31
+  },
+  {
+    "descripcion": "VINOS FINOS",
+    "idcategoria": 32
+  },
+  {
+    "descripcion": "VINOS COMUNES",
+    "idcategoria": 33
+  },
+  {
+    "descripcion": "espumantes",
+    "idcategoria": 34
+  },
+  {
+    "descripcion": "GASEOSAS",
+    "idcategoria": 35
+  },
+  {
+    "descripcion": "PASTILLAS",
+    "idcategoria": 37
+  },
+  {
+    "descripcion": "MERMELADAS",
+    "idcategoria": 38
+  },
+  {
+    "descripcion": "CEREALES",
+    "idcategoria": 39
+  },
+  {
+    "descripcion": "ENCENDEDORES",
+    "idcategoria": 40
+  },
+  {
+    "descripcion": "PAÃ‘UELOS",
+    "idcategoria": 41
+  },
+  {
+    "descripcion": "",
+    "idcategoria": 42
+  },
+  {
+    "descripcion": "HARINAS",
+    "idcategoria": 43
+  },
+  {
+    "descripcion": "ACEITES",
+    "idcategoria": 44
+  },
+  {
+    "descripcion": "PAN RALLADO",
+    "idcategoria": 45
+  },
+  {
+    "descripcion": "PROD. FIESTAS",
+    "idcategoria": 46
+  },
+  {
+    "descripcion": "SECCO",
+    "idcategoria": 47
+  },
+  {
+    "descripcion": "PESCADOS",
+    "idcategoria": 48
+  },
+  {
+    "descripcion": "COMESTIBLES",
+    "idcategoria": 50
+  },
+  {
+    "descripcion": "YERBAS",
+    "idcategoria": 51
+  },
+  {
+    "descripcion": "INFUSIONES",
+    "idcategoria": 52
+  },
+  {
+    "descripcion": "GAS.CIMES",
+    "idcategoria": 53
+  },
+  {
+    "descripcion": "MANAOS",
+    "idcategoria": 54
+  },
+  {
+    "descripcion": "DULCE *500",
+    "idcategoria": 55
+  },
+  {
+    "descripcion": "MANAOS *2.25L.",
+    "idcategoria": 56
+  },
+  {
+    "descripcion": "SECCO",
+    "idcategoria": 57
+  },
+  {
+    "descripcion": "MAURI",
+    "idcategoria": 58
+  },
+  {
+    "descripcion": "pico dulce",
+    "idcategoria": 59
+  },
+  {
+    "descripcion": "MAST.OPEN",
+    "idcategoria": 60
+  },
+  {
+    "descripcion": "POZO",
+    "idcategoria": 61
+  },
+  {
+    "descripcion": "JUGOS CONCENTRADOS",
+    "idcategoria": 62
+  },
+  {
+    "descripcion": "MOLINOS CAÃ‘UELAS",
+    "idcategoria": 63
+  },
+  {
+    "descripcion": "edulcorante",
+    "idcategoria": 64
+  },
+  {
+    "descripcion": "MOCONA",
+    "idcategoria": 65
+  },
+  {
+    "descripcion": "baggio fresh *1.5L.",
+    "idcategoria": 66
+  },
+  {
+    "descripcion": "baggio fresh *500cc.",
+    "idcategoria": 67
+  },
+  {
+    "descripcion": "leches",
+    "idcategoria": 68
+  },
+  {
+    "descripcion": "pure tomates",
+    "idcategoria": 69
+  },
+  {
+    "descripcion": "cruz del sur",
+    "idcategoria": 70
+  },
+  {
+    "descripcion": "BIO",
+    "idcategoria": 71
+  },
+  {
+    "descripcion": "SIFON",
+    "idcategoria": 73
+  },
+  {
+    "descripcion": "BRANCA",
+    "idcategoria": 74
+  },
+  {
+    "descripcion": "la casa",
+    "idcategoria": 75
+  },
+  {
+    "descripcion": "FELFORT",
+    "idcategoria": 76
+  },
+  {
+    "descripcion": "ARAYA",
+    "idcategoria": 77
+  },
+  {
+    "descripcion": "hamlet",
+    "idcategoria": 78
+  },
+  {
+    "descripcion": "chocolatada",
+    "idcategoria": 79
+  },
+  {
+    "descripcion": "soy yo *1l.",
+    "idcategoria": 80
+  },
+  {
+    "descripcion": "soy yo *200cc.",
+    "idcategoria": 81
+  },
+  {
+    "descripcion": "DALE",
+    "idcategoria": 82
+  },
+  {
+    "descripcion": "DESFILE",
+    "idcategoria": 83
+  },
+  {
+    "descripcion": "MERCI",
+    "idcategoria": 84
+  },
+  {
+    "descripcion": "RONDA",
+    "idcategoria": 85
+  },
+  {
+    "descripcion": "MATERO",
+    "idcategoria": 86
+  },
+  {
+    "descripcion": "JORGITO",
+    "idcategoria": 87
+  },
+  {
+    "descripcion": "VAINILLAS *80",
+    "idcategoria": 88
+  },
+  {
+    "descripcion": "VAINILLAS *160",
+    "idcategoria": 89
+  },
+  {
+    "descripcion": "VAINILLAS *320",
+    "idcategoria": 90
+  },
+  {
+    "descripcion": "FAUNA *150",
+    "idcategoria": 91
+  },
+  {
+    "descripcion": "FAUNA *400",
+    "idcategoria": 92
+  },
+  {
+    "descripcion": "LUNA *170G",
+    "idcategoria": 93
+  },
+  {
+    "descripcion": "SIN SAL/SALVADO",
+    "idcategoria": 94
+  },
+  {
+    "descripcion": "SALVADO *210",
+    "idcategoria": 95
+  },
+  {
+    "descripcion": "MAURITA *330",
+    "idcategoria": 96
+  },
+  {
+    "descripcion": "MEDIA TARDE *330",
+    "idcategoria": 97
+  },
+  {
+    "descripcion": "MAGDALENAS",
+    "idcategoria": 98
+  },
+  {
+    "descripcion": "ESPECIAS",
+    "idcategoria": 99
+  },
+  {
+    "descripcion": "PETERS",
+    "idcategoria": 100
+  },
+  {
+    "descripcion": "UVITA",
+    "idcategoria": 101
+  },
+  {
+    "descripcion": "promo secco",
+    "idcategoria": 102
+  },
+  {
+    "descripcion": "LECHE 7 DIAS",
+    "idcategoria": 103
+  },
+  {
+    "descripcion": "GAS.MOCORETA",
+    "idcategoria": 104
+  },
+  {
+    "descripcion": "VINOS RPB",
+    "idcategoria": 105
+  },
+  {
+    "descripcion": "promo sab.*500cc.",
+    "idcategoria": 106
+  },
+  {
+    "descripcion": "promo est.mendoza",
+    "idcategoria": 107
+  },
+  {
+    "descripcion": "finos RPB",
+    "idcategoria": 108
+  },
+  {
+    "descripcion": "PROMO SUPREMO",
+    "idcategoria": 109
+  },
+  {
+    "descripcion": "PROMO SABORIZADAS",
+    "idcategoria": 110
+  },
+  {
+    "descripcion": "sab.vida *500cc.",
+    "idcategoria": 111
+  },
+  {
+    "descripcion": "PROMO 7*6",
+    "idcategoria": 112
+  },
+  {
+    "descripcion": "PURE 7 DIAS",
+    "idcategoria": 113
+  },
+  {
+    "descripcion": "HUERTA 133",
+    "idcategoria": 114
+  },
+  {
+    "descripcion": "8*1 PROMO",
+    "idcategoria": 115
+  },
+  {
+    "descripcion": "PURE 7 DIAS",
+    "idcategoria": 116
+  },
+  {
+    "descripcion": "PROMO ARROZ",
+    "idcategoria": 117
+  },
+  {
+    "descripcion": "PROMO HUERTA",
+    "idcategoria": 118
+  },
+  {
+    "descripcion": "blancos oferta",
+    "idcategoria": 119
+  },
+  {
+    "descripcion": "cavic oferta",
+    "idcategoria": 120
+  },
+  {
+    "descripcion": "CHOCOLATADA *330 7 DIAS",
+    "idcategoria": 121
+  },
+  {
+    "descripcion": "MERM. \"LA HUERTA\"",
+    "idcategoria": 122
+  },
+  {
+    "descripcion": "PROMO CHOC. 4+1",
+    "idcategoria": 123
+  },
+  {
+    "descripcion": "lipo",
+    "idcategoria": 124
+  },
+  {
+    "descripcion": "FIDEOS",
+    "idcategoria": 125
+  },
+  {
+    "descripcion": "est.mendoza",
+    "idcategoria": 126
+  },
+  {
+    "descripcion": "PROMO ROSADO",
+    "idcategoria": 127
+  }
 ]
