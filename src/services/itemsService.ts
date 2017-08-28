@@ -14,11 +14,19 @@ export class ItemsService {
         return _.chunk(itemsCollection, cantItems);
     }
 
-    getItems (type: string) {
+    getItems (type: string, categorySelected: string) {
         if (type === 'categories') {
-            return this.storageService.getStorage('categories');
-        } else if (type === 'products') {
-            return this.storageService.getStorage('products');
+            return this.storageService.getStorage('categories').then(allCategories => {
+                return this.setCantProductsInCategoriesAndGet(allCategories);
+            });
+        } else if (type === 'products' && categorySelected !== 'sales') {
+            return this.storageService.getStorage('products').then(allProducts => {
+                return this.getProductsByCategory(categorySelected, allProducts);
+            });
+        } else if (type === 'products' && categorySelected === 'sales') {
+            return this.storageService.getStorage('products').then(allProducts => {
+                return this.getSales(allProducts);
+            });
         };
     }
 
@@ -26,11 +34,11 @@ export class ItemsService {
         let newItemsArray = itemsArray;
         
         newItemsArray = itemsArray.map(item => {
-            if (typeItem === 'categories') {
-                item.descripcionCategorias = item.descripcionCategorias.toLowerCase();
-            } else if (typeItem === 'products') {
-                item.descripcionProductos = item.descripcionProductos.toLowerCase();
-            }
+            // if (typeItem === 'categories') {
+            item.descripcion = item.descripcion.toLowerCase();
+            // } else if (typeItem === 'products') {
+            //     item.descripcion = item.descripcion.toLowerCase();
+            // }
             return item;
         });
         
@@ -53,7 +61,7 @@ export class ItemsService {
     setCantProductsInCategoriesAndGet(categoriesArray){
         // TODO: Mejorar?
         return Promise.all(_.map(categoriesArray, cat => {
-            return this.getCantProductsOfACategory(cat.descripcionCategorias);
+            return this.getCantProductsOfACategory(cat.descripcion);
         })).then(cantProdInCat => {
             return _.map(categoriesArray, (cat, indexCat) => {
                 let newCat = cat;
@@ -65,15 +73,10 @@ export class ItemsService {
 
 
     // TODO: Esto va a quedar obsoleto cuando lo de arriba este en backend
-    getCantProductsOfACategory(category: string) {
-        return this.getItems('products').then(products => {
-            let cantProducts: number = 0;
-            products.forEach(prod => {
-                if(prod.categoria.descripcionCategorias.toLowerCase() === category.toLowerCase()){
-                    cantProducts++;
-                };
-            });
-            return cantProducts;
+    getCantProductsOfACategory(category: string) {        
+        
+        return this.getItems('products', category).then(products => {
+            return products.length;
         })
     }
     
@@ -86,7 +89,7 @@ export class ItemsService {
             });
         } else {
             selectedProducts = _.filter(allProducts, (item) => {
-                return (item.categoria.descripcionCategorias === categorySelected);
+                return (item.idcategoria.descripcion === categorySelected);
             });
         }
         return selectedProducts;
@@ -105,7 +108,7 @@ export class ItemsService {
     // Busco los productos que tienen en la categoria la palabra 'oferta'
     getSales(allProducts) {
         let selectedProducts = _.filter(allProducts, (item) => {
-            return ~item.categoria.descripcionCategorias.indexOf('oferta');
+            return ~item.idcategoria.descripcion.indexOf('oferta');
         });
         return selectedProducts;
     }

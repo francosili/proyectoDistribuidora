@@ -73,21 +73,8 @@ export class ItemsPage implements DoCheck {
 			}
 		});
 
-		this.itemsService.getItems(this.itemType).then((allItems)=>{
-			if (this.itemType === 'categories') {
-				this.itemsService.setCantProductsInCategoriesAndGet(allItems).then(newItems => {
-					// let auxItems = this.itemsService.filterCategories(this.catFilterParam, newItems);
-					this.initItems(newItems);
-					this.allReformatedCategories = this.itemsReformated;
-				});	
-			} else if (this.itemType === 'products' && this.categorySelected === 'sales') {
-				let auxItems = this.itemsService.getSales(allItems);
-				this.initItems(auxItems);
-			} else if (this.itemType === 'products' && this.categorySelected !== 'sales') {
-				let auxItems = this.itemsService.getProductsByCategory(this.categorySelected, allItems);
-				this.initItems(auxItems);
-			}
-			
+		this.itemsService.getItems(this.itemType, this.categorySelected).then((allItems)=>{
+			this.initItems(allItems);
 		});
 
 	}
@@ -96,20 +83,23 @@ export class ItemsPage implements DoCheck {
 	initItems(itemsArray){
 		this.items = this.itemsService.itemsToLowerCase(itemsArray, this.itemType);
 		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
+		if (this.itemType === 'categories') {
+			this.allReformatedCategories = this.itemsReformated;
+		}
 	}
 
 	reloadItems(ev: any) {
-		this.itemsService.getItems(this.itemType).then(allItems => {
+		this.itemsService.getItems(this.itemType, 'all').then(allItems => {
 			let val = ev.target.value;
 			let allItemsLower = this.itemsService.itemsToLowerCase(allItems, this.itemType);
 			if (val && val.trim() != '') {
 				this.items = allItemsLower.filter((item) => {
 					let keyToFind: string;
-					if (this.itemType === 'categories') {
-						keyToFind = 'descripcionCategorias';
-					} if (this.itemType === 'products') {
-						keyToFind = 'descripcionProductos';
-					};
+					// if (this.itemType === 'categories') {
+						keyToFind = 'descripcion';
+					// } if (this.itemType === 'products') {
+					// 	keyToFind = 'descripcion';
+					// };
 					return (item[keyToFind].toLowerCase().indexOf(val.toLowerCase()) > -1);
 				})
 			}
@@ -118,18 +108,18 @@ export class ItemsPage implements DoCheck {
 	}
 
 	onClickItem(category: any) {
-		this.itemsService.getCantProductsOfACategory(category.descripcionCategorias).then(cantItems => {
-			if (cantItems) {
-				this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcionCategorias.toUpperCase()});
-			} else {
-				let alert = this.alertCtrl.create({
-					title: 'Sin productos',
-					subTitle: 'No hay productos en esta categoria',
-					buttons: ['Ok']
-				});
-				alert.present();
-			}
-		});
+		// this.itemsService.getCantProductsOfACategory(category.descripcion).then(cantItems => {
+		// 	if (cantItems) {
+		// 		this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcion.toUpperCase()});
+		// 	} else {
+		// 		let alert = this.alertCtrl.create({
+		// 			title: 'Sin productos',
+		// 			subTitle: 'No hay productos en esta categoria',
+		// 			buttons: ['Ok']
+		// 		});
+		// 		alert.present();
+		// 	}
+		// });
 	}
 
 	changeStyleCards() {

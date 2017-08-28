@@ -1,56 +1,181 @@
 page-sales {
-    .sales {
-        .card {
-            position: relative;
-            margin-top: 10px;       
-            max-height:40%;
-            max-width: 16%;
+
+    ion-slide {
+        width: 500px; //TODO: No se como esta andando esto pero le setea ubn style diferente,
+        // Igualmente ahí quedo
+    }
+
+    .card {
+        display: inline-block;
+        padding: 0px;
+
+        width: 222px;
+        height: 200px;
+    }
+
+    .footer-card {
+        padding-bottom: 1%;
+        padding-top: 2%;
+        background: $palet-grey;
+        text-align: left;
+        max-height: 97px; //TODO: Esto verlo bien
+
+        position: relative;
+        top: 115px;
+        
+        h1, h2 {
+            text-transform: capitalize;
+            color: #fff;
+            padding-left: 10px;
         }
 
-        .img-container {
-            position: absolute;
-            left: 0;
-            top: 0;
-            height: 67%;
-            width: 100%;
-            // background: $palet-yellow;
-
-            img {
-                position: absolute;
-                top: 0;
-                left: 10%;
-            }
-        }
-
-        .footer-card {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding-bottom: 1%;
-            padding-top: 2%;
-            background: $palet-grey;
-            text-align: left;
-
-            h1, h2 {
-                text-transform: capitalize;
-                color: #fff;
-                padding-left: 10px;
-            }
-
-            h1 {
-                font-size: 1.9vw;
-                white-space: nowrap;
-                ion-icon{
-                    font-size: 2vw;
-                    padding-right: 6px;
-                }
-            }
-
-            h2 {
-                font-size: 1.09vw
+        h1 {
+            font-size: 1.9vw;
+            white-space: nowrap;
+            ion-icon{
+                font-size: 2vw;
+                padding-right: 6px;
             }
         }
 
+        h2 {
+            font-size: 1.09vw
+        }
     }
 }
+
+    // display: block;
+
+    // ion-slides  {
+    //     // margin: auto;
+    //     // width: 34%;
+    //     ion-slide {
+    //         // width: 100%;
+    //     }
+    // }
+
+    // .sales {
+    //     .card {
+    //         // display: inline-block;
+    //         position: relative;
+    //         margin-top: 10px;       
+    //         max-height:40%;
+    //         max-width: 16%;
+    //     }
+
+    //     .img-container {
+    //         // display: inline-block;
+
+    //         position: absolute;
+    //         left: 0;
+    //         top: 0;
+    //         height: 67%;
+    //         width: 100%;
+    //         background: $palet-yellow;
+
+    //         img {
+    //             position: absolute;
+    //             top: 0;
+    //             left: 10%;
+    //         }
+    //     }
+
+    //     .footer-card {
+    //         // display: inline-block;
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //         width: 100%;
+    //         padding-bottom: 1%;
+    //         padding-top: 2%;
+    //         background: $palet-grey;
+    //         text-align: left;
+
+    //         h1, h2 {
+    //             text-transform: capitalize;
+    //             color: #fff;
+    //    // display: block;
+
+    // ion-slides  {
+    //     // margin: auto;
+    //     // width: 34%;
+    //     ion-slide {
+    //         // width: 100%;
+    //     }
+    // }
+
+    // .sales {
+    //     .card {
+    //         // display: inline-block;
+    //         position: relative;
+    //         margin-top: 10px;       
+    //         max-height:40%;
+    //         max-width: 16%;
+    //     }
+
+    //     .img-container {
+    //         // display: inline-block;
+
+    //         position: absolute;
+    //         left: 0;
+    //         top: 0;
+    //         height: 67%;
+    //         width: 100%;
+    //         background: $palet-yellow;
+
+    //         img {
+    //             position: absolute;
+    //             top: 0;
+    //             left: 10%;
+    //         }
+    //     }
+
+    //     .footer-card {
+    //         // display: inline-block;
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //         width: 100%;
+    //         padding-bottom: 1%;
+    //         padding-top: 2%;
+    //         background: $palet-grey;
+    //         text-align: left;
+
+    //         h1, h2 {
+    //             text-transform: capitalize;
+    //             color: #fff;
+    //             padding-left: 10px;
+    //         }
+
+    //         h1 {
+    //             font-size: 1.9vw;
+    //             white-space: nowrap;
+    //             ion-icon{
+    //                 font-size: 2vw;
+    //                 padding-right: 6px;
+    //             }
+    //         }
+
+    //         h2 {
+    //             font-size: 1.09vw
+    //         }
+    //     }
+
+    // }          padding-left: 10px;
+    //         }
+
+    //         h1 {
+    //             font-size: 1.9vw;
+    //             white-space: nowrap;
+    //             ion-icon{
+    //                 font-size: 2vw;
+    //                 padding-right: 6px;
+    //             }
+    //         }
+
+    //         h2 {
+    //             font-size: 1.09vw
+    //         }
+    //     }
+
+    // }

@@ -39,7 +39,7 @@ export class HomePage {
     }
 
     selectCategory(event) {
-        this.categorySearched = event.category.descripcionCategorias;
+        this.categorySearched = event.category.descripcion;
     }
 
     openMenu() {
@@ -55,7 +55,7 @@ export class HomePage {
     }
 
     getSales() {
-        return this.itemsService.getItems('products').then((allItems)=>{
+        return this.itemsService.getItems('products', 'all').then((allItems)=>{
             let sales;
             let salesReformated;
             let auxItems = this.itemsService.getSales(allItems);

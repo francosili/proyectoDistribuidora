@@ -7,7 +7,7 @@ import { Slides } from 'ionic-angular';
 @Component({
 	selector: 'page-sales',
 	templateUrl: 'sales.html',
-    providers: [Slides]
+    // providers: [Slides]
 
 })
 export class SalesPage {

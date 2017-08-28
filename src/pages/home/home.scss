@@ -5,36 +5,29 @@ page-home {
     }
 
     .main-body {
-        position: fixed;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-        // display: flex;
-        // justify-content: center;
-        // align-content: center;
-        // flex-direction: column;
-
-        div {
+        width: 100%;
+        > div {
+            width: 25%;
             margin: 0 auto;
+        }
+        .sales-container {
+            width: 60%;
         }
     }
 
     .main-footer{
        
+        button:first-child { 
+            margin-left: 31px;
+        }
+
         button {
             position: relative;
             display: inline-block;
         }
     }
 
-    .logo {   
-        position: relative;
-        right: 2%;
-        background: none;
-    }
-
     .sales-container {
-        max-width: 34%;
+        max-width: 100%;
     }
 }
