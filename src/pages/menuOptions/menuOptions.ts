@@ -14,6 +14,7 @@ export class MenuOptionsPage {
     @Output() CloseMenu = new EventEmitter();
     categsToShow: number;
     productsToShow: number;
+    currentSeller: string;
 
     constructor(
         public navCtrl: NavController,
@@ -27,8 +28,11 @@ export class MenuOptionsPage {
         Promise.all([categsToShowPromise, productsToShowPromise]).then(itemsToShow => {
             let defectItemsToShow = 9;
             this.categsToShow = itemsToShow[0] ? itemsToShow[0] : defectItemsToShow;
-            this.productsToShow = itemsToShow[1] ? itemsToShow[1] : defectItemsToShow;;
-            
+            this.productsToShow = itemsToShow[1] ? itemsToShow[1] : defectItemsToShow;;  
+        });
+
+        this.storageService.getStorage('currentSeller').then(currentSeller => {
+            this.currentSeller = currentSeller;
         })
     }
 
@@ -52,6 +56,10 @@ export class MenuOptionsPage {
         } else {
             console.log('No se esta seteando el rango en el storage')
         }
+    }
+
+    onRadioChange(newSeller) {
+        this.storageService.setStorage('currentSeller', newSeller);
     }
 
 

@@ -1,17 +1,28 @@
 <ion-menu [content]="mycontent"> 
     <ion-content>
 
-        <ion-list>
+        <!--TODO: ESTILAR MEJOR ESTA ESCORIA-->
+        <ion-list radio-group [(ngModel)]="currentSeller" (ionChange)="onRadioChange($event)">
             <ion-list-header>
-                Utilidades
+                Vendedor Activo
             </ion-list-header>
+            <ion-item>
+                <ion-icon name="person" item-start color="primary"></ion-icon>
+                <ion-label>Juan</ion-label>
+                <ion-radio value="juan"></ion-radio>
+            </ion-item>
 
             <ion-item>
-                <ion-icon name="map" item-start color="primary"></ion-icon>
-                <ion-label>Ubicanos</ion-label>
-                <button (click)="openModal('map')" ion-button outline item-end>Ver mapa</button>
+                <ion-icon name="person" item-start color="primary"></ion-icon>
+                <ion-label>Marcelo</ion-label>
+                <ion-radio value="marcelo"></ion-radio>
             </ion-item>
-           
+
+            <ion-item>
+                <ion-icon name="person" item-start color="primary"></ion-icon>
+                <ion-label>Jimeno</ion-label>
+                <ion-radio value="jimeno"></ion-radio>
+            </ion-item>
         </ion-list>
 
         <ion-list>
@@ -67,19 +78,16 @@
             </button>
         </ion-list>
 
-        <!--TODO: Dejo este de prueba  -->
-        <ion-list radio-group>
+
+        <ion-list>
             <ion-list-header>
-                Silence Phone
+                Utilidades
             </ion-list-header>
 
             <ion-item>
-                <ion-label color="dark">Always</ion-label>
-                <ion-radio value="always" checked></ion-radio>
-            </ion-item>
-            <ion-item>
-                <ion-label color="dark">Only while phone is locked</ion-label>
-                <ion-radio value="locked"></ion-radio>
+                <ion-icon name="map" item-start color="primary"></ion-icon>
+                <ion-label>Ubicanos</ion-label>
+                <button (click)="openModal('map')" ion-button outline item-end>Ver mapa</button>
             </ion-item>
         </ion-list>
         

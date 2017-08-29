@@ -28,6 +28,8 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
 
+      // TODO: Antes de setear nuevos productos y categorieas quizas mirar si ya hay seteados
+      // Igualmente, con los parametros en las consultas quizas estas consultas al BE no se hagan mas de aca
       // this.authService.getProductos().subscribe(resp => {
       //   this.storageService.setStorage('products', resp.json());
       // });
@@ -38,6 +40,16 @@ export class MyApp {
 
       this.storageService.setStorage('categories', categoriesMock);
       this.storageService.setStorage('products', productsMock);
+
+      // Testeo si ya hay un seller, sino defino uno por defecto (marcelo, pero cambiar)
+      this.storageService.getStorage('currentSeller').then(oldSeller => {
+        if (!oldSeller) {
+          console.log('No me está haciendo este setStorage anda a saber porque');
+          this.storageService.setStorage('currentSeller', 'marcelo');
+
+        }
+      })
+
 
     });
   }
