@@ -1,10 +1,5 @@
 page-sales {
 
-    ion-slide {
-        width: 500px; //TODO: No se como esta andando esto pero le setea ubn style diferente,
-        // Igualmente ahí quedo
-    }
-
     .card {
         display: inline-block;
         padding: 0px;
@@ -18,11 +13,16 @@ page-sales {
         padding-top: 2%;
         background: $palet-grey;
         text-align: left;
-        max-height: 97px; //TODO: Esto verlo bien
 
         position: relative;
-        top: 115px;
-        
+        width: auto;
+        height: 21%;
+
+        // position: absolute;
+        // max-height: 36%;
+        // bottom: 0px;
+        // width: 100%;
+
         h1, h2 {
             text-transform: capitalize;
             color: #fff;
@@ -41,6 +41,28 @@ page-sales {
         h2 {
             font-size: 1.09vw
         }
+    }
+
+    .img-container {
+        position: relative;
+        width: auto;
+        height: 79%;
+
+        img {
+
+            margin: 0 auto;
+            // width: auto;
+            // max-height: 64%;
+            // position: absolute;
+            // left: 0;
+            // right: 0;
+            // margin: 0 auto;
+        }
+    }
+
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        //TODO: Esto mejorar (por ahora queda bien, probar en tablet)
+        bottom: 3px;
     }
 }
 
