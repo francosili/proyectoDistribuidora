@@ -28,11 +28,10 @@ export class HomePage {
     goToPage(page: string) {
         switch (page) {
             case 'categoriesPage':
-                this.navCtrl.push(ItemsPage, { itemType: 'categories' });
-                // this.categoriesPage.getCategories();
+                this.navCtrl.setRoot(ItemsPage, { itemType: 'categories' });
                 break;
             case 'productsPage':
-                this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: 'all' });
+                this.navCtrl.setRoot(ItemsPage, { itemType: 'products', categorySelected: 'all' });
                 break;                
         }
         

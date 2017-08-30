@@ -1597,7 +1597,7 @@ export const productsMock =
       "unidades": 20
     },
     "idcategoria": {
-      "descripcion": "CHICLES",
+      "descripcion": "CHICLES oferta",
       "idcategoria": 30
     },
     "idiva": {
@@ -1684,7 +1684,7 @@ export const productsMock =
     "activo": "N",
     "cantidad": -612,
     "codigoBarra": "2I60ZG6KX",
-    "descripcion": "BELDENT 20*10G TUTTI-FRUTTI",
+    "descripcion": "BELDENT 20*10G TUTTI-FRUTTI oferta",
     "descuento": 0.00,
     "idarticulo": 83,
     "idbulto": {
@@ -1741,7 +1741,7 @@ export const productsMock =
       "unidades": 20
     },
     "idcategoria": {
-      "descripcion": "CHICLES",
+      "descripcion": "CHICLES oferta",
       "idcategoria": 30
     },
     "idiva": {
@@ -1861,7 +1861,7 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CHICLES",
+      "descripcion": "CHICLES oferta",
       "idcategoria": 30
     },
     "idiva": {
@@ -1909,7 +1909,7 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS MASTICABLES",
+      "descripcion": "CARAMELOS MASTICABLES oferta",
       "idcategoria": 2
     },
     "idiva": {
@@ -3397,7 +3397,7 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "DULCES *500",
+      "descripcion": "DULCES *500 oferta",
       "idcategoria": 26
     },
     "idiva": {
@@ -4981,7 +4981,7 @@ export const productsMock =
       "unidades": 14
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS DULCES",
+      "descripcion": "GALLETITAS DULCES oferta",
       "idcategoria": 3
     },
     "idiva": {

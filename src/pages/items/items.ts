@@ -94,12 +94,8 @@ export class ItemsPage implements DoCheck {
 			let allItemsLower = this.itemsService.itemsToLowerCase(allItems, this.itemType);
 			if (val && val.trim() != '') {
 				this.items = allItemsLower.filter((item) => {
-					let keyToFind: string;
-					// if (this.itemType === 'categories') {
-						keyToFind = 'descripcion';
-					// } if (this.itemType === 'products') {
-					// 	keyToFind = 'descripcion';
-					// };
+					let keyToFind = 'descripcion';
+					
 					return (item[keyToFind].toLowerCase().indexOf(val.toLowerCase()) > -1);
 				})
 			}
@@ -111,7 +107,7 @@ export class ItemsPage implements DoCheck {
 		if (this.itemType !== 'categories') return;
 		
 		if (category.cantProductos) {
-			this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcion.toUpperCase()});
+			this.navCtrl.setRoot(ItemsPage, { itemType: 'products', categorySelected: category.descripcion.toUpperCase()});
 		} else {
 			let alert = this.alertCtrl.create({
 				title: 'Sin productos',
