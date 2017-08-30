@@ -108,18 +108,18 @@ export class ItemsPage implements DoCheck {
 	}
 
 	onClickItem(category: any) {
-		// this.itemsService.getCantProductsOfACategory(category.descripcion).then(cantItems => {
-		// 	if (cantItems) {
-		// 		this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcion.toUpperCase()});
-		// 	} else {
-		// 		let alert = this.alertCtrl.create({
-		// 			title: 'Sin productos',
-		// 			subTitle: 'No hay productos en esta categoria',
-		// 			buttons: ['Ok']
-		// 		});
-		// 		alert.present();
-		// 	}
-		// });
+		if (this.itemType !== 'categories') return;
+		
+		if (category.cantProductos) {
+			this.navCtrl.push(ItemsPage, { itemType: 'products', categorySelected: category.descripcion.toUpperCase()});
+		} else {
+			let alert = this.alertCtrl.create({
+				title: 'Sin productos',
+				subTitle: 'No hay productos en esta categoria',
+				buttons: ['Ok']
+			});
+			alert.present();
+		}
 	}
 
 	changeStyleCards() {
@@ -133,9 +133,9 @@ export class ItemsPage implements DoCheck {
 	}
 
 	//TODO: despues probar este a ver si da mas performance
-	ngOnChanges(changes: SimpleChanges) {
-		// console.log ('ngonchanges');
-		// console.log(changes);
-	}
+	// ngOnChanges(changes: SimpleChanges) {
+	// 	// console.log ('ngonchanges');
+	// 	// console.log(changes);
+	// }
 
 }

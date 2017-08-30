@@ -74,7 +74,6 @@ export class ItemsService {
 
     // TODO: Esto va a quedar obsoleto cuando lo de arriba este en backend
     getCantProductsOfACategory(category: string) {        
-        
         return this.getItems('products', category).then(products => {
             return products.length;
         })

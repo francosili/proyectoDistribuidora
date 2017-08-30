@@ -6,6 +6,8 @@ import { MapModal } from '../../modals/map/map';
 import { SettingsModal } from '../../modals/settings/settings';
 import { StorageService } from '../../services/storageService';
 
+import { sellers } from '../../utils/constants';
+
 @Component({
     selector: 'page-menu-options',
     templateUrl: 'menuOptions.html'
@@ -15,12 +17,15 @@ export class MenuOptionsPage {
     categsToShow: number;
     productsToShow: number;
     currentSeller: string;
+    sellers: string[];
 
     constructor(
         public navCtrl: NavController,
         public modalCtrl: ModalController,
         private storageService: StorageService
-    ) {}
+    ) {
+        this.sellers = sellers;
+    }
 
     ngOnInit() {
         let categsToShowPromise = this.storageService.getStorage('categsToShow') ;
@@ -32,7 +37,11 @@ export class MenuOptionsPage {
         });
 
         this.storageService.getStorage('currentSeller').then(currentSeller => {
-            this.currentSeller = currentSeller;
+            if (currentSeller) {
+                this.currentSeller = currentSeller;
+            } else {
+                this.currentSeller = sellers[0];
+            }
         })
     }
 
@@ -59,7 +68,9 @@ export class MenuOptionsPage {
     }
 
     onRadioChange(newSeller) {
-        this.storageService.setStorage('currentSeller', newSeller);
+        if (newSeller) {
+            this.storageService.setStorage('currentSeller', newSeller);
+        }
     }
 
 
