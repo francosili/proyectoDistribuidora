@@ -25,7 +25,6 @@ export class MenuOptionsPage {
         private storageService: StorageService
     ) {
         this.sellers = sellers;
-        this.currentSeller = defectValues.seller
     }
 
     ngOnInit() {
@@ -37,12 +36,12 @@ export class MenuOptionsPage {
             this.productsToShow = itemsToShow[1] ? itemsToShow[1] : defectItemsToShow;;  
         });
 
+        this.currentSeller = defectValues.seller; //ARREGLAR ESTO
         this.storageService.getStorage('currentSeller').then(currentSeller => {
             if (currentSeller) {
                 this.currentSeller = currentSeller;
             }
         });
-        console.log(this.currentSeller);
     }
 
     openModal(nameModal: string) {

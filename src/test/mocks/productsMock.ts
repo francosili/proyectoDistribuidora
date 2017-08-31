@@ -4630,7 +4630,8 @@ export const productsMock =
     },
     "precioCompra": 9.95,
     "precioVenta": 15.99,
-    "stockMinimo": 0
+    "stockMinimo": 0,
+    "vendedor": "juan"
   },
   {
     "activo": "N",
@@ -4678,7 +4679,8 @@ export const productsMock =
     },
     "precioCompra": 0.00,
     "precioVenta": 23.81,
-    "stockMinimo": 0
+    "stockMinimo": 0,
+    "vendedor": "pedro"
   },
   {
     "activo": "N",
@@ -4702,7 +4704,8 @@ export const productsMock =
     },
     "precioCompra": 0.82,
     "precioVenta": 1.32,
-    "stockMinimo": 0
+    "stockMinimo": 0,
+    "vendedor": "carlos"
   },
   {
     "activo": "S",
@@ -4726,7 +4729,8 @@ export const productsMock =
     },
     "precioCompra": 0.00,
     "precioVenta": 178.27,
-    "stockMinimo": 0
+    "stockMinimo": 0,
+    "vendedor": "pedro"
   },
   {
     "activo": "S",
@@ -4750,7 +4754,8 @@ export const productsMock =
     },
     "precioCompra": 0.00,
     "precioVenta": 167.68,
-    "stockMinimo": 0
+    "stockMinimo": 0,
+    "vendedor": "juan"
   },
   {
     "activo": "N",

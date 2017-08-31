@@ -1,14 +1,17 @@
 <ion-header *ngIf="categorySelected !== 'sales'">
     <ion-navbar>
+        <div ion-button clear color="dark" class="back-button" (click)="onClickBackButton()">
+            <ion-icon name='arrow-back'></ion-icon>
+        </div>
         <ion-searchbar showCancelButton (ionInput)="reloadItems($event)">
         </ion-searchbar>
-          <div ion-button clear color="dark" class="funnel-button">
+        <div ion-button clear color="dark" class="funnel-button">
 
             <ion-icon name='funnel'></ion-icon>
              
             <ion-select [(ngModel)]="catFilterParam" interface="popover">
                 <ion-option value="all">Todos</ion-option>
-                <ion-option (click)="test()" value="onlyWithProducts">Contienen Productos</ion-option>
+                <ion-option value="onlyWithProducts">Contienen Productos</ion-option>
             </ion-select>
             
          </div>  

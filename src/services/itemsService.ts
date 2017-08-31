@@ -14,7 +14,9 @@ export class ItemsService {
         return _.chunk(itemsCollection, cantItems);
     }
 
+    
     getItems (type: string, categorySelected: string) {
+
         if (type === 'categories') {
             return this.storageService.getStorage('categories').then(allCategories => {
                 return this.setCantProductsInCategoriesAndGet(allCategories);
@@ -28,6 +30,18 @@ export class ItemsService {
                 return this.getSales(allProducts);
             });
         };
+    }
+
+    // TODO: Esto despues se va a hacer por backend!!
+    getItemsOfCurrentSeller() {
+        // hacerlo con promise all!!
+        return this.storageService.getStorage('currentSeller').then(currentSeller => {
+            return this.storageService.getStorage('products').then(allProducts => {
+                return _.filter(allProducts, item => {
+                    return (item.vendedor === currentSeller)
+                });
+            });
+        })
     }
 
     itemsToLowerCase(itemsArray, typeItem) {
@@ -130,6 +144,19 @@ export class ItemsService {
 			newStyleCards['max-width'] = '16%';
 		}
 		return newStyleCards;
-	}
-
+    }    
+    
 }
+
+/*
+
+En la tabla de productos, los productos particulares de algún vendedor van a tener una key 'vendedor' 
+que va a tener al vendedor que pertenece. Si no es un producto particular, no va a tener esta 
+key (que sea una key opcional?).
+
+En la consulta de los productos NO retornar los productos particulares de cada vendedor. 
+Para retornar estos mandar en los parámetros de la consulta getProductos el nombre del vendedor, y que 
+retorne solamente los productos particulares de ese vendedor. Luego agregarlos estos productos 
+particulares de el vendedor a todos los productos.
+
+*/

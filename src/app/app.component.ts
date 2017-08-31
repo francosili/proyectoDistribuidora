@@ -11,6 +11,8 @@ import { AuthService } from '../services/authService';
 import { productsMock } from '../test/mocks/productsMock'
 import { categoriesMock } from '../test/mocks/categoriesMock'
 
+import { defectValues } from '../utils/constants';
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -41,14 +43,12 @@ export class MyApp {
       this.storageService.setStorage('categories', categoriesMock);
       this.storageService.setStorage('products', productsMock);
 
-      // Testeo si ya hay un seller, sino defino uno por defecto (marcelo, pero cambiar)
-      this.storageService.getStorage('currentSeller').then(oldSeller => {
-        if (!oldSeller) {
-          console.log('No me está haciendo este setStorage anda a saber porque');
-          this.storageService.setStorage('currentSeller', 'marcelo');
-
-        }
-      })
+      
+      // this.storageService.getStorage('currentSeller').then(oldSeller => {
+      //   if (!oldSeller) {
+      //     this.storageService.setStorage('currentSeller', defectValues.seller);
+      //   }
+      // })
 
 
     });

@@ -5,6 +5,8 @@ import { ItemsService } from '../../services/itemsService';
 import { Slides } from 'ionic-angular';
 import { PopoverController, PopoverOptions } from 'ionic-angular';
 
+import { HomePage } from '../../pages/home/home';
+
 import { defectValues } from '../../utils/constants';
 import { itemTypes } from '../../utils/constants';
 
@@ -81,6 +83,10 @@ export class ItemsPage implements DoCheck {
 	
 
 	initItems(itemsArray){
+
+		this.itemsService.getItemsOfCurrentSeller().then(itemsOfCurrentSeller => {
+			console.log(itemsOfCurrentSeller);
+		});
 		this.items = this.itemsService.itemsToLowerCase(itemsArray, this.itemType);
 		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
 		if (this.itemType === itemTypes.categories) {
@@ -120,6 +126,10 @@ export class ItemsPage implements DoCheck {
 
 	changeStyleCards() {
 		return this.itemsService.changeStyleCards(this.cantItemsShowed);
+	}
+
+	onClickBackButton() {
+		this.navCtrl.setRoot(HomePage);
 	}
 
 	slideClick(){

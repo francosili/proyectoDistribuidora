@@ -20,7 +20,7 @@ page-items {
 
     .toolbar-content-md {
         position: relative;
-        right: -4.1%;
+        right: -3.3%;
 
         ion-searchbar {
             display: inline-block;
@@ -48,6 +48,13 @@ page-items {
             ion-select .select-icon {
                 display: none;
             }
+        }
+
+        .back-button {
+            display: inline-block;
+            position: relative;
+            top: -3px;
+            font-size: larger;
         }
     }
 

@@ -1,6 +1,24 @@
 <ion-menu [content]="mycontent"> 
     <ion-content>
 
+
+
+        <!--TODO: Dejo este de prueba  -->
+        <!-- <ion-list radio-group>
+            <ion-list-header>
+                Silence Phone
+            </ion-list-header>
+
+            <ion-item>
+                <ion-label color="dark">Always</ion-label>
+                <ion-radio value="always" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label color="dark">Only while phone is locked</ion-label>
+                <ion-radio value="locked"></ion-radio>
+            </ion-item>
+        </ion-list> -->
+
         <!--TODO: ESTILAR MEJOR ESTA ESCORIA-->
         <ion-list radio-group [(ngModel)]="currentSeller" (ionChange)="onRadioChange($event)">
             <ion-list-header>
@@ -9,19 +27,19 @@
             <ion-item>
                 <ion-icon name="person" item-start color="primary"></ion-icon>
                 <ion-label>{{sellers[0]}}</ion-label>
-                <ion-radio value=sellers[0]></ion-radio>
+                <ion-radio value={{sellers[0]}}></ion-radio>
             </ion-item>
 
             <ion-item>
                 <ion-icon name="person" item-start color="primary"></ion-icon>
                 <ion-label>{{sellers[1]}}</ion-label>
-                <ion-radio value=sellers[1]></ion-radio>
+                <ion-radio value={{sellers[1]}}></ion-radio>
             </ion-item>
 
             <ion-item>
                 <ion-icon name="person" item-start color="primary"></ion-icon>
                 <ion-label>{{sellers[2]}}</ion-label>
-                <ion-radio value=sellers[2]></ion-radio>
+                <ion-radio value={{sellers[2]}}></ion-radio>
             </ion-item>
         </ion-list>
 
