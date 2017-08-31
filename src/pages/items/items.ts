@@ -4,8 +4,9 @@ import { NavController, NavParams, AlertController } from 'ionic-angular';
 import { ItemsService } from '../../services/itemsService';
 import { Slides } from 'ionic-angular';
 import { PopoverController, PopoverOptions } from 'ionic-angular';
-// import { FiltersPage } from '../../pages/filters/filters';
 
+import { defectValues } from '../../utils/constants';
+import { itemTypes } from '../../utils/constants';
 
 @Component({
 	selector: 'page-items',
@@ -65,11 +66,10 @@ export class ItemsPage implements DoCheck {
 
 	ngOnInit(){
 		this.itemsService.getCantItemsShowed(this.itemType, this.categorySelected).then(itemsToShow => {
-			// TODO: POner valor por defecto de cantItemsShowed en variabels globales en algun lado
 			if (itemsToShow) {
 				this.cantItemsShowed = itemsToShow;
 			} else {
-				this.cantItemsShowed = 8;
+				this.cantItemsShowed = defectValues.cantItemsShowed;
 			}
 		});
 
@@ -83,13 +83,13 @@ export class ItemsPage implements DoCheck {
 	initItems(itemsArray){
 		this.items = this.itemsService.itemsToLowerCase(itemsArray, this.itemType);
 		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
-		if (this.itemType === 'categories') {
+		if (this.itemType === itemTypes.categories) {
 			this.allReformatedCategories = this.itemsReformated;
 		}
 	}
 
 	reloadItems(ev: any) {
-		this.itemsService.getItems(this.itemType, 'all').then(allItems => {
+		this.itemsService.getItems(this.itemType, itemTypes.all).then(allItems => {
 			let val = ev.target.value;
 			let allItemsLower = this.itemsService.itemsToLowerCase(allItems, this.itemType);
 			if (val && val.trim() != '') {
@@ -104,10 +104,10 @@ export class ItemsPage implements DoCheck {
 	}
 
 	onClickItem(category: any) {
-		if (this.itemType !== 'categories') return;
+		if (this.itemType !== itemTypes.categories) return;
 		
 		if (category.cantProductos) {
-			this.navCtrl.setRoot(ItemsPage, { itemType: 'products', categorySelected: category.descripcion.toUpperCase()});
+			this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase()});
 		} else {
 			let alert = this.alertCtrl.create({
 				title: 'Sin productos',

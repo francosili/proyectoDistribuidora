@@ -6,7 +6,7 @@ import { MapModal } from '../../modals/map/map';
 import { SettingsModal } from '../../modals/settings/settings';
 import { StorageService } from '../../services/storageService';
 
-import { sellers } from '../../utils/constants';
+import { sellers, defectValues } from '../../utils/constants';
 
 @Component({
     selector: 'page-menu-options',
@@ -25,6 +25,7 @@ export class MenuOptionsPage {
         private storageService: StorageService
     ) {
         this.sellers = sellers;
+        this.currentSeller = defectValues.seller
     }
 
     ngOnInit() {
@@ -39,10 +40,9 @@ export class MenuOptionsPage {
         this.storageService.getStorage('currentSeller').then(currentSeller => {
             if (currentSeller) {
                 this.currentSeller = currentSeller;
-            } else {
-                this.currentSeller = sellers[0];
             }
-        })
+        });
+        console.log(this.currentSeller);
     }
 
     openModal(nameModal: string) {
