@@ -1,6 +1,7 @@
 export const defectValues = {
     'seller': 'juan',
-    'cantItemsShowed': 8
+    'cantItemsShowed': 8,
+    'cantSalesShowed': 3
 };
 
 export const itemTypes = {

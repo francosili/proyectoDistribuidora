@@ -6,6 +6,7 @@ import { MenuController } from 'ionic-angular';
 import { categoriesMock } from '../../test/mocks/categoriesMock';
 import { ItemsService } from '../../services/itemsService';
 import { StorageService } from '../../services/storageService';
+import { defectValues } from '../../utils/constants';
 
 @Component({
     selector: 'page-home',
@@ -62,8 +63,8 @@ export class HomePage {
             let salesReformated;
             let auxItems = this.itemsService.getSales(allItems);
 
-            sales = this.itemsService.itemsToLowerCase(auxItems, 'products');
-		    salesReformated = this.itemsService.chunkItems(3, auxItems);
+            sales = this.itemsService.itemsToLowerCase(auxItems);
+		    salesReformated = this.itemsService.chunkItems(defectValues.cantSalesShowed, auxItems);
             return salesReformated;
 		});
     }

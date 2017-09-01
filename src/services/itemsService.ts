@@ -24,13 +24,18 @@ export class ItemsService {
             });
         } else if (type === 'products') {
             return this.storageService.getStorage('products').then(allProducts => {
-                // Aca saco los productos que no tengan la key 'vendedor'
-                let allProductsWithoutProductsOfSellers = _.remove(allProducts, prod => {
-                    return !prod.vendedor
-                });
-                return (categorySelected !== 'sales') ? 
-                    this.getProductsByCategory(categorySelected,allProductsWithoutProductsOfSellers) :
-                    this.getSales(allProductsWithoutProductsOfSellers);
+                return this.storageService.getStorage('currentSeller').then(currentSeller => {
+                    if (categorySelected === 'sales') {
+                        return this.getSales(allProducts)
+                    };
+                    // Saco los productos que NO sean del currentSeller
+                    let allProductsWithProducstOfCurrentSeller = allProducts;
+                    _.remove(allProductsWithProducstOfCurrentSeller, prod => {
+                        return (prod.vendedor && prod.vendedor !== currentSeller)
+                    });
+                    return this.getProductsByCategory(categorySelected,allProductsWithProducstOfCurrentSeller);
+                })
+
             });
         }
     }
@@ -47,15 +52,11 @@ export class ItemsService {
         })
     }
 
-    itemsToLowerCase(itemsArray, typeItem) {
+    itemsToLowerCase(itemsArray) {
         let newItemsArray = itemsArray;
         
         newItemsArray = itemsArray.map(item => {
-            // if (typeItem === 'categories') {
             item.descripcion = item.descripcion.toLowerCase();
-            // } else if (typeItem === 'products') {
-            //     item.descripcion = item.descripcion.toLowerCase();
-            // }
             return item;
         });
         

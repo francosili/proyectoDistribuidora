@@ -84,21 +84,27 @@ export class ItemsPage implements DoCheck {
 
 	initItems(itemsArray){
 
-		this.itemsService.getItemsOfCurrentSeller().then(itemsOfCurrentSeller => {
-			let newItemsArray = _.concat(itemsArray, itemsOfCurrentSeller);
-			this.items = this.itemsService.itemsToLowerCase(newItemsArray, this.itemType);
-			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, newItemsArray);
-			if (this.itemType === itemTypes.categories) {
-				this.allReformatedCategories = this.itemsReformated;
-			};
-			console.log(this.itemsReformated);
-		});
+		this.items = this.itemsService.itemsToLowerCase(itemsArray);
+		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
+		if (this.itemType === itemTypes.categories) {
+			this.allReformatedCategories = this.itemsReformated;
+		};
+
+
+		// this.itemsService.getItemsOfCurrentSeller().then(itemsOfCurrentSeller => {
+		// 	let newItemsArray = _.concat(itemsArray, itemsOfCurrentSeller);
+		// 	this.items = this.itemsService.itemsToLowerCase(newItemsArray);
+		// 	this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, newItemsArray);
+		// 	if (this.itemType === itemTypes.categories) {
+		// 		this.allReformatedCategories = this.itemsReformated;
+		// 	};
+		// });
 	}
 
 	reloadItems(ev: any) {
 		this.itemsService.getItems(this.itemType, itemTypes.all).then(allItems => {
 			let val = ev.target.value;
-			let allItemsLower = this.itemsService.itemsToLowerCase(allItems, this.itemType);
+			let allItemsLower = this.itemsService.itemsToLowerCase(allItems);
 			if (val && val.trim() != '') {
 				this.items = allItemsLower.filter((item) => {
 					let keyToFind = 'descripcion';
