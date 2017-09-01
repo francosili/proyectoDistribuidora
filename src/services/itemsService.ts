@@ -14,22 +14,25 @@ export class ItemsService {
         return _.chunk(itemsCollection, cantItems);
     }
 
-    
+    // Por ahora esto retorna todos los items MENOS los items que son particularmente de un vendedor en particular.
+    // Esto probablemnte cambie cuadno tenga el backend
     getItems (type: string, categorySelected: string) {
 
         if (type === 'categories') {
             return this.storageService.getStorage('categories').then(allCategories => {
                 return this.setCantProductsInCategoriesAndGet(allCategories);
             });
-        } else if (type === 'products' && categorySelected !== 'sales') {
+        } else if (type === 'products') {
             return this.storageService.getStorage('products').then(allProducts => {
-                return this.getProductsByCategory(categorySelected, allProducts);
+                // Aca saco los productos que no tengan la key 'vendedor'
+                let allProductsWithoutProductsOfSellers = _.remove(allProducts, prod => {
+                    return !prod.vendedor
+                });
+                return (categorySelected !== 'sales') ? 
+                    this.getProductsByCategory(categorySelected,allProductsWithoutProductsOfSellers) :
+                    this.getSales(allProductsWithoutProductsOfSellers);
             });
-        } else if (type === 'products' && categorySelected === 'sales') {
-            return this.storageService.getStorage('products').then(allProducts => {
-                return this.getSales(allProducts);
-            });
-        };
+        }
     }
 
     // TODO: Esto despues se va a hacer por backend!!

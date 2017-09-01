@@ -85,13 +85,14 @@ export class ItemsPage implements DoCheck {
 	initItems(itemsArray){
 
 		this.itemsService.getItemsOfCurrentSeller().then(itemsOfCurrentSeller => {
-			console.log(itemsOfCurrentSeller);
+			let newItemsArray = _.concat(itemsArray, itemsOfCurrentSeller);
+			this.items = this.itemsService.itemsToLowerCase(newItemsArray, this.itemType);
+			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, newItemsArray);
+			if (this.itemType === itemTypes.categories) {
+				this.allReformatedCategories = this.itemsReformated;
+			};
+			console.log(this.itemsReformated);
 		});
-		this.items = this.itemsService.itemsToLowerCase(itemsArray, this.itemType);
-		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
-		if (this.itemType === itemTypes.categories) {
-			this.allReformatedCategories = this.itemsReformated;
-		}
 	}
 
 	reloadItems(ev: any) {

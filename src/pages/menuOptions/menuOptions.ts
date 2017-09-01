@@ -14,6 +14,7 @@ import { sellers, defectValues } from '../../utils/constants';
 })
 export class MenuOptionsPage {
     @Output() CloseMenu = new EventEmitter();
+    @Output() OnClickRadioButton = new EventEmitter();
     categsToShow: number;
     productsToShow: number;
     currentSeller: string;
@@ -69,7 +70,9 @@ export class MenuOptionsPage {
     onRadioChange(newSeller) {
         if (newSeller) {
             this.storageService.setStorage('currentSeller', newSeller);
-        }
+        };
+
+        this.OnClickRadioButton.emit(newSeller);
     }
 
 

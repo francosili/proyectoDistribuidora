@@ -5,7 +5,7 @@ import { MenuOptionsPage } from '../../pages/menuOptions/menuOptions';
 import { MenuController } from 'ionic-angular';
 import { categoriesMock } from '../../test/mocks/categoriesMock';
 import { ItemsService } from '../../services/itemsService';
-
+import { StorageService } from '../../services/storageService';
 
 @Component({
     selector: 'page-home',
@@ -14,15 +14,22 @@ import { ItemsService } from '../../services/itemsService';
 export class HomePage {
     categorySearched: string;
     salesPromise;
+    currentSeller: string;
 
     constructor(
         public navCtrl: NavController,
         public menuCtrl: MenuController,
-        private itemsService: ItemsService
+        private itemsService: ItemsService,
+        private storageService: StorageService
     ) {};
 
     ngOnInit(){
         this.salesPromise = this.getSales();
+
+        this.storageService.getStorage('currentSeller').then(currentSeller => {
+            this.currentSeller = currentSeller;
+        });
+
     }
 
     goToPage(page: string) {
@@ -49,10 +56,6 @@ export class HomePage {
         this.menuCtrl.close();
     }
 
-    receiveItemsToShowFromMenuOptions(itemsToShow: number[]) {
-        console.log(itemsToShow);
-    }
-
     getSales() {
         return this.itemsService.getItems('products', 'all').then((allItems)=>{
             let sales;
@@ -63,6 +66,10 @@ export class HomePage {
 		    salesReformated = this.itemsService.chunkItems(3, auxItems);
             return salesReformated;
 		});
+    }
+
+    setNewCurrentSeller(newCurrentSeller) {
+        this.currentSeller = newCurrentSeller;
     }
 
 }
