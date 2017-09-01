@@ -1,7 +1,10 @@
+@import 'utils/colors';
+
 $palet-brown: #7d4627;
 $palet-grey: #a8b6bf;
 $palet-green: #c9d8c5;
 $palet-yellow: #edd9c0;
+
 
 page-items {
     ////////////////////////////////////////
@@ -14,8 +17,8 @@ page-items {
     }
 
     .toolbar-background-md {
-        border-color: #fff;
-        background: #fff;
+        border-color: $white-color;
+        background: $white-color;
     }
 
     .toolbar-content-md {
@@ -65,6 +68,10 @@ page-items {
     .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
         //TODO: Esto mejorar (por ahora queda bien, probar en tablet)
         bottom: 80px;
+
+        button {
+            background: $red12;
+        }
     }
 
     .slide-zoom{
@@ -102,12 +109,11 @@ page-items {
             top: 0;
             height: 67%;
             width: 100%;
-            // background: $palet-yellow;
 
             img {
-                position: absolute;
+                position: relative;
+                margin: 0 auto;
                 top: 0;
-                left: 10%;
             }
         }
 
@@ -123,7 +129,7 @@ page-items {
 
             h1, h2 {
                 text-transform: capitalize;
-                color: #fff;
+                color: $white-color;
                 padding-left: 10px;
             }
 

@@ -1,13 +1,16 @@
+@import 'utils/colors';
+
 page-home {
     .main-header {
         overflow: auto;
         width: 100%;
 
-        .menuButton {
-            display: inline-block
+        .menu-button {
+            display: inline-block;
+
         }
 
-        .currentSeller {
+        .current-seller {
             display: inline-block;
             position: relative;
             left: 89%;
@@ -15,7 +18,11 @@ page-home {
             ion-icon ion-label {
                 display: inline-block;
             }
+            ion-icon {
+                color: $main-color;
+            }
             ion-label {
+                color: $main-color;
                 display: inline-block;
                 text-transform: capitalize;
                 position: relative;
@@ -59,6 +66,12 @@ page-home {
 
     .sales-container {
         max-width: 100%;
+
+        .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+            button {
+                background: $red12;
+            }
+        }
     }
 
     

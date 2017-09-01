@@ -1,7 +1,18 @@
+@import 'utils/colors';
+
 page-menu-options {
 
-    ion-item ion-label {
-        text-transform: capitalize;
+    ion-item {
+
+        ion-icon {
+            color: $red12;
+        }
+
+        ion-label {
+            text-transform: capitalize;
+        }
     }
+
+
 
 }
