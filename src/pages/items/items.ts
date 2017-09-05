@@ -120,7 +120,7 @@ export class ItemsPage implements DoCheck {
 		if (this.itemType !== itemTypes.categories) return;
 		
 		if (category.cantProductos) {
-			this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase()});
+			this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase(), comeFromHome: false});
 		} else {
 			let alert = this.alertCtrl.create({
 				title: 'Sin productos',
@@ -136,7 +136,11 @@ export class ItemsPage implements DoCheck {
 	}
 
 	onClickBackButton() {
-		this.navCtrl.setRoot(HomePage);
+		if (this.itemType === 'categories') {
+			this.navCtrl.setRoot(HomePage);
+		} else {
+			this.navCtrl.setRoot(ItemsPage, { itemType: 'categories' });
+		}
 	}
 
 	slideClick(){

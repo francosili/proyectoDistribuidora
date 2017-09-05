@@ -36,10 +36,10 @@ export class HomePage {
     goToPage(page: string) {
         switch (page) {
             case 'categoriesPage':
-                this.navCtrl.setRoot(ItemsPage, { itemType: 'categories' });
+                this.navCtrl.setRoot(ItemsPage, { itemType: 'categories'});
                 break;
             case 'productsPage':
-                this.navCtrl.setRoot(ItemsPage, { itemType: 'products', categorySelected: 'all' });
+                this.navCtrl.setRoot(ItemsPage, { itemType: 'products', categorySelected: 'all'});
                 break;                
         }
         
