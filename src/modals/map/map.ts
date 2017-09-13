@@ -19,7 +19,7 @@ export class MapModal {
 
 
     ionViewDidLoad() {
-        // this.loadMap();
+         this.loadMap();
     }
 
     // TODO: Setear real ubicación negocio

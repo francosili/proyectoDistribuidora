@@ -16,6 +16,30 @@ export class ItemsService {
 
     // Por ahora esto retorna todos los items MENOS los items que son particularmente de un vendedor en particular.
     // Esto probablemnte cambie cuadno tenga el backend
+    // getItems (type: string, categorySelected: string) {
+
+    //     if (type === 'categories') {
+    //         return this.storageService.getStorage('categories').then(allCategories => {
+    //             return this.setCantProductsInCategoriesAndGet(allCategories);
+    //         });
+    //     } else if (type === 'products') {
+    //         return this.storageService.getStorage('products').then(allProducts => {
+    //             return this.storageService.getStorage('currentSeller').then(currentSeller => {
+    //                 if (categorySelected === 'sales') {
+    //                     return this.getSales(allProducts)
+    //                 };
+    //                 // Saco los productos que NO sean del currentSeller
+    //                 let allProductsWithProducstOfCurrentSeller = allProducts;
+    //                 _.remove(allProductsWithProducstOfCurrentSeller, prod => {
+    //                     return (prod.vendedor && prod.vendedor !== currentSeller)
+    //                 });
+    //                 return this.getProductsByCategory(categorySelected,allProductsWithProducstOfCurrentSeller);
+    //             })
+
+    //         });
+    //     }
+    // }
+
     getItems (type: string, categorySelected: string) {
 
         if (type === 'categories') {
@@ -38,18 +62,6 @@ export class ItemsService {
 
             });
         }
-    }
-
-    // TODO: Esto despues se va a hacer por backend!!
-    getItemsOfCurrentSeller() {
-        // hacerlo con promise all!!
-        return this.storageService.getStorage('currentSeller').then(currentSeller => {
-            return this.storageService.getStorage('products').then(allProducts => {
-                return _.filter(allProducts, item => {
-                    return (item.vendedor === currentSeller)
-                });
-            });
-        })
     }
 
     itemsToLowerCase(itemsArray) {
