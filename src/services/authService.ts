@@ -20,4 +20,8 @@ export class AuthService {
 
   }
 
+  getCantidadCategoria(idCategoria){
+    return this.http.get('http://192.168.0.100:8080/DistribuidoraApi/webresources/entidades.categoria/' + idCategoria);
+  }
+
 }
