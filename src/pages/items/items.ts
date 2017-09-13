@@ -53,16 +53,19 @@ export class ItemsPage implements DoCheck {
 		this.oldCatFilterParam = 'all';
 	}
 
+	// TODO: Probar cambia esto por (click) en el ion-option del ion-select
 	ngDoCheck(){
 		if (this.catFilterParam !== this.oldCatFilterParam) {
+			console.log(this.allReformatedCategories);
 			if (this.catFilterParam === 'all') {
 				this.itemsReformated = this.allReformatedCategories;
 				this.oldCatFilterParam = this.catFilterParam;
 			} else {
 				let auxItems = this.itemsService.filterCategories(this.catFilterParam, this.items);
-				this.initItems(auxItems);
+				this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, auxItems);
 				this.oldCatFilterParam = this.catFilterParam;
-			}
+			};
+			this.slides.slideTo(0);
 		}
 	}
 
@@ -83,22 +86,11 @@ export class ItemsPage implements DoCheck {
 	
 
 	initItems(itemsArray){
-
 		this.items = this.itemsService.itemsToLowerCase(itemsArray);
 		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
 		if (this.itemType === itemTypes.categories) {
 			this.allReformatedCategories = this.itemsReformated;
 		};
-
-
-		// this.itemsService.getItemsOfCurrentSeller().then(itemsOfCurrentSeller => {
-		// 	let newItemsArray = _.concat(itemsArray, itemsOfCurrentSeller);
-		// 	this.items = this.itemsService.itemsToLowerCase(newItemsArray);
-		// 	this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, newItemsArray);
-		// 	if (this.itemType === itemTypes.categories) {
-		// 		this.allReformatedCategories = this.itemsReformated;
-		// 	};
-		// });
 	}
 
 	reloadItems(ev: any) {
@@ -142,17 +134,5 @@ export class ItemsPage implements DoCheck {
 			this.navCtrl.setRoot(ItemsPage, { itemType: 'categories' });
 		}
 	}
-
-	slideClick(){
-		// TODO: Probar esto en tablet (Por ahora lo saco porque al clickear a veces mueve
-		//en vez de seleccionar una categoria)
-		// this.slides.slideNext();
-	}
-
-	//TODO: despues probar este a ver si da mas performance
-	// ngOnChanges(changes: SimpleChanges) {
-	// 	// console.log ('ngonchanges');
-	// 	// console.log(changes);
-	// }
 
 }

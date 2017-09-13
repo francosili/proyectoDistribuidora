@@ -1,24 +1,5 @@
 <ion-menu [content]="mycontent"> 
     <ion-content>
-
-
-
-        <!--TODO: Dejo este de prueba  -->
-        <!-- <ion-list radio-group>
-            <ion-list-header>
-                Silence Phone
-            </ion-list-header>
-
-            <ion-item>
-                <ion-label color="dark">Always</ion-label>
-                <ion-radio value="always" checked></ion-radio>
-            </ion-item>
-            <ion-item>
-                <ion-label color="dark">Only while phone is locked</ion-label>
-                <ion-radio value="locked"></ion-radio>
-            </ion-item>
-        </ion-list> -->
-
         <!--TODO: ESTILAR MEJOR ESTA ESCORIA-->
         <ion-list radio-group [(ngModel)]="currentSeller" (ionChange)="onRadioChange($event)">
             <ion-list-header>
@@ -49,7 +30,7 @@
                 <ion-label text-right>{{categsToShow}}</ion-label>
             </ion-list-header>
             <ion-item>
-                <ion-range  (ionChange)="onRangeChange('categories')" min="0" max="14" step="2" snaps="true" [(ngModel)]="categsToShow">
+                <ion-range  (ionChange)="onRangeChange('categories')" min="2" max="14" step="2" snaps="true" [(ngModel)]="categsToShow">
                     <ion-label range-left class="small-text">0</ion-label>
                     <ion-label range-right>28</ion-label>
                 </ion-range>
@@ -62,7 +43,7 @@
                 <ion-label text-right>{{productsToShow}}</ion-label>
             </ion-list-header>
             <ion-item>
-                <ion-range  (ionChange)="onRangeChange('products')" min="0" max="14" step="2" snaps="true" [(ngModel)]="productsToShow">
+                <ion-range  (ionChange)="onRangeChange('products')" min="2" max="14" step="2" snaps="true" [(ngModel)]="productsToShow">
                     <ion-label range-left class="small-text">0</ion-label>
                     <ion-label range-right>28</ion-label>
                 </ion-range>

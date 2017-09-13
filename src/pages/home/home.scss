@@ -13,7 +13,7 @@ page-home {
         .current-seller {
             display: inline-block;
             position: relative;
-            left: 89%;
+            left: 88%;
             top: 9px;
             ion-icon ion-label {
                 display: inline-block;
@@ -67,7 +67,7 @@ page-home {
 
         .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
             button {
-                background: $red1;
+                background: $gray1;
             }
         }
     }

@@ -19,10 +19,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { IonicStorageModule } from '@ionic/storage';
 import { ItemsService } from '../services/itemsService';
 import { StorageService } from '../services/storageService';
+import { FileUploadService } from '../services/fileUploadService';
 import { AuthService } from '../services/authService';
 import { HttpModule } from '@angular/http';
 
 import { FlexLayoutModule } from "@angular/flex-layout";
+
+import { File } from '@ionic-native/file';
+// import { FileTransfer } from '@ionic-native/file-transfer';
 
 @NgModule({
   declarations: [
@@ -59,7 +63,9 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     StorageService,
     AuthService,
-    ItemsService
+    ItemsService,
+    FileUploadService,
+    File
   ]
 })
 export class AppModule {}
