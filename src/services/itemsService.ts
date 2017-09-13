@@ -125,7 +125,7 @@ export class ItemsService {
     // Busco los productos que tienen en la categoria la palabra 'oferta'
     getSales(allProducts) {
         let selectedProducts = _.filter(allProducts, (item) => {
-            return ~item.idcategoria.descripcion.indexOf('oferta');
+            return ~item.descripcion.indexOf('OFERTA');
         });
         return selectedProducts;
     }

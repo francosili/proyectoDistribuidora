@@ -36,12 +36,17 @@ export class MyApp {
       //   this.storageService.setStorage('products', resp.json());
       // });
 
-      // this.authService.getCategorias().subscribe(resp => {
-      //   this.storageService.setStorage('categories', resp.json());
-      // });
+      this.authService.getArticulos().subscribe(allProducts => {
+        this.storageService.setStorage('products', allProducts.json());
+      });
 
-      this.storageService.setStorage('categories', categoriesMock);
-      this.storageService.setStorage('products', productsMock);
+      
+      this.authService.getCategorias().subscribe(allCategories => {
+        this.storageService.setStorage('categories', allCategories.json());
+      });
+
+      //this.storageService.setStorage('categories', categoriesMock);
+      //this.storageService.setStorage('products', productsMock);
 
       
       // this.storageService.getStorage('currentSeller').then(oldSeller => {

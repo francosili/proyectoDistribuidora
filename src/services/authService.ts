@@ -6,12 +6,18 @@ export class AuthService {
 
   constructor(public http: Http) {}
 
-  getProductos() {
-    return this.http.get('http://192.168.0.100:47264/DistribuidoraRest/webresources/entidades.producto');
+  getCategorias() {
+    return this.http.get('http://192.168.0.100:8080/DistribuidoraApi/webresources/entidades.categoria');
   }
 
-  getCategorias() {
-    return this.http.get('http://192.168.0.100:47264/DistribuidoraRest/webresources/entidades.categoria');
+  getArticulos(idVendedor?) {
+
+    if (idVendedor) {
+      return this.http.get('http://192.168.0.100:8080/DistribuidoraApi/webresources/entidades.articulo/'+idVendedor);
+    } else {
+      return this.http.get('http://192.168.0.100:8080/DistribuidoraApi/webresources/entidades.articulo');
+    }
+
   }
 
 }
