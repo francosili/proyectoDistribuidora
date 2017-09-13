@@ -33,28 +33,34 @@ export class FileUploadService {
     testUploadImage() {
         if (this.file.dataDirectory) {
           
-            this.file.createDir(this.file.dataDirectory, 'img', false).then(directoryEntry => {
-                // console.log('CarpetaCreada: ');
-                // console.log(directoryEntry);
-            }).catch(createDirError => {
-                // console.log(createDirError);
+            // this.file.createDir(this.file.dataDirectory, 'img', false).then(directoryEntry => {
+            //     console.log('CarpetaCreada: ');
+            //     console.log(directoryEntry);
+            // }).catch(createDirError => {
+            //     console.log(createDirError);
+            // });
+
+
+            this.file.listDir(this.file.externalDataDirectory, 'hwhah').then(files => {
+                console.log('files: ');
+                console.log(files);
+            }).catch(err => {
+                console.log('errorfiles');
             });
 
+            // this.file.createFile(this.file.dataDirectory + '/img', 'testTestTest1', false).then(fileEntry => {
+            //     console.log('success: ');
+            //     console.log(fileEntry);
 
-
-            this.file.createFile(this.file.dataDirectory + '/img', 'testTestTest1', false).then(fileEntry => {
-                // console.log('success: ');
-                // console.log(fileEntry);
-
-                this.file.listDir(this.file.dataDirectory, 'img').then(files => {
-                    // console.log('files: ');
-                    // console.log(files);
-                }).catch(err => {
-                    // console.log('errorfiles');
-                });
-            }).catch(createFileError => {
-                // console.log(createFileError);
-            })
+            //     this.file.listDir(this.file.dataDirectory, 'img').then(files => {
+            //         console.log('files: ');
+            //         console.log(files);
+            //     }).catch(err => {
+            //         console.log('errorfiles');
+            //     });
+            // }).catch(createFileError => {
+            //     console.log(createFileError);
+            // })
         }
 
         

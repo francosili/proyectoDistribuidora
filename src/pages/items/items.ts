@@ -79,6 +79,7 @@ export class ItemsPage implements DoCheck {
 		});
 
 		this.itemsService.getItems(this.itemType, this.categorySelected).then((allItems)=>{
+			console.log(allItems);
 			this.initItems(allItems);
 		});
 

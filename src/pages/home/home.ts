@@ -6,7 +6,7 @@ import { MenuController } from 'ionic-angular';
 import { categoriesMock } from '../../test/mocks/categoriesMock';
 import { ItemsService } from '../../services/itemsService';
 import { StorageService } from '../../services/storageService';
-import { defectValues } from '../../utils/constants';
+import { sellers, defectValues } from '../../utils/constants';
 
 @Component({
     selector: 'page-home',
@@ -27,8 +27,8 @@ export class HomePage {
     ngOnInit(){
         this.salesPromise = this.getSales();
 
-        this.storageService.getStorage('currentSeller').then(currentSeller => {
-            this.currentSeller = currentSeller;
+        this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
+            this.setNewCurrentSeller(idCurrentSeller);
         });
 
     }
@@ -69,8 +69,8 @@ export class HomePage {
 		});
     }
 
-    setNewCurrentSeller(newCurrentSeller) {
-        this.currentSeller = newCurrentSeller;
+    setNewCurrentSeller(idNewCurrentSeller) {
+        this.currentSeller = sellers[idNewCurrentSeller];
     }
 
 }

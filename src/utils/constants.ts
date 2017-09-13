@@ -10,4 +10,4 @@ export const itemTypes = {
     'products': 'products'
 };
 
-export const sellers = ['juan', 'pedro', 'carlos'];   
+export const sellers = ['juan', 'pedro', 'carlos', 'roberto'];   

@@ -36,9 +36,14 @@ export class MyApp {
       //   this.storageService.setStorage('products', resp.json());
       // });
 
-      this.authService.getArticulos().subscribe(allProducts => {
-        this.storageService.setStorage('products', allProducts.json());
-      });
+
+      this.storageService.getStorage('currentSeller').then(currentSeller => {
+        console.log(currentSeller);
+         this.authService.getArticulos(currentSeller).subscribe(allProducts => {
+           this.storageService.setStorage('products', allProducts.json());
+         });
+      })
+
 
       
       this.authService.getCategorias().subscribe(allCategories => {
