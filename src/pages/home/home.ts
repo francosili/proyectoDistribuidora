@@ -8,6 +8,8 @@ import { ItemsService } from '../../services/itemsService';
 import { StorageService } from '../../services/storageService';
 import { sellers, defectValues } from '../../utils/constants';
 
+import { AuthService } from '../../services/authService';
+
 @Component({
     selector: 'page-home',
     templateUrl: 'home.html'
@@ -21,14 +23,15 @@ export class HomePage {
         public navCtrl: NavController,
         public menuCtrl: MenuController,
         private itemsService: ItemsService,
-        private storageService: StorageService
+        private storageService: StorageService,
+        private authService: AuthService        
     ) {};
 
     ngOnInit(){
         this.salesPromise = this.getSales();
 
         this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
-            this.setNewCurrentSeller(idCurrentSeller);
+            this.currentSeller = sellers[idCurrentSeller];
         });
 
     }
@@ -70,7 +73,12 @@ export class HomePage {
     }
 
     setNewCurrentSeller(idNewCurrentSeller) {
-        this.currentSeller = sellers[idNewCurrentSeller];
+        this.currentSeller = sellers[idNewCurrentSeller - 1];
+
+        // this.authService.getArticulos(idNewCurrentSeller).subscribe(allProducts => {
+        //     this.storageService.setStorage('products', allProducts.json());
+        // });
+
     }
 
 }

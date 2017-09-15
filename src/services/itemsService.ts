@@ -155,7 +155,7 @@ export class ItemsService {
 }
 
 /*
-
+TODO
 En la tabla de productos, los productos particulares de algún vendedor van a tener una key 'vendedor' 
 que va a tener al vendedor que pertenece. Si no es un producto particular, no va a tener esta 
 key (que sea una key opcional?).

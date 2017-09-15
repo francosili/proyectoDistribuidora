@@ -11,3 +11,8 @@ export const itemTypes = {
 };
 
 export const sellers = ['juan', 'pedro', 'carlos', 'roberto'];   
+
+export const srcStorageImages = {
+    'products': 'file:///storage/emulated/0/Distribuidora/productos/',
+    'categories': 'nadaPorAqui'
+}

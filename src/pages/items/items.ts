@@ -1,4 +1,3 @@
-import * as _ from 'lodash';
 import { Component, EventEmitter, Input, Output, ViewChild, OnInit,DoCheck, SimpleChanges} from '@angular/core';
 import { NavController, NavParams, AlertController } from 'ionic-angular';
 import { ItemsService } from '../../services/itemsService';
@@ -7,8 +6,7 @@ import { PopoverController, PopoverOptions } from 'ionic-angular';
 
 import { HomePage } from '../../pages/home/home';
 
-import { defectValues } from '../../utils/constants';
-import { itemTypes } from '../../utils/constants';
+import { defectValues, srcStorageImages, itemTypes } from '../../utils/constants';
 
 @Component({
 	selector: 'page-items',
@@ -25,12 +23,12 @@ export class ItemsPage implements DoCheck {
 	itemSearched: string;
 	itemsReformated;
 	cantItemsShowed: number;
-	itemTitleFontSize: string;
 
 	catFilterParam: string;
 	oldCatFilterParam: string;
 	allReformatedCategories;
 
+	srcStorageImages = srcStorageImages;
 
 	constructor(
 		public navCtrl: NavController,
@@ -79,7 +77,6 @@ export class ItemsPage implements DoCheck {
 		});
 
 		this.itemsService.getItems(this.itemType, this.categorySelected).then((allItems)=>{
-			console.log(allItems);
 			this.initItems(allItems);
 		});
 

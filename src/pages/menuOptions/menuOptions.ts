@@ -69,6 +69,8 @@ export class MenuOptionsPage {
 
     onRadioChange(newSeller) {
         if (newSeller) {
+            // console.log(newSeller);
+            // debugger;
             this.storageService.setStorage('currentSeller', newSeller);
         };
 

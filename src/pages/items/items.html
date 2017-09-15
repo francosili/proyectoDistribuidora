@@ -40,7 +40,7 @@
                 <div *ngIf="(itemType === 'products')">
                     
                     <div class="img-container">
-                         <img src="assets/img/productos/{{item.idarticulo}}.jpg"/>     
+                        <img src="{{srcStorageImages.products}}{{item.idarticulo}}.jpg" />
                     </div>
                     <div class="footer-card">
                         <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(2)}}</h1>
