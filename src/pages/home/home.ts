@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, AlertController } from 'ionic-angular';
 import { ItemsPage } from '../../pages/items/items';
 import { MenuOptionsPage } from '../../pages/menuOptions/menuOptions';
 import { MenuController } from 'ionic-angular';
@@ -24,7 +24,7 @@ export class HomePage {
         public menuCtrl: MenuController,
         private itemsService: ItemsService,
         private storageService: StorageService,
-        private authService: AuthService        
+        private authService: AuthService,
     ) {};
 
     ngOnInit(){
@@ -37,6 +37,7 @@ export class HomePage {
     }
 
     goToPage(page: string) {
+        
         switch (page) {
             case 'categoriesPage':
                 this.navCtrl.setRoot(ItemsPage, { itemType: 'categories'});
@@ -75,10 +76,13 @@ export class HomePage {
     setNewCurrentSeller(idNewCurrentSeller) {
         this.currentSeller = sellers[idNewCurrentSeller - 1];
 
-        // this.authService.getArticulos(idNewCurrentSeller).subscribe(allProducts => {
-        //     this.storageService.setStorage('products', allProducts.json());
-        // });
+        this.authService.getArticulos(idNewCurrentSeller).subscribe(allProducts => {
+            this.storageService.setStorage('products', allProducts.json());
+        });
 
     }
 
+    
 }
+
+

@@ -1,5 +1,5 @@
 export const defectValues = {
-    'seller': 'juan',
+    'seller': '1',
     'cantItemsShowed': 8,
     'cantSalesShowed': 3
 };

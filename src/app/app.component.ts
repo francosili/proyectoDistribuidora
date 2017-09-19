@@ -35,38 +35,39 @@ export class MyApp {
             splashScreen.hide();
 
 
-            this.storageService.setStorage('products', productsMock);
+            // this.storageService.setStorage('products', productsMock);
 
-            this.storageService.setStorage('categories', categoriesMock);
+            // this.storageService.setStorage('categories', categoriesMock);
             
             
-            // this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
-            //     this.authService.getArticulos(idCurrentSeller).subscribe(allProducts => {
-            //         // TODO: Si allProducts === products entonces no reemplazar al pedo
-            //         // CHECKJEAR ESTO QUE LO HICE SIN VER EL BACKEND
-            //         this.storageService.getStorage('products').then(currentProducts => {
-            //             if (allProducts !== currentProducts) {
-            //                 this.storageService.setStorage('products', allProducts.json());
-            //             }
-            //         })
-            //     });
-            // })
+            this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
+                console.log(idCurrentSeller);
+                this.authService.getArticulos(idCurrentSeller).subscribe(allProducts => {
+                    // TODO: Si allProducts === products entonces no reemplazar al pedo
+                    // CHECKJEAR ESTO QUE LO HICE SIN VER EL BACKEND
+                    this.storageService.getStorage('products').then(currentProducts => {
+                        if (allProducts !== currentProducts) {
+                            this.storageService.setStorage('products', allProducts.json());
+                        }
+                    })
+                });
+            })
             
-            // this.authService.getCategorias().subscribe(allCategories => {
-            //     this.storageService.setStorage('categories', allCategories.json());
-            // });
+            this.authService.getCategorias().subscribe(allCategories => {
+                this.storageService.setStorage('categories', allCategories.json());
+            });
             
             
             
-            // this.storageService.getStorage('currentSeller').then(oldSeller => {
-            //   if (!oldSeller) {
-            //     this.storageService.setStorage('currentSeller', defectValues.seller);
-            //   }
-            // })
+            this.storageService.getStorage('currentSeller').then(oldSeller => {
+              if (!oldSeller) {
+                this.storageService.setStorage('currentSeller', defectValues.seller);
+              }
+            })
 
         });
 
-        // Permiso necesario para capturar imagenes del telefono
+        // Permiso necesario para agarrar imagenes del telefono
         this.androidPermissions.checkPermission(this.androidPermissions.PERMISSION.WRITE_EXTERNAL_STORAGE).then(
             success => console.log('Permission granted'),
             err => {

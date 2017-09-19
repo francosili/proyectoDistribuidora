@@ -1,5 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, AlertController } from 'ionic-angular';
 import { ModalController } from 'ionic-angular';
 
 import { MapModal } from '../../modals/map/map';
@@ -7,6 +7,9 @@ import { SettingsModal } from '../../modals/settings/settings';
 import { StorageService } from '../../services/storageService';
 
 import { sellers, defectValues } from '../../utils/constants';
+
+import { AuthService } from '../../services/authService';
+
 
 @Component({
     selector: 'page-menu-options',
@@ -23,7 +26,10 @@ export class MenuOptionsPage {
     constructor(
         public navCtrl: NavController,
         public modalCtrl: ModalController,
-        private storageService: StorageService
+        private storageService: StorageService,
+        public alertCtrl: AlertController,
+        private authService: AuthService,
+        
     ) {
         this.sellers = sellers;
     }
@@ -76,4 +82,45 @@ export class MenuOptionsPage {
     }
 
 
+    updateBD() {
+        this.storageService.getStorage('currentSeller').then(currentSeller => {
+            this.authService.getArticulos(currentSeller).subscribe(
+                allProducts => {
+                    this.storageService.setStorage('products', allProducts.json());
+                },
+                err => {
+                    let alert = this.alertCtrl.create({
+                        title: 'Error',
+                        subTitle: 'No estás conectado al WIFI de la distribuidora',
+                        buttons: ['Ok']
+                    });
+                    alert.present();
+                },
+                () => {
+                    this.authService.getCategorias().subscribe(
+                        allCategories => {
+                            this.storageService.setStorage('categories', allCategories.json());
+                        },
+                        err => {
+                            let alert = this.alertCtrl.create({
+                                title: 'Error',
+                                subTitle: 'No estás conectado al WIFI de la distribuidora',
+                                buttons: ['Ok']
+                            });
+                            alert.present();
+                        },
+                        () => {
+                            let alert = this.alertCtrl.create({
+                                title: 'Completado',
+                                subTitle: 'Se actualizaron los productos y las categorías',
+                                buttons: ['Ok']
+                            });
+                            alert.present();
+                        }
+                    );
+                }
+            );
+
+        })
+    }
 }
