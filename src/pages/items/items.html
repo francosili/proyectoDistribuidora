@@ -48,7 +48,7 @@
                         <img src="assets/img/productos/{{item.idarticulo}}.jpg" /> 
                     </div>
                     <div class="footer-card">
-                        <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(2)}}</h1>
+                        <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(1)}}<a class="strong"> (${{item.precioVenta}} x unidad)</a></h1>
                         <h2>{{item.descripcion}}</h2>                    
                     </div>                  
                 </div>
