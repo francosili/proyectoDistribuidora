@@ -27,7 +27,7 @@ page-items {
 
         ion-searchbar {
             display: inline-block;
-            width: 84.7%;
+            width: 85.7%;
         }
 
         .funnel-button {
@@ -144,7 +144,20 @@ page-items {
             }
 
             h2 {
-                font-size: 1.09vw
+                font-size: 1.15vw
+            }
+
+            .category-h2 {
+                // h2 {
+                    text-transform: capitalize;
+                    color: $white-color;
+                    padding-left: 10px;
+                    ion-icon{
+                        font-size: 2vw;
+                        padding-right: 6px;
+                    }
+                    font-size: 1.25vw
+                // }
             }
         }
 
@@ -152,6 +165,12 @@ page-items {
 
 }
 
+// Override ionic Styles
 .popover-wrapper .popover-content {
     overflow: hidden;
+}
+
+ion-spinner {
+    margin: auto auto;
+    display: block;
 }

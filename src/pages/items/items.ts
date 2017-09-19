@@ -12,7 +12,8 @@ import { defectValues, srcStorageImages, itemTypes } from '../../utils/constants
 	selector: 'page-items',
 	templateUrl: 'items.html'
 })
-export class ItemsPage implements DoCheck {
+// export class ItemsPage implements DoCheck {
+export class ItemsPage {
 	@Input() itemType: string;
 	@Input() categorySelected: string;
 
@@ -24,8 +25,7 @@ export class ItemsPage implements DoCheck {
 	itemsReformated;
 	cantItemsShowed: number;
 
-	catFilterParam: string;
-	oldCatFilterParam: string;
+	
 	allReformatedCategories;
 
 	srcStorageImages = srcStorageImages;
@@ -47,24 +47,7 @@ export class ItemsPage implements DoCheck {
 		if (!this.categorySelected) {
 			this.categorySelected = params.data.categorySelected;
 		}
-		this.catFilterParam = 'all';
-		this.oldCatFilterParam = 'all';
-	}
-
-	// TODO: Probar cambia esto por (click) en el ion-option del ion-select
-	ngDoCheck(){
-		if (this.catFilterParam !== this.oldCatFilterParam) {
-			console.log(this.allReformatedCategories);
-			if (this.catFilterParam === 'all') {
-				this.itemsReformated = this.allReformatedCategories;
-				this.oldCatFilterParam = this.catFilterParam;
-			} else {
-				let auxItems = this.itemsService.filterCategories(this.catFilterParam, this.items);
-				this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, auxItems);
-				this.oldCatFilterParam = this.catFilterParam;
-			};
-			this.slides.slideTo(0);
-		}
+		
 	}
 
 	ngOnInit(){
@@ -134,3 +117,26 @@ export class ItemsPage implements DoCheck {
 	}
 
 }
+
+
+	// catFilterParam: string;
+	// oldCatFilterParam: string;
+
+	//En InitValues
+	// this.catFilterParam = 'all';
+	// this.oldCatFilterParam = 'all';
+	// TODO: Probar cambia esto por (click) en el ion-option del ion-select
+	// ngDoCheck(){
+	// 	if (this.catFilterParam !== this.oldCatFilterParam) {
+	// 		console.log(this.allReformatedCategories);
+	// 		if (this.catFilterParam === 'all') {
+	// 			this.itemsReformated = this.allReformatedCategories;
+	// 			this.oldCatFilterParam = this.catFilterParam;
+	// 		} else {
+	// 			let auxItems = this.itemsService.filterCategories(this.catFilterParam, this.items);
+	// 			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, auxItems);
+	// 			this.oldCatFilterParam = this.catFilterParam;
+	// 		};
+	// 		this.slides.slideTo(0);
+	// 	}
+	// }

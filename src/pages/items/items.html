@@ -5,21 +5,20 @@
         </div>
         <ion-searchbar showCancelButton (ionInput)="reloadItems($event)">
         </ion-searchbar>
-        <div ion-button clear color="dark" class="funnel-button">
 
+        <!-- <div ion-button clear color="dark" class="funnel-button">
             <ion-icon name='funnel'></ion-icon>
-             
             <ion-select [(ngModel)]="catFilterParam" interface="popover">
                 <ion-option value="all">Todos</ion-option>
                 <ion-option value="onlyWithProducts">Contienen Productos</ion-option>
             </ion-select>
-            
-         </div>  
+        </div>   -->
 
     </ion-navbar>
 </ion-header>
 
 <ion-slides pager>
+    <ion-spinner></ion-spinner>                    
     <ion-slide *ngFor="let itemRef of itemsReformated">
          <div class="grid card-background-page row">
             <ion-card [ngStyle]="changeStyleCards()" col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
@@ -32,15 +31,21 @@
                          <img src="assets/img/logo/logo.jpg"/>     
                     </div>
                     <div class="footer-card">
+                        <h2 class="category-h2"><ion-icon name='basket'></ion-icon>{{item.descripcion}}</h2>
+                        <!-- <h2>{{item.descripcion}}</h2>                     -->
+                    </div>
+
+                    <!-- <div class="footer-card">
                         <h1><ion-icon name='basket'></ion-icon>{{item.cantProductos}} Productos</h1>
                         <h2>{{item.descripcion}}</h2>                    
-                    </div>
+                    </div> -->
                 </div>
 
                 <div *ngIf="(itemType === 'products')">
                     
                     <div class="img-container">
-                        <img src="{{srcStorageImages.products}}{{item.idarticulo}}.jpg" />
+                        <!-- <img src="{{srcStorageImages.products}}{{item.idarticulo}}.jpg" /> -->
+                        <img src="assets/img/productos/{{item.idarticulo}}.jpg" /> 
                     </div>
                     <div class="footer-card">
                         <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(2)}}</h1>
