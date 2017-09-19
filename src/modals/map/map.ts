@@ -22,7 +22,7 @@ export class MapModal {
         // this.loadMap();
     }
 
-    // TODO: Setear real ubicación negocio
+
     loadMap() {
 
         let latLng = new google.maps.LatLng(-32.628347, -60.147488);
