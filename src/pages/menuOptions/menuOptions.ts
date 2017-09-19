@@ -74,19 +74,54 @@ export class MenuOptionsPage {
     }
 
     onRadioChange(newSeller) {
-        if (newSeller) {
-            this.storageService.setStorage('currentSeller', newSeller);
-        };
 
-        this.OnClickRadioButton.emit(newSeller);
+
+        this.updateBD(() => {
+            if (newSeller) {
+                this.storageService.setStorage('currentSeller', newSeller);
+            };
+    
+            this.OnClickRadioButton.emit(newSeller);
+
+            let alert = this.alertCtrl.create({
+                title: 'Completado',
+                subTitle: 'Se actualizaron los productos y las categorías',
+                buttons: ['Ok']
+            });
+            alert.present();
+        }, err => {
+            let alert = this.alertCtrl.create({
+                title: 'Error',
+                subTitle: 'No estás conectado al WIFI de la distribuidora',
+                buttons: ['Ok']
+            });
+            alert.present();
+        })
+
+
+        // if (newSeller) {
+        //     this.storageService.setStorage('currentSeller', newSeller);
+        // };
+
+        // this.OnClickRadioButton.emit(newSeller);
     }
 
 
-    updateBD() {
+    updateBD(onComplete, onError) {
         this.storageService.getStorage('currentSeller').then(currentSeller => {
             this.authService.getArticulos(currentSeller).subscribe(
                 allProducts => {
                     this.storageService.setStorage('products', allProducts.json());
+                }, onError, onComplete);
+
+        })
+    }
+    
+    onClickUpdate() {
+        this.updateBD(() => {
+            this.authService.getCategorias().subscribe(
+                allCategories => {
+                    this.storageService.setStorage('categories', allCategories.json());
                 },
                 err => {
                     let alert = this.alertCtrl.create({
@@ -97,30 +132,22 @@ export class MenuOptionsPage {
                     alert.present();
                 },
                 () => {
-                    this.authService.getCategorias().subscribe(
-                        allCategories => {
-                            this.storageService.setStorage('categories', allCategories.json());
-                        },
-                        err => {
-                            let alert = this.alertCtrl.create({
-                                title: 'Error',
-                                subTitle: 'No estás conectado al WIFI de la distribuidora',
-                                buttons: ['Ok']
-                            });
-                            alert.present();
-                        },
-                        () => {
-                            let alert = this.alertCtrl.create({
-                                title: 'Completado',
-                                subTitle: 'Se actualizaron los productos y las categorías',
-                                buttons: ['Ok']
-                            });
-                            alert.present();
-                        }
-                    );
+                    let alert = this.alertCtrl.create({
+                        title: 'Completado',
+                        subTitle: 'Se actualizaron los productos y las categorías',
+                        buttons: ['Ok']
+                    });
+                    alert.present();
                 }
             );
-
+        }, err => {
+            let alert = this.alertCtrl.create({
+                title: 'Error',
+                subTitle: 'No estás conectado al WIFI de la distribuidora',
+                buttons: ['Ok']
+            });
+            alert.present();
         })
     }
+
 }

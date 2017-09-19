@@ -92,16 +92,8 @@ export class ItemsPage {
 	onClickItem(category: any) {
 		if (this.itemType !== itemTypes.categories) return;
 		
-		if (category.cantProductos) {
-			this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase(), comeFromHome: false});
-		} else {
-			let alert = this.alertCtrl.create({
-				title: 'Sin productos',
-				subTitle: 'No hay productos en esta categoria',
-				buttons: ['Ok']
-			});
-			alert.present();
-		}
+		this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase(), comeFromHome: false});
+
 	}
 
 	changeStyleCards() {
