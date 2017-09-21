@@ -3,7 +3,7 @@
         <div ion-button clear color="dark" class="back-button" (click)="onClickBackButton()">
             <ion-icon name='arrow-back'></ion-icon>
         </div>
-        <ion-searchbar showCancelButton (ionInput)="reloadItems($event)">
+        <ion-searchbar debounce=500 (ionInput)="reloadItems($event)">
         </ion-searchbar>
 
         <!-- <div ion-button clear color="dark" class="funnel-button">
@@ -48,7 +48,13 @@
                         <img src="assets/img/productos/{{item.idarticulo}}.jpg" /> 
                     </div>
                     <div class="footer-card">
-                        <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(1)}}<a class="strong"> (${{item.precioVenta}} x unidad)</a></h1>
+                        <h1>
+                            <ion-icon name='logo-usd'></ion-icon>
+                            {{(item.precioVenta*item.idbulto.unidades).toFixed(1)}}
+                            <div class="precio-venta">
+                                <a> (${{item.precioVenta}} unidad)</a>
+                            </div>
+                        </h1>
                         <h2>{{item.descripcion}}</h2>                    
                     </div>                  
                 </div>
