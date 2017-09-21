@@ -76,8 +76,9 @@ export class ItemsPage {
 
 	reloadItems(ev: any) {
 		this.itemsService.getItems(this.itemType, itemTypes.all).then(allItems => {
-			let val = ev.target.value;
 			let allItemsLower = this.itemsService.itemsToLowerCase(allItems);
+			this.items = allItemsLower;
+			let val = ev.target.value;
 			if (val && val.trim() != '') {
 				this.items = allItemsLower.filter((item) => {
 					let keyToFind = 'descripcion';
@@ -86,6 +87,7 @@ export class ItemsPage {
 				})
 			}
 			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
+			this.slides.slideTo(0);
 		});
 	}
 

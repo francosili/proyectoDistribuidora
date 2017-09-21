@@ -3,7 +3,7 @@
         <div ion-button clear color="dark" class="back-button" (click)="onClickBackButton()">
             <ion-icon name='arrow-back'></ion-icon>
         </div>
-        <ion-searchbar showCancelButton (ionInput)="reloadItems($event)">
+        <ion-searchbar debounce=500 (ionInput)="reloadItems($event)">
         </ion-searchbar>
 
         <!-- <div ion-button clear color="dark" class="funnel-button">

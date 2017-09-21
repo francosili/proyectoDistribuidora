@@ -76,27 +76,27 @@ export class MenuOptionsPage {
     onRadioChange(newSeller) {
 
 
-        this.updateBD(() => {
+        // this.updateBD(() => {
             if (newSeller) {
                 this.storageService.setStorage('currentSeller', newSeller);
             };
     
             this.OnClickRadioButton.emit(newSeller);
 
-            let alert = this.alertCtrl.create({
-                title: 'Completado',
-                subTitle: 'Se actualizaron los productos y las categorías',
-                buttons: ['Ok']
-            });
-            alert.present();
-        }, err => {
-            let alert = this.alertCtrl.create({
-                title: 'Error',
-                subTitle: 'No estás conectado al WIFI de la distribuidora',
-                buttons: ['Ok']
-            });
-            alert.present();
-        })
+        //     let alert = this.alertCtrl.create({
+        //         title: 'Completado',
+        //         subTitle: 'Se actualizaron los productos y las categorías',
+        //         buttons: ['Ok']
+        //     });
+        //     alert.present();
+        // }, err => {
+        //     let alert = this.alertCtrl.create({
+        //         title: 'Error',
+        //         subTitle: 'No estás conectado al WIFI de la distribuidora',
+        //         buttons: ['Ok']
+        //     });
+        //     alert.present();
+        // })
 
 
         // if (newSeller) {
