@@ -159,13 +159,24 @@ page-items {
                     font-size: 1.25vw
                 // }
             }
+
+            .precio-venta {
+                display: inline-block;
+                // text-align: right;
+                // right: 6px;
+                // position: absolute;
+                // top: -5px;
+                a {
+                    font-weight: bold;
+                    font-size: 1.3rem;
+                    color: white;
+                    padding-left: 4%;
+                }
+            }
         }
 
     }
-    .strong {
-        font-weight: bold;
-        font-size: 1.3rem;
-    }
+    
 
 }
 
