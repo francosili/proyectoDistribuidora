@@ -1,4 +1,4 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter, ViewChild } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { ModalController } from 'ionic-angular';
 
@@ -10,12 +10,16 @@ import { sellers, defectValues } from '../../utils/constants';
 
 import { AuthService } from '../../services/authService';
 
+import { Content } from 'ionic-angular';
+
 
 @Component({
     selector: 'page-menu-options',
     templateUrl: 'menuOptions.html'
 })
 export class MenuOptionsPage {
+    @ViewChild(Content) content: Content;
+    
     @Output() CloseMenu = new EventEmitter();
     @Output() OnClickRadioButton = new EventEmitter();
     categsToShow: number;
@@ -75,79 +79,81 @@ export class MenuOptionsPage {
 
     onRadioChange(newSeller) {
 
-
-        // this.updateBD(() => {
-            if (newSeller) {
-                this.storageService.setStorage('currentSeller', newSeller);
-            };
-    
-            this.OnClickRadioButton.emit(newSeller);
-
-        //     let alert = this.alertCtrl.create({
-        //         title: 'Completado',
-        //         subTitle: 'Se actualizaron los productos y las categorías',
-        //         buttons: ['Ok']
-        //     });
-        //     alert.present();
-        // }, err => {
-        //     let alert = this.alertCtrl.create({
-        //         title: 'Error',
-        //         subTitle: 'No estás conectado al WIFI de la distribuidora',
-        //         buttons: ['Ok']
-        //     });
-        //     alert.present();
-        // })
-
-
         // if (newSeller) {
-        //     this.storageService.setStorage('currentSeller', newSeller);
-        // };
 
-        // this.OnClickRadioButton.emit(newSeller);
+        //     this.updateBD(newSeller, () => {
+        //         // if (newSeller) {
+        //             this.storageService.setStorage('currentSeller', newSeller);
+        //         // };
+        
+        //         this.OnClickRadioButton.emit(newSeller);
+    
+        //         let alert = this.alertCtrl.create({
+        //             title: 'Completado',
+        //             subTitle: 'Se actualizaron los productos del vendedor elegido',
+        //             buttons: ['Ok']
+        //         });
+        //         alert.present();
+        //     }, err => {
+        //         let alert = this.alertCtrl.create({
+        //             title: 'Error',
+        //             subTitle: 'No estás conectado al WIFI de la distribuidora',
+        //             buttons: ['Ok']
+        //         });
+        //         alert.present();
+        //     })
+        // }
+
+
+        // Esto es viejo, dejar asi por las dudas
+        if (newSeller) {
+            this.storageService.setStorage('currentSeller', newSeller);
+        };
+
+        this.OnClickRadioButton.emit(newSeller);
     }
 
 
-    updateBD(onComplete, onError) {
-        this.storageService.getStorage('currentSeller').then(currentSeller => {
-            this.authService.getArticulos(currentSeller).subscribe(
-                allProducts => {
-                    this.storageService.setStorage('products', allProducts.json());
-                }, onError, onComplete);
-
-        })
+    updateBD(seller, onComplete, onError) {
+        this.authService.getArticulos(seller).subscribe(allProducts => {
+            this.storageService.setStorage('products', allProducts.json());
+        }, onError, onComplete);
     }
     
     onClickUpdate() {
-        this.updateBD(() => {
-            this.authService.getCategorias().subscribe(
-                allCategories => {
-                    this.storageService.setStorage('categories', allCategories.json());
-                },
-                err => {
-                    let alert = this.alertCtrl.create({
-                        title: 'Error',
-                        subTitle: 'No estás conectado al WIFI de la distribuidora',
-                        buttons: ['Ok']
-                    });
-                    alert.present();
-                },
-                () => {
-                    let alert = this.alertCtrl.create({
-                        title: 'Completado',
-                        subTitle: 'Se actualizaron los productos y las categorías',
-                        buttons: ['Ok']
-                    });
-                    alert.present();
-                }
-            );
-        }, err => {
-            let alert = this.alertCtrl.create({
-                title: 'Error',
-                subTitle: 'No estás conectado al WIFI de la distribuidora',
-                buttons: ['Ok']
+        this.storageService.getStorage('currentSeller').then(currentSeller => {
+            this.updateBD(currentSeller, () => {
+                this.authService.getCategorias().subscribe(
+                    allCategories => {
+                        this.storageService.setStorage('categories', allCategories.json());
+                    },
+                    err => {
+                        let alert = this.alertCtrl.create({
+                            title: 'Error',
+                            subTitle: 'No estás conectado al WIFI de la distribuidora',
+                            buttons: ['Ok']
+                        });
+                        alert.present();
+                    },
+                    () => {
+                        let alert = this.alertCtrl.create({
+                            title: 'Completado',
+                            subTitle: 'Se actualizaron los productos y las categorías',
+                            buttons: ['Ok']
+                        });
+                        alert.present();
+                        this.content.resize();                        
+                    }
+                );
+            }, err => {
+                let alert = this.alertCtrl.create({
+                    title: 'Error',
+                    subTitle: 'No estás conectado al WIFI de la distribuidora',
+                    buttons: ['Ok']
+                });
+                alert.present();
             });
-            alert.present();
-        })
+        });
     }
 
 }
