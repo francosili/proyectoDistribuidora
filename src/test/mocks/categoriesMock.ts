@@ -1,37 +1,36 @@
 
-
 export const categoriesMock = 
 [
   {
-    "descripcion": "DESCONOCIDA",
+    "descripcion": "GALLETITAS",
     "idcategoria": 1
   },
   {
-    "descripcion": "CARAMELOS MASTICABLES",
+    "descripcion": "CARAMELOS",
     "idcategoria": 2
   },
   {
-    "descripcion": "GALLETITAS DULCES",
+    "descripcion": "GALLETITAS",
     "idcategoria": 3
   },
   {
-    "descripcion": "GALLETITAS CRACKERS",
+    "descripcion": "Z",
     "idcategoria": 4
   },
   {
-    "descripcion": "CARAMELOS DUROS",
+    "descripcion": "GOLOSINAS",
     "idcategoria": 5
   },
   {
-    "descripcion": "PASTILLAS",
+    "descripcion": "Z",
     "idcategoria": 6
   },
   {
-    "descripcion": "GOMITAS",
+    "descripcion": "Z",
     "idcategoria": 7
   },
   {
-    "descripcion": "ALFAJORES",
+    "descripcion": "Z",
     "idcategoria": 8
   },
   {
@@ -39,31 +38,31 @@ export const categoriesMock =
     "idcategoria": 9
   },
   {
-    "descripcion": "PRD.FIESTA",
+    "descripcion": "Z",
     "idcategoria": 10
   },
   {
-    "descripcion": "SIDRAS",
+    "descripcion": "Z",
     "idcategoria": 13
   },
   {
-    "descripcion": "JUGOS EN POLVO",
+    "descripcion": "Z",
     "idcategoria": 15
   },
   {
-    "descripcion": "FERNANDO",
+    "descripcion": "Z",
     "idcategoria": 16
   },
   {
-    "descripcion": "AGUAS",
+    "descripcion": "GASEOSAS / AGUAS",
     "idcategoria": 17
   },
   {
-    "descripcion": "CHUPETINES",
+    "descripcion": "Z",
     "idcategoria": 18
   },
   {
-    "descripcion": "TOPPS",
+    "descripcion": "Z",
     "idcategoria": 19
   },
   {
@@ -75,43 +74,43 @@ export const categoriesMock =
     "idcategoria": 21
   },
   {
-    "descripcion": "MERM. POTE",
+    "descripcion": "Z",
     "idcategoria": 22
   },
   {
-    "descripcion": "MERM.FRASCO",
+    "descripcion": "Z",
     "idcategoria": 23
   },
   {
-    "descripcion": "DULCES CAJON *5",
+    "descripcion": "Z",
     "idcategoria": 24
   },
   {
-    "descripcion": "DULCES LATAS *5",
+    "descripcion": "Z",
     "idcategoria": 25
   },
   {
-    "descripcion": "DULCES *500",
+    "descripcion": "Z",
     "idcategoria": 26
   },
   {
-    "descripcion": "MERM.PRO-LIGHT",
+    "descripcion": "Z",
     "idcategoria": 27
   },
   {
-    "descripcion": "MERM.LIGHT",
+    "descripcion": "Z",
     "idcategoria": 28
   },
   {
-    "descripcion": "GALLETITAS A GRANEL",
+    "descripcion": "Z",
     "idcategoria": 29
   },
   {
-    "descripcion": "CHICLES",
+    "descripcion": "Z",
     "idcategoria": 30
   },
   {
-    "descripcion": "BISCOCHUELOS",
+    "descripcion": "Z",
     "idcategoria": 31
   },
   {
@@ -119,63 +118,63 @@ export const categoriesMock =
     "idcategoria": 32
   },
   {
-    "descripcion": "VINOS COMUNES",
+    "descripcion": "VINOS FECOVITA",
     "idcategoria": 33
   },
   {
-    "descripcion": "espumantes",
+    "descripcion": "Z",
     "idcategoria": 34
   },
   {
-    "descripcion": "GASEOSAS",
+    "descripcion": "Z",
     "idcategoria": 35
   },
   {
-    "descripcion": "PASTILLAS",
+    "descripcion": "Z",
     "idcategoria": 37
   },
   {
-    "descripcion": "MERMELADAS",
+    "descripcion": "Z",
     "idcategoria": 38
   },
   {
-    "descripcion": "CEREALES",
+    "descripcion": "Z",
     "idcategoria": 39
   },
   {
-    "descripcion": "ENCENDEDORES",
+    "descripcion": "Z",
     "idcategoria": 40
   },
   {
-    "descripcion": "PAÃ‘UELOS",
+    "descripcion": "Z",
     "idcategoria": 41
   },
   {
-    "descripcion": "",
+    "descripcion": "Z",
     "idcategoria": 42
   },
   {
-    "descripcion": "HARINAS",
+    "descripcion": "Z",
     "idcategoria": 43
   },
   {
-    "descripcion": "ACEITES",
+    "descripcion": "Z",
     "idcategoria": 44
   },
   {
-    "descripcion": "PAN RALLADO",
+    "descripcion": "Z",
     "idcategoria": 45
   },
   {
-    "descripcion": "PROD. FIESTAS",
+    "descripcion": "Z",
     "idcategoria": 46
   },
   {
-    "descripcion": "SECCO",
+    "descripcion": "Z",
     "idcategoria": 47
   },
   {
-    "descripcion": "PESCADOS",
+    "descripcion": "Z",
     "idcategoria": 48
   },
   {
@@ -183,191 +182,191 @@ export const categoriesMock =
     "idcategoria": 50
   },
   {
-    "descripcion": "YERBAS",
+    "descripcion": "Z",
     "idcategoria": 51
   },
   {
-    "descripcion": "INFUSIONES",
+    "descripcion": "Z",
     "idcategoria": 52
   },
   {
-    "descripcion": "GAS.CIMES",
+    "descripcion": "Z",
     "idcategoria": 53
   },
   {
-    "descripcion": "MANAOS",
+    "descripcion": "Z",
     "idcategoria": 54
   },
   {
-    "descripcion": "DULCE *500",
+    "descripcion": "Z",
     "idcategoria": 55
   },
   {
-    "descripcion": "MANAOS *2.25L.",
+    "descripcion": "Z",
     "idcategoria": 56
   },
   {
-    "descripcion": "SECCO",
+    "descripcion": "Z",
     "idcategoria": 57
   },
   {
-    "descripcion": "MAURI",
+    "descripcion": "Z",
     "idcategoria": 58
   },
   {
-    "descripcion": "pico dulce",
+    "descripcion": "Z",
     "idcategoria": 59
   },
   {
-    "descripcion": "MAST.OPEN",
+    "descripcion": "Z",
     "idcategoria": 60
   },
   {
-    "descripcion": "POZO",
+    "descripcion": "Z",
     "idcategoria": 61
   },
   {
-    "descripcion": "JUGOS CONCENTRADOS",
+    "descripcion": "JUGOS",
     "idcategoria": 62
   },
   {
-    "descripcion": "MOLINOS CAÃ‘UELAS",
+    "descripcion": "Z",
     "idcategoria": 63
   },
   {
-    "descripcion": "edulcorante",
+    "descripcion": "Z",
     "idcategoria": 64
   },
   {
-    "descripcion": "MOCONA",
+    "descripcion": "Z",
     "idcategoria": 65
   },
   {
-    "descripcion": "baggio fresh *1.5L.",
+    "descripcion": "Z",
     "idcategoria": 66
   },
   {
-    "descripcion": "baggio fresh *500cc.",
+    "descripcion": "Z",
     "idcategoria": 67
   },
   {
-    "descripcion": "leches",
+    "descripcion": "Z",
     "idcategoria": 68
   },
   {
-    "descripcion": "pure tomates",
+    "descripcion": "Z",
     "idcategoria": 69
   },
   {
-    "descripcion": "cruz del sur",
+    "descripcion": "Z",
     "idcategoria": 70
   },
   {
-    "descripcion": "BIO",
+    "descripcion": "Z",
     "idcategoria": 71
   },
   {
-    "descripcion": "SIFON",
+    "descripcion": "Z",
     "idcategoria": 73
   },
   {
-    "descripcion": "BRANCA",
+    "descripcion": "Z",
     "idcategoria": 74
   },
   {
-    "descripcion": "la casa",
+    "descripcion": "Z",
     "idcategoria": 75
   },
   {
-    "descripcion": "FELFORT",
+    "descripcion": "Z",
     "idcategoria": 76
   },
   {
-    "descripcion": "ARAYA",
+    "descripcion": "Z",
     "idcategoria": 77
   },
   {
-    "descripcion": "hamlet",
+    "descripcion": "Z",
     "idcategoria": 78
   },
   {
-    "descripcion": "chocolatada",
+    "descripcion": "Z",
     "idcategoria": 79
   },
   {
-    "descripcion": "soy yo *1l.",
+    "descripcion": "Z",
     "idcategoria": 80
   },
   {
-    "descripcion": "soy yo *200cc.",
+    "descripcion": "Z",
     "idcategoria": 81
   },
   {
-    "descripcion": "DALE",
+    "descripcion": "Z",
     "idcategoria": 82
   },
   {
-    "descripcion": "DESFILE",
+    "descripcion": "Z",
     "idcategoria": 83
   },
   {
-    "descripcion": "MERCI",
+    "descripcion": "Z",
     "idcategoria": 84
   },
   {
-    "descripcion": "RONDA",
+    "descripcion": "Z",
     "idcategoria": 85
   },
   {
-    "descripcion": "MATERO",
+    "descripcion": "Z",
     "idcategoria": 86
   },
   {
-    "descripcion": "JORGITO",
+    "descripcion": "Z",
     "idcategoria": 87
   },
   {
-    "descripcion": "VAINILLAS *80",
+    "descripcion": "Z",
     "idcategoria": 88
   },
   {
-    "descripcion": "VAINILLAS *160",
+    "descripcion": "Z",
     "idcategoria": 89
   },
   {
-    "descripcion": "VAINILLAS *320",
+    "descripcion": "Z",
     "idcategoria": 90
   },
   {
-    "descripcion": "FAUNA *150",
+    "descripcion": "Z",
     "idcategoria": 91
   },
   {
-    "descripcion": "FAUNA *400",
+    "descripcion": "Z",
     "idcategoria": 92
   },
   {
-    "descripcion": "LUNA *170G",
+    "descripcion": "Z",
     "idcategoria": 93
   },
   {
-    "descripcion": "SIN SAL/SALVADO",
+    "descripcion": "Z",
     "idcategoria": 94
   },
   {
-    "descripcion": "SALVADO *210",
+    "descripcion": "Z",
     "idcategoria": 95
   },
   {
-    "descripcion": "MAURITA *330",
+    "descripcion": "Z",
     "idcategoria": 96
   },
   {
-    "descripcion": "MEDIA TARDE *330",
+    "descripcion": "Z",
     "idcategoria": 97
   },
   {
-    "descripcion": "MAGDALENAS",
+    "descripcion": "Z",
     "idcategoria": 98
   },
   {
@@ -375,23 +374,23 @@ export const categoriesMock =
     "idcategoria": 99
   },
   {
-    "descripcion": "PETERS",
+    "descripcion": "LICORES / ALTA GRADUACION",
     "idcategoria": 100
   },
   {
-    "descripcion": "UVITA",
+    "descripcion": "Z",
     "idcategoria": 101
   },
   {
-    "descripcion": "promo secco",
+    "descripcion": "Z",
     "idcategoria": 102
   },
   {
-    "descripcion": "LECHE 7 DIAS",
+    "descripcion": "Z",
     "idcategoria": 103
   },
   {
-    "descripcion": "GAS.MOCORETA",
+    "descripcion": "Z",
     "idcategoria": 104
   },
   {
@@ -399,91 +398,91 @@ export const categoriesMock =
     "idcategoria": 105
   },
   {
-    "descripcion": "promo sab.*500cc.",
+    "descripcion": "Z",
     "idcategoria": 106
   },
   {
-    "descripcion": "promo est.mendoza",
+    "descripcion": "Z",
     "idcategoria": 107
   },
   {
-    "descripcion": "finos RPB",
+    "descripcion": "APERITIVOS",
     "idcategoria": 108
   },
   {
-    "descripcion": "PROMO SUPREMO",
+    "descripcion": "Z",
     "idcategoria": 109
   },
   {
-    "descripcion": "PROMO SABORIZADAS",
+    "descripcion": "Z",
     "idcategoria": 110
   },
   {
-    "descripcion": "sab.vida *500cc.",
+    "descripcion": "Z",
     "idcategoria": 111
   },
   {
-    "descripcion": "PROMO 7*6",
+    "descripcion": "Z",
     "idcategoria": 112
   },
   {
-    "descripcion": "PURE 7 DIAS",
+    "descripcion": "Z",
     "idcategoria": 113
   },
   {
-    "descripcion": "HUERTA 133",
+    "descripcion": "Z",
     "idcategoria": 114
   },
   {
-    "descripcion": "8*1 PROMO",
+    "descripcion": "\"OFERTAS\"",
     "idcategoria": 115
   },
   {
-    "descripcion": "PURE 7 DIAS",
+    "descripcion": "Z",
     "idcategoria": 116
   },
   {
-    "descripcion": "PROMO ARROZ",
+    "descripcion": "Z",
     "idcategoria": 117
   },
   {
-    "descripcion": "PROMO HUERTA",
+    "descripcion": "Z",
     "idcategoria": 118
   },
   {
-    "descripcion": "blancos oferta",
+    "descripcion": "Z",
     "idcategoria": 119
   },
   {
-    "descripcion": "cavic oferta",
+    "descripcion": "Z",
     "idcategoria": 120
   },
   {
-    "descripcion": "CHOCOLATADA *330 7 DIAS",
+    "descripcion": "Z",
     "idcategoria": 121
   },
   {
-    "descripcion": "MERM. \"LA HUERTA\"",
+    "descripcion": "Z",
     "idcategoria": 122
   },
   {
-    "descripcion": "PROMO CHOC. 4+1",
+    "descripcion": "Z",
     "idcategoria": 123
   },
   {
-    "descripcion": "lipo",
+    "descripcion": "Z",
     "idcategoria": 124
   },
   {
-    "descripcion": "FIDEOS",
+    "descripcion": "Z",
     "idcategoria": 125
   },
   {
-    "descripcion": "est.mendoza",
+    "descripcion": "Z",
     "idcategoria": 126
   },
   {
-    "descripcion": "PROMO ROSADO",
+    "descripcion": "Z",
     "idcategoria": 127
   }
 ]
