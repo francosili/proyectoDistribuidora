@@ -1,11 +1,11 @@
 //listado final de productos
-export const productsMock = 
-[ 
+export const productsMock =
+[
   {
     "activo": "S",
-    "cantidad": -70749,
+    "cantidad": -70761,
     "codigoBarra": "2I20ZW3GJ",
-    "descripcion": "Z-JUGO CIMES 6*1L ANANA",
+    "descripcion": "Z-JUGO MIJU 6*500CC. MANZANA",
     "descuento": 0.00,
     "idarticulo": 24,
     "idbulto": {
@@ -22,12 +22,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 1.57,
-    "precioVenta": 10.78,
+    "precioVenta": 7.95,
     "stockMinimo": 80
   },
   {
     "activo": "S",
-    "cantidad": -168627,
+    "cantidad": -169431,
     "codigoBarra": "2I20ZXYIC",
     "descripcion": "Z-FERNANDO 6*1L",
     "descuento": 0.00,
@@ -51,7 +51,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -30882,
+    "cantidad": -30930,
     "codigoBarra": "2I21038SS",
     "descripcion": "Z-SODA SECCO 6*2250CC",
     "descuento": 0.00,
@@ -75,7 +75,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -5380,
+    "cantidad": -5757,
     "codigoBarra": "2I2105880",
     "descripcion": "Z-SIFON BIO DESC. 6*2L",
     "descuento": 0.00,
@@ -99,7 +99,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -278382,
+    "cantidad": -279259,
     "codigoBarra": "2I210AV0A",
     "descripcion": "Z-VINO RESERO 12*1L BCO.",
     "descuento": 0.00,
@@ -123,7 +123,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -228747,
+    "cantidad": -229431,
     "codigoBarra": "2I210CTO4",
     "descripcion": "Z-VINO RESERO 12*1L TTO.",
     "descuento": 0.00,
@@ -147,7 +147,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -10160,
+    "cantidad": -10316,
     "codigoBarra": "2I210DXKK",
     "descripcion": "Z-VINO RESERO 12*1L. ROSADO",
     "descuento": 0.00,
@@ -171,7 +171,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -140542,
+    "cantidad": -140681,
     "codigoBarra": "2I210ISLL",
     "descripcion": "Z-VINO ZUMUVA  12*1L TTO.",
     "descuento": 0.00,
@@ -195,7 +195,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -94633,
+    "cantidad": -94759,
     "codigoBarra": "2I210KMFK",
     "descripcion": "Z-VINO ZUMUVA  12*1L BCO.",
     "descuento": 0.00,
@@ -411,7 +411,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -916,
+    "cantidad": -919,
     "codigoBarra": "2I214CV5N",
     "descripcion": "Y-EST.MENDOZA CABERNET SAUVIGNON 6*750CC",
     "descuento": 0.00,
@@ -435,7 +435,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -26040,
+    "cantidad": -26283,
     "codigoBarra": "2I214FEM9",
     "descripcion": "Y-EST.MENDOZA CABERNET-MALBEC 6*750CC",
     "descuento": 0.00,
@@ -459,7 +459,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -4774,
+    "cantidad": -4810,
     "codigoBarra": "2I214HDIR",
     "descripcion": "Y-EST.MENDOZA CHARD.-CHENIN 6*750CC",
     "descuento": 0.00,
@@ -555,7 +555,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -14323,
+    "cantidad": -14404,
     "codigoBarra": "2I30IHH87",
     "descripcion": "OBLEAS OBLITA 48*50G VAINILLA",
     "descuento": 0.00,
@@ -579,7 +579,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -21901,
+    "cantidad": -21996,
     "codigoBarra": "2I30IJQKC",
     "descripcion": "OBLEAS OBLITA  48*50G FRUTILLA",
     "descuento": 0.00,
@@ -603,7 +603,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -7228,
+    "cantidad": -7270,
     "codigoBarra": "2I30IL1JT",
     "descripcion": "OBLEAS OBLITA 48*50G D.LECHE",
     "descuento": 0.00,
@@ -627,7 +627,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -5299,
+    "cantidad": -5335,
     "codigoBarra": "2I30IM6QN",
     "descripcion": "OBLEAS OBLITA 48*50G CHOCOLATE",
     "descuento": 0.00,
@@ -675,7 +675,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -6102,
+    "cantidad": -6131,
     "codigoBarra": "2I30IO19R",
     "descripcion": "OBLEAS OBLITA 48*100G VAINILLA",
     "descuento": 0.00,
@@ -699,7 +699,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -7866,
+    "cantidad": -7898,
     "codigoBarra": "2I30JF84I",
     "descripcion": "OBLEAS OBLITA 48*100G FRUTILLA",
     "descuento": 0.00,
@@ -723,7 +723,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3495,
+    "cantidad": -3513,
     "codigoBarra": "2I30JG7N0",
     "descripcion": "OBLEAS OBLITA 48*100G D.LECHE",
     "descuento": 0.00,
@@ -747,7 +747,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3633,
+    "cantidad": -3667,
     "codigoBarra": "2I30JH3RU",
     "descripcion": "OBLEAS OBLITA 48*100G CHOCOLATE",
     "descuento": 0.00,
@@ -771,7 +771,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3246,
+    "cantidad": -3258,
     "codigoBarra": "2I30JI1FV",
     "descripcion": "OBLEAS OBLITA 48*100G LIMON",
     "descuento": 0.00,
@@ -795,7 +795,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -694,
+    "cantidad": -704,
     "codigoBarra": "2I30JJAO9",
     "descripcion": "X-BOMBON OBLI-BON *30U NEGRO",
     "descuento": 0.00,
@@ -819,7 +819,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -588,
+    "cantidad": -602,
     "codigoBarra": "2I30JM857",
     "descripcion": "X-BOMBON OBLI-BON *30U BLANCO",
     "descuento": 0.00,
@@ -843,7 +843,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -160219,
+    "cantidad": -161469,
     "codigoBarra": "2I30O3DL0",
     "descripcion": "X-ALF.GUAYMALLEN 40*38G NEGRO",
     "descuento": 0.00,
@@ -854,8 +854,8 @@ export const productsMock =
       "unidades": 40
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 8
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -867,7 +867,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -197172,
+    "cantidad": -198747,
     "codigoBarra": "2I30O50V8",
     "descripcion": "X-ALF.GUAYMALLEN 40*38G BCO.",
     "descuento": 0.00,
@@ -878,8 +878,8 @@ export const productsMock =
       "unidades": 40
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 8
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -891,7 +891,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -106312,
+    "cantidad": -106872,
     "codigoBarra": "2I30O6LSQ",
     "descripcion": "X-ALF.GUAYMALLEN 40*38G FRUTA",
     "descuento": 0.00,
@@ -902,8 +902,8 @@ export const productsMock =
       "unidades": 40
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 8
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -915,7 +915,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -258875,
+    "cantidad": -260283,
     "codigoBarra": "2I30O7QYX",
     "descripcion": "X-ALF.GUAYMALLEN  TRIP. 24*70G NEGRO",
     "descuento": 0.00,
@@ -926,8 +926,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 8
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -939,7 +939,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -269287,
+    "cantidad": -270415,
     "codigoBarra": "2I30O8OTO",
     "descripcion": "X-ALF.GUAYMALLEN  TRIP. 24*70G BCO.",
     "descuento": 0.00,
@@ -950,8 +950,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 8
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -963,7 +963,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -967,
+    "cantidad": -970,
     "codigoBarra": "2I60ZPKNQ",
     "descripcion": "X-BAZOOKA *120U MENTA",
     "descuento": 0.00,
@@ -974,8 +974,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 30
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -998,8 +998,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 30
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1022,8 +1022,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 30
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1046,8 +1046,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 30
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1059,7 +1059,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3203,
+    "cantidad": -3212,
     "codigoBarra": "2I60ZTYT2",
     "descripcion": "X-MAST. FLYNN PAFF  *70U. TUTTI",
     "descuento": 0.00,
@@ -1070,8 +1070,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS",
-      "idcategoria": 2
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1083,7 +1083,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1158,
+    "cantidad": -1162,
     "codigoBarra": "2I60ZWN4I",
     "descripcion": "X-MAST. FLYNN PAFF  *70U. FRUTILLA",
     "descuento": 0.00,
@@ -1094,8 +1094,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS",
-      "idcategoria": 2
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1107,7 +1107,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -537,
+    "cantidad": -538,
     "codigoBarra": "2I60ZZCIL",
     "descripcion": "X-MAST. FLYNN PAFF  *70U. PINTA LA LENGUA",
     "descuento": 0.00,
@@ -1118,8 +1118,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS",
-      "idcategoria": 2
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1142,8 +1142,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS",
-      "idcategoria": 2
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1155,7 +1155,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -689,
+    "cantidad": -691,
     "codigoBarra": "2I6101HYS",
     "descripcion": "X-MAST. FLYNN PAFF *70U. BANANA",
     "descuento": 0.00,
@@ -1166,8 +1166,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS",
-      "idcategoria": 2
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1179,7 +1179,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -660,
+    "cantidad": -662,
     "codigoBarra": "2I6102F7U",
     "descripcion": "X-MAST. FLYNN PAFF  *70U. UVA",
     "descuento": 0.00,
@@ -1190,8 +1190,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS",
-      "idcategoria": 2
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -1203,7 +1203,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -14307,
+    "cantidad": -14367,
     "codigoBarra": "2ID0OG603",
     "descripcion": "X-MAST.MISKY *800G",
     "descuento": 0.00,
@@ -1214,15 +1214,15 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS",
-      "idcategoria": 2
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 54.46,
+    "precioVenta": 53.73,
     "stockMinimo": 100
   },
   {
@@ -1246,7 +1246,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.86,
-    "precioVenta": 8.06,
+    "precioVenta": 8.87,
     "stockMinimo": 280
   },
   {
@@ -1270,12 +1270,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.86,
-    "precioVenta": 8.06,
+    "precioVenta": 8.87,
     "stockMinimo": 280
   },
   {
     "activo": "S",
-    "cantidad": -4302,
+    "cantidad": -4304,
     "codigoBarra": "2ID0ORALC",
     "descripcion": "GALL. POLVORITA *150G CHOCOLATE",
     "descuento": 0.00,
@@ -1294,12 +1294,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.86,
-    "precioVenta": 8.06,
+    "precioVenta": 8.87,
     "stockMinimo": 280
   },
   {
     "activo": "S",
-    "cantidad": -2117,
+    "cantidad": -2121,
     "codigoBarra": "2ID0OX45O",
     "descripcion": "X-MISKY TRANSP. *935G MENTA",
     "descuento": 0.00,
@@ -1323,7 +1323,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1066,
+    "cantidad": -1068,
     "codigoBarra": "2ID0P1MKE",
     "descripcion": "X-MISKY TRANSP.*465G CHERRY",
     "descuento": 0.00,
@@ -1347,7 +1347,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1588,
+    "cantidad": -1593,
     "codigoBarra": "2ID0P6FPE",
     "descripcion": "X-ALKA *800G STRONG",
     "descuento": 0.00,
@@ -1371,7 +1371,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -941,
+    "cantidad": -942,
     "codigoBarra": "2ID0P9U9C",
     "descripcion": "X-ALKA *800G MENTA",
     "descuento": 0.00,
@@ -1395,7 +1395,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1581,
+    "cantidad": -1585,
     "codigoBarra": "2ID0PAXPH",
     "descripcion": "X-ALKA *800G CHERRY",
     "descuento": 0.00,
@@ -1419,7 +1419,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -2183,
+    "cantidad": -2189,
     "codigoBarra": "2ID0PG9NW",
     "descripcion": "X-MAST.SUGUS *700G",
     "descuento": 0.00,
@@ -1430,20 +1430,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "CARAMELOS",
-      "idcategoria": 2
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 71.60,
+    "precioVenta": 79.79,
     "stockMinimo": 24
   },
   {
     "activo": "S",
-    "cantidad": -1640,
+    "cantidad": -1675,
     "codigoBarra": "2ID0PK0AQ",
     "descripcion": "X-GOMITA MISKY JELLY ROLL *1K",
     "descuento": 0.00,
@@ -1454,20 +1454,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 7
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 8.20,
-    "precioVenta": 90.57,
+    "precioVenta": 88.50,
     "stockMinimo": 60
   },
   {
     "activo": "S",
-    "cantidad": -3027,
+    "cantidad": -3037,
     "codigoBarra": "2ID0PLA1K",
     "descripcion": "X-GOMITA MISKY EUCALIPTUS *1K.",
     "descuento": 0.00,
@@ -1478,20 +1478,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 7
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 8.20,
-    "precioVenta": 90.57,
+    "precioVenta": 88.50,
     "stockMinimo": 48
   },
   {
     "activo": "S",
-    "cantidad": -6982,
+    "cantidad": -7010,
     "codigoBarra": "2ID0PN3MO",
     "descripcion": "X-GOMITA MISKY *1K FANTASIA",
     "descuento": 0.00,
@@ -1502,20 +1502,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 7
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 8.20,
-    "precioVenta": 90.57,
+    "precioVenta": 96.68,
     "stockMinimo": 48
   },
   {
     "activo": "S",
-    "cantidad": -9973,
+    "cantidad": -10027,
     "codigoBarra": "2LQ0ZD3IH",
     "descripcion": "Y-EST.MENDOZA 6*750CC MERLOT-MALBEC",
     "descuento": 0.00,
@@ -1539,7 +1539,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -28655,
+    "cantidad": -28681,
     "codigoBarra": "2NJ0Q58A6",
     "descripcion": "SURT. DESFILE *400G",
     "descuento": 0.00,
@@ -1587,7 +1587,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -4680,
+    "cantidad": -4687,
     "codigoBarra": "2NJ171WDM",
     "descripcion": "Y-VINO MOSCATO 6*700CC. PROMESA",
     "descuento": 0.00,
@@ -1611,7 +1611,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -15219,
+    "cantidad": -15507,
     "codigoBarra": "2NJ17AP7C",
     "descripcion": "Z-AGUA VILLA DEL NEVADO 12*500CC.",
     "descuento": 0.00,
@@ -1635,7 +1635,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1303,
+    "cantidad": -1304,
     "codigoBarra": "2NL0NK9FZ",
     "descripcion": "MER.POTE ORIETA *500CC NARANJA",
     "descuento": 0.00,
@@ -1659,7 +1659,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -6811,
+    "cantidad": -6820,
     "codigoBarra": "2NL0NWT54",
     "descripcion": "MER.POTE ORIETA *500G DURAZNO",
     "descuento": 0.00,
@@ -1683,7 +1683,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1485,
+    "cantidad": -1490,
     "codigoBarra": "2NL0NXWZH",
     "descripcion": "MER.POTE ORIETA *500G. MIX FRUTAL",
     "descuento": 0.00,
@@ -1731,7 +1731,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3890,
+    "cantidad": -3895,
     "codigoBarra": "2NL0O0L5D",
     "descripcion": "MER.POTE ORIETA *500G.CIRUELA",
     "descuento": 0.00,
@@ -1779,7 +1779,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3223,
+    "cantidad": -3230,
     "codigoBarra": "2NL0O2HXN",
     "descripcion": "MER.POTE ORIETA *500G.ZAPALLO",
     "descuento": 0.00,
@@ -1801,5022 +1801,5022 @@ export const productsMock =
     "precioVenta": 11.25,
     "stockMinimo": 0
   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1663,
-//     "codigoBarra": "2NL0O3Q7R",
-//     "descripcion": "MER.POTE ORIETA *500G. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 147,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 1.83,
-//     "precioVenta": 16.33,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1966,
-//     "codigoBarra": "2NL0O86XJ",
-//     "descripcion": "MER.POTE ORIETA *420G DURAZNO LIGHT",
-//     "descuento": 0.00,
-//     "idarticulo": 148,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 1.75,
-//     "precioVenta": 14.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1246,
-//     "codigoBarra": "2NL0OB670",
-//     "descripcion": "MER.POTE ORIETA *420G. FRUTILLA LIGHT",
-//     "descuento": 0.00,
-//     "idarticulo": 149,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 2.11,
-//     "precioVenta": 17.07,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2356,
-//     "codigoBarra": "2NL0OEKT3",
-//     "descripcion": "DULCE ORIETA *425G BATATA",
-//     "descuento": 0.00,
-//     "idarticulo": 150,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 1.96,
-//     "precioVenta": 20.10,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1493,
-//     "codigoBarra": "2NL0OJTC6",
-//     "descripcion": "DULCE ORIETA *425G. BATATA C/CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 151,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 1.96,
-//     "precioVenta": 20.10,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2133,
-//     "codigoBarra": "2NL0OLD2V",
-//     "descripcion": "DULCE ORIETA *425G. MEMBRILLO",
-//     "descuento": 0.00,
-//     "idarticulo": 152,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1078,
-//     "codigoBarra": "2NL0OMN3X",
-//     "descripcion": "DULCE ORIETA *5 KG. BATATA CAJON",
-//     "descuento": 0.00,
-//     "idarticulo": 153,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 14.50,
-//     "precioVenta": 104.47,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -694,
-//     "codigoBarra": "2NL0OYLYF",
-//     "descripcion": "DULCE ORIETA *5KG. BATATA C/CHOCOLATE CAJON",
-//     "descuento": 0.00,
-//     "idarticulo": 154,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 14.50,
-//     "precioVenta": 109.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -779,
-//     "codigoBarra": "2NL0P02VX",
-//     "descripcion": "DULCE ORIETA *5KG. MEMBRILLO",
-//     "descuento": 0.00,
-//     "idarticulo": 155,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 116.34,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -273,
-//     "codigoBarra": "2NL0P0UUY",
-//     "descripcion": "DULCE ORIETA *5 KG. LATA BATATA",
-//     "descuento": 0.00,
-//     "idarticulo": 156,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 20.00,
-//     "precioVenta": 226.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -165,
-//     "codigoBarra": "2NL0P49JN",
-//     "descripcion": "DULCE ORIETA *5KG. LATA BATATA C/CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 157,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 20.00,
-//     "precioVenta": 229.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -86,
-//     "codigoBarra": "2NL0P5EBH",
-//     "descripcion": "DULCE ORIETA *5KG LATA MEMBRILLO",
-//     "descuento": 0.00,
-//     "idarticulo": 158,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 20.00,
-//     "precioVenta": 240.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -324,
-//     "codigoBarra": "2NL0P6A8D",
-//     "descripcion": "D. ZAPALLO EN ALMIBAR *450G ORIETA",
-//     "descuento": 0.00,
-//     "idarticulo": 159,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 71.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -369,
-//     "codigoBarra": "2NL0P8Q91",
-//     "descripcion": "MAMON EN ALMIBAR *450G ORIETA",
-//     "descuento": 0.00,
-//     "idarticulo": 160,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 71.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -255,
-//     "codigoBarra": "2NL0PDG8E",
-//     "descripcion": "HIGOS EN ALMIBAR *450G ORIETA",
-//     "descuento": 0.00,
-//     "idarticulo": 161,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -140,
-//     "codigoBarra": "2NL0PGN97",
-//     "descripcion": "HIGOS EN ALMIBAR *3.100KG ORIETA",
-//     "descuento": 0.00,
-//     "idarticulo": 162,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 35.45,
-//     "precioVenta": 309.69,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1976,
-//     "codigoBarra": "2OF128C1F",
-//     "descripcion": "X-CH. OPEN FIERITA *100 U. TUTTI",
-//     "descuento": 0.00,
-//     "idarticulo": 170,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 9.53,
-//     "precioVenta": 24.06,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -9284,
-//     "codigoBarra": "2OF14J9GJ",
-//     "descripcion": "MANI CACHI *1 K. C/CASC.",
-//     "descuento": 0.00,
-//     "idarticulo": 174,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 34.70,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -32458,
-//     "codigoBarra": "2OF19BM1E",
-//     "descripcion": "X-CHOC. MISKY  30*25G. NEGRO",
-//     "descuento": 0.00,
-//     "idarticulo": 175,
-//     "idbulto": {
-//       "descripcion": "BULTO *30",
-//       "idbulto": 18,
-//       "unidades": 30
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.85,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2941,
-//     "codigoBarra": "2OF1A4X21",
-//     "descripcion": "BARBACOA CACHI *1K",
-//     "descuento": 0.00,
-//     "idarticulo": 180,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 3.97,
-//     "precioVenta": 36.77,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -671,
-//     "codigoBarra": "2OF1AJX9H",
-//     "descripcion": "X-CHOC.MISKY 40*8G LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 181,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 66.61,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11127,
-//     "codigoBarra": "2OF1AUE7X",
-//     "descripcion": "GALL. MAURITA 10*330G",
-//     "descuento": 0.00,
-//     "idarticulo": 182,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.74,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2031,
-//     "codigoBarra": "2OF1AX4IC",
-//     "descripcion": "X-CAR. LIPO VIENA *930G.",
-//     "descuento": 0.00,
-//     "idarticulo": 183,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 74.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -10667,
-//     "codigoBarra": "2OF1CM2C6",
-//     "descripcion": "X-CHOC. MISKY 21*50G BCO.",
-//     "descuento": 0.00,
-//     "idarticulo": 187,
-//     "idbulto": {
-//       "descripcion": "BULTO X 21",
-//       "idbulto": 8,
-//       "unidades": 21
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.87,
-//     "precioVenta": 8.44,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -56172,
-//     "codigoBarra": "2OF1CP2WY",
-//     "descripcion": "X-HAMLET  21*52G. SURT.",
-//     "descuento": 0.00,
-//     "idarticulo": 188,
-//     "idbulto": {
-//       "descripcion": "BULTO X 21",
-//       "idbulto": 8,
-//       "unidades": 21
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 78
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -26539,
-//     "codigoBarra": "2OF1CZ0NQ",
-//     "descripcion": "GALL. FAUNA MAURI *400G",
-//     "descuento": 0.00,
-//     "idarticulo": 190,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.74,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -312,
-//     "codigoBarra": "2OF1DPVUP",
-//     "descripcion": "X-ROSPO SAPITO 24*10G MANI",
-//     "descuento": 0.00,
-//     "idarticulo": 194,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 4.94,
-//     "precioVenta": 59.50,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -497,
-//     "codigoBarra": "2OF1DRW3I",
-//     "descripcion": "X-ROSPO SAPITO 24*10G DESAFIO",
-//     "descuento": 0.00,
-//     "idarticulo": 195,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 4.94,
-//     "precioVenta": 59.50,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3343,
-//     "codigoBarra": "2OF1EOSEH",
-//     "descripcion": "X-MAST. PALITO SELVA *220U.",
-//     "descuento": 0.00,
-//     "idarticulo": 201,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 35.11,
-//     "precioVenta": 96.55,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1358,
-//     "codigoBarra": "2OF1FCOM2",
-//     "descripcion": "X-MENTITAS LACASA *12U. MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 205,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 75
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 3.05,
-//     "precioVenta": 29.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -8164,
-//     "codigoBarra": "2OG00GIA7",
-//     "descripcion": "X-CHUP. PELOTITAS LHERITIER *100U.",
-//     "descuento": 0.00,
-//     "idarticulo": 208,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 54.60,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -21825,
-//     "codigoBarra": "2OG010PCB",
-//     "descripcion": "GIRASOL CACHI *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 213,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -557,
-//     "codigoBarra": "2OG0MNNNK",
-//     "descripcion": "X-PUSH POP *20U.",
-//     "descuento": 0.00,
-//     "idarticulo": 215,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 19
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 178.27,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -322,
-//     "codigoBarra": "2OG0MQTMX",
-//     "descripcion": "X-BIG BABY POP *12U.",
-//     "descuento": 0.00,
-//     "idarticulo": 216,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 19
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 167.68,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -28856,
-//     "codigoBarra": "2OH0KX5ND",
-//     "descripcion": "VAINILLAS MAURI 16*320G",
-//     "descuento": 0.00,
-//     "idarticulo": 219,
-//     "idbulto": {
-//       "descripcion": "BULTO *16U",
-//       "idbulto": 14,
-//       "unidades": 16
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -35705,
-//     "codigoBarra": "2OH0VXXOL",
-//     "descripcion": "FAUNA MAURI *150G",
-//     "descuento": 0.00,
-//     "idarticulo": 220,
-//     "idbulto": {
-//       "descripcion": "BULTO X 28",
-//       "idbulto": 7,
-//       "unidades": 28
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.69,
-//     "precioVenta": 5.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -101360,
-//     "codigoBarra": "2OH0XBFAS",
-//     "descripcion": "VAINILLAS MAURI 36*80G",
-//     "descuento": 0.00,
-//     "idarticulo": 223,
-//     "idbulto": {
-//       "descripcion": "BULTO *36",
-//       "idbulto": 16,
-//       "unidades": 36
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.48,
-//     "precioVenta": 4.03,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -61742,
-//     "codigoBarra": "2OH0XF2HC",
-//     "descripcion": "VAINILLAS MAURI 32*160G",
-//     "descuento": 0.00,
-//     "idarticulo": 224,
-//     "idbulto": {
-//       "descripcion": "BULTO *32",
-//       "idbulto": 15,
-//       "unidades": 32
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 1.02,
-//     "precioVenta": 8.26,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -26834,
-//     "codigoBarra": "2OH0XO7ZR",
-//     "descripcion": "PEPAS TEREPIN *200G",
-//     "descuento": 0.00,
-//     "idarticulo": 225,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.78,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -63835,
-//     "codigoBarra": "2OH0XQNAL",
-//     "descripcion": "PEPAS TEREPIN *400G",
-//     "descuento": 0.00,
-//     "idarticulo": 226,
-//     "idbulto": {
-//       "descripcion": "BULTO *14",
-//       "idbulto": 17,
-//       "unidades": 14
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 13.55,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -20541,
-//     "codigoBarra": "2OH0XRV4H",
-//     "descripcion": "SALVADO MAURI *400G",
-//     "descuento": 0.00,
-//     "idarticulo": 227,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 2.05,
-//     "precioVenta": 18.07,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5591,
-//     "codigoBarra": "2OH144CG2",
-//     "descripcion": "GALL. POLVORITAS *80G. VAINILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 231,
-//     "idbulto": {
-//       "descripcion": "BULTO *40U",
-//       "idbulto": 24,
-//       "unidades": 40
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.62,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4283,
-//     "codigoBarra": "2OH1453T2",
-//     "descripcion": "GALL. POLVORITAS *80G. CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 232,
-//     "idbulto": {
-//       "descripcion": "BULTO *40U",
-//       "idbulto": 24,
-//       "unidades": 40
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.62,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1401,
-//     "codigoBarra": "2OH14YI0J",
-//     "descripcion": "X-LIPO PRALINE *907G",
-//     "descuento": 0.00,
-//     "idarticulo": 249,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 74.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -294,
-//     "codigoBarra": "2OH14ZH05",
-//     "descripcion": "X-LIPO DOR MENTA-CHOC. *907G.",
-//     "descuento": 0.00,
-//     "idarticulo": 250,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1042,
-//     "codigoBarra": "2OH1526FH",
-//     "descripcion": "X-LIPO GAJITOS *907G.",
-//     "descuento": 0.00,
-//     "idarticulo": 251,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2053,
-//     "codigoBarra": "2OH152TNH",
-//     "descripcion": "X-LIPO SUPER ACIDO *907G.",
-//     "descuento": 0.00,
-//     "idarticulo": 252,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 74.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1176,
-//     "codigoBarra": "2OH1556YL",
-//     "descripcion": "X-LIPO C-LECHE *907G",
-//     "descuento": 0.00,
-//     "idarticulo": 254,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -430,
-//     "codigoBarra": "2OH155T8G",
-//     "descripcion": "X-LIPO BOLON EUCALIPTUS *907G.",
-//     "descuento": 0.00,
-//     "idarticulo": 255,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -573,
-//     "codigoBarra": "2OH156OT7",
-//     "descripcion": "X-LIPO BOLON *907G. MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 256,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -174,
-//     "codigoBarra": "2OH157VRD",
-//     "descripcion": "X-LIPO BOLON *907G. CAPULLITAS",
-//     "descuento": 0.00,
-//     "idarticulo": 257,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -193,
-//     "codigoBarra": "2OH159V5V",
-//     "descripcion": "X-LIPO BOLON *907G. SPORT",
-//     "descuento": 0.00,
-//     "idarticulo": 260,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2397,
-//     "codigoBarra": "2OH15ANZX",
-//     "descripcion": "X-MENTITA LACASA *12U FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 261,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 75
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1230,
-//     "codigoBarra": "2OH15BUSA",
-//     "descripcion": "X-MENTITA LACASA *12U. D.LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 262,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 75
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -630,
-//     "codigoBarra": "2OH16GICR",
-//     "descripcion": "X-BOC. MARROC 60*14G. FELFORT",
-//     "descuento": 0.00,
-//     "idarticulo": 278,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 76
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 305.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -38,
-//     "codigoBarra": "2OH16REM4",
-//     "descripcion": "X-KRAMELITOS 25*30G. MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 280,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 63.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -31177,
-//     "codigoBarra": "2OK0GHS7T",
-//     "descripcion": "GALL. SIN SAL MAURI *400G.",
-//     "descuento": 0.00,
-//     "idarticulo": 295,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -558,
-//     "codigoBarra": "2OK0GRSZ5",
-//     "descripcion": "X-CHUP. PITO PITO *24 U. FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 301,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 40.46,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1171,
-//     "codigoBarra": "2OK0GUYIO",
-//     "descripcion": "X-CHUPETONCITO LHERITIER *12 U.",
-//     "descuento": 0.00,
-//     "idarticulo": 303,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 82.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -895,
-//     "codigoBarra": "2OK0GWKJ7",
-//     "descripcion": "X-CAR. PICO DULCE *90U. LERITHIER",
-//     "descuento": 0.00,
-//     "idarticulo": 305,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 58.66,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2041,
-//     "codigoBarra": "2OK0IK27P",
-//     "descripcion": "X-ENC.MINI-BIC *6U.",
-//     "descuento": 0.00,
-//     "idarticulo": 311,
-//     "idbulto": {
-//       "descripcion": "bulto *2",
-//       "idbulto": 31,
-//       "unidades": 2
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 40
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 53.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1643,
-//     "codigoBarra": "2OK0IL9VW",
-//     "descripcion": "X-ENC. BX7 *20U.",
-//     "descuento": 0.00,
-//     "idarticulo": 312,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 40
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 130.18,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -545,
-//     "codigoBarra": "2OK0IMLAT",
-//     "descripcion": "PAÃ‘UELOS DESC. SMILE 6*10 U.",
-//     "descuento": 0.00,
-//     "idarticulo": 313,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.63,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1063,
-//     "codigoBarra": "2OK0J9UE0",
-//     "descripcion": "X-BUBBALOO *60 U. MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 324,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 26.51,
-//     "precioVenta": 51.31,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1447,
-//     "codigoBarra": "2OK0JAUCQ",
-//     "descripcion": "X-BUBBALOO *60U. TUTTI",
-//     "descuento": 0.00,
-//     "idarticulo": 325,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 26.51,
-//     "precioVenta": 51.31,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1372,
-//     "codigoBarra": "2OK0K5BAS",
-//     "descripcion": "X-PAST. MINI-CLIX  *100U. TUTTI",
-//     "descuento": 0.00,
-//     "idarticulo": 343,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 37
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 43.77,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -270,
-//     "codigoBarra": "2OK0KLP26",
-//     "descripcion": "X-CAR. GARAMIEL *750G. MIEL",
-//     "descuento": 0.00,
-//     "idarticulo": 347,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 67.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -171,
-//     "codigoBarra": "2OK0KMKEY",
-//     "descripcion": "X-CAR. GARAMIEL *750G. MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 348,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 67.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -89,
-//     "codigoBarra": "2OK0KNWFU",
-//     "descripcion": "X-CAR. GARAMIEL *750G. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 349,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 67.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -131,
-//     "codigoBarra": "2OK0KP723",
-//     "descripcion": "X-CAR. GARAMIEL *750G. LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 351,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 67.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2330,
-//     "codigoBarra": "2OK0KQW52",
-//     "descripcion": "X-MAST. BILLIKEN *600G. YOGURT",
-//     "descuento": 0.00,
-//     "idarticulo": 352,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 59.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2328,
-//     "codigoBarra": "2OK11ZH7G",
-//     "descripcion": "X-CH. OPEN  FIERITA  *100 U. MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 368,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 9.53,
-//     "precioVenta": 24.06,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -131,
-//     "codigoBarra": "2OK1220X1",
-//     "descripcion": "X-CH. PLUTONITA *50U. ACIDO NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 369,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 41.19,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -73,
-//     "codigoBarra": "2OK1235CW",
-//     "descripcion": "X-CH. PLUTONITA*50U.  ACIDO LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 370,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 41.19,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -20584,
-//     "codigoBarra": "2OK12BH9K",
-//     "descripcion": "X-MAST. OPEN CANDY *100U. YOGURT",
-//     "descuento": 0.00,
-//     "idarticulo": 379,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 60
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 6.95,
-//     "precioVenta": 21.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -85,
-//     "codigoBarra": "2OK12FV24",
-//     "descripcion": "X-CAR. MINIBALA *300U. FRIEXS",
-//     "descuento": 0.00,
-//     "idarticulo": 383,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 51.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -73,
-//     "codigoBarra": "2OK12H89D",
-//     "descripcion": "X-CAR. MINIBALA *300U. FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 384,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 51.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -82,
-//     "codigoBarra": "2OK12HZBR",
-//     "descripcion": "X-CAR. MINIBALA *300U. CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 385,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 51.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -741,
-//     "codigoBarra": "2OK12KIJM",
-//     "descripcion": "X-GOMA  ROLLO DORI *30U. FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 387,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 7
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 72.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2073,
-//     "codigoBarra": "2OK130Y8U",
-//     "descripcion": "PIZZETA CACHI *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 399,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 36.77,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -24638,
-//     "codigoBarra": "2OK131PB8",
-//     "descripcion": "CHIZITO CACHI *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 400,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 36.77,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -20305,
-//     "codigoBarra": "2OK132JPU",
-//     "descripcion": "PALITO SALADO CACHI *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 401,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 47.92,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4212,
-//     "codigoBarra": "2OK133CCO",
-//     "descripcion": "PUFLITO CACHI *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 402,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 36.77,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6900,
-//     "codigoBarra": "2OK1343XQ",
-//     "descripcion": "TUTUCA CACHI *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 403,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 46.69,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -9308,
-//     "codigoBarra": "2OK135LEB",
-//     "descripcion": "GIRASOL CACHI *20U.",
-//     "descuento": 0.00,
-//     "idarticulo": 405,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.73,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -101914,
-//     "codigoBarra": "2OK13CUCK",
-//     "descripcion": "X-ALF. FANTOCHE TRIP. 24*85G. NEGRO",
-//     "descuento": 0.00,
-//     "idarticulo": 406,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 8
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -95269,
-//     "codigoBarra": "2OK13E8A1",
-//     "descripcion": "X-ALF. FANTOCHE TRIP. 24*85G. BCO.",
-//     "descuento": 0.00,
-//     "idarticulo": 407,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 8
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3304,
-//     "codigoBarra": "2OK13NSVU",
-//     "descripcion": "X-NAIPES HACHAZO *50U",
-//     "descuento": 0.00,
-//     "idarticulo": 413,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.45,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1098,
-//     "codigoBarra": "2OK13T392",
-//     "descripcion": "X-CHOC. MISKY 40*8G. BLANCO",
-//     "descuento": 0.00,
-//     "idarticulo": 415,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 66.61,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -419,
-//     "codigoBarra": "2OK14Q7N8",
-//     "descripcion": "X-MISKY TOFFES *959G. LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 416,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 58.63,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -396,
-//     "codigoBarra": "2OK14TBH8",
-//     "descripcion": "X-MISKY  TOFFES *959G. CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 417,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 58.63,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -212410,
-//     "codigoBarra": "2OK157NE9",
-//     "descripcion": "X-TURRON MISKY *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 420,
-//     "idbulto": {
-//       "descripcion": "BULTO *50",
-//       "idbulto": 19,
-//       "unidades": 50
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 3.43,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1561,
-//     "codigoBarra": "2OK15DE7N",
-//     "descripcion": "X-CHUP. MEGA COSMOS *24U.",
-//     "descuento": 0.00,
-//     "idarticulo": 422,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 40.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -29918,
-//     "codigoBarra": "2OK15EWZF",
-//     "descripcion": "X-CHOC. MISKY 30*25G BCO.",
-//     "descuento": 0.00,
-//     "idarticulo": 423,
-//     "idbulto": {
-//       "descripcion": "BULTO *30",
-//       "idbulto": 18,
-//       "unidades": 30
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.85,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -9648,
-//     "codigoBarra": "2OK15GVX0",
-//     "descripcion": "X-CHOC. MISKY 21*50G. NGRO.",
-//     "descuento": 0.00,
-//     "idarticulo": 424,
-//     "idbulto": {
-//       "descripcion": "BULTO X 21",
-//       "idbulto": 8,
-//       "unidades": 21
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 8.44,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1373,
-//     "codigoBarra": "2OK15IEGV",
-//     "descripcion": "X-BOC. DANCING *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 425,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6269,
-//     "codigoBarra": "2OK15JA8F",
-//     "descripcion": "X-HAMLET 21*52G. BLANCO",
-//     "descuento": 0.00,
-//     "idarticulo": 426,
-//     "idbulto": {
-//       "descripcion": "BULTO X 21",
-//       "idbulto": 8,
-//       "unidades": 21
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 78
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4226,
-//     "codigoBarra": "2OM1AF2C4",
-//     "descripcion": "X-HAMLET 21*52G. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 428,
-//     "idbulto": {
-//       "descripcion": "BULTO X 21",
-//       "idbulto": 8,
-//       "unidades": 21
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 78
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -102768,
-//     "codigoBarra": "2OT16WJX9",
-//     "descripcion": "Z-A. BIO SPORT 6*1.5 L. CITRUS",
-//     "descuento": 0.00,
-//     "idarticulo": 442,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 71
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.69,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -78114,
-//     "codigoBarra": "2OT17CGLM",
-//     "descripcion": "Z-A. BIO SPORT 6*1.5 L. NAR./ DUR.",
-//     "descuento": 0.00,
-//     "idarticulo": 443,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 71
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.69,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -81915,
-//     "codigoBarra": "2OT18V9QO",
-//     "descripcion": "Z-A. BIO SPORT 6*1.5 L. POMELO",
-//     "descuento": 0.00,
-//     "idarticulo": 444,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 71
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.69,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -18751,
-//     "codigoBarra": "2OT18W5A8",
-//     "descripcion": "Z-AGUA MINERAL VILLA DEL NEVADO 6*2 L.",
-//     "descuento": 0.00,
-//     "idarticulo": 445,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GASEOSAS / AGUAS",
-//       "idcategoria": 17
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 11.88,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4141,
-//     "codigoBarra": "2OU05NESI",
-//     "descripcion": "X-MAST. FRUTOMILA  *120U. FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 449,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 41.59,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4194,
-//     "codigoBarra": "2OU073EXB",
-//     "descripcion": "X-ENC. MAXI BIC*6U",
-//     "descuento": 0.00,
-//     "idarticulo": 450,
-//     "idbulto": {
-//       "descripcion": "bulto *2",
-//       "idbulto": 31,
-//       "unidades": 2
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 40
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 90.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3570,
-//     "codigoBarra": "2P00VKYPO",
-//     "descripcion": "X-PRES. CAMALEON *12U. CLASICO",
-//     "descuento": 0.00,
-//     "idarticulo": 460,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 13.27,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3996,
-//     "codigoBarra": "2P00XNURH",
-//     "descripcion": "X-GILLETE PRESTOBARBA *2U.",
-//     "descuento": 0.00,
-//     "idarticulo": 461,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 33.55,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -504,
-//     "codigoBarra": "2P00ZPYV7",
-//     "descripcion": "X-DRF *12 U. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 462,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 6
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 16.78,
-//     "precioVenta": 46.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -977,
-//     "codigoBarra": "2P011BUWQ",
-//     "descripcion": "X-D-LECHE MARENGO *100U.",
-//     "descuento": 0.00,
-//     "idarticulo": 463,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 47.63,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2910,
-//     "codigoBarra": "2P70PMY4C",
-//     "descripcion": "X-SALADIX  6U *25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 480,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 4
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 32.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11407,
-//     "codigoBarra": "2P70PRT63",
-//     "descripcion": "MAGDALENAS POZO *250G. CLASICA",
-//     "descuento": 0.00,
-//     "idarticulo": 481,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.75,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4639,
-//     "codigoBarra": "2P911165B",
-//     "descripcion": "X-HAMLET 21*52G. LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 484,
-//     "idbulto": {
-//       "descripcion": "BULTO X 21",
-//       "idbulto": 8,
-//       "unidades": 21
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 78
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2031,
-//     "codigoBarra": "2P9112QZ0",
-//     "descripcion": "X-HAMLET 21*52G. BICOLOR",
-//     "descuento": 0.00,
-//     "idarticulo": 485,
-//     "idbulto": {
-//       "descripcion": "BULTO X 21",
-//       "idbulto": 8,
-//       "unidades": 21
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 78
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1695,
-//     "codigoBarra": "2P9114PM4",
-//     "descripcion": "X-HAMLET 21*52G. COOKIES",
-//     "descuento": 0.00,
-//     "idarticulo": 486,
-//     "idbulto": {
-//       "descripcion": "BULTO X 21",
-//       "idbulto": 8,
-//       "unidades": 21
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 78
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1562,
-//     "codigoBarra": "2PF0PDPGL",
-//     "descripcion": "X-ENC. CANCUN *10U.",
-//     "descuento": 0.00,
-//     "idarticulo": 493,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 40
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 39.66,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1728,
-//     "codigoBarra": "2PM0MD4KX",
-//     "descripcion": "X-MARENGO SAQ. *970G. FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 501,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 70.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -851,
-//     "codigoBarra": "2PT04JPE6",
-//     "descripcion": "X-RING POP *12U. MASCOTAS",
-//     "descuento": 0.00,
-//     "idarticulo": 504,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 19
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 58.82,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -82,
-//     "codigoBarra": "2PU12RU1B",
-//     "descripcion": "D. ZAPALLO ORIETA*3.100KG. EN ALMIBAR",
-//     "descuento": 0.00,
-//     "idarticulo": 506,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 298.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1776,
-//     "codigoBarra": "2PY0S11LS",
-//     "descripcion": "X-MIELCITA GRANDES *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 511,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 54.63,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -8278,
-//     "codigoBarra": "2Q20SCOQ8",
-//     "descripcion": "SALVADO MAURI *210G.",
-//     "descuento": 0.00,
-//     "idarticulo": 515,
-//     "idbulto": {
-//       "descripcion": "BULTO *20",
-//       "idbulto": 12,
-//       "unidades": 20
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.59,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -625,
-//     "codigoBarra": "2Q20TCQDF",
-//     "descripcion": "X-DRF *12U. MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 516,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 37
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 16.78,
-//     "precioVenta": 46.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -249,
-//     "codigoBarra": "2Q20TE5TE",
-//     "descripcion": "X-DRF*12U. MENTOL",
-//     "descuento": 0.00,
-//     "idarticulo": 517,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 37
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 16.78,
-//     "precioVenta": 46.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -365,
-//     "codigoBarra": "2Q20TEXAM",
-//     "descripcion": "X-DRF *12U. ANIS",
-//     "descuento": 0.00,
-//     "idarticulo": 518,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 37
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 16.78,
-//     "precioVenta": 46.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -326,
-//     "codigoBarra": "2Q20TG6OU",
-//     "descripcion": "X-DRF *12U. LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 519,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 37
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 16.78,
-//     "precioVenta": 46.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2354,
-//     "codigoBarra": "2Q70FVUS9",
-//     "descripcion": "X-MIELCITA *50U. CHICA",
-//     "descuento": 0.00,
-//     "idarticulo": 529,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 7
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 27.31,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -53911,
-//     "codigoBarra": "2QD1466H6",
-//     "descripcion": "GALL. MEDIA TARDE *330G.",
-//     "descuento": 0.00,
-//     "idarticulo": 536,
-//     "idbulto": {
-//       "descripcion": "BULTO *14",
-//       "idbulto": 17,
-//       "unidades": 14
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.71,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -12538,
-//     "codigoBarra": "2QE0BAWO9",
-//     "descripcion": "MAGDALENAS  POZO *250G RELL. D. LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 537,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.99,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3956,
-//     "codigoBarra": "2QE0BDG0H",
-//     "descripcion": "MAGDALENAS POZO *250G. C/CHIPS",
-//     "descuento": 0.00,
-//     "idarticulo": 538,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -952,
-//     "codigoBarra": "2QF0QA1N8",
-//     "descripcion": "X-CAR. BUTTER TOFFES *970G. LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 539,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -584,
-//     "codigoBarra": "2QY0VDRX3",
-//     "descripcion": "X-BOLITAS \"NORTE 3 COLORES\" *100U.",
-//     "descuento": 0.00,
-//     "idarticulo": 555,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 23.10,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4256,
-//     "codigoBarra": "2R60X6B47",
-//     "descripcion": "X-PRES. PRIME *3U. SURT.",
-//     "descuento": 0.00,
-//     "idarticulo": 556,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.75,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1889,
-//     "codigoBarra": "2RZ0TOH8H",
-//     "descripcion": "X-SHAMPOO SEDAL *24U. CERAMIDAS",
-//     "descuento": 0.00,
-//     "idarticulo": 571,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -848,
-//     "codigoBarra": "2RZ0VPS18",
-//     "descripcion": "X-ACONDICIONADOR SEDAL *24U. CERAMIDAS",
-//     "descuento": 0.00,
-//     "idarticulo": 575,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -138,
-//     "codigoBarra": "2RZ13R2HM",
-//     "descripcion": "X-ACONDICIONADOR SEDAL *24U. RECONST. EXTRUC.",
-//     "descuento": 0.00,
-//     "idarticulo": 582,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -45601,
-//     "codigoBarra": "2S00W6IU6",
-//     "descripcion": "HOJALMAR RONDA 30*150G.",
-//     "descuento": 0.00,
-//     "idarticulo": 583,
-//     "idbulto": {
-//       "descripcion": "BULTO *30",
-//       "idbulto": 18,
-//       "unidades": 30
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 11.12,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -19147,
-//     "codigoBarra": "2SQ0GJBSU",
-//     "descripcion": "PAPAS FRITAS CACHI *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 588,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 104.13,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -43424,
-//     "codigoBarra": "2SU0J3VSM",
-//     "descripcion": "Z-GAS.SECCO 6*2.25L. POMELO",
-//     "descuento": 0.00,
-//     "idarticulo": 590,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 102
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.67,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -105,
-//     "codigoBarra": "2T20V2GJE",
-//     "descripcion": "X-SHAMPOO SEDAL *24U. RECONST.EXT.",
-//     "descuento": 0.00,
-//     "idarticulo": 592,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1972,
-//     "codigoBarra": "2T20V4J5P",
-//     "descripcion": "X-ACOND. SEDAL *24U. BALANCE",
-//     "descuento": 0.00,
-//     "idarticulo": 593,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1669,
-//     "codigoBarra": "2T51B9RVT",
-//     "descripcion": "X-NAIPES CASINO *40U.",
-//     "descuento": 0.00,
-//     "idarticulo": 595,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 25.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6612,
-//     "codigoBarra": "2T60WHR71",
-//     "descripcion": "X-PRES. TULIPAN  CLASSIC *3U.",
-//     "descuento": 0.00,
-//     "idarticulo": 598,
-//     "idbulto": {
-//       "descripcion": "BULTO *16U",
-//       "idbulto": 14,
-//       "unidades": 16
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -12165,
-//     "codigoBarra": "2TA0COZNC",
-//     "descripcion": "X-GLOBITOS SPLASH *100U.",
-//     "descuento": 0.00,
-//     "idarticulo": 601,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 8.17,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -13168,
-//     "codigoBarra": "2TA0D1LQ0",
-//     "descripcion": "HOJALMAR MATERO 24*180G.",
-//     "descuento": 0.00,
-//     "idarticulo": 602,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 8.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -379,
-//     "codigoBarra": "2TD0TBIR5",
-//     "descripcion": "X-BUBBALOO *60U. UVA",
-//     "descuento": 0.00,
-//     "idarticulo": 606,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 26.51,
-//     "precioVenta": 51.31,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -933,
-//     "codigoBarra": "2TH0UESLN",
-//     "descripcion": "X-PIL. EVEREADY (C)MEDIANAS *2U.",
-//     "descuento": 0.00,
-//     "idarticulo": 608,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.33,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1489,
-//     "codigoBarra": "2TK0DU8QK",
-//     "descripcion": "X-NAIPES CASINO *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 612,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 27.91,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -272,
-//     "codigoBarra": "2TN0Y0N92",
-//     "descripcion": "X-FRUTA 3  18*15G. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 615,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 15
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -495,
-//     "codigoBarra": "2TO0UGZDC",
-//     "descripcion": "X-FRUTA 3  18*15G. BANANA-NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 616,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 15
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -544,
-//     "codigoBarra": "2U30UI442",
-//     "descripcion": "X-NAIPES HABANA *40U.",
-//     "descuento": 0.00,
-//     "idarticulo": 619,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1111,
-//     "codigoBarra": "2U30UIV17",
-//     "descripcion": "X-NAIPES HABANA *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 620,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.27,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -261,
-//     "codigoBarra": "2U90YVAG5",
-//     "descripcion": "X-FRUTA 3 18*15G. MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 625,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 15
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -216,
-//     "codigoBarra": "2UG14PAFE",
-//     "descripcion": "X-FRUTA 3 18*15G. MIX-FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 634,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 15
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -903,
-//     "codigoBarra": "2UK0TGHOH",
-//     "descripcion": "ATUN DESMENUZADO NATURAL CARACAS *170G.(ECUADOR)",
-//     "descuento": 0.00,
-//     "idarticulo": 637,
-//     "idbulto": {
-//       "descripcion": "BULTO X48",
-//       "idbulto": 6,
-//       "unidades": 48
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.11,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1055,
-//     "codigoBarra": "2UK0TKCQL",
-//     "descripcion": "ATUN DESMENUZADO ACTE./AG. CARACAS *170G.(ECUADOR)",
-//     "descuento": 0.00,
-//     "idarticulo": 638,
-//     "idbulto": {
-//       "descripcion": "BULTO X48",
-//       "idbulto": 6,
-//       "unidades": 48
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.11,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2688,
-//     "codigoBarra": "2UK0TLOV2",
-//     "descripcion": "CABALLA AL NAT.CARACAS *380G.",
-//     "descuento": 0.00,
-//     "idarticulo": 639,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 25.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4373,
-//     "codigoBarra": "2UK0TMH7E",
-//     "descripcion": "CABALLA ACTE. CARACAS *380G.",
-//     "descuento": 0.00,
-//     "idarticulo": 640,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 26.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1902,
-//     "codigoBarra": "2UL0LDM8R",
-//     "descripcion": "ATUN ENTERO ACTE/AG. CARACAS *170G.(ECUADOR)",
-//     "descuento": 0.00,
-//     "idarticulo": 642,
-//     "idbulto": {
-//       "descripcion": "BULTO X48",
-//       "idbulto": 6,
-//       "unidades": 48
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 25.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1190,
-//     "codigoBarra": "2UL0LGK3T",
-//     "descripcion": "ATUN ENTERO AL NATURAL CARACAS  *170G. (ECUADOR)",
-//     "descuento": 0.00,
-//     "idarticulo": 643,
-//     "idbulto": {
-//       "descripcion": "BULTO X48",
-//       "idbulto": 6,
-//       "unidades": 48
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -638,
-//     "codigoBarra": "2VB0RM8RK",
-//     "descripcion": "SARDINAS EN ACEITE CARACAS 50*125G.",
-//     "descuento": 0.00,
-//     "idarticulo": 648,
-//     "idbulto": {
-//       "descripcion": "BULTO *50",
-//       "idbulto": 19,
-//       "unidades": 50
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 13.97,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3918,
-//     "codigoBarra": "2VB0TJUCF",
-//     "descripcion": "MAGDALENAS POZO *250G. MARMOLADAS",
-//     "descuento": 0.00,
-//     "idarticulo": 649,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -746,
-//     "codigoBarra": "2VG0NU9NE",
-//     "descripcion": "X-ROSPO SAPITO *24U FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 653,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 59.50,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5666,
-//     "codigoBarra": "2VI0S8SHI",
-//     "descripcion": "DURAZNOS EN MITADES GENTLEMAN 12*820G.",
-//     "descuento": 0.00,
-//     "idarticulo": 655,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.53,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -84169,
-//     "codigoBarra": "2VN0TKLIN",
-//     "descripcion": "OBLEAS OBLITA *50G. SURTIDAS",
-//     "descuento": 0.00,
-//     "idarticulo": 658,
-//     "idbulto": {
-//       "descripcion": "BULTO X48",
-//       "idbulto": 6,
-//       "unidades": 48
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 3.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -637,
-//     "codigoBarra": "2VN12B9X0",
-//     "descripcion": "X-CAR.BUTTER TOFFES *970G. CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 660,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -218,
-//     "codigoBarra": "2VN12CKHH",
-//     "descripcion": "X-CAR.BUTTER TOFFES *970G. AGUILA",
-//     "descuento": 0.00,
-//     "idarticulo": 661,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -275,
-//     "codigoBarra": "2VN12DQ0D",
-//     "descripcion": "X-CAR. BUTTER TOFFES *970G.BLACK MINT",
-//     "descuento": 0.00,
-//     "idarticulo": 662,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -394,
-//     "codigoBarra": "2VN12EJ9X",
-//     "descripcion": "X-CAR.BUTTER TOFFES *970G. BONOBON",
-//     "descuento": 0.00,
-//     "idarticulo": 663,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -384,
-//     "codigoBarra": "2VN12FP7H",
-//     "descripcion": "X-CAR.BUTTER TOFFES *970G. DULCE DE LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 664,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -14286,
-//     "codigoBarra": "2VU0SGWSG",
-//     "descripcion": "OBLEAS OBLITA 48*100G. SURTIDAS",
-//     "descuento": 0.00,
-//     "idarticulo": 667,
-//     "idbulto": {
-//       "descripcion": "BULTO X48",
-//       "idbulto": 6,
-//       "unidades": 48
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4476,
-//     "codigoBarra": "2WT0ZD81Y",
-//     "descripcion": "X-CHUP.PELOTITAS *50U. LHERITIER",
-//     "descuento": 0.00,
-//     "idarticulo": 675,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 27.27,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -130,
-//     "codigoBarra": "2X61B0ZZH",
-//     "descripcion": "MAMON EN ALMIBAR ORIETA *3.100 KG.",
-//     "descuento": 0.00,
-//     "idarticulo": 677,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 298.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -33657,
-//     "codigoBarra": "2X90QCYL1",
-//     "descripcion": "GALL.POLVORITAS *80G. SURTIDAS",
-//     "descuento": 0.00,
-//     "idarticulo": 679,
-//     "idbulto": {
-//       "descripcion": "BULTO *40U",
-//       "idbulto": 24,
-//       "unidades": 40
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.62,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -18,
-//     "codigoBarra": "2XD10OJEX",
-//     "descripcion": "X-CINTA EMBALAR \"MTL \" TRANSPARENTE *40 MTS.",
-//     "descuento": 0.00,
-//     "idarticulo": 686,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 2.15,
-//     "precioVenta": 9.71,
-//     "stockMinimo": 60
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2576,
-//     "codigoBarra": "2YM0PIK5N",
-//     "descripcion": "GALL. LUNA TINIEBLA  MAURI *380G. VAINILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 696,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.93,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3780,
-//     "codigoBarra": "2YM0PS5L7",
-//     "descripcion": "GALL. LUNA TINIEBLA  MAURI *380G. C/CHIPS",
-//     "descuento": 0.00,
-//     "idarticulo": 697,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.06,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2393,
-//     "codigoBarra": "3040Y0PE2",
-//     "descripcion": "MAGDALENAS POZO *250G. RELL. CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 722,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.99,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -57610,
-//     "codigoBarra": "30B0K7LJC",
-//     "descripcion": "Z-GAS.SECCO 6*2.25L. LIMA LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 723,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 102
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.67,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -61000,
-//     "codigoBarra": "30B0KC9XW",
-//     "descripcion": "Z-GAS.SECCO 6*2.25L. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 725,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 102
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.67,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2258,
-//     "codigoBarra": "30R10TT4G",
-//     "descripcion": "X-MARIA ELENA MAURI 72*15G",
-//     "descuento": 0.00,
-//     "idarticulo": 746,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 58
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.18,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3023,
-//     "codigoBarra": "30R10VWES",
-//     "descripcion": "X-MAURITA MAURI 60*14G.",
-//     "descuento": 0.00,
-//     "idarticulo": 747,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 58
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 64.63,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2606,
-//     "codigoBarra": "31C0SIQ67",
-//     "descripcion": "X-CHUP.PICO DULCE *48U. TRADICIONAL",
-//     "descuento": 0.00,
-//     "idarticulo": 759,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 59
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 71.40,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11866,
-//     "codigoBarra": "32D0KS8MT",
-//     "descripcion": "GALL. POLVORITAS *80G. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 776,
-//     "idbulto": {
-//       "descripcion": "BULTO *40U",
-//       "idbulto": 24,
-//       "unidades": 40
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.62,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -43924,
-//     "codigoBarra": "",
-//     "descripcion": "Z-LECHE LATTE ENTERA  L/V  8*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 787,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 103
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -118,
-//     "codigoBarra": "34Q157NYR",
-//     "descripcion": "Y-CANCILLER MERLOT 6*750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 809,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 47.78,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -15262,
-//     "codigoBarra": "34R0S9DL8",
-//     "descripcion": "Z-LECHE  LATTE DESCREMADA  L/V 8*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 810,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 103
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -382,
-//     "codigoBarra": "34R128N0J",
-//     "descripcion": "Y-ESPUMANTE BODEGA PRIVADA  12*187 CC. EXTRA BRUT",
-//     "descuento": 0.00,
-//     "idarticulo": 811,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1142,
-//     "codigoBarra": "35I11SVA3",
-//     "descripcion": "X-TIRAS ACIDAS MARENGO *907G.(250U.)",
-//     "descuento": 0.00,
-//     "idarticulo": 820,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 46.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -7790,
-//     "codigoBarra": "35Q0J884N",
-//     "descripcion": "Y-FERNET BRANCA 12*5CL.(MINIATURA)",
-//     "descuento": 0.00,
-//     "idarticulo": 822,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.07,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6935,
-//     "codigoBarra": "35Q0J9CZ0",
-//     "descripcion": "Y-FERNET BRANCA *450CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 823,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 81.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5390,
-//     "codigoBarra": "35Q0JAGL9",
-//     "descripcion": "Y-FERNET BRANCA *750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 824,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 123.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3122,
-//     "codigoBarra": "35Q0JBAZV",
-//     "descripcion": "Y-FERNET BRANCA *1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 825,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 174.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -424,
-//     "codigoBarra": "35Q0JC1VI",
-//     "descripcion": "Y-FERNET BRANCAMENTA *450CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 826,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 81.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -246,
-//     "codigoBarra": "35Q0JCU6H",
-//     "descripcion": "Y-FERNET BRANCAMENTA *750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 827,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 123.14,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1705,
-//     "codigoBarra": "35Q0JEB0L",
-//     "descripcion": "Y-FERNET VITTONE *450CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 828,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.45,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -750,
-//     "codigoBarra": "35Q0JF1CH",
-//     "descripcion": "Y-FERNET VITTONE *750 CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 829,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 48.68,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -38,
-//     "codigoBarra": "35Q0JP9YK",
-//     "descripcion": "Y-VERMUT PUNT E MES*700CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 830,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.26,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -103,
-//     "codigoBarra": "35Q0JQU0R",
-//     "descripcion": "Y-LICOR CAFE EXPRESSO BORGHETTI *700CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 831,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 74
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 164.46,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6250,
-//     "codigoBarra": "35W0WBPLN",
-//     "descripcion": "Z-TOMATE TRITURADO \"CERRO BLANCO\" 8*970G.",
-//     "descuento": 0.00,
-//     "idarticulo": 833,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 23.55,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -127,
-//     "codigoBarra": "3680NJ1K4",
-//     "descripcion": "X- SPRAY POP *9U. MASCOTAS",
-//     "descuento": 0.00,
-//     "idarticulo": 835,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 19
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 125.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -163,
-//     "codigoBarra": "3680NMI1L",
-//     "descripcion": "X-MEGA ROLL MAX   *12U.",
-//     "descuento": 0.00,
-//     "idarticulo": 836,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 19
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 167.26,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11091,
-//     "codigoBarra": "36F0O4J1D",
-//     "descripcion": "Y-FONDAVIEJA GRAPPA C/MIEL *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 840,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 77
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 38.18,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1785,
-//     "codigoBarra": "36F19LDTG",
-//     "descripcion": "Y-FONDAVIEJA CAÃ‘A DE DURAZNO *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 841,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 77
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 38.18,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -266,
-//     "codigoBarra": "36F19OMMH",
-//     "descripcion": "Y-BELPASSO PEPPERMINT *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 842,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 77
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.46,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -812,
-//     "codigoBarra": "36F19QLH3",
-//     "descripcion": "Y-ARAYA LICOR CAFE AL COÃ‘AC *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 843,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 77
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 44.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1972,
-//     "codigoBarra": "36F19T36M",
-//     "descripcion": "Y-PETACA GRAPPA C/MIEL *195CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 844,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 77
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1482,
-//     "codigoBarra": "37K12Z28K",
-//     "descripcion": "X-MINI -TORTA RAPSODIA 24*80G. CLASICA",
-//     "descuento": 0.00,
-//     "idarticulo": 850,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 77.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2039,
-//     "codigoBarra": "37O0U0SGY",
-//     "descripcion": "X-PIC-NIC 40*30G.",
-//     "descuento": 0.00,
-//     "idarticulo": 851,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 8
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 81.71,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -478,
-//     "codigoBarra": "3850R2K9A",
-//     "descripcion": "X-SHAMPOO SEDAL *24U. CREMA",
-//     "descuento": 0.00,
-//     "idarticulo": 865,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -850,
-//     "codigoBarra": "39E0U0NKM",
-//     "descripcion": "X-CHUP.COSMOS *40U. FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 868,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 36.16,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -405,
-//     "codigoBarra": "39Z16QV80",
-//     "descripcion": "AC.OLIVA  \"EL SUPREMO\" 6*250CC.(VIDRIO)",
-//     "descuento": 0.00,
-//     "idarticulo": 873,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 44
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 39.35,
-//     "stockMinimo": 0
-//   },
+  {
+    "activo": "S",
+    "cantidad": -1663,
+    "codigoBarra": "2NL0O3Q7R",
+    "descripcion": "MER.POTE ORIETA *500G. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 147,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 1.83,
+    "precioVenta": 16.33,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1966,
+    "codigoBarra": "2NL0O86XJ",
+    "descripcion": "MER.POTE ORIETA *420G DURAZNO LIGHT",
+    "descuento": 0.00,
+    "idarticulo": 148,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 1.75,
+    "precioVenta": 14.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1246,
+    "codigoBarra": "2NL0OB670",
+    "descripcion": "MER.POTE ORIETA *420G. FRUTILLA LIGHT",
+    "descuento": 0.00,
+    "idarticulo": 149,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 2.11,
+    "precioVenta": 17.07,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2359,
+    "codigoBarra": "2NL0OEKT3",
+    "descripcion": "DULCE ORIETA *425G BATATA",
+    "descuento": 0.00,
+    "idarticulo": 150,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 1.96,
+    "precioVenta": 20.10,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1493,
+    "codigoBarra": "2NL0OJTC6",
+    "descripcion": "DULCE ORIETA *425G. BATATA C/CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 151,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 1.96,
+    "precioVenta": 20.10,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2136,
+    "codigoBarra": "2NL0OLD2V",
+    "descripcion": "DULCE ORIETA *425G. MEMBRILLO",
+    "descuento": 0.00,
+    "idarticulo": 152,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1082,
+    "codigoBarra": "2NL0OMN3X",
+    "descripcion": "DULCE ORIETA *5 KG. BATATA CAJON",
+    "descuento": 0.00,
+    "idarticulo": 153,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 14.50,
+    "precioVenta": 104.47,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -698,
+    "codigoBarra": "2NL0OYLYF",
+    "descripcion": "DULCE ORIETA *5KG. BATATA C/CHOCOLATE CAJON",
+    "descuento": 0.00,
+    "idarticulo": 154,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 14.50,
+    "precioVenta": 109.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -784,
+    "codigoBarra": "2NL0P02VX",
+    "descripcion": "DULCE ORIETA *5KG. MEMBRILLO",
+    "descuento": 0.00,
+    "idarticulo": 155,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 116.34,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -273,
+    "codigoBarra": "2NL0P0UUY",
+    "descripcion": "DULCE ORIETA *5 KG. LATA BATATA",
+    "descuento": 0.00,
+    "idarticulo": 156,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 20.00,
+    "precioVenta": 226.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -165,
+    "codigoBarra": "2NL0P49JN",
+    "descripcion": "DULCE ORIETA *5KG. LATA BATATA C/CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 157,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 20.00,
+    "precioVenta": 229.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -86,
+    "codigoBarra": "2NL0P5EBH",
+    "descripcion": "DULCE ORIETA *5KG LATA MEMBRILLO",
+    "descuento": 0.00,
+    "idarticulo": 158,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 20.00,
+    "precioVenta": 240.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -324,
+    "codigoBarra": "2NL0P6A8D",
+    "descripcion": "D. ZAPALLO EN ALMIBAR *450G ORIETA",
+    "descuento": 0.00,
+    "idarticulo": 159,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 71.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -369,
+    "codigoBarra": "2NL0P8Q91",
+    "descripcion": "MAMON EN ALMIBAR *450G ORIETA",
+    "descuento": 0.00,
+    "idarticulo": 160,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 71.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -255,
+    "codigoBarra": "2NL0PDG8E",
+    "descripcion": "HIGOS EN ALMIBAR *450G ORIETA",
+    "descuento": 0.00,
+    "idarticulo": 161,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -140,
+    "codigoBarra": "2NL0PGN97",
+    "descripcion": "HIGOS EN ALMIBAR *3.100KG ORIETA",
+    "descuento": 0.00,
+    "idarticulo": 162,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 35.45,
+    "precioVenta": 309.69,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1983,
+    "codigoBarra": "2OF128C1F",
+    "descripcion": "X-CH. OPEN FIERITA *100 U. TUTTI",
+    "descuento": 0.00,
+    "idarticulo": 170,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 9.53,
+    "precioVenta": 24.06,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -9309,
+    "codigoBarra": "2OF14J9GJ",
+    "descripcion": "MANI CACHI *1 K. C/CASC.",
+    "descuento": 0.00,
+    "idarticulo": 174,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 34.70,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -32545,
+    "codigoBarra": "2OF19BM1E",
+    "descripcion": "X-CHOC. MISKY  30*25G. NEGRO",
+    "descuento": 0.00,
+    "idarticulo": 175,
+    "idbulto": {
+      "descripcion": "BULTO *30",
+      "idbulto": 18,
+      "unidades": 30
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 5.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2948,
+    "codigoBarra": "2OF1A4X21",
+    "descripcion": "BARBACOA CACHI *1K",
+    "descuento": 0.00,
+    "idarticulo": 180,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 3.97,
+    "precioVenta": 36.77,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -671,
+    "codigoBarra": "2OF1AJX9H",
+    "descripcion": "X-CHOC.MISKY 40*8G LECHE",
+    "descuento": 0.00,
+    "idarticulo": 181,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 66.61,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -11127,
+    "codigoBarra": "2OF1AUE7X",
+    "descripcion": "GALL. MAURITA 10*330G",
+    "descuento": 0.00,
+    "idarticulo": 182,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.74,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2036,
+    "codigoBarra": "2OF1AX4IC",
+    "descripcion": "X-CAR. LIPO VIENA *930G.",
+    "descuento": 0.00,
+    "idarticulo": 183,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 74.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -10715,
+    "codigoBarra": "2OF1CM2C6",
+    "descripcion": "X-CHOC. MISKY 21*50G BCO.",
+    "descuento": 0.00,
+    "idarticulo": 187,
+    "idbulto": {
+      "descripcion": "BULTO X 21",
+      "idbulto": 8,
+      "unidades": 21
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.87,
+    "precioVenta": 9.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -56516,
+    "codigoBarra": "2OF1CP2WY",
+    "descripcion": "X-HAMLET  21*52G. SURT.",
+    "descuento": 0.00,
+    "idarticulo": 188,
+    "idbulto": {
+      "descripcion": "BULTO X 21",
+      "idbulto": 8,
+      "unidades": 21
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -26691,
+    "codigoBarra": "2OF1CZ0NQ",
+    "descripcion": "GALL. FAUNA MAURI *400G",
+    "descuento": 0.00,
+    "idarticulo": 190,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.74,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -312,
+    "codigoBarra": "2OF1DPVUP",
+    "descripcion": "X-ROSPO SAPITO 24*10G MANI",
+    "descuento": 0.00,
+    "idarticulo": 194,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 4.94,
+    "precioVenta": 59.50,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -497,
+    "codigoBarra": "2OF1DRW3I",
+    "descripcion": "X-ROSPO SAPITO 24*10G DESAFIO",
+    "descuento": 0.00,
+    "idarticulo": 195,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 4.94,
+    "precioVenta": 59.50,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3347,
+    "codigoBarra": "2OF1EOSEH",
+    "descripcion": "X-MAST. PALITO SELVA *220U.",
+    "descuento": 0.00,
+    "idarticulo": 201,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 35.11,
+    "precioVenta": 96.55,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1358,
+    "codigoBarra": "2OF1FCOM2",
+    "descripcion": "X-MENTITAS LACASA *12U. MENTA",
+    "descuento": 0.00,
+    "idarticulo": 205,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 3.05,
+    "precioVenta": 29.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8194,
+    "codigoBarra": "2OG00GIA7",
+    "descripcion": "X-CHUP. PELOTITAS LHERITIER *100U.",
+    "descuento": 0.00,
+    "idarticulo": 208,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 54.60,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -21951,
+    "codigoBarra": "2OG010PCB",
+    "descripcion": "GIRASOL CACHI *1K.",
+    "descuento": 0.00,
+    "idarticulo": 213,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -558,
+    "codigoBarra": "2OG0MNNNK",
+    "descripcion": "X-PUSH POP *20U.",
+    "descuento": 0.00,
+    "idarticulo": 215,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 178.27,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -322,
+    "codigoBarra": "2OG0MQTMX",
+    "descripcion": "X-BIG BABY POP *12U.",
+    "descuento": 0.00,
+    "idarticulo": 216,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 167.68,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -29004,
+    "codigoBarra": "2OH0KX5ND",
+    "descripcion": "VAINILLAS MAURI 16*320G",
+    "descuento": 0.00,
+    "idarticulo": 219,
+    "idbulto": {
+      "descripcion": "BULTO *16U",
+      "idbulto": 14,
+      "unidades": 16
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -36013,
+    "codigoBarra": "2OH0VXXOL",
+    "descripcion": "FAUNA MAURI *150G",
+    "descuento": 0.00,
+    "idarticulo": 220,
+    "idbulto": {
+      "descripcion": "BULTO X 28",
+      "idbulto": 7,
+      "unidades": 28
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.69,
+    "precioVenta": 5.54,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -101789,
+    "codigoBarra": "2OH0XBFAS",
+    "descripcion": "VAINILLAS MAURI 36*80G",
+    "descuento": 0.00,
+    "idarticulo": 223,
+    "idbulto": {
+      "descripcion": "BULTO *36",
+      "idbulto": 16,
+      "unidades": 36
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.48,
+    "precioVenta": 4.03,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -62058,
+    "codigoBarra": "2OH0XF2HC",
+    "descripcion": "VAINILLAS MAURI 32*160G",
+    "descuento": 0.00,
+    "idarticulo": 224,
+    "idbulto": {
+      "descripcion": "BULTO *32",
+      "idbulto": 15,
+      "unidades": 32
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 1.02,
+    "precioVenta": 8.26,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -27072,
+    "codigoBarra": "2OH0XO7ZR",
+    "descripcion": "PEPAS TEREPIN *200G",
+    "descuento": 0.00,
+    "idarticulo": 225,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.78,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -64045,
+    "codigoBarra": "2OH0XQNAL",
+    "descripcion": "PEPAS TEREPIN *400G",
+    "descuento": 0.00,
+    "idarticulo": 226,
+    "idbulto": {
+      "descripcion": "BULTO *14",
+      "idbulto": 17,
+      "unidades": 14
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.55,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -20678,
+    "codigoBarra": "2OH0XRV4H",
+    "descripcion": "SALVADO MAURI *400G",
+    "descuento": 0.00,
+    "idarticulo": 227,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 2.05,
+    "precioVenta": 18.07,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -5599,
+    "codigoBarra": "2OH144CG2",
+    "descripcion": "GALL. POLVORITAS *80G. VAINILLA",
+    "descuento": 0.00,
+    "idarticulo": 231,
+    "idbulto": {
+      "descripcion": "BULTO *40U",
+      "idbulto": 24,
+      "unidades": 40
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.74,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4298,
+    "codigoBarra": "2OH1453T2",
+    "descripcion": "GALL. POLVORITAS *80G. CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 232,
+    "idbulto": {
+      "descripcion": "BULTO *40U",
+      "idbulto": 24,
+      "unidades": 40
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.74,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1403,
+    "codigoBarra": "2OH14YI0J",
+    "descripcion": "X-LIPO PRALINE *907G",
+    "descuento": 0.00,
+    "idarticulo": 249,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 74.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -295,
+    "codigoBarra": "2OH14ZH05",
+    "descripcion": "X-LIPO DOR MENTA-CHOC. *907G.",
+    "descuento": 0.00,
+    "idarticulo": 250,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1045,
+    "codigoBarra": "2OH1526FH",
+    "descripcion": "X-LIPO GAJITOS *907G.",
+    "descuento": 0.00,
+    "idarticulo": 251,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2063,
+    "codigoBarra": "2OH152TNH",
+    "descripcion": "X-LIPO SUPER ACIDO *907G.",
+    "descuento": 0.00,
+    "idarticulo": 252,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 74.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1178,
+    "codigoBarra": "2OH1556YL",
+    "descripcion": "X-LIPO C-LECHE *907G",
+    "descuento": 0.00,
+    "idarticulo": 254,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -432,
+    "codigoBarra": "2OH155T8G",
+    "descripcion": "X-LIPO BOLON EUCALIPTUS *907G.",
+    "descuento": 0.00,
+    "idarticulo": 255,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -575,
+    "codigoBarra": "2OH156OT7",
+    "descripcion": "X-LIPO BOLON *907G. MENTA",
+    "descuento": 0.00,
+    "idarticulo": 256,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -176,
+    "codigoBarra": "2OH157VRD",
+    "descripcion": "X-LIPO BOLON *907G. CAPULLITAS",
+    "descuento": 0.00,
+    "idarticulo": 257,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -194,
+    "codigoBarra": "2OH159V5V",
+    "descripcion": "X-LIPO BOLON *907G. SPORT",
+    "descuento": 0.00,
+    "idarticulo": 260,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2397,
+    "codigoBarra": "2OH15ANZX",
+    "descripcion": "X-MENTITA LACASA *12U FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 261,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1230,
+    "codigoBarra": "2OH15BUSA",
+    "descripcion": "X-MENTITA LACASA *12U. D.LECHE",
+    "descuento": 0.00,
+    "idarticulo": 262,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -630,
+    "codigoBarra": "2OH16GICR",
+    "descripcion": "X-BOC. MARROC 60*14G. FELFORT",
+    "descuento": 0.00,
+    "idarticulo": 278,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 305.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -38,
+    "codigoBarra": "2OH16REM4",
+    "descripcion": "X-KRAMELITOS 25*30G. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 280,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 63.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -31404,
+    "codigoBarra": "2OK0GHS7T",
+    "descripcion": "GALL. SIN SAL MAURI *400G.",
+    "descuento": 0.00,
+    "idarticulo": 295,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -558,
+    "codigoBarra": "2OK0GRSZ5",
+    "descripcion": "X-CHUP. PITO PITO *24 U. FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 301,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 40.46,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1173,
+    "codigoBarra": "2OK0GUYIO",
+    "descripcion": "X-CHUPETONCITO LHERITIER *12 U.",
+    "descuento": 0.00,
+    "idarticulo": 303,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 82.83,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -901,
+    "codigoBarra": "2OK0GWKJ7",
+    "descripcion": "X-CAR. PICO DULCE *90U. LERITHIER",
+    "descuento": 0.00,
+    "idarticulo": 305,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 58.66,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2042,
+    "codigoBarra": "2OK0IK27P",
+    "descripcion": "X-ENC.MINI-BIC *6U.",
+    "descuento": 0.00,
+    "idarticulo": 311,
+    "idbulto": {
+      "descripcion": "bulto *2",
+      "idbulto": 31,
+      "unidades": 2
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 53.36,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1646,
+    "codigoBarra": "2OK0IL9VW",
+    "descripcion": "X-ENC. BX7 *20U.",
+    "descuento": 0.00,
+    "idarticulo": 312,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 130.18,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -545,
+    "codigoBarra": "2OK0IMLAT",
+    "descripcion": "PAÃ‘UELOS DESC. SMILE 6*10 U.",
+    "descuento": 0.00,
+    "idarticulo": 313,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.63,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1065,
+    "codigoBarra": "2OK0J9UE0",
+    "descripcion": "X-BUBBALOO *60 U. MENTA",
+    "descuento": 0.00,
+    "idarticulo": 324,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 26.51,
+    "precioVenta": 51.31,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1449,
+    "codigoBarra": "2OK0JAUCQ",
+    "descripcion": "X-BUBBALOO *60U. TUTTI",
+    "descuento": 0.00,
+    "idarticulo": 325,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 26.51,
+    "precioVenta": 51.31,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1374,
+    "codigoBarra": "2OK0K5BAS",
+    "descripcion": "X-PAST. MINI-CLIX  *100U. TUTTI",
+    "descuento": 0.00,
+    "idarticulo": 343,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 43.77,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -271,
+    "codigoBarra": "2OK0KLP26",
+    "descripcion": "X-CAR. GARAMIEL *750G. MIEL",
+    "descuento": 0.00,
+    "idarticulo": 347,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 67.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -171,
+    "codigoBarra": "2OK0KMKEY",
+    "descripcion": "X-CAR. GARAMIEL *750G. MENTA",
+    "descuento": 0.00,
+    "idarticulo": 348,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 67.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -89,
+    "codigoBarra": "2OK0KNWFU",
+    "descripcion": "X-CAR. GARAMIEL *750G. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 349,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 67.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -131,
+    "codigoBarra": "2OK0KP723",
+    "descripcion": "X-CAR. GARAMIEL *750G. LIMON",
+    "descuento": 0.00,
+    "idarticulo": 351,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 67.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2335,
+    "codigoBarra": "2OK0KQW52",
+    "descripcion": "X-MAST. BILLIKEN *600G. YOGURT",
+    "descuento": 0.00,
+    "idarticulo": 352,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 59.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2336,
+    "codigoBarra": "2OK11ZH7G",
+    "descripcion": "X-CH. OPEN  FIERITA  *100 U. MENTA",
+    "descuento": 0.00,
+    "idarticulo": 368,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 9.53,
+    "precioVenta": 24.06,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -131,
+    "codigoBarra": "2OK1220X1",
+    "descripcion": "X-CH. PLUTONITA *50U. ACIDO NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 369,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 41.19,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -73,
+    "codigoBarra": "2OK1235CW",
+    "descripcion": "X-CH. PLUTONITA*50U.  ACIDO LIMON",
+    "descuento": 0.00,
+    "idarticulo": 370,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 41.19,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -20734,
+    "codigoBarra": "2OK12BH9K",
+    "descripcion": "X-MAST. OPEN CANDY *100U. YOGURT",
+    "descuento": 0.00,
+    "idarticulo": 379,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 6.95,
+    "precioVenta": 21.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -92,
+    "codigoBarra": "2OK12FV24",
+    "descripcion": "X-CAR. MINIBALA *300U. FRIEXS",
+    "descuento": 0.00,
+    "idarticulo": 383,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 51.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -76,
+    "codigoBarra": "2OK12H89D",
+    "descripcion": "X-CAR. MINIBALA *300U. FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 384,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 51.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -86,
+    "codigoBarra": "2OK12HZBR",
+    "descripcion": "X-CAR. MINIBALA *300U. CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 385,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 51.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -741,
+    "codigoBarra": "2OK12KIJM",
+    "descripcion": "X-GOMA  ROLLO DORI *30U. FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 387,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 72.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2080,
+    "codigoBarra": "2OK130Y8U",
+    "descripcion": "PIZZETA CACHI *1K.",
+    "descuento": 0.00,
+    "idarticulo": 399,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 36.77,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -24758,
+    "codigoBarra": "2OK131PB8",
+    "descripcion": "CHIZITO CACHI *1K.",
+    "descuento": 0.00,
+    "idarticulo": 400,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 36.77,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -20378,
+    "codigoBarra": "2OK132JPU",
+    "descripcion": "PALITO SALADO CACHI *1K.",
+    "descuento": 0.00,
+    "idarticulo": 401,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 47.92,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4222,
+    "codigoBarra": "2OK133CCO",
+    "descripcion": "PUFLITO CACHI *1K.",
+    "descuento": 0.00,
+    "idarticulo": 402,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 36.77,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6940,
+    "codigoBarra": "2OK1343XQ",
+    "descripcion": "TUTUCA CACHI *1K.",
+    "descuento": 0.00,
+    "idarticulo": 403,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 46.69,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -9350,
+    "codigoBarra": "2OK135LEB",
+    "descripcion": "GIRASOL CACHI *20U.",
+    "descuento": 0.00,
+    "idarticulo": 405,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.73,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -102454,
+    "codigoBarra": "2OK13CUCK",
+    "descripcion": "X-ALF. FANTOCHE TRIP. 24*85G. NEGRO",
+    "descuento": 0.00,
+    "idarticulo": 406,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -95527,
+    "codigoBarra": "2OK13E8A1",
+    "descripcion": "X-ALF. FANTOCHE TRIP. 24*85G. BCO.",
+    "descuento": 0.00,
+    "idarticulo": 407,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3332,
+    "codigoBarra": "2OK13NSVU",
+    "descripcion": "X-NAIPES HACHAZO *50U",
+    "descuento": 0.00,
+    "idarticulo": 413,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.45,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1098,
+    "codigoBarra": "2OK13T392",
+    "descripcion": "X-CHOC. MISKY 40*8G. BLANCO",
+    "descuento": 0.00,
+    "idarticulo": 415,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 66.61,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -420,
+    "codigoBarra": "2OK14Q7N8",
+    "descripcion": "X-MISKY TOFFES *959G. LECHE",
+    "descuento": 0.00,
+    "idarticulo": 416,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 58.63,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -396,
+    "codigoBarra": "2OK14TBH8",
+    "descripcion": "X-MISKY  TOFFES *959G. CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 417,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 58.63,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -213384,
+    "codigoBarra": "2OK157NE9",
+    "descripcion": "X-TURRON MISKY *50U.",
+    "descuento": 0.00,
+    "idarticulo": 420,
+    "idbulto": {
+      "descripcion": "BULTO *50",
+      "idbulto": 19,
+      "unidades": 50
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 3.43,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1561,
+    "codigoBarra": "2OK15DE7N",
+    "descripcion": "X-CHUP. MEGA COSMOS *24U.",
+    "descuento": 0.00,
+    "idarticulo": 422,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 41.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -29963,
+    "codigoBarra": "2OK15EWZF",
+    "descripcion": "X-CHOC. MISKY 30*25G BCO.",
+    "descuento": 0.00,
+    "idarticulo": 423,
+    "idbulto": {
+      "descripcion": "BULTO *30",
+      "idbulto": 18,
+      "unidades": 30
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 5.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -9670,
+    "codigoBarra": "2OK15GVX0",
+    "descripcion": "X-CHOC. MISKY 21*50G. NGRO.",
+    "descuento": 0.00,
+    "idarticulo": 424,
+    "idbulto": {
+      "descripcion": "BULTO X 21",
+      "idbulto": 8,
+      "unidades": 21
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1375,
+    "codigoBarra": "2OK15IEGV",
+    "descripcion": "X-BOC. DANCING *50U.",
+    "descuento": 0.00,
+    "idarticulo": 425,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 73.61,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6332,
+    "codigoBarra": "2OK15JA8F",
+    "descripcion": "X-HAMLET 21*52G. BLANCO",
+    "descuento": 0.00,
+    "idarticulo": 426,
+    "idbulto": {
+      "descripcion": "BULTO X 21",
+      "idbulto": 8,
+      "unidades": 21
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4226,
+    "codigoBarra": "2OM1AF2C4",
+    "descripcion": "X-HAMLET 21*52G. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 428,
+    "idbulto": {
+      "descripcion": "BULTO X 21",
+      "idbulto": 8,
+      "unidades": 21
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -103185,
+    "codigoBarra": "2OT16WJX9",
+    "descripcion": "Z-A. BIO SPORT 6*1.5 L. CITRUS",
+    "descuento": 0.00,
+    "idarticulo": 442,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 71
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.69,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -78456,
+    "codigoBarra": "2OT17CGLM",
+    "descripcion": "Z-A. BIO SPORT 6*1.5 L. NAR./ DUR.",
+    "descuento": 0.00,
+    "idarticulo": 443,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 71
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.69,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -82293,
+    "codigoBarra": "2OT18V9QO",
+    "descripcion": "Z-A. BIO SPORT 6*1.5 L. POMELO",
+    "descuento": 0.00,
+    "idarticulo": 444,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 71
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.69,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -18776,
+    "codigoBarra": "2OT18W5A8",
+    "descripcion": "Z-AGUA MINERAL VILLA DEL NEVADO 6*2 L.",
+    "descuento": 0.00,
+    "idarticulo": 445,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GASEOSAS / AGUAS",
+      "idcategoria": 17
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 11.88,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4157,
+    "codigoBarra": "2OU05NESI",
+    "descripcion": "X-MAST. FRUTOMILA  *120U. FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 449,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 41.59,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4197,
+    "codigoBarra": "2OU073EXB",
+    "descripcion": "X-ENC. MAXI BIC*6U",
+    "descuento": 0.00,
+    "idarticulo": 450,
+    "idbulto": {
+      "descripcion": "bulto *2",
+      "idbulto": 31,
+      "unidades": 2
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 90.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3570,
+    "codigoBarra": "2P00VKYPO",
+    "descripcion": "X-PRES. CAMALEON *12U. CLASICO",
+    "descuento": 0.00,
+    "idarticulo": 460,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.27,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4007,
+    "codigoBarra": "2P00XNURH",
+    "descripcion": "X-GILLETE PRESTOBARBA *2U.",
+    "descuento": 0.00,
+    "idarticulo": 461,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 33.55,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -504,
+    "codigoBarra": "2P00ZPYV7",
+    "descripcion": "X-DRF *12 U. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 462,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 16.78,
+    "precioVenta": 46.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -978,
+    "codigoBarra": "2P011BUWQ",
+    "descripcion": "X-D-LECHE MARENGO *100U.",
+    "descuento": 0.00,
+    "idarticulo": 463,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 47.63,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2954,
+    "codigoBarra": "2P70PMY4C",
+    "descripcion": "X-SALADIX  6U *25G.",
+    "descuento": 0.00,
+    "idarticulo": 480,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 32.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -11431,
+    "codigoBarra": "2P70PRT63",
+    "descripcion": "MAGDALENAS POZO *250G. CLASICA",
+    "descuento": 0.00,
+    "idarticulo": 481,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4660,
+    "codigoBarra": "2P911165B",
+    "descripcion": "X-HAMLET 21*52G. LECHE",
+    "descuento": 0.00,
+    "idarticulo": 484,
+    "idbulto": {
+      "descripcion": "BULTO X 21",
+      "idbulto": 8,
+      "unidades": 21
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2062,
+    "codigoBarra": "2P9112QZ0",
+    "descripcion": "X-HAMLET 21*52G. BICOLOR",
+    "descuento": 0.00,
+    "idarticulo": 485,
+    "idbulto": {
+      "descripcion": "BULTO X 21",
+      "idbulto": 8,
+      "unidades": 21
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1716,
+    "codigoBarra": "2P9114PM4",
+    "descripcion": "X-HAMLET 21*52G. COOKIES",
+    "descuento": 0.00,
+    "idarticulo": 486,
+    "idbulto": {
+      "descripcion": "BULTO X 21",
+      "idbulto": 8,
+      "unidades": 21
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1566,
+    "codigoBarra": "2PF0PDPGL",
+    "descripcion": "X-ENC. CANCUN *10U.",
+    "descuento": 0.00,
+    "idarticulo": 493,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 39.66,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1733,
+    "codigoBarra": "2PM0MD4KX",
+    "descripcion": "X-MARENGO SAQ. *970G. FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 501,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 70.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -852,
+    "codigoBarra": "2PT04JPE6",
+    "descripcion": "X-RING POP *12U. MASCOTAS",
+    "descuento": 0.00,
+    "idarticulo": 504,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 58.82,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -82,
+    "codigoBarra": "2PU12RU1B",
+    "descripcion": "D. ZAPALLO ORIETA*3.100KG. EN ALMIBAR",
+    "descuento": 0.00,
+    "idarticulo": 506,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 298.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1781,
+    "codigoBarra": "2PY0S11LS",
+    "descripcion": "X-MIELCITA GRANDES *50U.",
+    "descuento": 0.00,
+    "idarticulo": 511,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 54.63,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8317,
+    "codigoBarra": "2Q20SCOQ8",
+    "descripcion": "SALVADO MAURI *210G.",
+    "descuento": 0.00,
+    "idarticulo": 515,
+    "idbulto": {
+      "descripcion": "BULTO *20",
+      "idbulto": 12,
+      "unidades": 20
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.59,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -625,
+    "codigoBarra": "2Q20TCQDF",
+    "descripcion": "X-DRF *12U. MENTA",
+    "descuento": 0.00,
+    "idarticulo": 516,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 16.78,
+    "precioVenta": 46.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -249,
+    "codigoBarra": "2Q20TE5TE",
+    "descripcion": "X-DRF*12U. MENTOL",
+    "descuento": 0.00,
+    "idarticulo": 517,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 16.78,
+    "precioVenta": 46.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -365,
+    "codigoBarra": "2Q20TEXAM",
+    "descripcion": "X-DRF *12U. ANIS",
+    "descuento": 0.00,
+    "idarticulo": 518,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 16.78,
+    "precioVenta": 46.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -326,
+    "codigoBarra": "2Q20TG6OU",
+    "descripcion": "X-DRF *12U. LIMON",
+    "descuento": 0.00,
+    "idarticulo": 519,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 16.78,
+    "precioVenta": 46.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2360,
+    "codigoBarra": "2Q70FVUS9",
+    "descripcion": "X-MIELCITA *50U. CHICA",
+    "descuento": 0.00,
+    "idarticulo": 529,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 27.31,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -54057,
+    "codigoBarra": "2QD1466H6",
+    "descripcion": "GALL. MEDIA TARDE *330G.",
+    "descuento": 0.00,
+    "idarticulo": 536,
+    "idbulto": {
+      "descripcion": "BULTO *14",
+      "idbulto": 17,
+      "unidades": 14
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.13,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -12568,
+    "codigoBarra": "2QE0BAWO9",
+    "descripcion": "MAGDALENAS  POZO *250G RELL. D. LECHE",
+    "descuento": 0.00,
+    "idarticulo": 537,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3956,
+    "codigoBarra": "2QE0BDG0H",
+    "descripcion": "MAGDALENAS POZO *250G. C/CHIPS",
+    "descuento": 0.00,
+    "idarticulo": 538,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -954,
+    "codigoBarra": "2QF0QA1N8",
+    "descripcion": "X-CAR. BUTTER TOFFES *970G. LECHE",
+    "descuento": 0.00,
+    "idarticulo": 539,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -584,
+    "codigoBarra": "2QY0VDRX3",
+    "descripcion": "X-BOLITAS \"NORTE 3 COLORES\" *100U.",
+    "descuento": 0.00,
+    "idarticulo": 555,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 23.10,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4261,
+    "codigoBarra": "2R60X6B47",
+    "descripcion": "X-PRES. PRIME *3U. SURT.",
+    "descuento": 0.00,
+    "idarticulo": 556,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.75,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1892,
+    "codigoBarra": "2RZ0TOH8H",
+    "descripcion": "X-SHAMPOO SEDAL *24U. CERAMIDAS",
+    "descuento": 0.00,
+    "idarticulo": 571,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -850,
+    "codigoBarra": "2RZ0VPS18",
+    "descripcion": "X-ACONDICIONADOR SEDAL *24U. CERAMIDAS",
+    "descuento": 0.00,
+    "idarticulo": 575,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -138,
+    "codigoBarra": "2RZ13R2HM",
+    "descripcion": "X-ACONDICIONADOR SEDAL *24U. RECONST. EXTRUC.",
+    "descuento": 0.00,
+    "idarticulo": 582,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -45759,
+    "codigoBarra": "2S00W6IU6",
+    "descripcion": "HOJALMAR RONDA 30*150G.",
+    "descuento": 0.00,
+    "idarticulo": 583,
+    "idbulto": {
+      "descripcion": "BULTO *30",
+      "idbulto": 18,
+      "unidades": 30
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 11.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -19232,
+    "codigoBarra": "2SQ0GJBSU",
+    "descripcion": "PAPAS FRITAS CACHI *1K.",
+    "descuento": 0.00,
+    "idarticulo": 588,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 104.13,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -43650,
+    "codigoBarra": "2SU0J3VSM",
+    "descripcion": "Z-GAS.SECCO 6*2.25L. POMELO",
+    "descuento": 0.00,
+    "idarticulo": 590,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 102
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.67,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -105,
+    "codigoBarra": "2T20V2GJE",
+    "descripcion": "X-SHAMPOO SEDAL *24U. RECONST.EXT.",
+    "descuento": 0.00,
+    "idarticulo": 592,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1974,
+    "codigoBarra": "2T20V4J5P",
+    "descripcion": "X-ACOND. SEDAL *24U. BALANCE",
+    "descuento": 0.00,
+    "idarticulo": 593,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1680,
+    "codigoBarra": "2T51B9RVT",
+    "descripcion": "X-NAIPES CASINO *40U.",
+    "descuento": 0.00,
+    "idarticulo": 595,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 25.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6650,
+    "codigoBarra": "2T60WHR71",
+    "descripcion": "X-PRES. TULIPAN  CLASSIC *3U.",
+    "descuento": 0.00,
+    "idarticulo": 598,
+    "idbulto": {
+      "descripcion": "BULTO *16U",
+      "idbulto": 14,
+      "unidades": 16
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -12165,
+    "codigoBarra": "2TA0COZNC",
+    "descripcion": "X-GLOBITOS SPLASH *100U.",
+    "descuento": 0.00,
+    "idarticulo": 601,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 8.17,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -13218,
+    "codigoBarra": "2TA0D1LQ0",
+    "descripcion": "HOJALMAR MATERO 24*180G.",
+    "descuento": 0.00,
+    "idarticulo": 602,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 8.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -379,
+    "codigoBarra": "2TD0TBIR5",
+    "descripcion": "X-BUBBALOO *60U. UVA",
+    "descuento": 0.00,
+    "idarticulo": 606,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 26.51,
+    "precioVenta": 51.31,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -936,
+    "codigoBarra": "2TH0UESLN",
+    "descripcion": "X-PIL. EVEREADY (C)MEDIANAS *2U.",
+    "descuento": 0.00,
+    "idarticulo": 608,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.33,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1498,
+    "codigoBarra": "2TK0DU8QK",
+    "descripcion": "X-NAIPES CASINO *50U.",
+    "descuento": 0.00,
+    "idarticulo": 612,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 27.91,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -282,
+    "codigoBarra": "2TN0Y0N92",
+    "descripcion": "X-FRUTA 3  18*15G. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 615,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -506,
+    "codigoBarra": "2TO0UGZDC",
+    "descripcion": "X-FRUTA 3  18*15G. BANANA-NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 616,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -544,
+    "codigoBarra": "2U30UI442",
+    "descripcion": "X-NAIPES HABANA *40U.",
+    "descuento": 0.00,
+    "idarticulo": 619,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1123,
+    "codigoBarra": "2U30UIV17",
+    "descripcion": "X-NAIPES HABANA *50U.",
+    "descuento": 0.00,
+    "idarticulo": 620,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.27,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -270,
+    "codigoBarra": "2U90YVAG5",
+    "descripcion": "X-FRUTA 3 18*15G. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 625,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -227,
+    "codigoBarra": "2UG14PAFE",
+    "descripcion": "X-FRUTA 3 18*15G. MIX-FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 634,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -903,
+    "codigoBarra": "2UK0TGHOH",
+    "descripcion": "ATUN DESMENUZADO NATURAL CARACAS *170G.(ECUADOR)",
+    "descuento": 0.00,
+    "idarticulo": 637,
+    "idbulto": {
+      "descripcion": "BULTO X48",
+      "idbulto": 6,
+      "unidades": 48
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.11,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1055,
+    "codigoBarra": "2UK0TKCQL",
+    "descripcion": "ATUN DESMENUZADO ACTE./AG. CARACAS *170G.(ECUADOR)",
+    "descuento": 0.00,
+    "idarticulo": 638,
+    "idbulto": {
+      "descripcion": "BULTO X48",
+      "idbulto": 6,
+      "unidades": 48
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.11,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2691,
+    "codigoBarra": "2UK0TLOV2",
+    "descripcion": "CABALLA AL NAT.CARACAS *380G.",
+    "descuento": 0.00,
+    "idarticulo": 639,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 25.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4380,
+    "codigoBarra": "2UK0TMH7E",
+    "descripcion": "CABALLA ACTE. CARACAS *380G.",
+    "descuento": 0.00,
+    "idarticulo": 640,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 26.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1902,
+    "codigoBarra": "2UL0LDM8R",
+    "descripcion": "ATUN ENTERO ACTE/AG. CARACAS *170G.(ECUADOR)",
+    "descuento": 0.00,
+    "idarticulo": 642,
+    "idbulto": {
+      "descripcion": "BULTO X48",
+      "idbulto": 6,
+      "unidades": 48
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 25.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1190,
+    "codigoBarra": "2UL0LGK3T",
+    "descripcion": "ATUN ENTERO AL NATURAL CARACAS  *170G. (ECUADOR)",
+    "descuento": 0.00,
+    "idarticulo": 643,
+    "idbulto": {
+      "descripcion": "BULTO X48",
+      "idbulto": 6,
+      "unidades": 48
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -638,
+    "codigoBarra": "2VB0RM8RK",
+    "descripcion": "SARDINAS EN ACEITE CARACAS 50*125G.",
+    "descuento": 0.00,
+    "idarticulo": 648,
+    "idbulto": {
+      "descripcion": "BULTO *50",
+      "idbulto": 19,
+      "unidades": 50
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.97,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3921,
+    "codigoBarra": "2VB0TJUCF",
+    "descripcion": "MAGDALENAS POZO *250G. MARMOLADAS",
+    "descuento": 0.00,
+    "idarticulo": 649,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -746,
+    "codigoBarra": "2VG0NU9NE",
+    "descripcion": "X-ROSPO SAPITO *24U FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 653,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 59.50,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -5666,
+    "codigoBarra": "2VI0S8SHI",
+    "descripcion": "DURAZNOS EN MITADES GENTLEMAN 12*820G.",
+    "descuento": 0.00,
+    "idarticulo": 655,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.53,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -84309,
+    "codigoBarra": "2VN0TKLIN",
+    "descripcion": "OBLEAS OBLITA *50G. SURTIDAS",
+    "descuento": 0.00,
+    "idarticulo": 658,
+    "idbulto": {
+      "descripcion": "BULTO X48",
+      "idbulto": 6,
+      "unidades": 48
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 3.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -641,
+    "codigoBarra": "2VN12B9X0",
+    "descripcion": "X-CAR.BUTTER TOFFES *970G. CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 660,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -221,
+    "codigoBarra": "2VN12CKHH",
+    "descripcion": "X-CAR.BUTTER TOFFES *970G. AGUILA",
+    "descuento": 0.00,
+    "idarticulo": 661,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -275,
+    "codigoBarra": "2VN12DQ0D",
+    "descripcion": "X-CAR. BUTTER TOFFES *970G.BLACK MINT",
+    "descuento": 0.00,
+    "idarticulo": 662,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -397,
+    "codigoBarra": "2VN12EJ9X",
+    "descripcion": "X-CAR.BUTTER TOFFES *970G. BONOBON",
+    "descuento": 0.00,
+    "idarticulo": 663,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -386,
+    "codigoBarra": "2VN12FP7H",
+    "descripcion": "X-CAR.BUTTER TOFFES *970G. DULCE DE LECHE",
+    "descuento": 0.00,
+    "idarticulo": 664,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -14322,
+    "codigoBarra": "2VU0SGWSG",
+    "descripcion": "OBLEAS OBLITA 48*100G. SURTIDAS",
+    "descuento": 0.00,
+    "idarticulo": 667,
+    "idbulto": {
+      "descripcion": "BULTO X48",
+      "idbulto": 6,
+      "unidades": 48
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4490,
+    "codigoBarra": "2WT0ZD81Y",
+    "descripcion": "X-CHUP.PELOTITAS *50U. LHERITIER",
+    "descuento": 0.00,
+    "idarticulo": 675,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 27.27,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -130,
+    "codigoBarra": "2X61B0ZZH",
+    "descripcion": "MAMON EN ALMIBAR ORIETA *3.100 KG.",
+    "descuento": 0.00,
+    "idarticulo": 677,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 298.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -33701,
+    "codigoBarra": "2X90QCYL1",
+    "descripcion": "GALL.POLVORITAS *80G. SURTIDAS",
+    "descuento": 0.00,
+    "idarticulo": 679,
+    "idbulto": {
+      "descripcion": "BULTO *40U",
+      "idbulto": 24,
+      "unidades": 40
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.62,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -18,
+    "codigoBarra": "2XD10OJEX",
+    "descripcion": "X-CINTA EMBALAR \"MTL \" TRANSPARENTE *40 MTS.",
+    "descuento": 0.00,
+    "idarticulo": 686,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 2.15,
+    "precioVenta": 9.71,
+    "stockMinimo": 60
+  },
+  {
+    "activo": "S",
+    "cantidad": -2600,
+    "codigoBarra": "2YM0PIK5N",
+    "descripcion": "GALL. LUNA TINIEBLA  MAURI *380G. VAINILLA",
+    "descuento": 0.00,
+    "idarticulo": 696,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.93,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3804,
+    "codigoBarra": "2YM0PS5L7",
+    "descripcion": "GALL. LUNA TINIEBLA  MAURI *380G. C/CHIPS",
+    "descuento": 0.00,
+    "idarticulo": 697,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.06,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2417,
+    "codigoBarra": "3040Y0PE2",
+    "descripcion": "MAGDALENAS POZO *250G. RELL. CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 722,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -58024,
+    "codigoBarra": "30B0K7LJC",
+    "descripcion": "Z-GAS.SECCO 6*2.25L. LIMA LIMON",
+    "descuento": 0.00,
+    "idarticulo": 723,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 102
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.67,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -61408,
+    "codigoBarra": "30B0KC9XW",
+    "descripcion": "Z-GAS.SECCO 6*2.25L. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 725,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 102
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.67,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2259,
+    "codigoBarra": "30R10TT4G",
+    "descripcion": "X-MARIA ELENA MAURI 72*15G",
+    "descuento": 0.00,
+    "idarticulo": 746,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.18,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3023,
+    "codigoBarra": "30R10VWES",
+    "descripcion": "X-MAURITA MAURI 60*14G.",
+    "descuento": 0.00,
+    "idarticulo": 747,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 64.63,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2608,
+    "codigoBarra": "31C0SIQ67",
+    "descripcion": "X-CHUP.PICO DULCE *48U. TRADICIONAL",
+    "descuento": 0.00,
+    "idarticulo": 759,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 71.40,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -11882,
+    "codigoBarra": "32D0KS8MT",
+    "descripcion": "GALL. POLVORITAS *80G. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 776,
+    "idbulto": {
+      "descripcion": "BULTO *40U",
+      "idbulto": 24,
+      "unidades": 40
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.74,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -44246,
+    "codigoBarra": "",
+    "descripcion": "Z-LECHE LATTE ENTERA  L/V  8*1L.",
+    "descuento": 0.00,
+    "idarticulo": 787,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 103
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -118,
+    "codigoBarra": "34Q157NYR",
+    "descripcion": "Y-CANCILLER MERLOT 6*750CC.",
+    "descuento": 0.00,
+    "idarticulo": 809,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 47.78,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -15395,
+    "codigoBarra": "34R0S9DL8",
+    "descripcion": "Z-LECHE  LATTE DESCREMADA  L/V 8*1L.",
+    "descuento": 0.00,
+    "idarticulo": 810,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 103
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -382,
+    "codigoBarra": "34R128N0J",
+    "descripcion": "Y-ESPUMANTE BODEGA PRIVADA  12*187 CC. EXTRA BRUT",
+    "descuento": 0.00,
+    "idarticulo": 811,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1155,
+    "codigoBarra": "35I11SVA3",
+    "descripcion": "X-TIRAS ACIDAS MARENGO *907G.(250U.)",
+    "descuento": 0.00,
+    "idarticulo": 820,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 46.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -7802,
+    "codigoBarra": "35Q0J884N",
+    "descripcion": "Y-FERNET BRANCA 12*5CL.(MINIATURA)",
+    "descuento": 0.00,
+    "idarticulo": 822,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.07,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6949,
+    "codigoBarra": "35Q0J9CZ0",
+    "descripcion": "Y-FERNET BRANCA *450CC.",
+    "descuento": 0.00,
+    "idarticulo": 823,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 81.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -5410,
+    "codigoBarra": "35Q0JAGL9",
+    "descripcion": "Y-FERNET BRANCA *750CC.",
+    "descuento": 0.00,
+    "idarticulo": 824,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 123.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3128,
+    "codigoBarra": "35Q0JBAZV",
+    "descripcion": "Y-FERNET BRANCA *1L.",
+    "descuento": 0.00,
+    "idarticulo": 825,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 174.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -424,
+    "codigoBarra": "35Q0JC1VI",
+    "descripcion": "Y-FERNET BRANCAMENTA *450CC.",
+    "descuento": 0.00,
+    "idarticulo": 826,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 81.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -246,
+    "codigoBarra": "35Q0JCU6H",
+    "descripcion": "Y-FERNET BRANCAMENTA *750CC.",
+    "descuento": 0.00,
+    "idarticulo": 827,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 123.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1765,
+    "codigoBarra": "35Q0JEB0L",
+    "descripcion": "Y-FERNET VITTONE *450CC.",
+    "descuento": 0.00,
+    "idarticulo": 828,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.45,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -775,
+    "codigoBarra": "35Q0JF1CH",
+    "descripcion": "Y-FERNET VITTONE *750 CC.",
+    "descuento": 0.00,
+    "idarticulo": 829,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 48.68,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -38,
+    "codigoBarra": "35Q0JP9YK",
+    "descripcion": "Y-VERMUT PUNT E MES*700CC.",
+    "descuento": 0.00,
+    "idarticulo": 830,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.26,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -103,
+    "codigoBarra": "35Q0JQU0R",
+    "descripcion": "Y-LICOR CAFE EXPRESSO BORGHETTI *700CC.",
+    "descuento": 0.00,
+    "idarticulo": 831,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 74
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 164.46,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6276,
+    "codigoBarra": "35W0WBPLN",
+    "descripcion": "Z-TOMATE TRITURADO \"CERRO BLANCO\" 8*970G.",
+    "descuento": 0.00,
+    "idarticulo": 833,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 23.55,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -127,
+    "codigoBarra": "3680NJ1K4",
+    "descripcion": "X- SPRAY POP *9U. MASCOTAS",
+    "descuento": 0.00,
+    "idarticulo": 835,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 125.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -163,
+    "codigoBarra": "3680NMI1L",
+    "descripcion": "X-MEGA ROLL MAX   *12U.",
+    "descuento": 0.00,
+    "idarticulo": 836,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 167.26,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -11123,
+    "codigoBarra": "36F0O4J1D",
+    "descripcion": "Y-FONDAVIEJA GRAPPA C/MIEL *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 840,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 77
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 38.18,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1789,
+    "codigoBarra": "36F19LDTG",
+    "descripcion": "Y-FONDAVIEJA CAÃ‘A DE DURAZNO *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 841,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 77
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 38.18,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -266,
+    "codigoBarra": "36F19OMMH",
+    "descripcion": "Y-BELPASSO PEPPERMINT *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 842,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.46,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -812,
+    "codigoBarra": "36F19QLH3",
+    "descripcion": "Y-ARAYA LICOR CAFE AL COÃ‘AC *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 843,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 44.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1977,
+    "codigoBarra": "36F19T36M",
+    "descripcion": "Y-PETACA GRAPPA C/MIEL *195CC.",
+    "descuento": 0.00,
+    "idarticulo": 844,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 77
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.36,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1482,
+    "codigoBarra": "37K12Z28K",
+    "descripcion": "X-MINI -TORTA RAPSODIA 24*80G. CLASICA",
+    "descuento": 0.00,
+    "idarticulo": 850,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 77.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2040,
+    "codigoBarra": "37O0U0SGY",
+    "descripcion": "X-PIC-NIC 40*30G.",
+    "descuento": 0.00,
+    "idarticulo": 851,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 81.71,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -479,
+    "codigoBarra": "3850R2K9A",
+    "descripcion": "X-SHAMPOO SEDAL *24U. CREMA",
+    "descuento": 0.00,
+    "idarticulo": 865,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -855,
+    "codigoBarra": "39E0U0NKM",
+    "descripcion": "X-CHUP.COSMOS *40U. FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 868,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 36.16,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -405,
+    "codigoBarra": "39Z16QV80",
+    "descripcion": "AC.OLIVA  \"EL SUPREMO\" 6*250CC.(VIDRIO)",
+    "descuento": 0.00,
+    "idarticulo": 873,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 44
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 39.35,
+    "stockMinimo": 0
+  },
   {
     "activo": "S",
     "cantidad": -997,
@@ -6841,7638 +6841,7614 @@ export const productsMock =
     "precioVenta": 9.04,
     "stockMinimo": 0
   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3960,
-//     "codigoBarra": "3AJ18RS9I",
-//     "descripcion": "Y-GINEBRA LLAVE *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 888,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 77.66,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1062,
-//     "codigoBarra": "3AJ18TRKX",
-//     "descripcion": "Y-GINEBRA LLAVE *475CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 889,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 45.24,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -363,
-//     "codigoBarra": "3AJ18WEAE",
-//     "descripcion": "Y-PIÃ‘A COLADA MOONLIGHT CLUB *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 890,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 47.31,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -219,
-//     "codigoBarra": "3AW0POH65",
-//     "descripcion": "X-BUBBALOO *60U. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 892,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 26.51,
-//     "precioVenta": 51.31,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -204,
-//     "codigoBarra": "3BC10WV93",
-//     "descripcion": "X-LOVE 20*26G. FELFORT",
-//     "descuento": 0.00,
-//     "idarticulo": 898,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 76
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 105.50,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1132,
-//     "codigoBarra": "3CB19E528",
-//     "descripcion": "COCTEL DE 5 FRUTAS ``GENTLEMANÂ´Â´ *820G.",
-//     "descuento": 0.00,
-//     "idarticulo": 902,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 33.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1499,
-//     "codigoBarra": "3CB19J2Z7",
-//     "descripcion": "ANANAS EN RODAJAS GENTLEMAN *836G.",
-//     "descuento": 0.00,
-//     "idarticulo": 903,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 49.48,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -10642,
-//     "codigoBarra": "3CL0M3185",
-//     "descripcion": "VINAGRE DE ALCOHOL 930 P.V.C.",
-//     "descuento": 0.00,
-//     "idarticulo": 904,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -627,
-//     "codigoBarra": "3CL0N8BJ7",
-//     "descripcion": "VINAGRE DE MANZANA *930CC. P.V.C.",
-//     "descuento": 0.00,
-//     "idarticulo": 905,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.84,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4540,
-//     "codigoBarra": "3CL0NMFIB",
-//     "descripcion": "VINAGRE DE ALCOHOL *500G. P.V.C.",
-//     "descuento": 0.00,
-//     "idarticulo": 906,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 8.12,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1157,
-//     "codigoBarra": "3CL0NOVAF",
-//     "descripcion": "VINAGRE DE MANZANA *500G. P.V.C.",
-//     "descuento": 0.00,
-//     "idarticulo": 907,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 11.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4,
-//     "codigoBarra": "3D20LO9KV",
-//     "descripcion": "PERAS EN MITADES \" DE LA HUERTA\" *820G.",
-//     "descuento": 0.00,
-//     "idarticulo": 908,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 31.78,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2630,
-//     "codigoBarra": "3D20MAVMF",
-//     "descripcion": "TEREPIN SOFT *330G. FRUTOS DEL BOSQUE",
-//     "descuento": 0.00,
-//     "idarticulo": 909,
-//     "idbulto": {
-//       "descripcion": "bulto * 15",
-//       "idbulto": 11,
-//       "unidades": 15
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 13.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2898,
-//     "codigoBarra": "3D70G23V5",
-//     "descripcion": "TEREPIN SOFT *330G. CHOCOLATE Y MEMBRILLO",
-//     "descuento": 0.00,
-//     "idarticulo": 911,
-//     "idbulto": {
-//       "descripcion": "bulto * 15",
-//       "idbulto": 11,
-//       "unidades": 15
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 13.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3673,
-//     "codigoBarra": "3D70G3YH8",
-//     "descripcion": "TEREPIN SOFT *330G. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 912,
-//     "idbulto": {
-//       "descripcion": "bulto * 15",
-//       "idbulto": 11,
-//       "unidades": 15
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 13.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -872,
-//     "codigoBarra": "3DM12BAXG",
-//     "descripcion": "Y-DILEMA EM DULCE NATURAL *750CC. BLANCO",
-//     "descuento": 0.00,
-//     "idarticulo": 913,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 47.56,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -37414,
-//     "codigoBarra": "3F11CP6BJ",
-//     "descripcion": "Z-SAB. VIDA 6*1.5L. PERA",
-//     "descuento": 0.00,
-//     "idarticulo": 922,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 110
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -72859,
-//     "codigoBarra": "3F40GA8G1",
-//     "descripcion": "Z-SAB. VIDA 6*1.5L. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 923,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 110
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -41445,
-//     "codigoBarra": "3F40GCN3P",
-//     "descripcion": "Z-SAB.VIDA 6*1.5L. MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 924,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 110
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -252,
-//     "codigoBarra": "3G511QZUE",
-//     "descripcion": "\"LA CANASTA\" CHIMICHURRI 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 926,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 74.79,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -90,
-//     "codigoBarra": "3G511US1D",
-//     "descripcion": "\"LA CANASTA\" COND.PARA ARROZ 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 927,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 53.46,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -123,
-//     "codigoBarra": "3G511WZDW",
-//     "descripcion": "\"LA CANASTA\" COMINO MOLIDO 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 928,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 85.59,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -37,
-//     "codigoBarra": "3G511YIXN",
-//     "descripcion": "\"LA CANASTA\"  LISTA LA SALSA 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 929,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 67.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -82,
-//     "codigoBarra": "3G51206AB",
-//     "descripcion": "\"LA CANASTA\" NUEZ MOSCADA MOLIDA 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 930,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 139.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1200,
-//     "codigoBarra": "3G5121SDL",
-//     "descripcion": "\"LA CANASTA\" OREGANO 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 931,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 85.59,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1217,
-//     "codigoBarra": "3G512348I",
-//     "descripcion": "\"LA CANASTA\" PIMENTON 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 932,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 74.79,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -795,
-//     "codigoBarra": "3G5124H5E",
-//     "descripcion": "\"LA CANASTA\" PIMIENTA BLANCA MOLIDA 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 933,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 164.71,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1918,
-//     "codigoBarra": "3G5126HQ7",
-//     "descripcion": "\"LA CANASTA\" PROVENZAL 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 934,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 106.92,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -55,
-//     "codigoBarra": "3G5127M15",
-//     "descripcion": "\"LA CANASTA\" LISTO PARA  EMPANADA 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 935,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 67.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -681,
-//     "codigoBarra": "3G51298IV",
-//     "descripcion": "\"LA CANASTA\" PIMENTON *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 936,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 85.99,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -207,
-//     "codigoBarra": "3G512E2GT",
-//     "descripcion": "\"LA CANASTA\" PIMIENTA BLANCA MOLIDA *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 937,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 382.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -438,
-//     "codigoBarra": "3G512GLBA",
-//     "descripcion": "\"LA CANASTA\" OREGANO *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 938,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 139.48,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -998,
-//     "codigoBarra": "3G512I01Z",
-//     "descripcion": "\"LA CANASTA\" PROVENZAL *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 939,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 198.72,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -743,
-//     "codigoBarra": "3G60VPN96",
-//     "descripcion": "TOMATE PERITA GENTLEMAN *400G.",
-//     "descuento": 0.00,
-//     "idarticulo": 940,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2243,
-//     "codigoBarra": "3G60VW0S0",
-//     "descripcion": "EXTRACTO DOBLE DE TOMATE GENTLEMAN *145G.",
-//     "descuento": 0.00,
-//     "idarticulo": 941,
-//     "idbulto": {
-//       "descripcion": "BULTO *40U",
-//       "idbulto": 24,
-//       "unidades": 40
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 8.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2408,
-//     "codigoBarra": "3GH0KL890",
-//     "descripcion": "TEREPIN SOFT 30*165G. AVELLANA",
-//     "descuento": 0.00,
-//     "idarticulo": 948,
-//     "idbulto": {
-//       "descripcion": "BULTO *30",
-//       "idbulto": 18,
-//       "unidades": 30
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2456,
-//     "codigoBarra": "3GH0KN6ZV",
-//     "descripcion": "TEREPIN SOFT *330G. LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 949,
-//     "idbulto": {
-//       "descripcion": "bulto * 15",
-//       "idbulto": 11,
-//       "unidades": 15
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 13.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1419,
-//     "codigoBarra": "3GQ14ZUD4",
-//     "descripcion": "Z-EDULCORANTE SI DIET 6*250CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 956,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 64
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 106.08,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -650,
-//     "codigoBarra": "3GQ153LA1",
-//     "descripcion": "Z-EDULCORANTE SI DIET 6*600CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 957,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 64
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 176.81,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3944,
-//     "codigoBarra": "3GU13UL56",
-//     "descripcion": "Z-PURE DE TOMATES \" 7 DIAS\"  18*210G.",
-//     "descuento": 0.00,
-//     "idarticulo": 968,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 69
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -123011,
-//     "codigoBarra": "3GU13ZKNA",
-//     "descripcion": "Z-PURE DE TOMATES \"LA HUERTA\" 18*210G.",
-//     "descuento": 0.00,
-//     "idarticulo": 969,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 69
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -45766,
-//     "codigoBarra": "3HI0GDK09",
-//     "descripcion": "Z-SAB. VIDA 6*1.5L. POMELO",
-//     "descuento": 0.00,
-//     "idarticulo": 1014,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 110
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1870,
-//     "codigoBarra": "3HL180WEC",
-//     "descripcion": "X-ALF.MOGY 60*21G. BCO.",
-//     "descuento": 0.00,
-//     "idarticulo": 1015,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 8
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 71.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2040,
-//     "codigoBarra": "3HL183ID6",
-//     "descripcion": "X-ALF. MOGY 60*21G. NGRO.",
-//     "descuento": 0.00,
-//     "idarticulo": 1016,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 8
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 71.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -936,
-//     "codigoBarra": "3HN0ZPA9G",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. CAFE AL COGNAC",
-//     "descuento": 0.00,
-//     "idarticulo": 1020,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 52.65,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -36,
-//     "codigoBarra": "3HN0ZT6SW",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. LEMONCELLO",
-//     "descuento": 0.00,
-//     "idarticulo": 1021,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.40,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -10,
-//     "codigoBarra": "3HN0ZV3CS",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. KIWI",
-//     "descuento": 0.00,
-//     "idarticulo": 1022,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.40,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -75,
-//     "codigoBarra": "3HN0ZWFQZ",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. PIÃ‘AS",
-//     "descuento": 0.00,
-//     "idarticulo": 1023,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.40,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -279,
-//     "codigoBarra": "3HN0ZXCP6",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 1024,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 52.65,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -616,
-//     "codigoBarra": "3HN1005IY",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. DULCE DE LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 1025,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 55.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -391,
-//     "codigoBarra": "3HN101U32",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 1026,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 55.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -557,
-//     "codigoBarra": "3HN103NO6",
-//     "descripcion": "Y-WHISKY PIONEER 6*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1027,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 38.40,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -459,
-//     "codigoBarra": "3HN105AMK",
-//     "descripcion": "Y-VODKA KOVAC 6*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1028,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 38.01,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -20,
-//     "codigoBarra": "3HN10749F",
-//     "descripcion": "Y-GIN PETERS 6*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1029,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 64.66,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -61,
-//     "codigoBarra": "3HN10GU5C",
-//     "descripcion": "Y-TEQUILA SOL AZTECA *1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1030,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.77,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -47,
-//     "codigoBarra": "3HN10IJ8K",
-//     "descripcion": "Y-TEQUILA CAMACHO 6*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1031,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 50.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -300,
-//     "codigoBarra": "3HN10K4Y9",
-//     "descripcion": "Z-JUGO DE LIMON 6*1L. LIMONEL",
-//     "descuento": 0.00,
-//     "idarticulo": 1032,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 26.99,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -440,
-//     "codigoBarra": "3HN10LVNM",
-//     "descripcion": "Z-JUGO DE LIMON 6*500CC. LIMONEL",
-//     "descuento": 0.00,
-//     "idarticulo": 1033,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1536,
-//     "codigoBarra": "3HN10PJTG",
-//     "descripcion": "Y-PETACA GINEBRA LLAVE 12*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1034,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.75,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -157,
-//     "codigoBarra": "3HN10RM63",
-//     "descripcion": "Y-PETACA GIN PETERS 12*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1035,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.48,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -851,
-//     "codigoBarra": "3HN10SYEN",
-//     "descripcion": "Y-PETACA VODKA PETERS 12*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1036,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.48,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2747,
-//     "codigoBarra": "3HN11A45C",
-//     "descripcion": "Y-PETACA L.CAFE AL COGNAC PETERS 12*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1037,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3218,
-//     "codigoBarra": "3HP0NQPGY",
-//     "descripcion": "ACEITUNAS \"DON VENANCIO\" SACHET 20*100G",
-//     "descuento": 0.00,
-//     "idarticulo": 1038,
-//     "idbulto": {
-//       "descripcion": "BULTO *20",
-//       "idbulto": 12,
-//       "unidades": 20
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1363,
-//     "codigoBarra": "3HP0NSWG9",
-//     "descripcion": "ACEITUNAS \"DON VENANCIO\" SACHET 20*80G. DESCAROZADAS",
-//     "descuento": 0.00,
-//     "idarticulo": 1039,
-//     "idbulto": {
-//       "descripcion": "BULTO *20",
-//       "idbulto": 12,
-//       "unidades": 20
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1,
-//     "codigoBarra": "3HP0NZDOY",
-//     "descripcion": "ACEITUNAS \" DON VENANCIO\" FRASCO *2 KG. NUMERO UNO",
-//     "descuento": 0.00,
-//     "idarticulo": 1041,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 144.73,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -75,
-//     "codigoBarra": "3HY0PNRTX",
-//     "descripcion": "X-BOC.DU LECH 20*21G. FELFORT",
-//     "descuento": 0.00,
-//     "idarticulo": 1048,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 76
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 69.17,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -270,
-//     "codigoBarra": "3I60XIOA9",
-//     "descripcion": "X-CH. OPEN FIERITA *100U. UVA",
-//     "descuento": 0.00,
-//     "idarticulo": 1055,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 9.53,
-//     "precioVenta": 24.06,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -87,
-//     "codigoBarra": "3IC12QGG5",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. CURACAO BLUE",
-//     "descuento": 0.00,
-//     "idarticulo": 1065,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 52.65,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -83,
-//     "codigoBarra": "3IC12UB9K",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. HUEVO",
-//     "descuento": 0.00,
-//     "idarticulo": 1066,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 55.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -169,
-//     "codigoBarra": "3IC13060S",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. MELON",
-//     "descuento": 0.00,
-//     "idarticulo": 1067,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.40,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -86,
-//     "codigoBarra": "3IC131BPN",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 1068,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 52.65,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -758,
-//     "codigoBarra": "3IC13R76N",
-//     "descripcion": "Y-PETACA PIÃ‘A COLADA MOONLIGHT CLUB *200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1069,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1226,
-//     "codigoBarra": "3IC13U2KF",
-//     "descripcion": "Y-PETACA LICOR PETERS *200CC.MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 1070,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1399,
-//     "codigoBarra": "3IC13V82C",
-//     "descripcion": "Y-PETACA LICOR PETERS *200CC. DULCE DE LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 1071,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -15643,
-//     "codigoBarra": "3IL124CFN",
-//     "descripcion": "Z-GAS.SECCO 6*2.25 LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1077,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 35
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.67,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -142,
-//     "codigoBarra": "3IO173J7S",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. CHOCOLATE BLANCO",
-//     "descuento": 0.00,
-//     "idarticulo": 1078,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 55.76,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1606,
-//     "codigoBarra": "3IO175CYJ",
-//     "descripcion": "Y-PETACA WHISKY PIONEER 12*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1079,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.48,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -770,
-//     "codigoBarra": "3IO177PR1",
-//     "descripcion": "Y-PETACA ANIS FEUDAL 12*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1080,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -850,
-//     "codigoBarra": "3IY1980Z6",
-//     "descripcion": "Y-CAÃ‘A PIRAGUA *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1081,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.33,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1239,
-//     "codigoBarra": "3J40F6TFC",
-//     "descripcion": "JARDINERA  \"DE LA  HUERTA\"  24*350G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1084,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 13.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -129,
-//     "codigoBarra": "3J40FSOHJ",
-//     "descripcion": "DURAZNOS EN MITADES GENTLEMAN *3 KG.",
-//     "descuento": 0.00,
-//     "idarticulo": 1085,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 79.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2,
-//     "codigoBarra": "3J40FWQR3",
-//     "descripcion": "COCTEL DE 5 FRUTAS GENTLEMAN * 3 KG.",
-//     "descuento": 0.00,
-//     "idarticulo": 1086,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 102.59,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -84,
-//     "codigoBarra": "3J40FZEUW",
-//     "descripcion": "ANANA EN RODAJAS GENTLEMAN * 3 KG.",
-//     "descuento": 0.00,
-//     "idarticulo": 1087,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 174.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -278,
-//     "codigoBarra": "3J915S7LF",
-//     "descripcion": "Y-PETACA TEQUILA SOL AZTECA *200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1088,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.48,
-//     "stockMinimo": 24
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -186,
-//     "codigoBarra": "3J915YMVR",
-//     "descripcion": "Y-PETACA  LICOR FINO TANGO 12*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1089,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -226,
-//     "codigoBarra": "3JC0MGDSH",
-//     "descripcion": "ARROZ MAGISTRAL 10*1KG. FINO LARGO",
-//     "descuento": 0.00,
-//     "idarticulo": 1090,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 6.41,
-//     "precioVenta": 14.45,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -953,
-//     "codigoBarra": "3KX0PBXFD",
-//     "descripcion": "X-VAINILLAS MAURI 36*22G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1095,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 58
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 70.79,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -19494,
-//     "codigoBarra": "3LH0TFCFV",
-//     "descripcion": "Z-CHOCOLATADA  LATTE 18*125CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1105,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.34,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -23,
-//     "codigoBarra": "3LT16ICKH",
-//     "descripcion": "\"LA CANASTA\" AJI MOLIDO *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 1110,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 114.95,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -100,
-//     "codigoBarra": "3LT16NHSG",
-//     "descripcion": "\"LA CANASTA\" ESPECIAS SURTIDAS 10*30G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1111,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 67.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -228,
-//     "codigoBarra": "3LT16ZX9E",
-//     "descripcion": "\"LA CANASTA\" CONDIMENTO P/PIZZA 10*20G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1112,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 64.12,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -94,
-//     "codigoBarra": "3NS0LK7B0",
-//     "descripcion": "\"LA CANASTA\" PIMIENTA NEGRA MOLIDA10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1142,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 147.50,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -67,
-//     "codigoBarra": "3O70LG313",
-//     "descripcion": "\"LA CANASTA\" CLAVO DE OLOR MOLIDO 10*10G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1143,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 53.72,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -18551,
-//     "codigoBarra": "3OG14JHAZ",
-//     "descripcion": "Z-SAB.VIDA BY 6*500CC.PERA",
-//     "descuento": 0.00,
-//     "idarticulo": 1147,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 112
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -301,
-//     "codigoBarra": "3OL14O5CG",
-//     "descripcion": "JUREL CARACAS *380G. AL NATURAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1150,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.17,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1040,
-//     "codigoBarra": "3OY17EZT2",
-//     "descripcion": "X-MASTICABLE PICO DULCE *500G.(165U.)",
-//     "descuento": 0.00,
-//     "idarticulo": 1151,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 36.18,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -105573,
-//     "codigoBarra": "3OZ18K631",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1L. MULTIFRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1152,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 67
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -324114,
-//     "codigoBarra": "3OZ18OSOV",
-//     "descripcion": "Z-BAGGIO PRONTO 18*200CC. MULTIFRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1153,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 67
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -126069,
-//     "codigoBarra": "3OZ18QP3J",
-//     "descripcion": "Z-BAGGIO JUNIOR 18*125CC. MULTIFRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1154,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 67
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.11,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -35177,
-//     "codigoBarra": "3OZ18S7HF",
-//     "descripcion": "Z-CHOCOLATADA LATTE 8*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1155,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 123
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.44,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -88593,
-//     "codigoBarra": "3OZ18TNQ2",
-//     "descripcion": "Z-CHOCOLATADA LATTE 18*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1156,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 67
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -61868,
-//     "codigoBarra": "3OZ196BGR",
-//     "descripcion": "Z-GAS. MOCORETA 6*2.25L. COLA",
-//     "descuento": 0.00,
-//     "idarticulo": 1158,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 104
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.01,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -13571,
-//     "codigoBarra": "3OZ19876P",
-//     "descripcion": "Z-JUGO MOCORETA 6*1.5L. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1159,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "JUGOS",
-//       "idcategoria": 62
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.17,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -14321,
-//     "codigoBarra": "3P5129EJW",
-//     "descripcion": "Z-JUGO MIJU 6*500CC. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1160,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "JUGOS",
-//       "idcategoria": 62
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.95,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -17014,
-//     "codigoBarra": "3P61640XF",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1.5L. MULTIFRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1162,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 66
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.42,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -97,
-//     "codigoBarra": "3PC14R7DE",
-//     "descripcion": "ARVEJAS REMOJADAS LATA CARACAS 24*350G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1163,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.75,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -125,
-//     "codigoBarra": "3RC11YI0S",
-//     "descripcion": "SERV. DE AUTOELEVADOR 1 HORA (/)",
-//     "descuento": 0.00,
-//     "idarticulo": 1166,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 537.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -80,
-//     "codigoBarra": "3RX0PH35I",
-//     "descripcion": "\"LA CANASTA\" BICARBONATO 10*50G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1167,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 42.79,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -24,
-//     "codigoBarra": "3RX0PJCSB",
-//     "descripcion": "\"LA CANASTA\" NUEZ MOSCADA EN GRANOS 10*2U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1168,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.21,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -160,
-//     "codigoBarra": "3S10PXNGF",
-//     "descripcion": "X-BOMBON OBLI-BON *30U. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 1169,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 64.51,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4519,
-//     "codigoBarra": "3S80L444J",
-//     "descripcion": "Z-VINO TALACASTO 12*1L. TTO.",
-//     "descuento": 0.00,
-//     "idarticulo": 1179,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FECOVITA",
-//       "idcategoria": 33
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 28.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1562,
-//     "codigoBarra": "3S80L4WCL",
-//     "descripcion": "Z-VINO TALACASTO 12*1L. BCO.",
-//     "descuento": 0.00,
-//     "idarticulo": 1180,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FECOVITA",
-//       "idcategoria": 33
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -684,
-//     "codigoBarra": "3SH13R6G5",
-//     "descripcion": "ARROZ MAGISTRAL FINO LARGO 10*500G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1182,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 3.34,
-//     "precioVenta": 7.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -262,
-//     "codigoBarra": "3SH157FSF",
-//     "descripcion": "CHIMICHURRI HALCONERO 12*500CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1183,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 27.73,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -377,
-//     "codigoBarra": "3SQ14SY3O",
-//     "descripcion": "MER.POTE ORIETA *420G. CIRUELA LIGHT",
-//     "descuento": 0.00,
-//     "idarticulo": 1185,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -28,
-//     "codigoBarra": "3SR0KPDCV",
-//     "descripcion": "\"LA CANASTA\" ESPECIAS SURTIDAS *1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 1186,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 95.70,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -143,
-//     "codigoBarra": "3T00PE0ZG",
-//     "descripcion": "Y-PETACA LICOR PETERS *200CC. MELON",
-//     "descuento": 0.00,
-//     "idarticulo": 1187,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -180,
-//     "codigoBarra": "3T00PFCO1",
-//     "descripcion": "Y-PETACA LICOR PETERS *200CC. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 1188,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -824,
-//     "codigoBarra": "3T00PIDRJ",
-//     "descripcion": "Y-PETACA LICOR PETERS *200CC. CHOCOLATE",
-//     "descuento": 0.00,
-//     "idarticulo": 1189,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -109,
-//     "codigoBarra": "3T00PKNML",
-//     "descripcion": "Y-PETACA CAIPIRINHA CAPOEIRA *200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1190,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -31,
-//     "codigoBarra": "3T00PP2WJ",
-//     "descripcion": "Y-GRANADINA PETERS *1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1191,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 32.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -102,
-//     "codigoBarra": "3T00Q8BHP",
-//     "descripcion": "Y-RHUM COMANDANTE BLANCO *1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1192,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 46.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -69,
-//     "codigoBarra": "3T00QGL75",
-//     "descripcion": "Y- ANIS DULCE FEUDAL(ET.VERDE) *1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1193,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 42.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -82,
-//     "codigoBarra": "3T00QU7RQ",
-//     "descripcion": "Y-CAIPIRINHA CAPOEIRA *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1194,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 39.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -23,
-//     "codigoBarra": "3T00R7MSM",
-//     "descripcion": "Y-LICOR PETERS 6*700CC. MANDARINA",
-//     "descuento": 0.00,
-//     "idarticulo": 1195,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 52.65,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -58,
-//     "codigoBarra": "3U10KJ430",
-//     "descripcion": "TOMATE TRITURADO GENTLEMAN *8 KG.",
-//     "descuento": 0.00,
-//     "idarticulo": 1207,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 140.50,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -773,
-//     "codigoBarra": "3UA0KFW4D",
-//     "descripcion": "Y-SNOB 6*750CC. COOL",
-//     "descuento": 0.00,
-//     "idarticulo": 1210,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FECOVITA",
-//       "idcategoria": 33
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 19.75,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -41,
-//     "codigoBarra": "3UA0KSA64",
-//     "descripcion": "Y-EST.MENDOZA 6*750CC. SAUVIGNON BLANC",
-//     "descuento": 0.00,
-//     "idarticulo": 1211,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 107
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 53.86,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -31,
-//     "codigoBarra": "3VD15I13O",
-//     "descripcion": "SAVIA P/ALLEN 12*500CC",
-//     "descuento": 0.00,
-//     "idarticulo": 1227,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -35,
-//     "codigoBarra": "3VD15JUJK",
-//     "descripcion": "SAVIA P/ALLEN 12*930CC",
-//     "descuento": 0.00,
-//     "idarticulo": 1228,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.68,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": 1,
-//     "codigoBarra": "3VD15EUBQ",
-//     "descripcion": "AJIES EN VINAGRE \" DON VENANCIO\" *900G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1229,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 166.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": 1,
-//     "codigoBarra": "3VD15O0VW",
-//     "descripcion": "PICKLES FRASCO \" DON VENANCIO\" *2KG.",
-//     "descuento": 0.00,
-//     "idarticulo": 1232,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 149.58,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -9,
-//     "codigoBarra": "3VD15SABR",
-//     "descripcion": "PICKLES EN VINAGRE FRASCO \"TORRELAGUNA\"  *200G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1233,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 31.31,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -823,
-//     "codigoBarra": "3WJ0N2I0J",
-//     "descripcion": "Y-CANCILLER BLEND -IX- 6*750CC.CHEN/TORR/CHAR",
-//     "descuento": 0.00,
-//     "idarticulo": 1251,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 33.55,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -71,
-//     "codigoBarra": "3WY186Q9X",
-//     "descripcion": "X-BABY DOLL LHERITIER *18 UN",
-//     "descuento": 0.00,
-//     "idarticulo": 1254,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 142.42,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -198218,
-//     "codigoBarra": "3X10MS1OT",
-//     "descripcion": "Z-PURE DE TOMATES \"LA HUERTA\" 12*530CC",
-//     "descuento": 0.00,
-//     "idarticulo": 1258,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 118
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.33,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -654,
-//     "codigoBarra": "3XI11RXP0",
-//     "descripcion": "MANI CROCANTE \"BOING\" *1KGPIZZA",
-//     "descuento": 0.00,
-//     "idarticulo": 1263,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 46.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1908,
-//     "codigoBarra": "3Y20N7BD1",
-//     "descripcion": "MANI SIN PIEL \"CACHI\"*1K",
-//     "descuento": 0.00,
-//     "idarticulo": 1265,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 44.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -71,
-//     "codigoBarra": "3YC17CJHS",
-//     "descripcion": "PULPA FRUTILLA GENTLEMAN 24*420CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1266,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 32.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -160,
-//     "codigoBarra": "3YC18LLJ1",
-//     "descripcion": "Y-SNOB 6*750CC. ROUGE",
-//     "descuento": 0.00,
-//     "idarticulo": 1267,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FECOVITA",
-//       "idcategoria": 33
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 19.75,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -182,
-//     "codigoBarra": "3YC18MXBY",
-//     "descripcion": "Y-SNOB 6*750CC. FRESH",
-//     "descuento": 0.00,
-//     "idarticulo": 1268,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FECOVITA",
-//       "idcategoria": 33
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 19.75,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3603,
-//     "codigoBarra": "3YD1584N6",
-//     "descripcion": "Y-CANCILLER BLEND -I- 6*750CC. MERLOT/SYRAH/MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1269,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 33.55,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -26,
-//     "codigoBarra": "3YY13M2GG",
-//     "descripcion": "\"LA CANASTA \" AJO PICADO 25G*10U",
-//     "descuento": 0.00,
-//     "idarticulo": 1270,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 128.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -46,
-//     "codigoBarra": "3YY14L0MQ",
-//     "descripcion": "\"LA CANASTA\" COCO RALLADO 20G*10U",
-//     "descuento": 0.00,
-//     "idarticulo": 1271,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 53.46,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -32,
-//     "codigoBarra": "3YZ109GSK",
-//     "descripcion": "\"LA CANASTA\" PIMIENTA BLANCA EN GRANO25G*10U",
-//     "descuento": 0.00,
-//     "idarticulo": 1272,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 155.62,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -117,
-//     "codigoBarra": "3YZ10IOFC",
-//     "descripcion": "\"LA CANASTA\" PEREJIL EN HOJA 20G*10U",
-//     "descuento": 0.00,
-//     "idarticulo": 1273,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 74.79,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -57962,
-//     "codigoBarra": "3Z312GZA2",
-//     "descripcion": "Z-VINO UVITA 12*1L. TTO.",
-//     "descuento": 0.00,
-//     "idarticulo": 1275,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 28.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -61087,
-//     "codigoBarra": "3Z312HRBM",
-//     "descripcion": "Z-VINO UVITA 12*1L. BCO.",
-//     "descuento": 0.00,
-//     "idarticulo": 1276,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -9000,
-//     "codigoBarra": "3Z312IM44",
-//     "descripcion": "Z-VINO UVITA 12*1L.ROSADO",
-//     "descuento": 0.00,
-//     "idarticulo": 1277,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -29252,
-//     "codigoBarra": "3Z312JCFL",
-//     "descripcion": "Z-VINO UVITA 12*1L. BCO.DULCE",
-//     "descuento": 0.00,
-//     "idarticulo": 1278,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -10238,
-//     "codigoBarra": "3Z312KPXP",
-//     "descripcion": "Z-VINO UVITA 12*1L. TTO.DULCE",
-//     "descuento": 0.00,
-//     "idarticulo": 1279,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS RPB",
-//       "idcategoria": 105
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 28.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -655,
-//     "codigoBarra": "3Z312O1EI",
-//     "descripcion": "Z-VINO UVITA 12*1L. ROSADO DULCE",
-//     "descuento": 0.00,
-//     "idarticulo": 1280,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -55539,
-//     "codigoBarra": "3Z312P1HJ",
-//     "descripcion": "Z-VINO CAVIC 12*1L. BCO",
-//     "descuento": 0.00,
-//     "idarticulo": 1281,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -58568,
-//     "codigoBarra": "3Z312PX29",
-//     "descripcion": "Z-VINO CAVIC 12*1L. TTO",
-//     "descuento": 0.00,
-//     "idarticulo": 1282,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 28.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4816,
-//     "codigoBarra": "3Z312RT89",
-//     "descripcion": "Z-VINO CAVIC 12*1L. BLANCO DULCE",
-//     "descuento": 0.00,
-//     "idarticulo": 1283,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.52,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3908,
-//     "codigoBarra": "3Z312SKDO",
-//     "descripcion": "Z-VINO CAVIC 12*1L. ROSADO",
-//     "descuento": 0.00,
-//     "idarticulo": 1284,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4551,
-//     "codigoBarra": "3Z312TXVT",
-//     "descripcion": "Z-VINO CAVIC 12*1L. TTO.DULCE",
-//     "descuento": 0.00,
-//     "idarticulo": 1285,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 28.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6,
-//     "codigoBarra": "3ZQ135Z21",
-//     "descripcion": "PURE MANZANA GENTLEMAN24*420G",
-//     "descuento": 0.00,
-//     "idarticulo": 1287,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.86,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -452,
-//     "codigoBarra": "405116EG8",
-//     "descripcion": "X-PIRULO CODUL *20U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1302,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 30.49,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -242,
-//     "codigoBarra": "4051184UI",
-//     "descripcion": "X-CHUP.CHUPETE POPY *25U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1303,
-//     "idbulto": {
-//       "descripcion": "bulto * 15",
-//       "idbulto": 11,
-//       "unidades": 15
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.42,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -54,
-//     "codigoBarra": "40511A946",
-//     "descripcion": "X-BOMB. DRUPI *100U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1304,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 88.10,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -625,
-//     "codigoBarra": "40L0M0AEE",
-//     "descripcion": "TAPITA FANTOCHE 12*350GR",
-//     "descuento": 0.00,
-//     "idarticulo": 1305,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.78,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -490,
-//     "codigoBarra": "40N138UU4",
-//     "descripcion": "FANTOCHE TAPITA *3.5KG",
-//     "descuento": 0.00,
-//     "idarticulo": 1306,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 136.17,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -116,
-//     "codigoBarra": "40X0G9D8Q",
-//     "descripcion": "X-ENC. CANCUN *25U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1311,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 97.69,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -66,
-//     "codigoBarra": "40X153LRP",
-//     "descripcion": "Y-RHUM CAYMAN LIGHT *950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1312,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "LICORES / ALTA GRADUACION",
-//       "idcategoria": 100
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 50.12,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -40747,
-//     "codigoBarra": "41216Y8OG",
-//     "descripcion": "BIZ. Â¨LA REINAÂ¨ CRIOLLITOS 25*250G",
-//     "descuento": 0.00,
-//     "idarticulo": 1316,
-//     "idbulto": {
-//       "descripcion": "bulto *25",
-//       "idbulto": 35,
-//       "unidades": 25
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -40738,
-//     "codigoBarra": "41A0IYB45",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1L. DURAZNO",
-//     "descuento": 0.00,
-//     "idarticulo": 1324,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 66
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -54,
-//     "codigoBarra": "41H170X5W",
-//     "descripcion": "AJO PICADO CHINO \"LA CANASTA\" *1KG.",
-//     "descuento": 0.00,
-//     "idarticulo": 1326,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 314.82,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -324,
-//     "codigoBarra": "41T14ZKNR",
-//     "descripcion": "X-CHUP.WAMIS *50U. FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1327,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 26.50,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6397,
-//     "codigoBarra": "41X0KCYMB",
-//     "descripcion": "AZUCAR \"DOLCE\"  10*1K.",
-//     "descuento": 0.00,
-//     "idarticulo": 1329,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 80.16,
-//     "precioVenta": 125.70,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -32,
-//     "codigoBarra": "4220OYRQV",
-//     "descripcion": "X-MAST. BABY DOLL *500G.(165 U.)",
-//     "descuento": 0.00,
-//     "idarticulo": 1330,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.85,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -45,
-//     "codigoBarra": "42818KEZA",
-//     "descripcion": "X-MINI-TORTA (MEDIA) RAPSODIA 12*80G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1333,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 8
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 38.53,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -60,
-//     "codigoBarra": "42818M1I2",
-//     "descripcion": "X-PIC-NIC(MEDIO) 20*30G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1334,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 8
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 40.86,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -79,
-//     "codigoBarra": "42818OLV5",
-//     "descripcion": "X-CAR. MEDIA HORA *800G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1335,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 78.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -166,
-//     "codigoBarra": "42914N19R",
-//     "descripcion": "PIMIENTOS MORRONES ENT.CARACAS 24*185G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1336,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -326,
-//     "codigoBarra": "42914R618",
-//     "descripcion": "CHAMPIÃ‘ONES  TROZOS CARACAS 24*400G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1337,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.53,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -54,
-//     "codigoBarra": "42916VYY4",
-//     "descripcion": "FRASCO AJIES EN VINAGRE \"TORRELAGUNA\" *110G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1338,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 37.29,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5575,
-//     "codigoBarra": "42L15CJ9D",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1.5L. DURAZNO",
-//     "descuento": 0.00,
-//     "idarticulo": 1346,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 66
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.42,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -29643,
-//     "codigoBarra": "42L15URMD",
-//     "descripcion": "Z-SODA MOCORETA 6*2.25L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1347,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GASEOSAS / AGUAS",
-//       "idcategoria": 17
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 8.58,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -12,
-//     "codigoBarra": "4320IUZNS",
-//     "descripcion": "X-PUSH POP TRIPLE *12U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1349,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 19
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 185.48,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1223,
-//     "codigoBarra": "44210PCGP",
-//     "descripcion": "X-ALF.MAXI-JORGELIN 24*85G. BLANCO",
-//     "descuento": 0.00,
-//     "idarticulo": 1355,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -165,
-//     "codigoBarra": "4430NA46C",
-//     "descripcion": "Y-CANCILLER BLEND 6*1.250CC. MER/SYR/MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1356,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 43.98,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -415,
-//     "codigoBarra": "4430NEUVQ",
-//     "descripcion": "Y-DILEMA EM DULCE NATURAL *750CC.ROSADO",
-//     "descuento": 0.00,
-//     "idarticulo": 1357,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 48.74,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -301,
-//     "codigoBarra": "44C0KEHI3",
-//     "descripcion": "X-ALF JORGITO SIMPLE 24*50G FRUTA",
-//     "descuento": 0.00,
-//     "idarticulo": 1360,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 87
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.12,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -777,
-//     "codigoBarra": "44C0KGCJA",
-//     "descripcion": "X-ALF JORGITO SIMPLE 24*50G BLANCO",
-//     "descuento": 0.00,
-//     "idarticulo": 1361,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 87
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.12,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -548,
-//     "codigoBarra": "44C0KJ703",
-//     "descripcion": "X-ALF JORGITO SIMPLE  24*50G NEGRO",
-//     "descuento": 0.00,
-//     "idarticulo": 1362,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 87
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.12,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1232,
-//     "codigoBarra": "44C0KLJLO",
-//     "descripcion": "X-ALF. MAXI-JORGELIN 24*85G NEGRO",
-//     "descuento": 0.00,
-//     "idarticulo": 1363,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 87
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -642,
-//     "codigoBarra": "44C0KOWI3",
-//     "descripcion": "X-ALF JORGITO AGRUP. 18*6UN BCO",
-//     "descuento": 0.00,
-//     "idarticulo": 1365,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 87
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -293,
-//     "codigoBarra": "44C0KPVRM",
-//     "descripcion": "X-ALF JORGITO AGRUP. 18*6UN MOUSSE",
-//     "descuento": 0.00,
-//     "idarticulo": 1366,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 87
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -500,
-//     "codigoBarra": "44C0KQVPW",
-//     "descripcion": "X-ALF JORGITO AGRUP. 18*6UN NEGRO",
-//     "descuento": 0.00,
-//     "idarticulo": 1367,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 87
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1078,
-//     "codigoBarra": "44C0KW3SQ",
-//     "descripcion": "MAGDALENAS POZO *250G CHOC RELL D.LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 1370,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.99,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -611,
-//     "codigoBarra": "44C0MRFF6",
-//     "descripcion": "MANI CROCANTE \"BOING\" *1KG JAMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1381,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 46.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -406,
-//     "codigoBarra": "44C0MSP1Y",
-//     "descripcion": "MANI CROCANTE \"BOING\" *1KG QUESO",
-//     "descuento": 0.00,
-//     "idarticulo": 1382,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 46.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -321,
-//     "codigoBarra": "44C0MTSGT",
-//     "descripcion": "MANI CROCANTE \"BOING\" *1KG SALAME",
-//     "descuento": 0.00,
-//     "idarticulo": 1383,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 46.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -7711,
-//     "codigoBarra": "44D0JFCTW",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1.5L. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1387,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.42,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1955,
-//     "codigoBarra": "44D0JH3A5",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1.5L. MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 1388,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.42,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -14808,
-//     "codigoBarra": "44D0JIMR4",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1L. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1389,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -8696,
-//     "codigoBarra": "44D0JLWTZ",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1L. NAR/DUR",
-//     "descuento": 0.00,
-//     "idarticulo": 1390,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -8527,
-//     "codigoBarra": "44D0JMZ04",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1L. MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 1391,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -13784,
-//     "codigoBarra": "44D0JNSPK",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1L. PERA",
-//     "descuento": 0.00,
-//     "idarticulo": 1392,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -8488,
-//     "codigoBarra": "44D0JOHEG",
-//     "descripcion": "Z-BAGGIO PRONTO 8*1L. MIXFRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1393,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.09,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -26497,
-//     "codigoBarra": "44D0JZWE1",
-//     "descripcion": "Z-BAGGIO PRONTO 18*200CC. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1398,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -31684,
-//     "codigoBarra": "44D0K13F2",
-//     "descripcion": "Z-BAGGIO PRONTO 18*200CC. MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 1399,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -102780,
-//     "codigoBarra": "44D0K22LK",
-//     "descripcion": "Z-BAGGIO PRONTO 18*200CC. DURAZNO",
-//     "descuento": 0.00,
-//     "idarticulo": 1400,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -18741,
-//     "codigoBarra": "44D0K2WVE",
-//     "descripcion": "Z-BAGGIO PRONTO 18*200CC. NAR/DUR",
-//     "descuento": 0.00,
-//     "idarticulo": 1401,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -25931,
-//     "codigoBarra": "44D0K3QV9",
-//     "descripcion": "Z-BAGGIO PRONTO 18*200CC. MIXFRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1402,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -32400,
-//     "codigoBarra": "44D0K4ZIH",
-//     "descripcion": "Z-BAGGIO PRONTO 18*200CC. PERA",
-//     "descuento": 0.00,
-//     "idarticulo": 1403,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6412,
-//     "codigoBarra": "44D0K7EHZ",
-//     "descripcion": "Z-BAGGIO JUNIOR 18*125CC NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1404,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.11,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -10701,
-//     "codigoBarra": "44D0K8BSC",
-//     "descripcion": "Z-BAGGIO JUNIOR 18*125CC. MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 1405,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.11,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6002,
-//     "codigoBarra": "44D0K9WWR",
-//     "descripcion": "Z-BAGGIO JUNIOR 18*125CC. MIX-FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1407,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.11,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -34664,
-//     "codigoBarra": "44D0KANER",
-//     "descripcion": "Z-BAGGIO JUNIOR 18*125CC. DURAZNO",
-//     "descuento": 0.00,
-//     "idarticulo": 1408,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.11,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2980,
-//     "codigoBarra": "44D0KGLDG",
-//     "descripcion": "Z-DULCE DE LECHE LATTE 6*400G",
-//     "descuento": 0.00,
-//     "idarticulo": 1411,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.46,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -32563,
-//     "codigoBarra": "44D0KIR9P",
-//     "descripcion": "Z-GAS. MOCORETA 6*2.25L. L.LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1412,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 104
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.01,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -29205,
-//     "codigoBarra": "44D0KJLCL",
-//     "descripcion": "Z-GAS. MOCORETA 6*2.25L. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1413,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 104
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.01,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -7924,
-//     "codigoBarra": "44D0KL73L",
-//     "descripcion": "Z-GAS. MOCORETA 6*2.25L. POMELO ROS.",
-//     "descuento": 0.00,
-//     "idarticulo": 1415,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 127
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.01,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -281,
-//     "codigoBarra": "44D0KRBTC",
-//     "descripcion": "Y-VIÃ‘A MAYOR VARIETALES 6*750CC. MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1419,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 34.96,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -611,
-//     "codigoBarra": "44D0KSGLN",
-//     "descripcion": "Y-EL SUPREMO 6*750CC. MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1420,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 109
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 40.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -365,
-//     "codigoBarra": "44D0KTA3Q",
-//     "descripcion": "Y-EL SUPREMO 6*750CC CABERNET SAUV.",
-//     "descuento": 0.00,
-//     "idarticulo": 1421,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 109
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 40.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -409,
-//     "codigoBarra": "44D0KWHT3",
-//     "descripcion": "Y-EL SUPREMO 6*375CC . MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1422,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.89,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -78,
-//     "codigoBarra": "44D0KYB79",
-//     "descripcion": "Y-EL SUPREMO 6*375CC CABERNET SAUV",
-//     "descuento": 0.00,
-//     "idarticulo": 1423,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.89,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -106,
-//     "codigoBarra": "44D0ZZRAY",
-//     "descripcion": "Y-VIEJO VIÃ‘. FINCA DE ROSARIO 6*750CC CABERNET SAUV.",
-//     "descuento": 0.00,
-//     "idarticulo": 1424,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "APERITIVOS",
-//       "idcategoria": 108
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -84,
-//     "codigoBarra": "44D101UWB",
-//     "descripcion": "Y-VIEJO VIÃ‘. FINCA DE ROSARIO 6*750CC. MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1425,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "APERITIVOS",
-//       "idcategoria": 108
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2483,
-//     "codigoBarra": "44D107M59",
-//     "descripcion": "Y-BODEGA PRIVADA(TRADICIONAL) 6*750CC MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1430,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.62,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -435,
-//     "codigoBarra": "44D108KVO",
-//     "descripcion": "Y-BODEGA PRIVADA(TRADICIONAL) 6*750CC CAB. SAUV",
-//     "descuento": 0.00,
-//     "idarticulo": 1431,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.62,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1128,
-//     "codigoBarra": "44D10ESLY",
-//     "descripcion": "Y-BODEGA PRIVADA \"COLECCION \" 6*375CC MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1435,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 23.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2993,
-//     "codigoBarra": "44D10FTZF",
-//     "descripcion": "Y-BODEGA PRIVADA \"COLECCION\" 6*750CC MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1436,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 63.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1023,
-//     "codigoBarra": "44D10GOCQ",
-//     "descripcion": "Y-BODEGA PRIVADA \"COLECCION\" 6*750CC CAB. SAUV",
-//     "descuento": 0.00,
-//     "idarticulo": 1437,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 63.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -292,
-//     "codigoBarra": "44E0I9KDA",
-//     "descripcion": "Y-ESP. VIÃ‘A MAYOR 6*750CC BRUT",
-//     "descuento": 0.00,
-//     "idarticulo": 1438,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 34
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 69.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -181,
-//     "codigoBarra": "44E0IDBW7",
-//     "descripcion": "Y-ESP. VIÃ‘A MAYOR 6*750CC EXTRA BRUT",
-//     "descuento": 0.00,
-//     "idarticulo": 1439,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 34
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 69.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2,
-//     "codigoBarra": "44E0IE9VA",
-//     "descripcion": "Y-ESP. RICORDI 6*750CC BRUT NATURAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1440,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 34
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 86.77,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6,
-//     "codigoBarra": "44E0IH290",
-//     "descripcion": "Y-ESTUCHE RICORDI +AC. OLIVA P. OLIVO",
-//     "descuento": 0.00,
-//     "idarticulo": 1441,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "APERITIVOS",
-//       "idcategoria": 108
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 113.82,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11,
-//     "codigoBarra": "44E0IK1OM",
-//     "descripcion": "Y- RICORDI 6*750CC MALBEC ROBLE",
-//     "descuento": 0.00,
-//     "idarticulo": 1442,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 79.46,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1553,
-//     "codigoBarra": "44E0IRIXC",
-//     "descripcion": "Z-JUGO MOCORETA 6*1.5L. POMELO",
-//     "descuento": 0.00,
-//     "idarticulo": 1443,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.17,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2395,
-//     "codigoBarra": "44E0IW65Q",
-//     "descripcion": "Z-JUGO MOCORETA 6*1.5L DURAZNO",
-//     "descuento": 0.00,
-//     "idarticulo": 1446,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.17,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2956,
-//     "codigoBarra": "44E0J0BD9",
-//     "descripcion": "Z-JUGO MIJU 6*500CC POMELO",
-//     "descuento": 0.00,
-//     "idarticulo": 1450,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.95,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2728,
-//     "codigoBarra": "44E0J13YC",
-//     "descripcion": "Z-JUGO MIJU 6*500CC DURAZNO",
-//     "descuento": 0.00,
-//     "idarticulo": 1451,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.95,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1787,
-//     "codigoBarra": "44E0JGVF6",
-//     "descripcion": "Z-JUGO MIJU 6*500CC MULTIFRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1455,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.95,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -14859,
-//     "codigoBarra": "44E0JHMLW",
-//     "descripcion": "Z-AGUA MOCORETA 6*1.5L",
-//     "descuento": 0.00,
-//     "idarticulo": 1456,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.92,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -17564,
-//     "codigoBarra": "44E0JP0ZB",
-//     "descripcion": "Z-SAB. VIDA 6*1.5L MIX-FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1459,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 110
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -15507,
-//     "codigoBarra": "44F0IVHDD",
-//     "descripcion": "Z-CHOCOLATADA  7 DIAS 18*330CC",
-//     "descuento": 0.00,
-//     "idarticulo": 1461,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5224,
-//     "codigoBarra": "44H0NHEQL",
-//     "descripcion": "Z-CERVEZA QUILMES 12*930CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1464,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 324.57,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -774,
-//     "codigoBarra": "44H0NK47P",
-//     "descripcion": "Z-CERVEZA BRAHMA 12*930CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1465,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 306.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -792,
-//     "codigoBarra": "44M0ZC42N",
-//     "descripcion": "X-CHUP.TATUAJE PATITA EN LA LENGUA*100U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1469,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 32.88,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5,
-//     "codigoBarra": "44U11MTXZ",
-//     "descripcion": "EXIB. SLIDERZ *24U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1470,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 218.19,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -110,
-//     "codigoBarra": "44U11WBVV",
-//     "descripcion": "X-EXIB.PUSH POP *20U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1471,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 19
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 178.27,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4096,
-//     "codigoBarra": "4500YR9EJ",
-//     "descripcion": "PEPAS TEREPIN BATATA *300G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1473,
-//     "idbulto": {
-//       "descripcion": "BULTO *14",
-//       "idbulto": 17,
-//       "unidades": 14
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.10,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2370,
-//     "codigoBarra": "45J0MCTPT",
-//     "descripcion": "Y-AMERICANO GANCIA *930CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1475,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.89,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -32,
-//     "codigoBarra": "45J0ZY2JW",
-//     "descripcion": "Y-DILEMA ESPUMANTE ROSADO D.NATURAL*750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1476,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 69.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -24,
-//     "codigoBarra": "45J1009W8",
-//     "descripcion": "Y-DILEMA ESPUMANTE BLANCO D.NATURAL *750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1477,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 69.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -10826,
-//     "codigoBarra": "45N0O66YD",
-//     "descripcion": "Y-SPEED UNLIMITED 24*250CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1478,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.04,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -223,
-//     "codigoBarra": "45Q15W0GB",
-//     "descripcion": "Y-ESP.BODEGA PRIVADA 6*750CC. EXTRA-BRUT",
-//     "descuento": 0.00,
-//     "idarticulo": 1480,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 34
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 86.77,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -801,
-//     "codigoBarra": "45Q1637HE",
-//     "descripcion": "Y- UVITA  DE PLATA 6*750 MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1481,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "APERITIVOS",
-//       "idcategoria": 108
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 30.89,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5961,
-//     "codigoBarra": "46B164Y07",
-//     "descripcion": "BISC. DON SATUR 30*200G. SALADOS",
-//     "descuento": 0.00,
-//     "idarticulo": 1484,
-//     "idbulto": {
-//       "descripcion": "BULTO *30",
-//       "idbulto": 18,
-//       "unidades": 30
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3152,
-//     "codigoBarra": "46B16960U",
-//     "descripcion": "BISC.DON SATUR 30*200G.DULCES",
-//     "descuento": 0.00,
-//     "idarticulo": 1485,
-//     "idbulto": {
-//       "descripcion": "BULTO *30",
-//       "idbulto": 18,
-//       "unidades": 30
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1065,
-//     "codigoBarra": "46B169YVX",
-//     "descripcion": "BISC.DON SATUR 30*200G.NEGRITOS",
-//     "descuento": 0.00,
-//     "idarticulo": 1486,
-//     "idbulto": {
-//       "descripcion": "BULTO *30",
-//       "idbulto": 18,
-//       "unidades": 30
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1415,
-//     "codigoBarra": "46D16IE48",
-//     "descripcion": "X-CHUP.FIERITA SUPER TATOO *50U. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 1487,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 59.04,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -12420,
-//     "codigoBarra": "46J10Z7V4",
-//     "descripcion": "Z-SAB.VIDA BY 6*500CC. POMELO",
-//     "descuento": 0.00,
-//     "idarticulo": 1488,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 112
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -64,
-//     "codigoBarra": "46J11ATN1",
-//     "descripcion": "VINAGRE DE ALCOHOL *5L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1489,
-//     "idbulto": {
-//       "descripcion": "BULTO X 3",
-//       "idbulto": 2,
-//       "unidades": 3
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 39.04,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2395,
-//     "codigoBarra": "46Q126VZ3",
-//     "descripcion": "Z-AGUA  MOCORETA 6*500CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1491,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GASEOSAS / AGUAS",
-//       "idcategoria": 17
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -239,
-//     "codigoBarra": "4730IOWI9",
-//     "descripcion": "X-CHUP BOLA LOCA *24 RIVER",
-//     "descuento": 0.00,
-//     "idarticulo": 1495,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 43.16,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -314,
-//     "codigoBarra": "4730IQ63B",
-//     "descripcion": "X-CHUP BOLA LOCA *24 BOCA",
-//     "descuento": 0.00,
-//     "idarticulo": 1496,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 18
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 43.16,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -167,
-//     "codigoBarra": "4730ZHYAP",
-//     "descripcion": "X-FRUTA 3 18*15G.NARANJA-MANGO",
-//     "descuento": 0.00,
-//     "idarticulo": 1498,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 15
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 56.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4193,
-//     "codigoBarra": "47D0I4WPP",
-//     "descripcion": "X-TURRON 35*90G C/MANI",
-//     "descuento": 0.00,
-//     "idarticulo": 1502,
-//     "idbulto": {
-//       "descripcion": "bulto *35",
-//       "idbulto": 27,
-//       "unidades": 35
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 10
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.17,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1450,
-//     "codigoBarra": "47D0IFQ4S",
-//     "descripcion": "X-TURRON 10*300G C/MANI",
-//     "descuento": 0.00,
-//     "idarticulo": 1505,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 10
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 20.57,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -21796,
-//     "codigoBarra": "47P12NGEN",
-//     "descripcion": "ARROZ \"VILLAGUAY\"  10*1KG.",
-//     "descuento": 0.00,
-//     "idarticulo": 1510,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.11,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -16394,
-//     "codigoBarra": "47P12QSZT",
-//     "descripcion": "ARROZ \"VILLAGUAY\" 10*500G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1511,
-//     "idbulto": {
-//       "descripcion": "BULTO *10",
-//       "idbulto": 13,
-//       "unidades": 10
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 5.71,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11990,
-//     "codigoBarra": "47W14KPKQ",
-//     "descripcion": "Z-SAB.VIDA 6*1.5L. CITRUS",
-//     "descuento": 0.00,
-//     "idarticulo": 1514,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 110
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -124,
-//     "codigoBarra": "4831713DV",
-//     "descripcion": "Y-DILEMA EM DULCE NATURAL *750CC. TINTO",
-//     "descuento": 0.00,
-//     "idarticulo": 1515,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 49.55,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": 876,
-//     "codigoBarra": "48H12KGYC",
-//     "descripcion": "X- VASO SECCO PROMO",
-//     "descuento": 0.00,
-//     "idarticulo": 1516,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 19.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -83,
-//     "codigoBarra": "4900M3VAM",
-//     "descripcion": "X-CH. OPEN FIERITA *100U. BANANA",
-//     "descuento": 0.00,
-//     "idarticulo": 1519,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 30
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 9.53,
-//     "precioVenta": 24.06,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11077,
-//     "codigoBarra": "49G0HGWQE",
-//     "descripcion": "Z-SAB.VIDA BY 6*500CC. MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 1521,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 112
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -136,
-//     "codigoBarra": "4A414CDMJ",
-//     "descripcion": "X-MAST.MEGA TATTOO *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1526,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 60
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 31.91,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1730,
-//     "codigoBarra": "4AG13MEN8",
-//     "descripcion": "\"PROMO\" VIDA *1.5L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1530,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 0.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -459,
-//     "codigoBarra": "4AN17CGJV",
-//     "descripcion": "X-HELADITO POPY *30U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1532,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 7
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 34.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6231,
-//     "codigoBarra": "4AO0NQF1X",
-//     "descripcion": "Z-COCA COLA 8*2.25 L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1533,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 38.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2346,
-//     "codigoBarra": "4AO0NSODW",
-//     "descripcion": "Z-SPRITE 8*2.25L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1534,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 38.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -232,
-//     "codigoBarra": "4AO123F47",
-//     "descripcion": "Y-CINZANO ROSSO *930CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1535,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 26.00,
-//     "precioVenta": 62.53,
-//     "stockMinimo": 20
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -25,
-//     "codigoBarra": "4AO12DPTP",
-//     "descripcion": "Y-CINZANO BIANCO *930CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1536,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 26.00,
-//     "precioVenta": 62.53,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -29,
-//     "codigoBarra": "4AO12W2QO",
-//     "descripcion": "Y-BITTER CAMPARI *750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1537,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 106.72,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -485,
-//     "codigoBarra": "4AT17XJ7J",
-//     "descripcion": "PAPAS PAY *500G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1538,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "SNACK",
-//       "idcategoria": 9
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 50.41,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -260,
-//     "codigoBarra": "4AU17NNXL",
-//     "descripcion": "Y-BODEGA PRIVADA  \"COLECCION\" 6*750CC. COSECHA TARDIA",
-//     "descuento": 0.00,
-//     "idarticulo": 1541,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 63.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -683,
-//     "codigoBarra": "4BV14AYI9",
-//     "descripcion": "X-GEL.TEMBLEKE SIMPSONS *8U",
-//     "descuento": 0.00,
-//     "idarticulo": 1549,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 7
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 14.79,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2121,
-//     "codigoBarra": "4BV14Q72J",
-//     "descripcion": "PEPAS TEREPIN F.BOSQUE *300G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1550,
-//     "idbulto": {
-//       "descripcion": "BULTO *14",
-//       "idbulto": 17,
-//       "unidades": 14
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 3
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.10,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1,
-//     "codigoBarra": "4BW16Q71B",
-//     "descripcion": "X-CRIC RICE 20*20G. FELFORT",
-//     "descuento": 0.00,
-//     "idarticulo": 1552,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 78.95,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -133,
-//     "codigoBarra": "4C019M9JF",
-//     "descripcion": "FANTOCHE FUN 12*150G. ROSQ CHOCO",
-//     "descuento": 0.00,
-//     "idarticulo": 1556,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.82,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -712,
-//     "codigoBarra": "4C019NVDG",
-//     "descripcion": "FANTOCHE FUN 12*150G. CHIPS",
-//     "descuento": 0.00,
-//     "idarticulo": 1557,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.82,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -365,
-//     "codigoBarra": "4C019OPZG",
-//     "descripcion": "FANTOCHE FUN 12*150G. ROSQUITAS C/GRANAS",
-//     "descuento": 0.00,
-//     "idarticulo": 1558,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.82,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -275,
-//     "codigoBarra": "4C20GQKYM",
-//     "descripcion": "X-LIPO MIEL *930G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1559,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -120,
-//     "codigoBarra": "4C20GR5DF",
-//     "descripcion": "X-LIPO FRUTAL *930G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1560,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -45,
-//     "codigoBarra": "4C20GRPKU",
-//     "descripcion": "X-LIPO RELLENOS *930G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1561,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -151,
-//     "codigoBarra": "4C210ZT6H",
-//     "descripcion": "\"LA CANASTA\" AJI TRITURADO 10*25G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1562,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 53.45,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -244,
-//     "codigoBarra": "4C90M0ZTC",
-//     "descripcion": "X-ALKA *800G. ACIDO",
-//     "descuento": 0.00,
-//     "idarticulo": 1570,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 89.81,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -78,
-//     "codigoBarra": "4CV0GGXRW",
-//     "descripcion": "X-SUPER ARCO IRIS CODUL *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1581,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 36.03,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -619,
-//     "codigoBarra": "4D7110IEE",
-//     "descripcion": "Z-MERMELADA \"DE LA HUERTA\" 12*454G. CIRUELA",
-//     "descuento": 0.00,
-//     "idarticulo": 1586,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 122
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.83,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2394,
-//     "codigoBarra": "4DA0N8UHE",
-//     "descripcion": "BISCOCHITOS  JORGITO 24*200G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1590,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 7.34,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -111,
-//     "codigoBarra": "4DA0NBE66",
-//     "descripcion": "X-BOLITAS \"LECHERITAS\" *100U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1591,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 30.46,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -111,
-//     "codigoBarra": "4DA0NL06C",
-//     "descripcion": "X-GLOBOS \"FELIZ CUMPLEAÃ‘OS\"*50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1592,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 30.74,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -81,
-//     "codigoBarra": "4DA0NN424",
-//     "descripcion": "X-BENGALA *6U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1593,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -26992,
-//     "codigoBarra": "4DA0O1IH1",
-//     "descripcion": "Z-SAB.VIDA BY 6*500CC NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1594,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 112
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -526,
-//     "codigoBarra": "4DA0O63EZ",
-//     "descripcion": "Z-VINO CAVIC 12*1L. ROSADO DULCE",
-//     "descuento": 0.00,
-//     "idarticulo": 1595,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 119
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.87,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1016,
-//     "codigoBarra": "4DJ14EXWU",
-//     "descripcion": "X-ALF. ARROZ NEVARES BODY *24U. LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1598,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 2.93,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -23,
-//     "codigoBarra": "4DK16PIIF",
-//     "descripcion": "Y-PETACA FERNET OTTONE *200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1599,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.39,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -14,
-//     "codigoBarra": "4DZ1311BC",
-//     "descripcion": "EST. BRANCA EDICION LIMITADA",
-//     "descuento": 0.00,
-//     "idarticulo": 1602,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "APERITIVOS",
-//       "idcategoria": 108
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 271.98,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -8006,
-//     "codigoBarra": "4E113N2B4",
-//     "descripcion": "Z-COCA COLA 12*500CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1603,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2295,
-//     "codigoBarra": "4E113OQO1",
-//     "descripcion": "Z-CERVEZA SCHNEIDER 12*970CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1604,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 317.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -284,
-//     "codigoBarra": "4EC14SXPW",
-//     "descripcion": "X-CHUPALETA MARENGO *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1606,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 36.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -25,
-//     "codigoBarra": "4EQ123UIU",
-//     "descripcion": "ARVEJAS REMOJADAS LATA CARACAS 6*2950G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1609,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 76.35,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": 9,
-//     "codigoBarra": "4EQ12OEMY",
-//     "descripcion": "PALMITOS ACAPULCO(ENTERO) 24*400G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1610,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 29.44,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -87,
-//     "codigoBarra": "4EQ12R3J8",
-//     "descripcion": "PALMITOS ACAPULCO (TROZOS) 24*400G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1611,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 17.06,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -839,
-//     "codigoBarra": "4F312A5AZ",
-//     "descripcion": "Y-EST.MENDOZA CHARDONAY-CHENIN (DULCE) 6*750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1613,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 107
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 35.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3153,
-//     "codigoBarra": "4F40R87D1",
-//     "descripcion": "Z-GAS.SECCO 6*3L.  LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1614,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.49,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4635,
-//     "codigoBarra": "4F40RB1L6",
-//     "descripcion": "Z-GAS.SECCO 6*3L. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1615,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -9757,
-//     "codigoBarra": "4F60OY7B6",
-//     "descripcion": "BISC. HORNEADOS 20*250G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1617,
-//     "idbulto": {
-//       "descripcion": "BULTO *20",
-//       "idbulto": 12,
-//       "unidades": 20
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.27,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4,
-//     "codigoBarra": "4F615WOOX",
-//     "descripcion": "X-CAR.GARAMENTOL *750G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1618,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 66.03,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -61,
-//     "codigoBarra": "4FI0LBL8G",
-//     "descripcion": "Y-ESTUCHE BRANCA MENTA + VASO",
-//     "descuento": 0.00,
-//     "idarticulo": 1621,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 180.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -61,
-//     "codigoBarra": "4FI0RDB9Q",
-//     "descripcion": "X-CREMITAS LHERITIER SELECCION *450G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1622,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 50.60,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -728,
-//     "codigoBarra": "4FM0KWVRL",
-//     "descripcion": "PASAS DE UVA SULTANINA S/SEMILLA  50*100G. \"NOGAL DORADO\"",
-//     "descuento": 0.00,
-//     "idarticulo": 1623,
-//     "idbulto": {
-//       "descripcion": "BULTO *50",
-//       "idbulto": 19,
-//       "unidades": 50
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 8.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -924,
-//     "codigoBarra": "4FP101VNN",
-//     "descripcion": "Z-MERMELADA \"DE LA HUERTA\" 12*454G. DURAZNO",
-//     "descuento": 0.00,
-//     "idarticulo": 1624,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 122
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 21.83,
-//     "stockMinimo": 0
-//   },
+  {
+    "activo": "S",
+    "cantidad": -3967,
+    "codigoBarra": "3AJ18RS9I",
+    "descripcion": "Y-GINEBRA LLAVE *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 888,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 77.66,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1062,
+    "codigoBarra": "3AJ18TRKX",
+    "descripcion": "Y-GINEBRA LLAVE *475CC.",
+    "descuento": 0.00,
+    "idarticulo": 889,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 45.24,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -363,
+    "codigoBarra": "3AJ18WEAE",
+    "descripcion": "Y-PIÃ‘A COLADA MOONLIGHT CLUB *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 890,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 47.31,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -219,
+    "codigoBarra": "3AW0POH65",
+    "descripcion": "X-BUBBALOO *60U. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 892,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 26.51,
+    "precioVenta": 51.31,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -204,
+    "codigoBarra": "3BC10WV93",
+    "descripcion": "X-LOVE 20*26G. FELFORT",
+    "descuento": 0.00,
+    "idarticulo": 898,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 105.50,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1132,
+    "codigoBarra": "3CB19E528",
+    "descripcion": "COCTEL DE 5 FRUTAS ``GENTLEMANÂ´Â´ *820G.",
+    "descuento": 0.00,
+    "idarticulo": 902,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 33.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1499,
+    "codigoBarra": "3CB19J2Z7",
+    "descripcion": "ANANAS EN RODAJAS GENTLEMAN *836G.",
+    "descuento": 0.00,
+    "idarticulo": 903,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 49.48,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -10642,
+    "codigoBarra": "3CL0M3185",
+    "descripcion": "VINAGRE DE ALCOHOL 930 P.V.C.",
+    "descuento": 0.00,
+    "idarticulo": 904,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -627,
+    "codigoBarra": "3CL0N8BJ7",
+    "descripcion": "VINAGRE DE MANZANA *930CC. P.V.C.",
+    "descuento": 0.00,
+    "idarticulo": 905,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.84,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4540,
+    "codigoBarra": "3CL0NMFIB",
+    "descripcion": "VINAGRE DE ALCOHOL *500G. P.V.C.",
+    "descuento": 0.00,
+    "idarticulo": 906,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 8.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1157,
+    "codigoBarra": "3CL0NOVAF",
+    "descripcion": "VINAGRE DE MANZANA *500G. P.V.C.",
+    "descuento": 0.00,
+    "idarticulo": 907,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 11.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4,
+    "codigoBarra": "3D20LO9KV",
+    "descripcion": "PERAS EN MITADES \" DE LA HUERTA\" *820G.",
+    "descuento": 0.00,
+    "idarticulo": 908,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 31.78,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2632,
+    "codigoBarra": "3D20MAVMF",
+    "descripcion": "TEREPIN SOFT *330G. FRUTOS DEL BOSQUE",
+    "descuento": 0.00,
+    "idarticulo": 909,
+    "idbulto": {
+      "descripcion": "bulto * 15",
+      "idbulto": 11,
+      "unidades": 15
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2926,
+    "codigoBarra": "3D70G23V5",
+    "descripcion": "TEREPIN SOFT *330G. CHOCOLATE Y MEMBRILLO",
+    "descuento": 0.00,
+    "idarticulo": 911,
+    "idbulto": {
+      "descripcion": "bulto * 15",
+      "idbulto": 11,
+      "unidades": 15
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3698,
+    "codigoBarra": "3D70G3YH8",
+    "descripcion": "TEREPIN SOFT *330G. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 912,
+    "idbulto": {
+      "descripcion": "bulto * 15",
+      "idbulto": 11,
+      "unidades": 15
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -872,
+    "codigoBarra": "3DM12BAXG",
+    "descripcion": "Y-DILEMA EM DULCE NATURAL *750CC. BLANCO",
+    "descuento": 0.00,
+    "idarticulo": 913,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 47.56,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -37768,
+    "codigoBarra": "3F11CP6BJ",
+    "descripcion": "Z-SAB. VIDA 6*1.5L. PERA",
+    "descuento": 0.00,
+    "idarticulo": 922,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 110
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -73549,
+    "codigoBarra": "3F40GA8G1",
+    "descripcion": "Z-SAB. VIDA 6*1.5L. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 923,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 110
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -41793,
+    "codigoBarra": "3F40GCN3P",
+    "descripcion": "Z-SAB.VIDA 6*1.5L. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 924,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 110
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -252,
+    "codigoBarra": "3G511QZUE",
+    "descripcion": "\"LA CANASTA\" CHIMICHURRI 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 926,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 74.79,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -90,
+    "codigoBarra": "3G511US1D",
+    "descripcion": "\"LA CANASTA\" COND.PARA ARROZ 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 927,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 53.46,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -123,
+    "codigoBarra": "3G511WZDW",
+    "descripcion": "\"LA CANASTA\" COMINO MOLIDO 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 928,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 85.59,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -37,
+    "codigoBarra": "3G511YIXN",
+    "descripcion": "\"LA CANASTA\"  LISTA LA SALSA 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 929,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 67.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -82,
+    "codigoBarra": "3G51206AB",
+    "descripcion": "\"LA CANASTA\" NUEZ MOSCADA MOLIDA 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 930,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 139.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1205,
+    "codigoBarra": "3G5121SDL",
+    "descripcion": "\"LA CANASTA\" OREGANO 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 931,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 85.59,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1219,
+    "codigoBarra": "3G512348I",
+    "descripcion": "\"LA CANASTA\" PIMENTON 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 932,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 74.79,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -796,
+    "codigoBarra": "3G5124H5E",
+    "descripcion": "\"LA CANASTA\" PIMIENTA BLANCA MOLIDA 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 933,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 164.71,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1922,
+    "codigoBarra": "3G5126HQ7",
+    "descripcion": "\"LA CANASTA\" PROVENZAL 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 934,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 106.92,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -55,
+    "codigoBarra": "3G5127M15",
+    "descripcion": "\"LA CANASTA\" LISTO PARA  EMPANADA 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 935,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 67.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -681,
+    "codigoBarra": "3G51298IV",
+    "descripcion": "\"LA CANASTA\" PIMENTON *1K.",
+    "descuento": 0.00,
+    "idarticulo": 936,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 85.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -207,
+    "codigoBarra": "3G512E2GT",
+    "descripcion": "\"LA CANASTA\" PIMIENTA BLANCA MOLIDA *1K.",
+    "descuento": 0.00,
+    "idarticulo": 937,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 382.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -440,
+    "codigoBarra": "3G512GLBA",
+    "descripcion": "\"LA CANASTA\" OREGANO *1K.",
+    "descuento": 0.00,
+    "idarticulo": 938,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 139.48,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1002,
+    "codigoBarra": "3G512I01Z",
+    "descripcion": "\"LA CANASTA\" PROVENZAL *1K.",
+    "descuento": 0.00,
+    "idarticulo": 939,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 198.72,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -744,
+    "codigoBarra": "3G60VPN96",
+    "descripcion": "TOMATE PERITA GENTLEMAN *400G.",
+    "descuento": 0.00,
+    "idarticulo": 940,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2243,
+    "codigoBarra": "3G60VW0S0",
+    "descripcion": "EXTRACTO DOBLE DE TOMATE GENTLEMAN *145G.",
+    "descuento": 0.00,
+    "idarticulo": 941,
+    "idbulto": {
+      "descripcion": "BULTO *40U",
+      "idbulto": 24,
+      "unidades": 40
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 8.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2422,
+    "codigoBarra": "3GH0KL890",
+    "descripcion": "TEREPIN SOFT 30*165G. AVELLANA",
+    "descuento": 0.00,
+    "idarticulo": 948,
+    "idbulto": {
+      "descripcion": "BULTO *30",
+      "idbulto": 18,
+      "unidades": 30
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.28,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2476,
+    "codigoBarra": "3GH0KN6ZV",
+    "descripcion": "TEREPIN SOFT *330G. LIMON",
+    "descuento": 0.00,
+    "idarticulo": 949,
+    "idbulto": {
+      "descripcion": "bulto * 15",
+      "idbulto": 11,
+      "unidades": 15
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1422,
+    "codigoBarra": "3GQ14ZUD4",
+    "descripcion": "Z-EDULCORANTE SI DIET 6*250CC.",
+    "descuento": 0.00,
+    "idarticulo": 956,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 64
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 106.08,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -654,
+    "codigoBarra": "3GQ153LA1",
+    "descripcion": "Z-EDULCORANTE SI DIET 6*600CC.",
+    "descuento": 0.00,
+    "idarticulo": 957,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 64
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 176.81,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3944,
+    "codigoBarra": "3GU13UL56",
+    "descripcion": "Z-PURE DE TOMATES \" 7 DIAS\"  18*210G.",
+    "descuento": 0.00,
+    "idarticulo": 968,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 69
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -123976,
+    "codigoBarra": "3GU13ZKNA",
+    "descripcion": "Z-PURE DE TOMATES \"LA HUERTA\" 18*210G.",
+    "descuento": 0.00,
+    "idarticulo": 969,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 69
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -46258,
+    "codigoBarra": "3HI0GDK09",
+    "descripcion": "Z-SAB. VIDA 6*1.5L. POMELO",
+    "descuento": 0.00,
+    "idarticulo": 1014,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 110
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1883,
+    "codigoBarra": "3HL180WEC",
+    "descripcion": "X-ALF.MOGY 60*21G. BCO.",
+    "descuento": 0.00,
+    "idarticulo": 1015,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 71.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2051,
+    "codigoBarra": "3HL183ID6",
+    "descripcion": "X-ALF. MOGY 60*21G. NGRO.",
+    "descuento": 0.00,
+    "idarticulo": 1016,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 71.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -936,
+    "codigoBarra": "3HN0ZPA9G",
+    "descripcion": "Y-LICOR PETERS 6*700CC. CAFE AL COGNAC",
+    "descuento": 0.00,
+    "idarticulo": 1020,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 52.65,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -36,
+    "codigoBarra": "3HN0ZT6SW",
+    "descripcion": "Y-LICOR PETERS 6*700CC. LEMONCELLO",
+    "descuento": 0.00,
+    "idarticulo": 1021,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.40,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -10,
+    "codigoBarra": "3HN0ZV3CS",
+    "descripcion": "Y-LICOR PETERS 6*700CC. KIWI",
+    "descuento": 0.00,
+    "idarticulo": 1022,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.40,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -75,
+    "codigoBarra": "3HN0ZWFQZ",
+    "descripcion": "Y-LICOR PETERS 6*700CC. PIÃ‘AS",
+    "descuento": 0.00,
+    "idarticulo": 1023,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.40,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -279,
+    "codigoBarra": "3HN0ZXCP6",
+    "descripcion": "Y-LICOR PETERS 6*700CC. MENTA",
+    "descuento": 0.00,
+    "idarticulo": 1024,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 52.65,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -617,
+    "codigoBarra": "3HN1005IY",
+    "descripcion": "Y-LICOR PETERS 6*700CC. DULCE DE LECHE",
+    "descuento": 0.00,
+    "idarticulo": 1025,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 55.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -391,
+    "codigoBarra": "3HN101U32",
+    "descripcion": "Y-LICOR PETERS 6*700CC. CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 1026,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 55.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -557,
+    "codigoBarra": "3HN103NO6",
+    "descripcion": "Y-WHISKY PIONEER 6*1L.",
+    "descuento": 0.00,
+    "idarticulo": 1027,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 38.40,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -487,
+    "codigoBarra": "3HN105AMK",
+    "descripcion": "Y-VODKA KOVAC 6*1L.",
+    "descuento": 0.00,
+    "idarticulo": 1028,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 38.01,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -20,
+    "codigoBarra": "3HN10749F",
+    "descripcion": "Y-GIN PETERS 6*1L.",
+    "descuento": 0.00,
+    "idarticulo": 1029,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 64.66,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -61,
+    "codigoBarra": "3HN10GU5C",
+    "descripcion": "Y-TEQUILA SOL AZTECA *1L.",
+    "descuento": 0.00,
+    "idarticulo": 1030,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.77,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -47,
+    "codigoBarra": "3HN10IJ8K",
+    "descripcion": "Y-TEQUILA CAMACHO 6*1L.",
+    "descuento": 0.00,
+    "idarticulo": 1031,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.36,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -300,
+    "codigoBarra": "3HN10K4Y9",
+    "descripcion": "Z-JUGO DE LIMON 6*1L. LIMONEL",
+    "descuento": 0.00,
+    "idarticulo": 1032,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 26.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -440,
+    "codigoBarra": "3HN10LVNM",
+    "descripcion": "Z-JUGO DE LIMON 6*500CC. LIMONEL",
+    "descuento": 0.00,
+    "idarticulo": 1033,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1538,
+    "codigoBarra": "3HN10PJTG",
+    "descripcion": "Y-PETACA GINEBRA LLAVE 12*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1034,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.75,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -157,
+    "codigoBarra": "3HN10RM63",
+    "descripcion": "Y-PETACA GIN PETERS 12*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1035,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.48,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -857,
+    "codigoBarra": "3HN10SYEN",
+    "descripcion": "Y-PETACA VODKA PETERS 12*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1036,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.48,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2752,
+    "codigoBarra": "3HN11A45C",
+    "descripcion": "Y-PETACA L.CAFE AL COGNAC PETERS 12*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1037,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3218,
+    "codigoBarra": "3HP0NQPGY",
+    "descripcion": "ACEITUNAS \"DON VENANCIO\" SACHET 20*100G",
+    "descuento": 0.00,
+    "idarticulo": 1038,
+    "idbulto": {
+      "descripcion": "BULTO *20",
+      "idbulto": 12,
+      "unidades": 20
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1363,
+    "codigoBarra": "3HP0NSWG9",
+    "descripcion": "ACEITUNAS \"DON VENANCIO\" SACHET 20*80G. DESCAROZADAS",
+    "descuento": 0.00,
+    "idarticulo": 1039,
+    "idbulto": {
+      "descripcion": "BULTO *20",
+      "idbulto": 12,
+      "unidades": 20
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1,
+    "codigoBarra": "3HP0NZDOY",
+    "descripcion": "ACEITUNAS \" DON VENANCIO\" FRASCO *2 KG. NUMERO UNO",
+    "descuento": 0.00,
+    "idarticulo": 1041,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 144.73,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -75,
+    "codigoBarra": "3HY0PNRTX",
+    "descripcion": "X-BOC.DU LECH 20*21G. FELFORT",
+    "descuento": 0.00,
+    "idarticulo": 1048,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 69.17,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -270,
+    "codigoBarra": "3I60XIOA9",
+    "descripcion": "X-CH. OPEN FIERITA *100U. UVA",
+    "descuento": 0.00,
+    "idarticulo": 1055,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 9.53,
+    "precioVenta": 24.06,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -87,
+    "codigoBarra": "3IC12QGG5",
+    "descripcion": "Y-LICOR PETERS 6*700CC. CURACAO BLUE",
+    "descuento": 0.00,
+    "idarticulo": 1065,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 52.65,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -83,
+    "codigoBarra": "3IC12UB9K",
+    "descripcion": "Y-LICOR PETERS 6*700CC. HUEVO",
+    "descuento": 0.00,
+    "idarticulo": 1066,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 55.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -169,
+    "codigoBarra": "3IC13060S",
+    "descripcion": "Y-LICOR PETERS 6*700CC. MELON",
+    "descuento": 0.00,
+    "idarticulo": 1067,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.40,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -86,
+    "codigoBarra": "3IC131BPN",
+    "descripcion": "Y-LICOR PETERS 6*700CC. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 1068,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 52.65,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -758,
+    "codigoBarra": "3IC13R76N",
+    "descripcion": "Y-PETACA PIÃ‘A COLADA MOONLIGHT CLUB *200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1069,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1232,
+    "codigoBarra": "3IC13U2KF",
+    "descripcion": "Y-PETACA LICOR PETERS *200CC.MENTA",
+    "descuento": 0.00,
+    "idarticulo": 1070,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1404,
+    "codigoBarra": "3IC13V82C",
+    "descripcion": "Y-PETACA LICOR PETERS *200CC. DULCE DE LECHE",
+    "descuento": 0.00,
+    "idarticulo": 1071,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -15787,
+    "codigoBarra": "3IL124CFN",
+    "descripcion": "Z-GAS.SECCO 6*2.25 LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1077,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 35
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.67,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -142,
+    "codigoBarra": "3IO173J7S",
+    "descripcion": "Y-LICOR PETERS 6*700CC. CHOCOLATE BLANCO",
+    "descuento": 0.00,
+    "idarticulo": 1078,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 55.76,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1627,
+    "codigoBarra": "3IO175CYJ",
+    "descripcion": "Y-PETACA WHISKY PIONEER 12*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1079,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.48,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -770,
+    "codigoBarra": "3IO177PR1",
+    "descripcion": "Y-PETACA ANIS FEUDAL 12*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1080,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -851,
+    "codigoBarra": "3IY1980Z6",
+    "descripcion": "Y-CAÃ‘A PIRAGUA *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 1081,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.33,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1239,
+    "codigoBarra": "3J40F6TFC",
+    "descripcion": "JARDINERA  \"DE LA  HUERTA\"  24*350G.",
+    "descuento": 0.00,
+    "idarticulo": 1084,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -133,
+    "codigoBarra": "3J40FSOHJ",
+    "descripcion": "DURAZNOS EN MITADES GENTLEMAN *3 KG.",
+    "descuento": 0.00,
+    "idarticulo": 1085,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 79.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4,
+    "codigoBarra": "3J40FWQR3",
+    "descripcion": "COCTEL DE 5 FRUTAS GENTLEMAN * 3 KG.",
+    "descuento": 0.00,
+    "idarticulo": 1086,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 102.59,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -84,
+    "codigoBarra": "3J40FZEUW",
+    "descripcion": "ANANA EN RODAJAS GENTLEMAN * 3 KG.",
+    "descuento": 0.00,
+    "idarticulo": 1087,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 174.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -278,
+    "codigoBarra": "3J915S7LF",
+    "descripcion": "Y-PETACA TEQUILA SOL AZTECA *200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1088,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.48,
+    "stockMinimo": 24
+  },
+  {
+    "activo": "S",
+    "cantidad": -186,
+    "codigoBarra": "3J915YMVR",
+    "descripcion": "Y-PETACA  LICOR FINO TANGO 12*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1089,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -226,
+    "codigoBarra": "3JC0MGDSH",
+    "descripcion": "ARROZ MAGISTRAL 10*1KG. FINO LARGO",
+    "descuento": 0.00,
+    "idarticulo": 1090,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 6.41,
+    "precioVenta": 14.45,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -953,
+    "codigoBarra": "3KX0PBXFD",
+    "descripcion": "X-VAINILLAS MAURI 36*22G.",
+    "descuento": 0.00,
+    "idarticulo": 1095,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 70.79,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -19494,
+    "codigoBarra": "3LH0TFCFV",
+    "descripcion": "Z-CHOCOLATADA  LATTE 18*125CC.",
+    "descuento": 0.00,
+    "idarticulo": 1105,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.34,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -24,
+    "codigoBarra": "3LT16ICKH",
+    "descripcion": "\"LA CANASTA\" AJI MOLIDO *1K.",
+    "descuento": 0.00,
+    "idarticulo": 1110,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 114.95,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -100,
+    "codigoBarra": "3LT16NHSG",
+    "descripcion": "\"LA CANASTA\" ESPECIAS SURTIDAS 10*30G.",
+    "descuento": 0.00,
+    "idarticulo": 1111,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 67.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -229,
+    "codigoBarra": "3LT16ZX9E",
+    "descripcion": "\"LA CANASTA\" CONDIMENTO P/PIZZA 10*20G.",
+    "descuento": 0.00,
+    "idarticulo": 1112,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 64.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -94,
+    "codigoBarra": "3NS0LK7B0",
+    "descripcion": "\"LA CANASTA\" PIMIENTA NEGRA MOLIDA10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 1142,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 147.50,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -67,
+    "codigoBarra": "3O70LG313",
+    "descripcion": "\"LA CANASTA\" CLAVO DE OLOR MOLIDO 10*10G.",
+    "descuento": 0.00,
+    "idarticulo": 1143,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 53.72,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -18629,
+    "codigoBarra": "3OG14JHAZ",
+    "descripcion": "Z-SAB.VIDA BY 6*500CC.PERA",
+    "descuento": 0.00,
+    "idarticulo": 1147,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 112
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.68,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -301,
+    "codigoBarra": "3OL14O5CG",
+    "descripcion": "JUREL CARACAS *380G. AL NATURAL",
+    "descuento": 0.00,
+    "idarticulo": 1150,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.17,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1044,
+    "codigoBarra": "3OY17EZT2",
+    "descripcion": "X-MASTICABLE PICO DULCE *500G.(165U.)",
+    "descuento": 0.00,
+    "idarticulo": 1151,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 36.18,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -106528,
+    "codigoBarra": "3OZ18K631",
+    "descripcion": "Z-BAGGIO PRONTO 8*1L. MULTIFRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1152,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 67
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -325962,
+    "codigoBarra": "3OZ18OSOV",
+    "descripcion": "Z-BAGGIO PRONTO 18*200CC. MULTIFRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1153,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 67
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -127352,
+    "codigoBarra": "3OZ18QP3J",
+    "descripcion": "Z-BAGGIO JUNIOR 18*125CC. MULTIFRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1154,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 67
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.11,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -35368,
+    "codigoBarra": "3OZ18S7HF",
+    "descripcion": "Z-CHOCOLATADA LATTE 8*1L.",
+    "descuento": 0.00,
+    "idarticulo": 1155,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 123
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.44,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -89493,
+    "codigoBarra": "3OZ18TNQ2",
+    "descripcion": "Z-CHOCOLATADA LATTE 18*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1156,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 67
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.36,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -62306,
+    "codigoBarra": "3OZ196BGR",
+    "descripcion": "Z-GAS. MOCORETA 6*2.25L. COLA",
+    "descuento": 0.00,
+    "idarticulo": 1158,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 104
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.01,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -13781,
+    "codigoBarra": "3OZ19876P",
+    "descripcion": "Z-JUGO MOCORETA 6*1.5L. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1159,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.17,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -14537,
+    "codigoBarra": "3P5129EJW",
+    "descripcion": "Z-JUGO MIJU 6*500CC. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1160,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.95,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -17048,
+    "codigoBarra": "3P61640XF",
+    "descripcion": "Z-BAGGIO PRONTO 8*1.5L. MULTIFRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1162,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 66
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -109,
+    "codigoBarra": "3PC14R7DE",
+    "descripcion": "ARVEJAS REMOJADAS LATA CARACAS 24*350G.",
+    "descuento": 0.00,
+    "idarticulo": 1163,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.75,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -125,
+    "codigoBarra": "3RC11YI0S",
+    "descripcion": "SERV. DE AUTOELEVADOR 1 HORA (/)",
+    "descuento": 0.00,
+    "idarticulo": 1166,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 537.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -81,
+    "codigoBarra": "3RX0PH35I",
+    "descripcion": "\"LA CANASTA\" BICARBONATO 10*50G.",
+    "descuento": 0.00,
+    "idarticulo": 1167,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 42.79,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -24,
+    "codigoBarra": "3RX0PJCSB",
+    "descripcion": "\"LA CANASTA\" NUEZ MOSCADA EN GRANOS 10*2U.",
+    "descuento": 0.00,
+    "idarticulo": 1168,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.21,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -166,
+    "codigoBarra": "3S10PXNGF",
+    "descripcion": "X-BOMBON OBLI-BON *30U. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 1169,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 64.51,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4519,
+    "codigoBarra": "3S80L444J",
+    "descripcion": "Z-VINO TALACASTO 12*1L. TTO.",
+    "descuento": 0.00,
+    "idarticulo": 1179,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FECOVITA",
+      "idcategoria": 33
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 28.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1562,
+    "codigoBarra": "3S80L4WCL",
+    "descripcion": "Z-VINO TALACASTO 12*1L. BCO.",
+    "descuento": 0.00,
+    "idarticulo": 1180,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FECOVITA",
+      "idcategoria": 33
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -732,
+    "codigoBarra": "3SH13R6G5",
+    "descripcion": "ARROZ MAGISTRAL FINO LARGO 10*500G.",
+    "descuento": 0.00,
+    "idarticulo": 1182,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 3.34,
+    "precioVenta": 7.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -269,
+    "codigoBarra": "3SH157FSF",
+    "descripcion": "CHIMICHURRI HALCONERO 12*500CC.",
+    "descuento": 0.00,
+    "idarticulo": 1183,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 27.73,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -377,
+    "codigoBarra": "3SQ14SY3O",
+    "descripcion": "MER.POTE ORIETA *420G. CIRUELA LIGHT",
+    "descuento": 0.00,
+    "idarticulo": 1185,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -28,
+    "codigoBarra": "3SR0KPDCV",
+    "descripcion": "\"LA CANASTA\" ESPECIAS SURTIDAS *1K.",
+    "descuento": 0.00,
+    "idarticulo": 1186,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 95.70,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -149,
+    "codigoBarra": "3T00PE0ZG",
+    "descripcion": "Y-PETACA LICOR PETERS *200CC. MELON",
+    "descuento": 0.00,
+    "idarticulo": 1187,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -180,
+    "codigoBarra": "3T00PFCO1",
+    "descripcion": "Y-PETACA LICOR PETERS *200CC. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 1188,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -824,
+    "codigoBarra": "3T00PIDRJ",
+    "descripcion": "Y-PETACA LICOR PETERS *200CC. CHOCOLATE",
+    "descuento": 0.00,
+    "idarticulo": 1189,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -109,
+    "codigoBarra": "3T00PKNML",
+    "descripcion": "Y-PETACA CAIPIRINHA CAPOEIRA *200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1190,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -31,
+    "codigoBarra": "3T00PP2WJ",
+    "descripcion": "Y-GRANADINA PETERS *1L.",
+    "descuento": 0.00,
+    "idarticulo": 1191,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 32.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -102,
+    "codigoBarra": "3T00Q8BHP",
+    "descripcion": "Y-RHUM COMANDANTE BLANCO *1L.",
+    "descuento": 0.00,
+    "idarticulo": 1192,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 46.54,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -69,
+    "codigoBarra": "3T00QGL75",
+    "descripcion": "Y- ANIS DULCE FEUDAL(ET.VERDE) *1L.",
+    "descuento": 0.00,
+    "idarticulo": 1193,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 42.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -82,
+    "codigoBarra": "3T00QU7RQ",
+    "descripcion": "Y-CAIPIRINHA CAPOEIRA *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 1194,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 39.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -23,
+    "codigoBarra": "3T00R7MSM",
+    "descripcion": "Y-LICOR PETERS 6*700CC. MANDARINA",
+    "descuento": 0.00,
+    "idarticulo": 1195,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 52.65,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -58,
+    "codigoBarra": "3U10KJ430",
+    "descripcion": "TOMATE TRITURADO GENTLEMAN *8 KG.",
+    "descuento": 0.00,
+    "idarticulo": 1207,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 140.50,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -773,
+    "codigoBarra": "3UA0KFW4D",
+    "descripcion": "Y-SNOB 6*750CC. COOL",
+    "descuento": 0.00,
+    "idarticulo": 1210,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FECOVITA",
+      "idcategoria": 33
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.75,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -41,
+    "codigoBarra": "3UA0KSA64",
+    "descripcion": "Y-EST.MENDOZA 6*750CC. SAUVIGNON BLANC",
+    "descuento": 0.00,
+    "idarticulo": 1211,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 107
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 53.86,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -31,
+    "codigoBarra": "3VD15I13O",
+    "descripcion": "SAVIA P/ALLEN 12*500CC",
+    "descuento": 0.00,
+    "idarticulo": 1227,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -35,
+    "codigoBarra": "3VD15JUJK",
+    "descripcion": "SAVIA P/ALLEN 12*930CC",
+    "descuento": 0.00,
+    "idarticulo": 1228,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.68,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 1,
+    "codigoBarra": "3VD15EUBQ",
+    "descripcion": "AJIES EN VINAGRE \" DON VENANCIO\" *900G.",
+    "descuento": 0.00,
+    "idarticulo": 1229,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 166.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 1,
+    "codigoBarra": "3VD15O0VW",
+    "descripcion": "PICKLES FRASCO \" DON VENANCIO\" *2KG.",
+    "descuento": 0.00,
+    "idarticulo": 1232,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 149.58,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -9,
+    "codigoBarra": "3VD15SABR",
+    "descripcion": "PICKLES EN VINAGRE FRASCO \"TORRELAGUNA\"  *200G.",
+    "descuento": 0.00,
+    "idarticulo": 1233,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 31.31,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -823,
+    "codigoBarra": "3WJ0N2I0J",
+    "descripcion": "Y-CANCILLER BLEND -IX- 6*750CC.CHEN/TORR/CHAR",
+    "descuento": 0.00,
+    "idarticulo": 1251,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 33.55,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -71,
+    "codigoBarra": "3WY186Q9X",
+    "descripcion": "X-BABY DOLL LHERITIER *18 UN",
+    "descuento": 0.00,
+    "idarticulo": 1254,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 142.42,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -200382,
+    "codigoBarra": "3X10MS1OT",
+    "descripcion": "Z-PURE DE TOMATES \"LA HUERTA\" 12*530CC",
+    "descuento": 0.00,
+    "idarticulo": 1258,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 118
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.33,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -654,
+    "codigoBarra": "3XI11RXP0",
+    "descripcion": "MANI CROCANTE \"BOING\" *1KGPIZZA",
+    "descuento": 0.00,
+    "idarticulo": 1263,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 46.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1933,
+    "codigoBarra": "3Y20N7BD1",
+    "descripcion": "MANI SIN PIEL \"CACHI\"*1K",
+    "descuento": 0.00,
+    "idarticulo": 1265,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 44.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -71,
+    "codigoBarra": "3YC17CJHS",
+    "descripcion": "PULPA FRUTILLA GENTLEMAN 24*420CC.",
+    "descuento": 0.00,
+    "idarticulo": 1266,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 32.54,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -160,
+    "codigoBarra": "3YC18LLJ1",
+    "descripcion": "Y-SNOB 6*750CC. ROUGE",
+    "descuento": 0.00,
+    "idarticulo": 1267,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FECOVITA",
+      "idcategoria": 33
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.75,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -182,
+    "codigoBarra": "3YC18MXBY",
+    "descripcion": "Y-SNOB 6*750CC. FRESH",
+    "descuento": 0.00,
+    "idarticulo": 1268,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FECOVITA",
+      "idcategoria": 33
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.75,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3614,
+    "codigoBarra": "3YD1584N6",
+    "descripcion": "Y-CANCILLER BLEND -I- 6*750CC. MERLOT/SYRAH/MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1269,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 33.55,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -27,
+    "codigoBarra": "3YY13M2GG",
+    "descripcion": "\"LA CANASTA \" AJO PICADO 25G*10U",
+    "descuento": 0.00,
+    "idarticulo": 1270,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 128.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -47,
+    "codigoBarra": "3YY14L0MQ",
+    "descripcion": "\"LA CANASTA\" COCO RALLADO 20G*10U",
+    "descuento": 0.00,
+    "idarticulo": 1271,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 53.46,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -33,
+    "codigoBarra": "3YZ109GSK",
+    "descripcion": "\"LA CANASTA\" PIMIENTA BLANCA EN GRANO25G*10U",
+    "descuento": 0.00,
+    "idarticulo": 1272,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 155.62,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -118,
+    "codigoBarra": "3YZ10IOFC",
+    "descripcion": "\"LA CANASTA\" PEREJIL EN HOJA 20G*10U",
+    "descuento": 0.00,
+    "idarticulo": 1273,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 74.79,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -58490,
+    "codigoBarra": "3Z312GZA2",
+    "descripcion": "Z-VINO UVITA 12*1L. TTO.",
+    "descuento": 0.00,
+    "idarticulo": 1275,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 28.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -61537,
+    "codigoBarra": "3Z312HRBM",
+    "descripcion": "Z-VINO UVITA 12*1L. BCO.",
+    "descuento": 0.00,
+    "idarticulo": 1276,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -9074,
+    "codigoBarra": "3Z312IM44",
+    "descripcion": "Z-VINO UVITA 12*1L.ROSADO",
+    "descuento": 0.00,
+    "idarticulo": 1277,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -29444,
+    "codigoBarra": "3Z312JCFL",
+    "descripcion": "Z-VINO UVITA 12*1L. BCO.DULCE",
+    "descuento": 0.00,
+    "idarticulo": 1278,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -10424,
+    "codigoBarra": "3Z312KPXP",
+    "descripcion": "Z-VINO UVITA 12*1L. TTO.DULCE",
+    "descuento": 0.00,
+    "idarticulo": 1279,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 28.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -655,
+    "codigoBarra": "3Z312O1EI",
+    "descripcion": "Z-VINO UVITA 12*1L. ROSADO DULCE",
+    "descuento": 0.00,
+    "idarticulo": 1280,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -56177,
+    "codigoBarra": "3Z312P1HJ",
+    "descripcion": "Z-VINO CAVIC 12*1L. BCO",
+    "descuento": 0.00,
+    "idarticulo": 1281,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -58992,
+    "codigoBarra": "3Z312PX29",
+    "descripcion": "Z-VINO CAVIC 12*1L. TTO",
+    "descuento": 0.00,
+    "idarticulo": 1282,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 28.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4816,
+    "codigoBarra": "3Z312RT89",
+    "descripcion": "Z-VINO CAVIC 12*1L. BLANCO DULCE",
+    "descuento": 0.00,
+    "idarticulo": 1283,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.52,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3908,
+    "codigoBarra": "3Z312SKDO",
+    "descripcion": "Z-VINO CAVIC 12*1L. ROSADO",
+    "descuento": 0.00,
+    "idarticulo": 1284,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4563,
+    "codigoBarra": "3Z312TXVT",
+    "descripcion": "Z-VINO CAVIC 12*1L. TTO.DULCE",
+    "descuento": 0.00,
+    "idarticulo": 1285,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 28.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6,
+    "codigoBarra": "3ZQ135Z21",
+    "descripcion": "PURE MANZANA GENTLEMAN24*420G",
+    "descuento": 0.00,
+    "idarticulo": 1287,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.86,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -452,
+    "codigoBarra": "405116EG8",
+    "descripcion": "X-PIRULO CODUL *20U.",
+    "descuento": 0.00,
+    "idarticulo": 1302,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 30.49,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -242,
+    "codigoBarra": "4051184UI",
+    "descripcion": "X-CHUP.CHUPETE POPY *25U.",
+    "descuento": 0.00,
+    "idarticulo": 1303,
+    "idbulto": {
+      "descripcion": "bulto * 15",
+      "idbulto": 11,
+      "unidades": 15
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.42,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -57,
+    "codigoBarra": "40511A946",
+    "descripcion": "X-BOMB. DRUPI *100U.",
+    "descuento": 0.00,
+    "idarticulo": 1304,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 88.10,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -626,
+    "codigoBarra": "40L0M0AEE",
+    "descripcion": "TAPITA FANTOCHE 12*350GR",
+    "descuento": 0.00,
+    "idarticulo": 1305,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.78,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -495,
+    "codigoBarra": "40N138UU4",
+    "descripcion": "FANTOCHE TAPITA *3.5KG",
+    "descuento": 0.00,
+    "idarticulo": 1306,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 136.17,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -116,
+    "codigoBarra": "40X0G9D8Q",
+    "descripcion": "X-ENC. CANCUN *25U.",
+    "descuento": 0.00,
+    "idarticulo": 1311,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 97.69,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -68,
+    "codigoBarra": "40X153LRP",
+    "descripcion": "Y-RHUM CAYMAN LIGHT *950CC.",
+    "descuento": 0.00,
+    "idarticulo": 1312,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -41620,
+    "codigoBarra": "41216Y8OG",
+    "descripcion": "BIZ. Â¨LA REINAÂ¨ CRIOLLITOS 25*250G",
+    "descuento": 0.00,
+    "idarticulo": 1316,
+    "idbulto": {
+      "descripcion": "bulto *25",
+      "idbulto": 35,
+      "unidades": 25
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -41082,
+    "codigoBarra": "41A0IYB45",
+    "descripcion": "Z-BAGGIO PRONTO 8*1L. DURAZNO",
+    "descuento": 0.00,
+    "idarticulo": 1324,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 66
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -54,
+    "codigoBarra": "41H170X5W",
+    "descripcion": "AJO PICADO CHINO \"LA CANASTA\" *1KG.",
+    "descuento": 0.00,
+    "idarticulo": 1326,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 314.82,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -324,
+    "codigoBarra": "41T14ZKNR",
+    "descripcion": "X-CHUP.WAMIS *50U. FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1327,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 26.50,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6484,
+    "codigoBarra": "41X0KCYMB",
+    "descripcion": "AZUCAR \"DOLCE\"  10*1K.",
+    "descuento": 0.00,
+    "idarticulo": 1329,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 80.16,
+    "precioVenta": 125.70,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -32,
+    "codigoBarra": "4220OYRQV",
+    "descripcion": "X-MAST. BABY DOLL *500G.(165 U.)",
+    "descuento": 0.00,
+    "idarticulo": 1330,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.85,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -45,
+    "codigoBarra": "42818KEZA",
+    "descripcion": "X-MINI-TORTA (MEDIA) RAPSODIA 12*80G.",
+    "descuento": 0.00,
+    "idarticulo": 1333,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 38.53,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -60,
+    "codigoBarra": "42818M1I2",
+    "descripcion": "X-PIC-NIC(MEDIO) 20*30G.",
+    "descuento": 0.00,
+    "idarticulo": 1334,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 40.86,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -79,
+    "codigoBarra": "42818OLV5",
+    "descripcion": "X-CAR. MEDIA HORA *800G.",
+    "descuento": 0.00,
+    "idarticulo": 1335,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 78.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -166,
+    "codigoBarra": "42914N19R",
+    "descripcion": "PIMIENTOS MORRONES ENT.CARACAS 24*185G.",
+    "descuento": 0.00,
+    "idarticulo": 1336,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -326,
+    "codigoBarra": "42914R618",
+    "descripcion": "CHAMPIÃ‘ONES  TROZOS CARACAS 24*400G.",
+    "descuento": 0.00,
+    "idarticulo": 1337,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.53,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -54,
+    "codigoBarra": "42916VYY4",
+    "descripcion": "FRASCO AJIES EN VINAGRE \"TORRELAGUNA\" *110G.",
+    "descuento": 0.00,
+    "idarticulo": 1338,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 37.29,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -5611,
+    "codigoBarra": "42L15CJ9D",
+    "descripcion": "Z-BAGGIO PRONTO 8*1.5L. DURAZNO",
+    "descuento": 0.00,
+    "idarticulo": 1346,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 66
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -29946,
+    "codigoBarra": "42L15URMD",
+    "descripcion": "Z-SODA MOCORETA 6*2.25L.",
+    "descuento": 0.00,
+    "idarticulo": 1347,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GASEOSAS / AGUAS",
+      "idcategoria": 17
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 8.58,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -12,
+    "codigoBarra": "4320IUZNS",
+    "descripcion": "X-PUSH POP TRIPLE *12U.",
+    "descuento": 0.00,
+    "idarticulo": 1349,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 185.48,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1229,
+    "codigoBarra": "44210PCGP",
+    "descripcion": "X-ALF.MAXI-JORGELIN 24*85G. BLANCO",
+    "descuento": 0.00,
+    "idarticulo": 1355,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -165,
+    "codigoBarra": "4430NA46C",
+    "descripcion": "Y-CANCILLER BLEND 6*1.250CC. MER/SYR/MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1356,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 43.98,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -415,
+    "codigoBarra": "4430NEUVQ",
+    "descripcion": "Y-DILEMA EM DULCE NATURAL *750CC.ROSADO",
+    "descuento": 0.00,
+    "idarticulo": 1357,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 48.74,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -301,
+    "codigoBarra": "44C0KEHI3",
+    "descripcion": "X-ALF JORGITO SIMPLE 24*50G FRUTA",
+    "descuento": 0.00,
+    "idarticulo": 1360,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -787,
+    "codigoBarra": "44C0KGCJA",
+    "descripcion": "X-ALF JORGITO SIMPLE 24*50G BLANCO",
+    "descuento": 0.00,
+    "idarticulo": 1361,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -548,
+    "codigoBarra": "44C0KJ703",
+    "descripcion": "X-ALF JORGITO SIMPLE  24*50G NEGRO",
+    "descuento": 0.00,
+    "idarticulo": 1362,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1238,
+    "codigoBarra": "44C0KLJLO",
+    "descripcion": "X-ALF. MAXI-JORGELIN 24*85G NEGRO",
+    "descuento": 0.00,
+    "idarticulo": 1363,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -642,
+    "codigoBarra": "44C0KOWI3",
+    "descripcion": "X-ALF JORGITO AGRUP. 18*6UN BCO",
+    "descuento": 0.00,
+    "idarticulo": 1365,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -293,
+    "codigoBarra": "44C0KPVRM",
+    "descripcion": "X-ALF JORGITO AGRUP. 18*6UN MOUSSE",
+    "descuento": 0.00,
+    "idarticulo": 1366,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -500,
+    "codigoBarra": "44C0KQVPW",
+    "descripcion": "X-ALF JORGITO AGRUP. 18*6UN NEGRO",
+    "descuento": 0.00,
+    "idarticulo": 1367,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1078,
+    "codigoBarra": "44C0KW3SQ",
+    "descripcion": "MAGDALENAS POZO *250G CHOC RELL D.LECHE",
+    "descuento": 0.00,
+    "idarticulo": 1370,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.14,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -611,
+    "codigoBarra": "44C0MRFF6",
+    "descripcion": "MANI CROCANTE \"BOING\" *1KG JAMON",
+    "descuento": 0.00,
+    "idarticulo": 1381,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 46.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -406,
+    "codigoBarra": "44C0MSP1Y",
+    "descripcion": "MANI CROCANTE \"BOING\" *1KG QUESO",
+    "descuento": 0.00,
+    "idarticulo": 1382,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 46.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -321,
+    "codigoBarra": "44C0MTSGT",
+    "descripcion": "MANI CROCANTE \"BOING\" *1KG SALAME",
+    "descuento": 0.00,
+    "idarticulo": 1383,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 46.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -7711,
+    "codigoBarra": "44D0JFCTW",
+    "descripcion": "Z-BAGGIO PRONTO 8*1.5L. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1387,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1963,
+    "codigoBarra": "44D0JH3A5",
+    "descripcion": "Z-BAGGIO PRONTO 8*1.5L. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 1388,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -15012,
+    "codigoBarra": "44D0JIMR4",
+    "descripcion": "Z-BAGGIO PRONTO 8*1L. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1389,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8768,
+    "codigoBarra": "44D0JLWTZ",
+    "descripcion": "Z-BAGGIO PRONTO 8*1L. NAR/DUR",
+    "descuento": 0.00,
+    "idarticulo": 1390,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8603,
+    "codigoBarra": "44D0JMZ04",
+    "descripcion": "Z-BAGGIO PRONTO 8*1L. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 1391,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -13874,
+    "codigoBarra": "44D0JNSPK",
+    "descripcion": "Z-BAGGIO PRONTO 8*1L. PERA",
+    "descuento": 0.00,
+    "idarticulo": 1392,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8612,
+    "codigoBarra": "44D0JOHEG",
+    "descripcion": "Z-BAGGIO PRONTO 8*1L. MIXFRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1393,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.09,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -26893,
+    "codigoBarra": "44D0JZWE1",
+    "descripcion": "Z-BAGGIO PRONTO 18*200CC. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1398,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -32586,
+    "codigoBarra": "44D0K13F2",
+    "descripcion": "Z-BAGGIO PRONTO 18*200CC. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 1399,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -103950,
+    "codigoBarra": "44D0K22LK",
+    "descripcion": "Z-BAGGIO PRONTO 18*200CC. DURAZNO",
+    "descuento": 0.00,
+    "idarticulo": 1400,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -19245,
+    "codigoBarra": "44D0K2WVE",
+    "descripcion": "Z-BAGGIO PRONTO 18*200CC. NAR/DUR",
+    "descuento": 0.00,
+    "idarticulo": 1401,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -25949,
+    "codigoBarra": "44D0K3QV9",
+    "descripcion": "Z-BAGGIO PRONTO 18*200CC. MIXFRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1402,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -32796,
+    "codigoBarra": "44D0K4ZIH",
+    "descripcion": "Z-BAGGIO PRONTO 18*200CC. PERA",
+    "descuento": 0.00,
+    "idarticulo": 1403,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.99,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6484,
+    "codigoBarra": "44D0K7EHZ",
+    "descripcion": "Z-BAGGIO JUNIOR 18*125CC NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1404,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.11,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -10809,
+    "codigoBarra": "44D0K8BSC",
+    "descripcion": "Z-BAGGIO JUNIOR 18*125CC. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 1405,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.11,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6038,
+    "codigoBarra": "44D0K9WWR",
+    "descripcion": "Z-BAGGIO JUNIOR 18*125CC. MIX-FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1407,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.11,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -34826,
+    "codigoBarra": "44D0KANER",
+    "descripcion": "Z-BAGGIO JUNIOR 18*125CC. DURAZNO",
+    "descuento": 0.00,
+    "idarticulo": 1408,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.11,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3015,
+    "codigoBarra": "44D0KGLDG",
+    "descripcion": "Z-DULCE DE LECHE LATTE 6*400G",
+    "descuento": 0.00,
+    "idarticulo": 1411,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 23.18,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -32989,
+    "codigoBarra": "44D0KIR9P",
+    "descripcion": "Z-GAS. MOCORETA 6*2.25L. L.LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1412,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 104
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.01,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -29601,
+    "codigoBarra": "44D0KJLCL",
+    "descripcion": "Z-GAS. MOCORETA 6*2.25L. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1413,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 104
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.01,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8050,
+    "codigoBarra": "44D0KL73L",
+    "descripcion": "Z-GAS. MOCORETA 6*2.25L. POMELO ROS.",
+    "descuento": 0.00,
+    "idarticulo": 1415,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 127
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.01,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -281,
+    "codigoBarra": "44D0KRBTC",
+    "descripcion": "Y-VIÃ‘A MAYOR VARIETALES 6*750CC. MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1419,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 34.96,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -614,
+    "codigoBarra": "44D0KSGLN",
+    "descripcion": "Y-EL SUPREMO 6*750CC. MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1420,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 109
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 40.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -365,
+    "codigoBarra": "44D0KTA3Q",
+    "descripcion": "Y-EL SUPREMO 6*750CC CABERNET SAUV.",
+    "descuento": 0.00,
+    "idarticulo": 1421,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 109
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 40.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -409,
+    "codigoBarra": "44D0KWHT3",
+    "descripcion": "Y-EL SUPREMO 6*375CC . MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1422,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.89,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -78,
+    "codigoBarra": "44D0KYB79",
+    "descripcion": "Y-EL SUPREMO 6*375CC CABERNET SAUV",
+    "descuento": 0.00,
+    "idarticulo": 1423,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.89,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -106,
+    "codigoBarra": "44D0ZZRAY",
+    "descripcion": "Y-VIEJO VIÃ‘. FINCA DE ROSARIO 6*750CC CABERNET SAUV.",
+    "descuento": 0.00,
+    "idarticulo": 1424,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -84,
+    "codigoBarra": "44D101UWB",
+    "descripcion": "Y-VIEJO VIÃ‘. FINCA DE ROSARIO 6*750CC. MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1425,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2483,
+    "codigoBarra": "44D107M59",
+    "descripcion": "Y-BODEGA PRIVADA(TRADICIONAL) 6*750CC MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1430,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.62,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -435,
+    "codigoBarra": "44D108KVO",
+    "descripcion": "Y-BODEGA PRIVADA(TRADICIONAL) 6*750CC CAB. SAUV",
+    "descuento": 0.00,
+    "idarticulo": 1431,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.62,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1131,
+    "codigoBarra": "44D10ESLY",
+    "descripcion": "Y-BODEGA PRIVADA \"COLECCION \" 6*375CC MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1435,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 23.28,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3011,
+    "codigoBarra": "44D10FTZF",
+    "descripcion": "Y-BODEGA PRIVADA \"COLECCION\" 6*750CC MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1436,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 63.28,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1023,
+    "codigoBarra": "44D10GOCQ",
+    "descripcion": "Y-BODEGA PRIVADA \"COLECCION\" 6*750CC CAB. SAUV",
+    "descuento": 0.00,
+    "idarticulo": 1437,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 63.28,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -292,
+    "codigoBarra": "44E0I9KDA",
+    "descripcion": "Y-ESP. VIÃ‘A MAYOR 6*750CC BRUT",
+    "descuento": 0.00,
+    "idarticulo": 1438,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 34
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 69.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -181,
+    "codigoBarra": "44E0IDBW7",
+    "descripcion": "Y-ESP. VIÃ‘A MAYOR 6*750CC EXTRA BRUT",
+    "descuento": 0.00,
+    "idarticulo": 1439,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 34
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 69.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2,
+    "codigoBarra": "44E0IE9VA",
+    "descripcion": "Y-ESP. RICORDI 6*750CC BRUT NATURAL",
+    "descuento": 0.00,
+    "idarticulo": 1440,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 34
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 86.77,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6,
+    "codigoBarra": "44E0IH290",
+    "descripcion": "Y-ESTUCHE RICORDI +AC. OLIVA P. OLIVO",
+    "descuento": 0.00,
+    "idarticulo": 1441,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 113.82,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -11,
+    "codigoBarra": "44E0IK1OM",
+    "descripcion": "Y- RICORDI 6*750CC MALBEC ROBLE",
+    "descuento": 0.00,
+    "idarticulo": 1442,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 79.46,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1637,
+    "codigoBarra": "44E0IRIXC",
+    "descripcion": "Z-JUGO MOCORETA 6*1.5L. POMELO",
+    "descuento": 0.00,
+    "idarticulo": 1443,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.17,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2491,
+    "codigoBarra": "44E0IW65Q",
+    "descripcion": "Z-JUGO MOCORETA 6*1.5L DURAZNO",
+    "descuento": 0.00,
+    "idarticulo": 1446,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.17,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3028,
+    "codigoBarra": "44E0J0BD9",
+    "descripcion": "Z-JUGO MIJU 6*500CC POMELO",
+    "descuento": 0.00,
+    "idarticulo": 1450,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.95,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2800,
+    "codigoBarra": "44E0J13YC",
+    "descripcion": "Z-JUGO MIJU 6*500CC DURAZNO",
+    "descuento": 0.00,
+    "idarticulo": 1451,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.95,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1844,
+    "codigoBarra": "44E0JGVF6",
+    "descripcion": "Z-JUGO MIJU 6*500CC MULTIFRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1455,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.95,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -15039,
+    "codigoBarra": "44E0JHMLW",
+    "descripcion": "Z-AGUA MOCORETA 6*1.5L",
+    "descuento": 0.00,
+    "idarticulo": 1456,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.92,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -17684,
+    "codigoBarra": "44E0JP0ZB",
+    "descripcion": "Z-SAB. VIDA 6*1.5L MIX-FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1459,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 110
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -15606,
+    "codigoBarra": "44F0IVHDD",
+    "descripcion": "Z-CHOCOLATADA  7 DIAS 18*330CC",
+    "descuento": 0.00,
+    "idarticulo": 1461,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.36,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -5261,
+    "codigoBarra": "44H0NHEQL",
+    "descripcion": "Z-CERVEZA QUILMES 12*930CC.",
+    "descuento": 0.00,
+    "idarticulo": 1464,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 324.57,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -774,
+    "codigoBarra": "44H0NK47P",
+    "descripcion": "Z-CERVEZA BRAHMA 12*930CC.",
+    "descuento": 0.00,
+    "idarticulo": 1465,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 306.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -801,
+    "codigoBarra": "44M0ZC42N",
+    "descripcion": "X-CHUP.MAESTROS DEL TERROR TATUAJE  EN LA LENGUA*100U.",
+    "descuento": 0.00,
+    "idarticulo": 1469,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 30.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -5,
+    "codigoBarra": "44U11MTXZ",
+    "descripcion": "EXIB. SLIDERZ *24U.",
+    "descuento": 0.00,
+    "idarticulo": 1470,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 218.19,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -111,
+    "codigoBarra": "44U11WBVV",
+    "descripcion": "X-EXIB.PUSH POP *20U.",
+    "descuento": 0.00,
+    "idarticulo": 1471,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 178.27,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4122,
+    "codigoBarra": "4500YR9EJ",
+    "descripcion": "PEPAS TEREPIN BATATA *300G.",
+    "descuento": 0.00,
+    "idarticulo": 1473,
+    "idbulto": {
+      "descripcion": "BULTO *14",
+      "idbulto": 17,
+      "unidades": 14
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.10,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2453,
+    "codigoBarra": "45J0MCTPT",
+    "descripcion": "Y-AMERICANO GANCIA *930CC.",
+    "descuento": 0.00,
+    "idarticulo": 1475,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.89,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -32,
+    "codigoBarra": "45J0ZY2JW",
+    "descripcion": "Y-DILEMA ESPUMANTE ROSADO D.NATURAL*750CC.",
+    "descuento": 0.00,
+    "idarticulo": 1476,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 69.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -24,
+    "codigoBarra": "45J1009W8",
+    "descripcion": "Y-DILEMA ESPUMANTE BLANCO D.NATURAL *750CC.",
+    "descuento": 0.00,
+    "idarticulo": 1477,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 69.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -10969,
+    "codigoBarra": "45N0O66YD",
+    "descripcion": "Y-SPEED UNLIMITED 24*250CC.",
+    "descuento": 0.00,
+    "idarticulo": 1478,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.24,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -223,
+    "codigoBarra": "45Q15W0GB",
+    "descripcion": "Y-ESP.BODEGA PRIVADA 6*750CC. EXTRA-BRUT",
+    "descuento": 0.00,
+    "idarticulo": 1480,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 34
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 86.77,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -801,
+    "codigoBarra": "45Q1637HE",
+    "descripcion": "Y- UVITA  DE PLATA 6*750 MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1481,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 30.89,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -5961,
+    "codigoBarra": "46B164Y07",
+    "descripcion": "BISC. DON SATUR 30*200G. SALADOS",
+    "descuento": 0.00,
+    "idarticulo": 1484,
+    "idbulto": {
+      "descripcion": "BULTO *30",
+      "idbulto": 18,
+      "unidades": 30
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3152,
+    "codigoBarra": "46B16960U",
+    "descripcion": "BISC.DON SATUR 30*200G.DULCES",
+    "descuento": 0.00,
+    "idarticulo": 1485,
+    "idbulto": {
+      "descripcion": "BULTO *30",
+      "idbulto": 18,
+      "unidades": 30
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1065,
+    "codigoBarra": "46B169YVX",
+    "descripcion": "BISC.DON SATUR 30*200G.NEGRITOS",
+    "descuento": 0.00,
+    "idarticulo": 1486,
+    "idbulto": {
+      "descripcion": "BULTO *30",
+      "idbulto": 18,
+      "unidades": 30
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -12672,
+    "codigoBarra": "46J10Z7V4",
+    "descripcion": "Z-SAB.VIDA BY 6*500CC. POMELO",
+    "descuento": 0.00,
+    "idarticulo": 1488,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 112
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.68,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -64,
+    "codigoBarra": "46J11ATN1",
+    "descripcion": "VINAGRE DE ALCOHOL *5L.",
+    "descuento": 0.00,
+    "idarticulo": 1489,
+    "idbulto": {
+      "descripcion": "BULTO X 3",
+      "idbulto": 2,
+      "unidades": 3
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 39.04,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2395,
+    "codigoBarra": "46Q126VZ3",
+    "descripcion": "Z-AGUA  MOCORETA 6*500CC.",
+    "descuento": 0.00,
+    "idarticulo": 1491,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GASEOSAS / AGUAS",
+      "idcategoria": 17
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -240,
+    "codigoBarra": "4730IOWI9",
+    "descripcion": "X-CHUP BOLA LOCA *24 RIVER",
+    "descuento": 0.00,
+    "idarticulo": 1495,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 43.16,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -317,
+    "codigoBarra": "4730IQ63B",
+    "descripcion": "X-CHUP BOLA LOCA *24 BOCA",
+    "descuento": 0.00,
+    "idarticulo": 1496,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 43.16,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -176,
+    "codigoBarra": "4730ZHYAP",
+    "descripcion": "X-FRUTA 3 18*15G.NARANJA-MANGO",
+    "descuento": 0.00,
+    "idarticulo": 1498,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 56.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4193,
+    "codigoBarra": "47D0I4WPP",
+    "descripcion": "X-TURRON 35*90G C/MANI",
+    "descuento": 0.00,
+    "idarticulo": 1502,
+    "idbulto": {
+      "descripcion": "bulto *35",
+      "idbulto": 27,
+      "unidades": 35
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.17,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1450,
+    "codigoBarra": "47D0IFQ4S",
+    "descripcion": "X-TURRON 10*300G C/MANI",
+    "descuento": 0.00,
+    "idarticulo": 1505,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 20.57,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -22345,
+    "codigoBarra": "47P12NGEN",
+    "descripcion": "ARROZ \"VILLAGUAY\"  10*1KG.",
+    "descuento": 0.00,
+    "idarticulo": 1510,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.11,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -16444,
+    "codigoBarra": "47P12QSZT",
+    "descripcion": "ARROZ \"VILLAGUAY\" 10*500G.",
+    "descuento": 0.00,
+    "idarticulo": 1511,
+    "idbulto": {
+      "descripcion": "BULTO *10",
+      "idbulto": 13,
+      "unidades": 10
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 5.71,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -11996,
+    "codigoBarra": "47W14KPKQ",
+    "descripcion": "Z-SAB.VIDA 6*1.5L. CITRUS",
+    "descuento": 0.00,
+    "idarticulo": 1514,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 110
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -127,
+    "codigoBarra": "4831713DV",
+    "descripcion": "Y-DILEMA EM DULCE NATURAL *750CC. TINTO",
+    "descuento": 0.00,
+    "idarticulo": 1515,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 49.55,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 860,
+    "codigoBarra": "48H12KGYC",
+    "descripcion": "X- VASO SECCO PROMO",
+    "descuento": 0.00,
+    "idarticulo": 1516,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 19.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -84,
+    "codigoBarra": "4900M3VAM",
+    "descripcion": "X-CH. OPEN FIERITA *100U. BANANA",
+    "descuento": 0.00,
+    "idarticulo": 1519,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 9.53,
+    "precioVenta": 24.06,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -11335,
+    "codigoBarra": "49G0HGWQE",
+    "descripcion": "Z-SAB.VIDA BY 6*500CC. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 1521,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 112
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.68,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -136,
+    "codigoBarra": "4A414CDMJ",
+    "descripcion": "X-MAST.MEGA TATTOO *50U.",
+    "descuento": 0.00,
+    "idarticulo": 1526,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 31.91,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1730,
+    "codigoBarra": "4AG13MEN8",
+    "descripcion": "\"PROMO\" VIDA *1.5L.",
+    "descuento": 0.00,
+    "idarticulo": 1530,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 0.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -464,
+    "codigoBarra": "4AN17CGJV",
+    "descripcion": "X-HELADITO POPY *30U.",
+    "descuento": 0.00,
+    "idarticulo": 1532,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 34.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6341,
+    "codigoBarra": "4AO0NQF1X",
+    "descripcion": "Z-COCA COLA 8*2.25 L.",
+    "descuento": 0.00,
+    "idarticulo": 1533,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 38.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2364,
+    "codigoBarra": "4AO0NSODW",
+    "descripcion": "Z-SPRITE 8*2.25L.",
+    "descuento": 0.00,
+    "idarticulo": 1534,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 38.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -243,
+    "codigoBarra": "4AO123F47",
+    "descripcion": "Y-CINZANO ROSSO *930CC.",
+    "descuento": 0.00,
+    "idarticulo": 1535,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 26.00,
+    "precioVenta": 62.53,
+    "stockMinimo": 20
+  },
+  {
+    "activo": "S",
+    "cantidad": -26,
+    "codigoBarra": "4AO12DPTP",
+    "descripcion": "Y-CINZANO BIANCO *930CC.",
+    "descuento": 0.00,
+    "idarticulo": 1536,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 26.00,
+    "precioVenta": 62.53,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -29,
+    "codigoBarra": "4AO12W2QO",
+    "descripcion": "Y-BITTER CAMPARI *750CC.",
+    "descuento": 0.00,
+    "idarticulo": 1537,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 106.72,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -500,
+    "codigoBarra": "4AT17XJ7J",
+    "descripcion": "PAPAS PAY *500G.",
+    "descuento": 0.00,
+    "idarticulo": 1538,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "SNACK",
+      "idcategoria": 9
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.41,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -260,
+    "codigoBarra": "4AU17NNXL",
+    "descripcion": "Y-BODEGA PRIVADA  \"COLECCION\" 6*750CC. COSECHA TARDIA",
+    "descuento": 0.00,
+    "idarticulo": 1541,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 63.28,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -683,
+    "codigoBarra": "4BV14AYI9",
+    "descripcion": "X-GEL.TEMBLEKE SIMPSONS *8U",
+    "descuento": 0.00,
+    "idarticulo": 1549,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 14.79,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2126,
+    "codigoBarra": "4BV14Q72J",
+    "descripcion": "PEPAS TEREPIN F.BOSQUE *300G.",
+    "descuento": 0.00,
+    "idarticulo": 1550,
+    "idbulto": {
+      "descripcion": "BULTO *14",
+      "idbulto": 17,
+      "unidades": 14
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 3
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.10,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1,
+    "codigoBarra": "4BW16Q71B",
+    "descripcion": "X-CRIC RICE 20*20G. FELFORT",
+    "descuento": 0.00,
+    "idarticulo": 1552,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 78.95,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -133,
+    "codigoBarra": "4C019M9JF",
+    "descripcion": "FANTOCHE FUN 12*150G. ROSQ CHOCO",
+    "descuento": 0.00,
+    "idarticulo": 1556,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.82,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -712,
+    "codigoBarra": "4C019NVDG",
+    "descripcion": "FANTOCHE FUN 12*150G. CHIPS",
+    "descuento": 0.00,
+    "idarticulo": 1557,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.82,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -365,
+    "codigoBarra": "4C019OPZG",
+    "descripcion": "FANTOCHE FUN 12*150G. ROSQUITAS C/GRANAS",
+    "descuento": 0.00,
+    "idarticulo": 1558,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.82,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -275,
+    "codigoBarra": "4C20GQKYM",
+    "descripcion": "X-LIPO MIEL *930G.",
+    "descuento": 0.00,
+    "idarticulo": 1559,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -121,
+    "codigoBarra": "4C20GR5DF",
+    "descripcion": "X-LIPO FRUTAL *930G.",
+    "descuento": 0.00,
+    "idarticulo": 1560,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -45,
+    "codigoBarra": "4C20GRPKU",
+    "descripcion": "X-LIPO RELLENOS *930G.",
+    "descuento": 0.00,
+    "idarticulo": 1561,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -151,
+    "codigoBarra": "4C210ZT6H",
+    "descripcion": "\"LA CANASTA\" AJI TRITURADO 10*25G.",
+    "descuento": 0.00,
+    "idarticulo": 1562,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 53.45,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -246,
+    "codigoBarra": "4C90M0ZTC",
+    "descripcion": "X-ALKA *800G. ACIDO",
+    "descuento": 0.00,
+    "idarticulo": 1570,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 89.81,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -78,
+    "codigoBarra": "4CV0GGXRW",
+    "descripcion": "X-SUPER ARCO IRIS CODUL *50U.",
+    "descuento": 0.00,
+    "idarticulo": 1581,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 36.03,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -622,
+    "codigoBarra": "4D7110IEE",
+    "descripcion": "Z-MERMELADA \"DE LA HUERTA\" 12*454G. CIRUELA",
+    "descuento": 0.00,
+    "idarticulo": 1586,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 122
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.83,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2438,
+    "codigoBarra": "4DA0N8UHE",
+    "descripcion": "BISCOCHITOS  JORGITO 24*200G.",
+    "descuento": 0.00,
+    "idarticulo": 1590,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 7.34,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -111,
+    "codigoBarra": "4DA0NBE66",
+    "descripcion": "X-BOLITAS \"LECHERITAS\" *100U.",
+    "descuento": 0.00,
+    "idarticulo": 1591,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 30.46,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -111,
+    "codigoBarra": "4DA0NL06C",
+    "descripcion": "X-GLOBOS \"FELIZ CUMPLEAÃ‘OS\"*50U.",
+    "descuento": 0.00,
+    "idarticulo": 1592,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 30.74,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -82,
+    "codigoBarra": "4DA0NN424",
+    "descripcion": "X-BENGALA *6U.",
+    "descuento": 0.00,
+    "idarticulo": 1593,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.54,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -27682,
+    "codigoBarra": "4DA0O1IH1",
+    "descripcion": "Z-SAB.VIDA BY 6*500CC NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1594,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 112
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.68,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -526,
+    "codigoBarra": "4DA0O63EZ",
+    "descripcion": "Z-VINO CAVIC 12*1L. ROSADO DULCE",
+    "descuento": 0.00,
+    "idarticulo": 1595,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 119
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.87,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1016,
+    "codigoBarra": "4DJ14EXWU",
+    "descripcion": "X-ALF. ARROZ NEVARES BODY *24U. LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1598,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 2.93,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -23,
+    "codigoBarra": "4DK16PIIF",
+    "descripcion": "Y-PETACA FERNET OTTONE *200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1599,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.39,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -14,
+    "codigoBarra": "4DZ1311BC",
+    "descripcion": "EST. BRANCA EDICION LIMITADA",
+    "descuento": 0.00,
+    "idarticulo": 1602,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 271.98,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8180,
+    "codigoBarra": "4E113N2B4",
+    "descripcion": "Z-COCA COLA 12*500CC.",
+    "descuento": 0.00,
+    "idarticulo": 1603,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2323,
+    "codigoBarra": "4E113OQO1",
+    "descripcion": "Z-CERVEZA SCHNEIDER 12*970CC.",
+    "descuento": 0.00,
+    "idarticulo": 1604,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 317.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -302,
+    "codigoBarra": "4EC14SXPW",
+    "descripcion": "X-CHUPALETA MARENGO *50U.",
+    "descuento": 0.00,
+    "idarticulo": 1606,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 36.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -25,
+    "codigoBarra": "4EQ123UIU",
+    "descripcion": "ARVEJAS REMOJADAS LATA CARACAS 6*2950G.",
+    "descuento": 0.00,
+    "idarticulo": 1609,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 76.35,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 9,
+    "codigoBarra": "4EQ12OEMY",
+    "descripcion": "PALMITOS ACAPULCO(ENTERO) 24*400G.",
+    "descuento": 0.00,
+    "idarticulo": 1610,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 29.44,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -87,
+    "codigoBarra": "4EQ12R3J8",
+    "descripcion": "PALMITOS ACAPULCO (TROZOS) 24*400G.",
+    "descuento": 0.00,
+    "idarticulo": 1611,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 17.06,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -839,
+    "codigoBarra": "4F312A5AZ",
+    "descripcion": "Y-EST.MENDOZA CHARDONAY-CHENIN (DULCE) 6*750CC.",
+    "descuento": 0.00,
+    "idarticulo": 1613,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 107
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 35.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3153,
+    "codigoBarra": "4F40R87D1",
+    "descripcion": "Z-GAS.SECCO 6*3L.  LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1614,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.49,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4719,
+    "codigoBarra": "4F40RB1L6",
+    "descripcion": "Z-GAS.SECCO 6*3L. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1615,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -10021,
+    "codigoBarra": "4F60OY7B6",
+    "descripcion": "BISC. HORNEADOS 20*250G.",
+    "descuento": 0.00,
+    "idarticulo": 1617,
+    "idbulto": {
+      "descripcion": "BULTO *20",
+      "idbulto": 12,
+      "unidades": 20
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.27,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4,
+    "codigoBarra": "4F615WOOX",
+    "descripcion": "X-CAR.GARAMENTOL *750G.",
+    "descuento": 0.00,
+    "idarticulo": 1618,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 66.03,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -61,
+    "codigoBarra": "4FI0LBL8G",
+    "descripcion": "Y-ESTUCHE BRANCA MENTA + VASO",
+    "descuento": 0.00,
+    "idarticulo": 1621,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 180.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -62,
+    "codigoBarra": "4FI0RDB9Q",
+    "descripcion": "X-CREMITAS LHERITIER SELECCION *450G.",
+    "descuento": 0.00,
+    "idarticulo": 1622,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.60,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -728,
+    "codigoBarra": "4FM0KWVRL",
+    "descripcion": "PASAS DE UVA SULTANINA S/SEMILLA  50*100G. \"NOGAL DORADO\"",
+    "descuento": 0.00,
+    "idarticulo": 1623,
+    "idbulto": {
+      "descripcion": "BULTO *50",
+      "idbulto": 19,
+      "unidades": 50
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 8.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -933,
+    "codigoBarra": "4FP101VNN",
+    "descripcion": "Z-MERMELADA \"DE LA HUERTA\" 12*454G. DURAZNO",
+    "descuento": 0.00,
+    "idarticulo": 1624,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 122
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 21.83,
+    "stockMinimo": 0
+  },
   {
     "activo": "S",
     "cantidad": -65,
@@ -14521,1617 +14497,1617 @@ export const productsMock =
     "precioVenta": 9.04,
     "stockMinimo": 0
   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1603,
-//     "codigoBarra": "4FW0P81F0",
-//     "descripcion": "ARVEJAS LATA \" 7 DIAS\" 24*350G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1627,
-//     "idbulto": {
-//       "descripcion": "BULTO X 24",
-//       "idbulto": 9,
-//       "unidades": 24
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.75,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -32,
-//     "codigoBarra": "4FZ0IP9Z9",
-//     "descripcion": "\"LA CANASTA\" SALSA BLANCA 10*40G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1628,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 42.80,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -50,
-//     "codigoBarra": "4G50N945K",
-//     "descripcion": "EXIBIDOR \"LA CANASTA\" 15 ESPECIAS",
-//     "descuento": 0.00,
-//     "idarticulo": 1638,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 449.30,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -131,
-//     "codigoBarra": "4GB14QT1B",
-//     "descripcion": "MER.POTE ORIETA *420G. BATATA UNTABLE",
-//     "descuento": 0.00,
-//     "idarticulo": 1640,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "COMESTIBLES",
-//       "idcategoria": 50
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.29,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -48,
-//     "codigoBarra": "4GG0NTEVI",
-//     "descripcion": "X-PAST. BULL DOG 12*30G. SANDIA-MANZANA",
-//     "descuento": 0.00,
-//     "idarticulo": 1641,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 33.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1206,
-//     "codigoBarra": "4GH0GP4CH",
-//     "descripcion": "--CHICOS--JUGUITOS CACHI *50U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1642,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "JUGOS",
-//       "idcategoria": 62
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 33.53,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -3115,
-//     "codigoBarra": "4GJ17V809",
-//     "descripcion": "Z-SECCO 6*500CC.ET.ROJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1644,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.70,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2384,
-//     "codigoBarra": "4GJ17YYNX",
-//     "descripcion": "Z-GAS.SECCO 6*3L.. LIMA LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1645,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -257,
-//     "codigoBarra": "4GP1A4ATB",
-//     "descripcion": "X-LIPO FRUTASTE *100U. FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1647,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 20.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -179,
-//     "codigoBarra": "4GP1A7296",
-//     "descripcion": "X-LIPO FRUTASTE *100U DULCE DE LECHE",
-//     "descuento": 0.00,
-//     "idarticulo": 1648,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 20.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -106,
-//     "codigoBarra": "4GQ12EOMY",
-//     "descripcion": "X-LIPO FRUTASTE *100U. ICE",
-//     "descuento": 0.00,
-//     "idarticulo": 1649,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 20.05,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -836,
-//     "codigoBarra": "4GV0NBI1A",
-//     "descripcion": "Y-AMARGO OBRERO 12*950CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1651,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 58.71,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2312,
-//     "codigoBarra": "4H410MU8K",
-//     "descripcion": "Z-SPRITE 12*500CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1652,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -728,
-//     "codigoBarra": "4HB0IWTL1",
-//     "descripcion": "--GRANDES--JUGUITOS CACHI *20U",
-//     "descuento": 0.00,
-//     "idarticulo": 1653,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "JUGOS",
-//       "idcategoria": 62
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 39.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1705,
-//     "codigoBarra": "4HG0GJHPO",
-//     "descripcion": "Y-RESERO 6*1125 ML. TINTO",
-//     "descuento": 0.00,
-//     "idarticulo": 1654,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FECOVITA",
-//       "idcategoria": 33
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 34.89,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1465,
-//     "codigoBarra": "4HG0GNWPF",
-//     "descripcion": "Y-EST.MENDOZA BONARDA-MALBEC 6*750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1655,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 107
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 35.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -21,
-//     "codigoBarra": "4HG0GY1R6",
-//     "descripcion": "Y-DILEMA DAY 6*750CC. MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1656,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 58.10,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11,
-//     "codigoBarra": "4HG0H1474",
-//     "descripcion": "Y-DILEMA DAY 6*750CC.CHARDONNAY",
-//     "descuento": 0.00,
-//     "idarticulo": 1657,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FINOS",
-//       "idcategoria": 32
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 58.10,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -43,
-//     "codigoBarra": "4HH109EX4",
-//     "descripcion": "Y- UVITA DE PLATA 6*750CC. SAUV. BLANC",
-//     "descuento": 0.00,
-//     "idarticulo": 1658,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 30.89,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -51,
-//     "codigoBarra": "4HI0NXMDI",
-//     "descripcion": "Y-LATA ESTUCHE BRANCA MENTA *750CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1659,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 163.18,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -66,
-//     "codigoBarra": "4HM0JV314",
-//     "descripcion": "Z- FINE 6*1.5L. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1661,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 35
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.72,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -60,
-//     "codigoBarra": "4HM0JTV4U",
-//     "descripcion": "Z- FINE 6*1.5L. POMELO",
-//     "descuento": 0.00,
-//     "idarticulo": 1662,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 35
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.72,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -132,
-//     "codigoBarra": "4HM0MDH3E",
-//     "descripcion": "Z- FINE 6*1.5L. LIMA LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1663,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 35
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.72,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -75,
-//     "codigoBarra": "4HM0ME6A3",
-//     "descripcion": "Z- FINE 6*1.5L. LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1664,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 35
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 10.72,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1453,
-//     "codigoBarra": "4HT15CFHK",
-//     "descripcion": "BUDIN POZO 20*170G. NARANJA",
-//     "descuento": 0.00,
-//     "idarticulo": 1665,
-//     "idbulto": {
-//       "descripcion": "BULTO *20",
-//       "idbulto": 12,
-//       "unidades": 20
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1454,
-//     "codigoBarra": "4HT15DPM9",
-//     "descripcion": "BUDIN POZO 20*170G. C/FRUTAS",
-//     "descuento": 0.00,
-//     "idarticulo": 1666,
-//     "idbulto": {
-//       "descripcion": "BULTO *20",
-//       "idbulto": 12,
-//       "unidades": 20
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1879,
-//     "codigoBarra": "4HT15ECRR",
-//     "descripcion": "BUDIN POZO 20*170G. C/CHIPS",
-//     "descuento": 0.00,
-//     "idarticulo": 1667,
-//     "idbulto": {
-//       "descripcion": "BULTO *20",
-//       "idbulto": 12,
-//       "unidades": 20
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1280,
-//     "codigoBarra": "4HT15EY7E",
-//     "descripcion": "BUDIN POZO 20*170G. MARMOLADOS",
-//     "descuento": 0.00,
-//     "idarticulo": 1668,
-//     "idbulto": {
-//       "descripcion": "BULTO *20",
-//       "idbulto": 12,
-//       "unidades": 20
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 9.25,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -2493,
-//     "codigoBarra": "4HU18W4YF",
-//     "descripcion": "X-GARRAPIÃ‘ADA 36*100G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1670,
-//     "idbulto": {
-//       "descripcion": "BULTO *36",
-//       "idbulto": 16,
-//       "unidades": 36
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -93,
-//     "codigoBarra": "4HV13S91N",
-//     "descripcion": "Y-BODEGA PRIVADA  \"COLECCION\" 6*750CC. SAUVIGNON BLANC",
-//     "descuento": 0.00,
-//     "idarticulo": 1672,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "APERITIVOS",
-//       "idcategoria": 108
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 63.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -14,
-//     "codigoBarra": "4HV13URLM",
-//     "descripcion": "Y-BODEGA PRIVADA \"COLECCION\" 6*750CC. ROSADO",
-//     "descuento": 0.00,
-//     "idarticulo": 1673,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "APERITIVOS",
-//       "idcategoria": 108
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 63.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -211,
-//     "codigoBarra": "4HV13WQTT",
-//     "descripcion": "Y- BODEGA PRIVADA \"COLECCION\" 6*375CC. CABERNET SAUVIGNON",
-//     "descuento": 0.00,
-//     "idarticulo": 1674,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 23.28,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -88,
-//     "codigoBarra": "4I01686PJ",
-//     "descripcion": "X-MARENGO SAQ. *970G. SURTIDO",
-//     "descuento": 0.00,
-//     "idarticulo": 1676,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GOLOSINAS",
-//       "idcategoria": 5
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 70.37,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -513,
-//     "codigoBarra": "4I40G1JOU",
-//     "descripcion": "X-TURRON DE ARROZ DULCITA *30U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1677,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 40.22,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -50,
-//     "codigoBarra": "4IA184AY3",
-//     "descripcion": "Y-ESP. BODEGA PRIVADA 6*750CC.ROSADO",
-//     "descuento": 0.00,
-//     "idarticulo": 1679,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 34
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 78.18,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1274,
-//     "codigoBarra": "4IB0S4SE2",
-//     "descripcion": "Z-FANTA 12*500CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1680,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 35
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5148,
-//     "codigoBarra": "4IF0MMD0I",
-//     "descripcion": "Z-SAB.VIDA BY 6*500CC. MIX-FRUTAL",
-//     "descuento": 0.00,
-//     "idarticulo": 1681,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 112
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -221,
-//     "codigoBarra": "4IJ0PERCH",
-//     "descripcion": "GALL. PROPICIA  MAURI 12*400G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1682,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.34,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -51,
-//     "codigoBarra": "4J00H93CL",
-//     "descripcion": "X-TURRON 12*90G. ALMENDRA",
-//     "descuento": 0.00,
-//     "idarticulo": 1688,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.36,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -355,
-//     "codigoBarra": "4J00HARIE",
-//     "descripcion": "X-TURRON CROCANTE 30*90G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1689,
-//     "idbulto": {
-//       "descripcion": "BULTO *30",
-//       "idbulto": 18,
-//       "unidades": 30
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 6.90,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -64,
-//     "codigoBarra": "4J80LOCM6",
-//     "descripcion": "X-PAST. LA CASA YIPI 12*30G. TUTTI-FRUTTI",
-//     "descuento": 0.00,
-//     "idarticulo": 1690,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 22.43,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -159,
-//     "codigoBarra": "4J80LPU1P",
-//     "descripcion": "X-PAST. BULL DOG 12*30G. MIX ( TUTTI- LIMON )",
-//     "descuento": 0.00,
-//     "idarticulo": 1691,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 33.20,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -69,
-//     "codigoBarra": "4J80LRX1X",
-//     "descripcion": "X-PAST. LA CASA BIYU12*20G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1692,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 77.62,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -78,
-//     "codigoBarra": "4J80LSPIQ",
-//     "descripcion": "X-PAST. LA CASA ROMPEMUELAS12*50G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1693,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 66.66,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -191,
-//     "codigoBarra": "4JN0ICU7G",
-//     "descripcion": "Z-LECHE SAB. D. DE LECHE 8*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1694,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 103
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 12.07,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1294,
-//     "codigoBarra": "4JN0IFWTC",
-//     "descripcion": "Z-LECHE SAB. D.DE LECHE 18*200CC.",
-//     "descuento": 0.00,
-//     "idarticulo": 1695,
-//     "idbulto": {
-//       "descripcion": "BULTO *18",
-//       "idbulto": 23,
-//       "unidades": 18
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 4.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -176,
-//     "codigoBarra": "4JP17WN7M",
-//     "descripcion": "Z-CHOC. SANDY 8*1L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1696,
-//     "idbulto": {
-//       "descripcion": "BULTO X8",
-//       "idbulto": 5,
-//       "unidades": 8
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 16.93,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -117,
-//     "codigoBarra": "4JR0OQSF4",
-//     "descripcion": "Y-EST.MENDOZA 12*375CC. MERLOT-MALBEC",
-//     "descuento": 0.00,
-//     "idarticulo": 1698,
-//     "idbulto": {
-//       "descripcion": "BULTO X 12",
-//       "idbulto": 4,
-//       "unidades": 12
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 18.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -4,
-//     "codigoBarra": "4JR0OY5TS",
-//     "descripcion": "CRUZ DEL SUR  BIB *3000 ML.",
-//     "descuento": 0.00,
-//     "idarticulo": 1699,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VINOS FECOVITA",
-//       "idcategoria": 33
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 75.63,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -8,
-//     "codigoBarra": "4JX0M2KVN",
-//     "descripcion": "X-LIPO TRONQUITO *930G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1701,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "Z",
-//       "idcategoria": 124
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 65.94,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1,
-//     "codigoBarra": "4JY0KWPA6",
-//     "descripcion": "\"LA CANASTA\" PIMIENTA BLANCA *1KG. EN GRANO",
-//     "descuento": 0.00,
-//     "idarticulo": 1702,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "ESPECIAS",
-//       "idcategoria": 99
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 370.00,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -6,
-//     "codigoBarra": "4KF0RSKEK",
-//     "descripcion": "X-CARAMELERA MISKY -6 PRODUCTOS-",
-//     "descuento": 0.00,
-//     "idarticulo": 1704,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 351.23,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -14,
-//     "codigoBarra": "4KG0IO93A",
-//     "descripcion": "X-CREMITAS LHERITIER LECHE *450G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1705,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 50.60,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -20,
-//     "codigoBarra": "4KG0IP91K",
-//     "descripcion": "X-CREMITAS LHERITIER COCO *450G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1706,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 50.60,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -24,
-//     "codigoBarra": "4KG0IQ0ZQ",
-//     "descripcion": "X-CREMITAS LHERITIER CHOCOLATE *450G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1707,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CARAMELOS",
-//       "idcategoria": 2
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 50.60,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": 351,
-//     "codigoBarra": "4KM0G8EFO",
-//     "descripcion": "X-PIL. EVEREADY -D- GRANDES *2U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1708,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 15.33,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": 18,
-//     "codigoBarra": "4KM0GCUBR",
-//     "descripcion": "X-PIL. EVEREADY -A- CHICA *4U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1709,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "VARIOS",
-//       "idcategoria": 21
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 11.01,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -99,
-//     "codigoBarra": "4KS0NI96Y",
-//     "descripcion": "X-BOOM LOLLIPOP M.DEL TERROR *24U.",
-//     "descuento": 0.00,
-//     "idarticulo": 1710,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 108.69,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -116,
-//     "codigoBarra": "4KT15ASRC",
-//     "descripcion": "X-PIL. EVEREADY *2U. AAA",
-//     "descuento": 0.00,
-//     "idarticulo": 1711,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 11.73,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -23,
-//     "codigoBarra": "4KT1ADFSK",
-//     "descripcion": "GALLINA C/MOÃ‘O *1.200G.",
-//     "descuento": 0.00,
-//     "idarticulo": 1716,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "CHOCOLATES",
-//       "idcategoria": 20
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 821.71,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -1196,
-//     "codigoBarra": "4KU0POCXR",
-//     "descripcion": "Z-AGUA BIO 6*2.25L.",
-//     "descuento": 0.00,
-//     "idarticulo": 1717,
-//     "idbulto": {
-//       "descripcion": "BULTO X 6",
-//       "idbulto": 3,
-//       "unidades": 6
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 8.80,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -102,
-//     "codigoBarra": "4KV11GPNF",
-//     "descripcion": "X-CH. RECARGADO *50U. BANANA",
-//     "descuento": 0.00,
-//     "idarticulo": 1718,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -5,
-//     "codigoBarra": "4KV11JH0V",
-//     "descripcion": "X-CH.RECARGADO *50U. MENTA",
-//     "descuento": 0.00,
-//     "idarticulo": 1719,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -59,
-//     "codigoBarra": "4KV11KSXQ",
-//     "descripcion": "X-CH. RECARGADO *50U. FRUTILLA",
-//     "descuento": 0.00,
-//     "idarticulo": 1720,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -11,
-//     "codigoBarra": "4KV11LTGD",
-//     "descripcion": "X-CH.RECARGADO *50U. TUTTI-FRUTTI",
-//     "descuento": 0.00,
-//     "idarticulo": 1721,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 24.54,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -52,
-//     "codigoBarra": "4KZ0INRT7",
-//     "descripcion": "X-CUBANITO *48U. LIMON",
-//     "descuento": 0.00,
-//     "idarticulo": 1723,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-//     },
-//     "idcategoria": {
-//       "descripcion": "GALLETITAS",
-//       "idcategoria": 1
-//     },
-//     "idiva": {
-//       "idiva": 1,
-//       "porcentaje": 21.00
-//     },
-//     "precioCompra": 0.00,
-//     "precioVenta": 50.08,
-//     "stockMinimo": 0
-//   },
-//   {
-//     "activo": "S",
-//     "cantidad": -124,
-//     "codigoBarra": "4KZ0IPEDA",
-//     "descripcion": "X-CUBANITO *48U. CHOC.BLANCO",
-//     "descuento": 0.00,
-//     "idarticulo": 1724,
-//     "idbulto": {
-//       "descripcion": "X UNIDAD",
-//       "idbulto": 1,
-//       "unidades": 1
-  //   },
-  //   "idcategoria": {
-  //     "descripcion": "GALLETITAS",
-  //     "idcategoria": 1
-  //   },
-  //   "idiva": {
-  //     "idiva": 1,
-  //     "porcentaje": 21.00
-  //   },
-  //   "precioCompra": 0.00,
-  //   "precioVenta": 50.08,
-  //   "stockMinimo": 0
-  // },
   {
     "activo": "S",
-    "cantidad": -156,
+    "cantidad": -1605,
+    "codigoBarra": "4FW0P81F0",
+    "descripcion": "ARVEJAS LATA \" 7 DIAS\" 24*350G.",
+    "descuento": 0.00,
+    "idarticulo": 1627,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.75,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -32,
+    "codigoBarra": "4FZ0IP9Z9",
+    "descripcion": "\"LA CANASTA\" SALSA BLANCA 10*40G.",
+    "descuento": 0.00,
+    "idarticulo": 1628,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 42.80,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -51,
+    "codigoBarra": "4G50N945K",
+    "descripcion": "EXIBIDOR \"LA CANASTA\" 15 ESPECIAS",
+    "descuento": 0.00,
+    "idarticulo": 1638,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 449.30,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -131,
+    "codigoBarra": "4GB14QT1B",
+    "descripcion": "MER.POTE ORIETA *420G. BATATA UNTABLE",
+    "descuento": 0.00,
+    "idarticulo": 1640,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.29,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -48,
+    "codigoBarra": "4GG0NTEVI",
+    "descripcion": "X-PAST. BULL DOG 12*30G. SANDIA-MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 1641,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 33.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1208,
+    "codigoBarra": "4GH0GP4CH",
+    "descripcion": "--CHICOS--JUGUITOS CACHI *50U.",
+    "descuento": 0.00,
+    "idarticulo": 1642,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 33.53,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -3115,
+    "codigoBarra": "4GJ17V809",
+    "descripcion": "Z-SECCO 6*500CC.ET.ROJA",
+    "descuento": 0.00,
+    "idarticulo": 1644,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.70,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2547,
+    "codigoBarra": "4GJ17YYNX",
+    "descripcion": "Z-GAS.SECCO 6*3L.. LIMA LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1645,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -259,
+    "codigoBarra": "4GP1A4ATB",
+    "descripcion": "X-LIPO FRUTASTE *100U. FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1647,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 20.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -182,
+    "codigoBarra": "4GP1A7296",
+    "descripcion": "X-LIPO FRUTASTE *100U DULCE DE LECHE",
+    "descuento": 0.00,
+    "idarticulo": 1648,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 20.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -106,
+    "codigoBarra": "4GQ12EOMY",
+    "descripcion": "X-LIPO FRUTASTE *100U. ICE",
+    "descuento": 0.00,
+    "idarticulo": 1649,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 20.05,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -846,
+    "codigoBarra": "4GV0NBI1A",
+    "descripcion": "Y-AMARGO OBRERO 12*950CC.",
+    "descuento": 0.00,
+    "idarticulo": 1651,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 58.71,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2426,
+    "codigoBarra": "4H410MU8K",
+    "descripcion": "Z-SPRITE 12*500CC.",
+    "descuento": 0.00,
+    "idarticulo": 1652,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -728,
+    "codigoBarra": "4HB0IWTL1",
+    "descripcion": "--GRANDES--JUGUITOS CACHI *20U",
+    "descuento": 0.00,
+    "idarticulo": 1653,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 39.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1723,
+    "codigoBarra": "4HG0GJHPO",
+    "descripcion": "Y-RESERO 6*1125 ML. TINTO",
+    "descuento": 0.00,
+    "idarticulo": 1654,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FECOVITA",
+      "idcategoria": 33
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 34.89,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1477,
+    "codigoBarra": "4HG0GNWPF",
+    "descripcion": "Y-EST.MENDOZA BONARDA-MALBEC 6*750CC.",
+    "descuento": 0.00,
+    "idarticulo": 1655,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 107
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 35.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -21,
+    "codigoBarra": "4HG0GY1R6",
+    "descripcion": "Y-DILEMA DAY 6*750CC. MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1656,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 58.10,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -11,
+    "codigoBarra": "4HG0H1474",
+    "descripcion": "Y-DILEMA DAY 6*750CC.CHARDONNAY",
+    "descuento": 0.00,
+    "idarticulo": 1657,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 58.10,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -43,
+    "codigoBarra": "4HH109EX4",
+    "descripcion": "Y- UVITA DE PLATA 6*750CC. SAUV. BLANC",
+    "descuento": 0.00,
+    "idarticulo": 1658,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 30.89,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -51,
+    "codigoBarra": "4HI0NXMDI",
+    "descripcion": "Y-LATA ESTUCHE BRANCA MENTA *750CC.",
+    "descuento": 0.00,
+    "idarticulo": 1659,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 163.18,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -66,
+    "codigoBarra": "4HM0JV314",
+    "descripcion": "Z- FINE 6*1.5L. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1661,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 35
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.72,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -60,
+    "codigoBarra": "4HM0JTV4U",
+    "descripcion": "Z- FINE 6*1.5L. POMELO",
+    "descuento": 0.00,
+    "idarticulo": 1662,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 35
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.72,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -132,
+    "codigoBarra": "4HM0MDH3E",
+    "descripcion": "Z- FINE 6*1.5L. LIMA LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1663,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 35
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.72,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -75,
+    "codigoBarra": "4HM0ME6A3",
+    "descripcion": "Z- FINE 6*1.5L. LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1664,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 35
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 10.72,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1453,
+    "codigoBarra": "4HT15CFHK",
+    "descripcion": "BUDIN POZO 20*170G. NARANJA",
+    "descuento": 0.00,
+    "idarticulo": 1665,
+    "idbulto": {
+      "descripcion": "BULTO *20",
+      "idbulto": 12,
+      "unidades": 20
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1454,
+    "codigoBarra": "4HT15DPM9",
+    "descripcion": "BUDIN POZO 20*170G. C/FRUTAS",
+    "descuento": 0.00,
+    "idarticulo": 1666,
+    "idbulto": {
+      "descripcion": "BULTO *20",
+      "idbulto": 12,
+      "unidades": 20
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1879,
+    "codigoBarra": "4HT15ECRR",
+    "descripcion": "BUDIN POZO 20*170G. C/CHIPS",
+    "descuento": 0.00,
+    "idarticulo": 1667,
+    "idbulto": {
+      "descripcion": "BULTO *20",
+      "idbulto": 12,
+      "unidades": 20
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1280,
+    "codigoBarra": "4HT15EY7E",
+    "descripcion": "BUDIN POZO 20*170G. MARMOLADOS",
+    "descuento": 0.00,
+    "idarticulo": 1668,
+    "idbulto": {
+      "descripcion": "BULTO *20",
+      "idbulto": 12,
+      "unidades": 20
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 9.25,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2493,
+    "codigoBarra": "4HU18W4YF",
+    "descripcion": "X-GARRAPIÃ‘ADA 36*100G.",
+    "descuento": 0.00,
+    "idarticulo": 1670,
+    "idbulto": {
+      "descripcion": "BULTO *36",
+      "idbulto": 16,
+      "unidades": 36
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.36,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -93,
+    "codigoBarra": "4HV13S91N",
+    "descripcion": "Y-BODEGA PRIVADA  \"COLECCION\" 6*750CC. SAUVIGNON BLANC",
+    "descuento": 0.00,
+    "idarticulo": 1672,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 63.28,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -14,
+    "codigoBarra": "4HV13URLM",
+    "descripcion": "Y-BODEGA PRIVADA \"COLECCION\" 6*750CC. ROSADO",
+    "descuento": 0.00,
+    "idarticulo": 1673,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 63.28,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -217,
+    "codigoBarra": "4HV13WQTT",
+    "descripcion": "Y- BODEGA PRIVADA \"COLECCION\" 6*375CC. CABERNET SAUVIGNON",
+    "descuento": 0.00,
+    "idarticulo": 1674,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 23.28,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -90,
+    "codigoBarra": "4I01686PJ",
+    "descripcion": "X-MARENGO SAQ. *970G. SURTIDO",
+    "descuento": 0.00,
+    "idarticulo": 1676,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 70.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -524,
+    "codigoBarra": "4I40G1JOU",
+    "descripcion": "X-TURRON DE ARROZ DULCITA *30U.",
+    "descuento": 0.00,
+    "idarticulo": 1677,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 40.22,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -50,
+    "codigoBarra": "4IA184AY3",
+    "descripcion": "Y-ESP. BODEGA PRIVADA 6*750CC.ROSADO",
+    "descuento": 0.00,
+    "idarticulo": 1679,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 34
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 78.18,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1310,
+    "codigoBarra": "4IB0S4SE2",
+    "descripcion": "Z-FANTA 12*500CC.",
+    "descuento": 0.00,
+    "idarticulo": 1680,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 35
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -5364,
+    "codigoBarra": "4IF0MMD0I",
+    "descripcion": "Z-SAB.VIDA BY 6*500CC. MIX-FRUTAL",
+    "descuento": 0.00,
+    "idarticulo": 1681,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 112
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.68,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -221,
+    "codigoBarra": "4IJ0PERCH",
+    "descripcion": "GALL. PROPICIA  MAURI 12*400G.",
+    "descuento": 0.00,
+    "idarticulo": 1682,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.34,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -51,
+    "codigoBarra": "4J00H93CL",
+    "descripcion": "X-TURRON 12*90G. ALMENDRA",
+    "descuento": 0.00,
+    "idarticulo": 1688,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.36,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -355,
+    "codigoBarra": "4J00HARIE",
+    "descripcion": "X-TURRON CROCANTE 30*90G.",
+    "descuento": 0.00,
+    "idarticulo": 1689,
+    "idbulto": {
+      "descripcion": "BULTO *30",
+      "idbulto": 18,
+      "unidades": 30
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 6.90,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -64,
+    "codigoBarra": "4J80LOCM6",
+    "descripcion": "X-PAST. LA CASA YIPI 12*30G. TUTTI-FRUTTI",
+    "descuento": 0.00,
+    "idarticulo": 1690,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 22.43,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -159,
+    "codigoBarra": "4J80LPU1P",
+    "descripcion": "X-PAST. BULL DOG 12*30G. MIX ( TUTTI- LIMON )",
+    "descuento": 0.00,
+    "idarticulo": 1691,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 33.20,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -69,
+    "codigoBarra": "4J80LRX1X",
+    "descripcion": "X-PAST. LA CASA BIYU12*20G.",
+    "descuento": 0.00,
+    "idarticulo": 1692,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 77.62,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -78,
+    "codigoBarra": "4J80LSPIQ",
+    "descripcion": "X-PAST. LA CASA ROMPEMUELAS12*50G.",
+    "descuento": 0.00,
+    "idarticulo": 1693,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 66.66,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -191,
+    "codigoBarra": "4JN0ICU7G",
+    "descripcion": "Z-LECHE SAB. D. DE LECHE 8*1L.",
+    "descuento": 0.00,
+    "idarticulo": 1694,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "Z",
+      "idcategoria": 103
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 12.07,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1294,
+    "codigoBarra": "4JN0IFWTC",
+    "descripcion": "Z-LECHE SAB. D.DE LECHE 18*200CC.",
+    "descuento": 0.00,
+    "idarticulo": 1695,
+    "idbulto": {
+      "descripcion": "BULTO *18",
+      "idbulto": 23,
+      "unidades": 18
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 4.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -176,
+    "codigoBarra": "4JP17WN7M",
+    "descripcion": "Z-CHOC. SANDY 8*1L.",
+    "descuento": 0.00,
+    "idarticulo": 1696,
+    "idbulto": {
+      "descripcion": "BULTO X8",
+      "idbulto": 5,
+      "unidades": 8
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 16.93,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -117,
+    "codigoBarra": "4JR0OQSF4",
+    "descripcion": "Y-EST.MENDOZA 12*375CC. MERLOT-MALBEC",
+    "descuento": 0.00,
+    "idarticulo": 1698,
+    "idbulto": {
+      "descripcion": "BULTO X 12",
+      "idbulto": 4,
+      "unidades": 12
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 18.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -4,
+    "codigoBarra": "4JR0OY5TS",
+    "descripcion": "CRUZ DEL SUR  BIB *3000 ML.",
+    "descuento": 0.00,
+    "idarticulo": 1699,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VINOS FECOVITA",
+      "idcategoria": 33
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 75.63,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8,
+    "codigoBarra": "4JX0M2KVN",
+    "descripcion": "X-LIPO TRONQUITO *930G.",
+    "descuento": 0.00,
+    "idarticulo": 1701,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 65.94,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1,
+    "codigoBarra": "4JY0KWPA6",
+    "descripcion": "\"LA CANASTA\" PIMIENTA BLANCA *1KG. EN GRANO",
+    "descuento": 0.00,
+    "idarticulo": 1702,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "ESPECIAS",
+      "idcategoria": 99
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 370.00,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -6,
+    "codigoBarra": "4KF0RSKEK",
+    "descripcion": "X-CARAMELERA MISKY -6 PRODUCTOS-",
+    "descuento": 0.00,
+    "idarticulo": 1704,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 351.23,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -14,
+    "codigoBarra": "4KG0IO93A",
+    "descripcion": "X-CREMITAS LHERITIER LECHE *450G.",
+    "descuento": 0.00,
+    "idarticulo": 1705,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.60,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -20,
+    "codigoBarra": "4KG0IP91K",
+    "descripcion": "X-CREMITAS LHERITIER COCO *450G.",
+    "descuento": 0.00,
+    "idarticulo": 1706,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.60,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -24,
+    "codigoBarra": "4KG0IQ0ZQ",
+    "descripcion": "X-CREMITAS LHERITIER CHOCOLATE *450G.",
+    "descuento": 0.00,
+    "idarticulo": 1707,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.60,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 345,
+    "codigoBarra": "4KM0G8EFO",
+    "descripcion": "X-PIL. EVEREADY -D- GRANDES *2U.",
+    "descuento": 0.00,
+    "idarticulo": 1708,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 15.33,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 3,
+    "codigoBarra": "4KM0GCUBR",
+    "descripcion": "X-PIL. EVEREADY -A- CHICA *4U.",
+    "descuento": 0.00,
+    "idarticulo": 1709,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 11.01,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -99,
+    "codigoBarra": "4KS0NI96Y",
+    "descripcion": "X-BOOM LOLLIPOP M.DEL TERROR *24U.",
+    "descuento": 0.00,
+    "idarticulo": 1710,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 108.69,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -118,
+    "codigoBarra": "4KT15ASRC",
+    "descripcion": "X-PIL. EVEREADY *2U. AAA",
+    "descuento": 0.00,
+    "idarticulo": 1711,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "VARIOS",
+      "idcategoria": 21
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 11.73,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -23,
+    "codigoBarra": "4KT1ADFSK",
+    "descripcion": "GALLINA C/MOÃ‘O *1.200G.",
+    "descuento": 0.00,
+    "idarticulo": 1716,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 821.71,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1196,
+    "codigoBarra": "4KU0POCXR",
+    "descripcion": "Z-AGUA BIO 6*2.25L.",
+    "descuento": 0.00,
+    "idarticulo": 1717,
+    "idbulto": {
+      "descripcion": "BULTO X 6",
+      "idbulto": 3,
+      "unidades": 6
+    },
+    "idcategoria": {
+      "descripcion": "GALLETITAS",
+      "idcategoria": 1
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 8.80,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -102,
+    "codigoBarra": "4KV11GPNF",
+    "descripcion": "X-CH. RECARGADO *50U. BANANA",
+    "descuento": 0.00,
+    "idarticulo": 1718,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.54,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -8,
+    "codigoBarra": "4KV11JH0V",
+    "descripcion": "X-CH.RECARGADO *50U. MENTA",
+    "descuento": 0.00,
+    "idarticulo": 1719,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.54,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -60,
+    "codigoBarra": "4KV11KSXQ",
+    "descripcion": "X-CH. RECARGADO *50U. FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 1720,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.54,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -12,
+    "codigoBarra": "4KV11LTGD",
+    "descripcion": "X-CH.RECARGADO *50U. TUTTI-FRUTTI",
+    "descuento": 0.00,
+    "idarticulo": 1721,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 24.54,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -52,
+    "codigoBarra": "4KZ0INRT7",
+    "descripcion": "X-CUBANITO *48U. LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1723,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.08,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -127,
+    "codigoBarra": "4KZ0IPEDA",
+    "descripcion": "X-CUBANITO *48U. CHOC.BLANCO",
+    "descuento": 0.00,
+    "idarticulo": 1724,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 50.08,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -158,
     "codigoBarra": "4KZ0IPZB6",
     "descripcion": "X-CUBANITO *48U. CHOCOLATE",
     "descuento": 0.00,
@@ -16142,8 +16118,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16155,7 +16131,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -123,
+    "cantidad": -124,
     "codigoBarra": "4KZ16CA7I",
     "descripcion": "X-CUBANITO  *48U. MOUSSE",
     "descuento": 0.00,
@@ -16166,8 +16142,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16179,7 +16155,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -338,
+    "cantidad": -346,
     "codigoBarra": "4KZ16DNDG",
     "descripcion": "X-CUBANITO  *48U. FRUTILLA",
     "descuento": 0.00,
@@ -16190,8 +16166,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16203,7 +16179,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -339,
+    "cantidad": -354,
     "codigoBarra": "4L20S2G2M",
     "descripcion": "Z-CERVEZA ISENBECK 12*1L.",
     "descuento": 0.00,
@@ -16246,7 +16222,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 528.94,
+    "precioVenta": 491.80,
     "stockMinimo": 0
   },
   {
@@ -16262,8 +16238,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16286,8 +16262,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16310,8 +16286,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -16323,7 +16299,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -253,
+    "cantidad": -269,
     "codigoBarra": "4L70YWTWV",
     "descripcion": "X-GONGYS TRENZA *300G.",
     "descuento": 0.00,
@@ -16334,8 +16310,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16347,7 +16323,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -634,
+    "cantidad": -660,
     "codigoBarra": "4L90ZE0QE",
     "descripcion": "X-BOMBON BEL *50U.",
     "descuento": 0.00,
@@ -16358,8 +16334,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -16371,7 +16347,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1169,
+    "cantidad": -1187,
     "codigoBarra": "4LA13YAYQ",
     "descripcion": "D ARGENTO 6*500G.TIRABUZON",
     "descuento": 0.00,
@@ -16395,7 +16371,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -938,
+    "cantidad": -947,
     "codigoBarra": "4LA1468TG",
     "descripcion": "D ARGENTO 6*500G. CODITOS",
     "descuento": 0.00,
@@ -16419,7 +16395,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1491,
+    "cantidad": -1516,
     "codigoBarra": "4LA1478VX",
     "descripcion": "D ARGENTO 6*500G. MOSTACHOLES",
     "descuento": 0.00,
@@ -16443,7 +16419,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -548,
+    "cantidad": -557,
     "codigoBarra": "4LA147XZ4",
     "descripcion": "D ARGENTO 6*500G. CARACOLES",
     "descuento": 0.00,
@@ -16467,7 +16443,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -534,
+    "cantidad": -541,
     "codigoBarra": "4LA149EPN",
     "descripcion": "D ARGENTO 6*500G. RIGATONI",
     "descuento": 0.00,
@@ -16526,8 +16502,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16587,7 +16563,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -135,
+    "cantidad": -140,
     "codigoBarra": "4LE12A8Z2",
     "descripcion": "X-CONFITE SAPITOS 24*15G.",
     "descuento": 0.00,
@@ -16598,15 +16574,15 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 64.46,
+    "precioVenta": 64.95,
     "stockMinimo": 0
   },
   {
@@ -16622,8 +16598,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16646,8 +16622,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16670,8 +16646,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16683,7 +16659,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -67,
+    "cantidad": -83,
     "codigoBarra": "4LG0NRLTV",
     "descripcion": "X-DUCREM CHOC/L. CONDENSADA *36U.",
     "descuento": 0.00,
@@ -16694,8 +16670,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16718,8 +16694,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16731,7 +16707,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -141,
+    "cantidad": -161,
     "codigoBarra": "4LG0OW8OX",
     "descripcion": "X-GALLINITA POPY *30U.",
     "descuento": 0.00,
@@ -16742,8 +16718,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -16755,7 +16731,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -4110,
+    "cantidad": -4398,
     "codigoBarra": "4LG13UB4Y",
     "descripcion": "Z-SAB.VIDA BY 6*500CC. CITRUS",
     "descuento": 0.00,
@@ -16774,7 +16750,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 6.36,
+    "precioVenta": 6.68,
     "stockMinimo": 0
   },
   {
@@ -16851,7 +16827,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -424,
+    "cantidad": -426,
     "codigoBarra": "4LL0OG9UU",
     "descripcion": "X-RINDE DOS 20*18G. ANANA",
     "descuento": 0.00,
@@ -16862,8 +16838,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -16875,7 +16851,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -236,
+    "cantidad": -242,
     "codigoBarra": "4LL0OIATO",
     "descripcion": "X-RINDE DOS 20*18G. DURAZNO",
     "descuento": 0.00,
@@ -16886,8 +16862,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -16899,7 +16875,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -363,
+    "cantidad": -375,
     "codigoBarra": "4LL0OJ7Z9",
     "descripcion": "X-RINDE DOS 20*18G. FRUTILLA",
     "descuento": 0.00,
@@ -16910,8 +16886,80 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 70.98,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -247,
+    "codigoBarra": "4LL0OOQKK",
+    "descripcion": "X-RINDE DOS 20*18G. LIMON",
+    "descuento": 0.00,
+    "idarticulo": 1767,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 70.98,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -101,
+    "codigoBarra": "4LL0OPENR",
+    "descripcion": "X-RINDE DOS 20*18G. MANGO",
+    "descuento": 0.00,
+    "idarticulo": 1768,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 70.98,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -205,
+    "codigoBarra": "4LL0OROG7",
+    "descripcion": "X-RINDE DOS 20*18G. MANZANA",
+    "descuento": 0.00,
+    "idarticulo": 1769,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -16924,78 +16972,6 @@ export const productsMock =
   {
     "activo": "S",
     "cantidad": -237,
-    "codigoBarra": "4LL0OOQKK",
-    "descripcion": "X-RINDE DOS 20*18G. LIMON",
-    "descuento": 0.00,
-    "idarticulo": 1767,
-    "idbulto": {
-      "descripcion": "X UNIDAD",
-      "idbulto": 1,
-      "unidades": 1
-    },
-    "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
-    },
-    "idiva": {
-      "idiva": 1,
-      "porcentaje": 21.00
-    },
-    "precioCompra": 0.00,
-    "precioVenta": 70.98,
-    "stockMinimo": 0
-  },
-  {
-    "activo": "S",
-    "cantidad": -100,
-    "codigoBarra": "4LL0OPENR",
-    "descripcion": "X-RINDE DOS 20*18G. MANGO",
-    "descuento": 0.00,
-    "idarticulo": 1768,
-    "idbulto": {
-      "descripcion": "X UNIDAD",
-      "idbulto": 1,
-      "unidades": 1
-    },
-    "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
-    },
-    "idiva": {
-      "idiva": 1,
-      "porcentaje": 21.00
-    },
-    "precioCompra": 0.00,
-    "precioVenta": 70.98,
-    "stockMinimo": 0
-  },
-  {
-    "activo": "S",
-    "cantidad": -195,
-    "codigoBarra": "4LL0OROG7",
-    "descripcion": "X-RINDE DOS 20*18G. MANZANA",
-    "descuento": 0.00,
-    "idarticulo": 1769,
-    "idbulto": {
-      "descripcion": "X UNIDAD",
-      "idbulto": 1,
-      "unidades": 1
-    },
-    "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
-    },
-    "idiva": {
-      "idiva": 1,
-      "porcentaje": 21.00
-    },
-    "precioCompra": 0.00,
-    "precioVenta": 70.98,
-    "stockMinimo": 0
-  },
-  {
-    "activo": "S",
-    "cantidad": -229,
     "codigoBarra": "4LL0OS7IT",
     "descripcion": "X-RINDE DOS 20*18G. MIX",
     "descuento": 0.00,
@@ -17006,8 +16982,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17019,7 +16995,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -363,
+    "cantidad": -373,
     "codigoBarra": "4LL0OSTLY",
     "descripcion": "X-RINDE DOS 20*18G. NARANJA/BANANA",
     "descuento": 0.00,
@@ -17030,8 +17006,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17043,7 +17019,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -682,
+    "cantidad": -696,
     "codigoBarra": "4LL0OTMH1",
     "descripcion": "X-RINDE DOS 20*18G. NARANJA",
     "descuento": 0.00,
@@ -17054,8 +17030,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17067,7 +17043,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -174,
+    "cantidad": -181,
     "codigoBarra": "4LL0OUAVX",
     "descripcion": "X-RINDE DOS 20*18G. PERA",
     "descuento": 0.00,
@@ -17078,8 +17054,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17091,7 +17067,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -140,
+    "cantidad": -143,
     "codigoBarra": "4LL0OV11C",
     "descripcion": "X-RINDE DOS 20*18G. MANDARINA",
     "descuento": 0.00,
@@ -17102,8 +17078,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17126,8 +17102,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17139,7 +17115,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -274,
+    "cantidad": -284,
     "codigoBarra": "4LL0OWW9X",
     "descripcion": "X-RINDE DOS 20*18G. NAR/MANGO",
     "descuento": 0.00,
@@ -17150,8 +17126,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17163,7 +17139,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -81,
+    "cantidad": -82,
     "codigoBarra": "4LL0OYEAS",
     "descripcion": "X-RINDE DOS 20*18G. POMELO ROSADO",
     "descuento": 0.00,
@@ -17174,8 +17150,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17187,7 +17163,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -19,
+    "cantidad": -22,
     "codigoBarra": "4LL12B21N",
     "descripcion": "X-BOMBON OBLI-BON *30U. MANI",
     "descuento": 0.00,
@@ -17198,8 +17174,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17246,8 +17222,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17270,8 +17246,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17294,8 +17270,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17318,8 +17294,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17342,8 +17318,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17366,8 +17342,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -17390,8 +17366,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -17414,8 +17390,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -17427,7 +17403,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1299,
+    "cantidad": -1337,
     "codigoBarra": "4LP0P7KSM",
     "descripcion": "W-PAPEL HIG. TRINOS 4*50M. NATURAL",
     "descuento": 0.00,
@@ -17451,7 +17427,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -395,
+    "cantidad": -425,
     "codigoBarra": "4LP0P8KWY",
     "descripcion": "W-PAPEL HIG. TRINOS 10*50M. NATURAL",
     "descuento": 0.00,
@@ -17475,7 +17451,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -2570,
+    "cantidad": -2630,
     "codigoBarra": "4LS11YIZH",
     "descripcion": "Z-COCA COLA 6*1.5L.",
     "descuento": 0.00,
@@ -17499,7 +17475,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1090,
+    "cantidad": -1144,
     "codigoBarra": "4LS11ZNUU",
     "descripcion": "Z-SPRITE 6*1.5L.",
     "descuento": 0.00,
@@ -17547,7 +17523,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -176,
+    "cantidad": -186,
     "codigoBarra": "4LY16VQ0V",
     "descripcion": "X-CONITO DAMA *12U.",
     "descuento": 0.00,
@@ -17558,8 +17534,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17571,7 +17547,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -138,
+    "cantidad": -141,
     "codigoBarra": "4M10QPVBO",
     "descripcion": "X-EXIB.MANI CROCANTE SURTIDO 12*75G.",
     "descuento": 0.00,
@@ -17582,8 +17558,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "SNACK",
+      "idcategoria": 9
     },
     "idiva": {
       "idiva": 1,
@@ -17595,7 +17571,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -253,
+    "cantidad": -274,
     "codigoBarra": "4M613CLOC",
     "descripcion": "X-HAMLET 21*52G. MENTA",
     "descuento": 0.00,
@@ -17606,8 +17582,8 @@ export const productsMock =
       "unidades": 21
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 78
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17619,7 +17595,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -17,
+    "cantidad": -19,
     "codigoBarra": "4M613GSPT",
     "descripcion": "X-BOMBON BON O BON 30*16G. BLANCO",
     "descuento": 0.00,
@@ -17630,8 +17606,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17654,8 +17630,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17678,8 +17654,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17702,8 +17678,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17726,8 +17702,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17739,7 +17715,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1738,
+    "cantidad": -1781,
     "codigoBarra": "4M615KIH8",
     "descripcion": "ARVEJAS LATA Â´Â´DE LA HUERTAÂ´Â´ 24*350G",
     "descuento": 0.00,
@@ -17822,8 +17798,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -17846,8 +17822,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -17870,8 +17846,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -17894,8 +17870,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -17918,8 +17894,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -17931,9 +17907,9 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -537,
+    "cantidad": -557,
     "codigoBarra": "4MC0LDKJC",
-    "descripcion": "CHOCLO Â¨DE LA HUERTAÂ¨ 24*350G.",
+    "descripcion": "CHOCLO CREMOSO Â¨DE LA HUERTAÂ¨ 24*350G.",
     "descuento": 0.00,
     "idarticulo": 1824,
     "idbulto": {
@@ -17955,7 +17931,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -202,
+    "cantidad": -215,
     "codigoBarra": "4MC0O5I29",
     "descripcion": "Y-WHISKY OLD SMUGGLER 6*1L.",
     "descuento": 0.00,
@@ -17990,8 +17966,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "VARIOS",
-      "idcategoria": 21
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18003,7 +17979,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -37,
+    "cantidad": -38,
     "codigoBarra": "4MK12N6AG",
     "descripcion": "X-CHUP.BOLA LOCA  CEREZA/MANZANA C/CHICLE *24U.",
     "descuento": 0.00,
@@ -18014,8 +17990,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18038,8 +18014,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18086,8 +18062,8 @@ export const productsMock =
       "unidades": 21
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 78
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18099,7 +18075,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -207,
+    "cantidad": -228,
     "codigoBarra": "4MR1745Q6",
     "descripcion": "X-HAMLET 21*52G. BANANITA",
     "descuento": 0.00,
@@ -18110,8 +18086,8 @@ export const productsMock =
       "unidades": 21
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 78
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18134,8 +18110,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18158,8 +18134,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18182,8 +18158,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18206,8 +18182,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18230,8 +18206,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18254,8 +18230,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18278,8 +18254,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18302,8 +18278,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18326,8 +18302,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18350,8 +18326,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18374,8 +18350,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18398,8 +18374,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18422,8 +18398,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18446,8 +18422,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18459,7 +18435,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -11,
+    "cantidad": -12,
     "codigoBarra": "4N81540VI",
     "descripcion": "X-JACKELIN 30*14G. FELFORT",
     "descuento": 0.00,
@@ -18470,8 +18446,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18483,7 +18459,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -10,
+    "cantidad": -11,
     "codigoBarra": "4N815ECZ8",
     "descripcion": "X-BOC.CERICET 24*19G. FELFORT",
     "descuento": 0.00,
@@ -18494,8 +18470,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18518,8 +18494,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18542,8 +18518,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18566,8 +18542,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18590,8 +18566,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18603,7 +18579,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -410,
+    "cantidad": -412,
     "codigoBarra": "4N819939G",
     "descripcion": "X-DOS CORAZONES 20*26G.",
     "descuento": 0.00,
@@ -18614,8 +18590,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18638,8 +18614,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18662,8 +18638,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18686,8 +18662,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18710,8 +18686,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18734,8 +18710,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18758,8 +18734,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18771,7 +18747,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -203,
+    "cantidad": -209,
     "codigoBarra": "4N81B7HYV",
     "descripcion": "X-PARAGUITAS 40*13G.",
     "descuento": 0.00,
@@ -18782,8 +18758,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18806,8 +18782,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -18819,7 +18795,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -363,
+    "cantidad": -376,
     "codigoBarra": "4N90KV1UO",
     "descripcion": "X-CEREALFORT 24*19G. CHOCOLATE",
     "descuento": 0.00,
@@ -18830,8 +18806,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18843,7 +18819,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -601,
+    "cantidad": -652,
     "codigoBarra": "4N90KY5PU",
     "descripcion": "X-CEREALFORT 24*19G. GRAN RICO",
     "descuento": 0.00,
@@ -18854,8 +18830,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18867,7 +18843,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -345,
+    "cantidad": -369,
     "codigoBarra": "4N90KZ6PG",
     "descripcion": "X-CEREALFORT 24*19G. DULCE DE LCHE/CHOC.",
     "descuento": 0.00,
@@ -18878,8 +18854,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18902,8 +18878,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18926,8 +18902,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18950,8 +18926,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18974,8 +18950,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -18987,7 +18963,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3509,
+    "cantidad": -3525,
     "codigoBarra": "4N90LGRAY",
     "descripcion": "X-CEREALFORT 24*19G. SURTIDO",
     "descuento": 0.00,
@@ -18998,8 +18974,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19011,7 +18987,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -578,
+    "cantidad": -584,
     "codigoBarra": "4N90LHIQH",
     "descripcion": "X-CEREALFORT 24*18G. FLEKOS",
     "descuento": 0.00,
@@ -19022,8 +18998,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19046,8 +19022,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19070,8 +19046,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19083,7 +19059,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -336,
+    "cantidad": -351,
     "codigoBarra": "4N90LQ9U7",
     "descripcion": "X-TORRONCINO FELFORT 30*23G. 5 CEREALES",
     "descuento": 0.00,
@@ -19094,8 +19070,8 @@ export const productsMock =
       "unidades": 30
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19107,7 +19083,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -439,
+    "cantidad": -484,
     "codigoBarra": "4N90LRV4E",
     "descripcion": "X-TORRONCINO FELFORT 30*23G.CLASICO",
     "descuento": 0.00,
@@ -19118,8 +19094,8 @@ export const productsMock =
       "unidades": 30
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19131,7 +19107,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -67,
+    "cantidad": -70,
     "codigoBarra": "4N90LT6RY",
     "descripcion": "X-MONEDITAS PIRATAS 60*5G. FELFORT",
     "descuento": 0.00,
@@ -19142,8 +19118,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19166,8 +19142,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19190,8 +19166,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19214,8 +19190,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19238,8 +19214,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19262,8 +19238,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19286,8 +19262,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19310,20 +19286,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 106.30,
+    "precioVenta": 114.02,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -214,
+    "cantidad": -220,
     "codigoBarra": "4N90NPNG6",
     "descripcion": "X-BELDENT 20*10G. MENTA",
     "descuento": 0.00,
@@ -19334,20 +19310,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 106.30,
+    "precioVenta": 114.02,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -324,
+    "cantidad": -334,
     "codigoBarra": "4N90NQDNI",
     "descripcion": "X-BELDENT 20*10G. MENTA FUERTE",
     "descuento": 0.00,
@@ -19358,39 +19334,15 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 106.30,
-    "stockMinimo": 0
-  },
-  {
-    "activo": "S",
-    "cantidad": -4,
-    "codigoBarra": "4N90NR5BP",
-    "descripcion": "X-BELDENT 20*10G. NARANJA",
-    "descuento": 0.00,
-    "idarticulo": 1893,
-    "idbulto": {
-      "descripcion": "X UNIDAD",
-      "idbulto": 1,
-      "unidades": 1
-    },
-    "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
-    },
-    "idiva": {
-      "idiva": 1,
-      "porcentaje": 21.00
-    },
-    "precioCompra": 0.00,
-    "precioVenta": 106.30,
+    "precioVenta": 114.02,
     "stockMinimo": 0
   },
   {
@@ -19406,44 +19358,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 106.30,
+    "precioVenta": 114.02,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": 0,
-    "codigoBarra": "4N90NXLGV",
-    "descripcion": "X-BELDENT 20*10G. MENTA+FRUTALES",
-    "descuento": 0.00,
-    "idarticulo": 1898,
-    "idbulto": {
-      "descripcion": "X UNIDAD",
-      "idbulto": 1,
-      "unidades": 1
-    },
-    "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
-    },
-    "idiva": {
-      "idiva": 1,
-      "porcentaje": 21.00
-    },
-    "precioCompra": 0.00,
-    "precioVenta": 106.30,
-    "stockMinimo": 0
-  },
-  {
-    "activo": "S",
-    "cantidad": -50,
+    "cantidad": -53,
     "codigoBarra": "4N90O7W0J",
     "descripcion": "X-BELDENT 20*10G. MENTOL",
     "descuento": 0.00,
@@ -19454,15 +19382,15 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 106.30,
+    "precioVenta": 114.02,
     "stockMinimo": 0
   },
   {
@@ -19478,20 +19406,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 106.30,
+    "precioVenta": 114.02,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -98,
+    "cantidad": -101,
     "codigoBarra": "4N90OA61J",
     "descripcion": "X-MENTHOPLUS *12U. MIEL",
     "descuento": 0.00,
@@ -19502,8 +19430,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19526,8 +19454,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19539,7 +19467,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -108,
+    "cantidad": -110,
     "codigoBarra": "4N90OBSG0",
     "descripcion": "X-MENTHOPLUS *12U. MENTA",
     "descuento": 0.00,
@@ -19550,8 +19478,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19574,8 +19502,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19587,7 +19515,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -174,
+    "cantidad": -178,
     "codigoBarra": "4N90ODAX8",
     "descripcion": "X-MENTHOPLUS *12U. STRONG",
     "descuento": 0.00,
@@ -19598,8 +19526,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19611,7 +19539,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -246,
+    "cantidad": -254,
     "codigoBarra": "4N90OE1RY",
     "descripcion": "X-MENTHOPLUS *12U. CHERRY",
     "descuento": 0.00,
@@ -19622,8 +19550,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19635,7 +19563,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -48,
+    "cantidad": -49,
     "codigoBarra": "4N90OFDYK",
     "descripcion": "X-DRF *24U.SURT.",
     "descuento": 0.00,
@@ -19646,8 +19574,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19659,7 +19587,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -273,
+    "cantidad": -276,
     "codigoBarra": "4NB162EIW",
     "descripcion": "Y-PETACA ARAYA CAFE AL COÃ‘AC *195CC.",
     "descuento": 0.00,
@@ -19694,8 +19622,8 @@ export const productsMock =
       "unidades": 20
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -19766,8 +19694,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19790,8 +19718,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19803,7 +19731,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 23,
+    "cantidad": 22,
     "codigoBarra": "4NI0ZQ0E3",
     "descripcion": "X-PUSH POP *20U. MASCOTAS",
     "descuento": 0.00,
@@ -19814,8 +19742,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 19
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19838,8 +19766,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19862,8 +19790,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19886,8 +19814,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -19934,8 +19862,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19958,8 +19886,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -19971,7 +19899,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -391,
+    "cantidad": -397,
     "codigoBarra": "4NJ0OXI94",
     "descripcion": "PAPAS FRITAS CACHI *180G.",
     "descuento": 0.00,
@@ -19995,7 +19923,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 1725,
+    "cantidad": 1721,
     "codigoBarra": "4NK0G985I",
     "descripcion": "HARINA DE MAIZ *10K.",
     "descuento": 0.00,
@@ -20019,7 +19947,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -15,
+    "cantidad": -18,
     "codigoBarra": "4NL0KZL13",
     "descripcion": "X-ALKA *800G. CREMOSO FRUTILLA",
     "descuento": 0.00,
@@ -20030,8 +19958,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -20062,7 +19990,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 8.06,
+    "precioVenta": 8.87,
     "stockMinimo": 0
   },
   {
@@ -20102,8 +20030,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -20126,8 +20054,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -20139,7 +20067,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -570,
+    "cantidad": -582,
     "codigoBarra": "4O30HXA1P",
     "descripcion": "Z-SALSA \" LA HUERTA\"  12*530CC. PIZZA",
     "descuento": 0.00,
@@ -20211,7 +20139,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -22,
+    "cantidad": -28,
     "codigoBarra": "4O611ZKN2",
     "descripcion": "W-BROCHES PLASTICOS PAQUETE 10*12U.",
     "descuento": 0.00,
@@ -20331,7 +20259,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 0,
+    "cantidad": -1,
     "codigoBarra": "4O612EQT9",
     "descripcion": "W-CABOS DE MADERA 120CM. C/ROSCA  *4U.",
     "descuento": 0.00,
@@ -20355,7 +20283,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 9,
+    "cantidad": 7,
     "codigoBarra": "4O612L4UM",
     "descripcion": "W-BOLSA DE RESIDUO 45*60 *30U.",
     "descuento": 0.00,
@@ -20379,7 +20307,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -26,
+    "cantidad": -32,
     "codigoBarra": "4O612NG8B",
     "descripcion": "W-BOLSA DE CONSORCIO 60*90 *10U.",
     "descuento": 0.00,
@@ -20403,7 +20331,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 55,
+    "cantidad": 54,
     "codigoBarra": "4O612P5MV",
     "descripcion": "W-BOLSA DE CONSORCIO 85*110 *10U.",
     "descuento": 0.00,
@@ -20475,7 +20403,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -7,
+    "cantidad": -8,
     "codigoBarra": "4O612T2CK",
     "descripcion": "W-ESPONJA DE ACERO MAKE 24*10G.",
     "descuento": 0.00,
@@ -20523,7 +20451,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -27,
+    "cantidad": -28,
     "codigoBarra": "4O6131HGX",
     "descripcion": "W-FIBRA ESPONJA MAKE SALVA UÃ‘AS *24U.",
     "descuento": 0.00,
@@ -20739,30 +20667,6 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -10,
-    "codigoBarra": "4OD0GHYXS",
-    "descripcion": "X-CHICLE MAESTROS DEL TERROR C/TATOO",
-    "descuento": 0.00,
-    "idarticulo": 1957,
-    "idbulto": {
-      "descripcion": "X UNIDAD",
-      "idbulto": 1,
-      "unidades": 1
-    },
-    "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
-    },
-    "idiva": {
-      "idiva": 1,
-      "porcentaje": 21.00
-    },
-    "precioCompra": 0.00,
-    "precioVenta": 30.55,
-    "stockMinimo": 0
-  },
-  {
-    "activo": "S",
     "cantidad": -27,
     "codigoBarra": "4OH0KSOVA",
     "descripcion": "Y-BODEGA PRIVADA Â¨COLECCIONÂ¨6*750CC. CHARDONAY",
@@ -20774,8 +20678,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
     },
     "idiva": {
       "idiva": 1,
@@ -20798,8 +20702,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VINOS RPB",
+      "idcategoria": 105
     },
     "idiva": {
       "idiva": 1,
@@ -20811,7 +20715,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 772,
+    "cantidad": 730,
     "codigoBarra": "4OH0LGU2M",
     "descripcion": "V-ARVEJAS TETRA Â¨DE LA HUERTAÂ¨ 12*340G.",
     "descuento": 0.00,
@@ -20859,7 +20763,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -45,
+    "cantidad": -46,
     "codigoBarra": "4OM0OP6YF",
     "descripcion": "X- PAQ. LIPO *150G. SUP.ACIDO.",
     "descuento": 0.00,
@@ -20870,8 +20774,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -20894,8 +20798,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -20918,8 +20822,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -20931,7 +20835,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 49,
+    "cantidad": 48,
     "codigoBarra": "4OM0P3P0J",
     "descripcion": "X-PAQ. LIPO *150G. PRALINE",
     "descuento": 0.00,
@@ -20942,8 +20846,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -20966,8 +20870,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -20990,8 +20894,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21003,7 +20907,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 52,
+    "cantidad": 51,
     "codigoBarra": "4OM0P7SZU",
     "descripcion": "X-PAQ. LIPO *150G. C-LECHE",
     "descuento": 0.00,
@@ -21014,8 +20918,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21038,8 +20942,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21062,8 +20966,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21086,8 +20990,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21099,7 +21003,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -12,
+    "cantidad": -14,
     "codigoBarra": "4OO15NPQE",
     "descripcion": "X-POTE CHUP. BOLA LOCA  CARICATOONS *28U.",
     "descuento": 0.00,
@@ -21110,8 +21014,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21123,7 +21027,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -5934,
+    "cantidad": -6216,
     "codigoBarra": "4OP0HOEF2",
     "descripcion": "X-ALF.  GENIO NEVARES 40*38G. BLANCO",
     "descuento": 0.00,
@@ -21134,8 +21038,8 @@ export const productsMock =
       "unidades": 40
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21147,7 +21051,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1486,
+    "cantidad": -1498,
     "codigoBarra": "4OS0M3K9X",
     "descripcion": "Z-GAS.SECCO 6*2.25L. MANZANA",
     "descuento": 0.00,
@@ -21171,7 +21075,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -123,
+    "cantidad": -126,
     "codigoBarra": "4OX10O3X9",
     "descripcion": "Z-COCA COLA  24*350CC. RETORNABLE",
     "descuento": 0.00,
@@ -21206,8 +21110,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21230,15 +21134,15 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 90.57,
+    "precioVenta": 88.50,
     "stockMinimo": 0
   },
   {
@@ -21291,7 +21195,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -16,
+    "cantidad": -20,
     "codigoBarra": "4P214270L",
     "descripcion": "X-POTE PLENARIO *700G. VIAJAMOS",
     "descuento": 0.00,
@@ -21302,8 +21206,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21315,7 +21219,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -43,
+    "cantidad": -45,
     "codigoBarra": "4P2144ID2",
     "descripcion": "X-POTE PLENARIO *700G. ANIMALITOS",
     "descuento": 0.00,
@@ -21326,8 +21230,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21350,8 +21254,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21363,7 +21267,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -41,
+    "cantidad": -42,
     "codigoBarra": "4P3170DM6",
     "descripcion": "X-POTE PLENARIO *700G. GUSANOS",
     "descuento": 0.00,
@@ -21374,8 +21278,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21387,7 +21291,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -33,
+    "cantidad": -34,
     "codigoBarra": "4P31712OK",
     "descripcion": "X-POTE PLENARIO *700G. HUESITOS",
     "descuento": 0.00,
@@ -21398,8 +21302,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21422,8 +21326,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -21494,8 +21398,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -21518,8 +21422,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -21555,7 +21459,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -2845,
+    "cantidad": -2926,
     "codigoBarra": "4PH18AIWB",
     "descripcion": "Z-BAGGIO 18*330CC. MULTIFRUTA",
     "descuento": 0.00,
@@ -21579,7 +21483,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -544,
+    "cantidad": -625,
     "codigoBarra": "4PH18DHP9",
     "descripcion": "Z-BAGGIO 18*330CC. NARANJA",
     "descuento": 0.00,
@@ -21603,7 +21507,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -522,
+    "cantidad": -585,
     "codigoBarra": "4PH18FEUA",
     "descripcion": "Z-BAGGIO 18*330CC.MANZANA",
     "descuento": 0.00,
@@ -21627,7 +21531,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -101,
+    "cantidad": -102,
     "codigoBarra": "4PI0NTQGS",
     "descripcion": "Y-PRONTO BITT 6*354CC.",
     "descuento": 0.00,
@@ -21651,7 +21555,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -81,
+    "cantidad": -85,
     "codigoBarra": "4PI0OGRL5",
     "descripcion": "Y-PRONTO SHAKE 6*354CC.",
     "descuento": 0.00,
@@ -21675,7 +21579,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -71,
+    "cantidad": -73,
     "codigoBarra": "4PI0OI76R",
     "descripcion": "Y-DR. LEMON(LATA) 6*473CC. LIMON",
     "descuento": 0.00,
@@ -21686,8 +21590,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -21710,8 +21614,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -21723,7 +21627,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -188,
+    "cantidad": -213,
     "codigoBarra": "4PN14QHKR",
     "descripcion": "X-GRASA GRABYA *1K.",
     "descuento": 0.00,
@@ -21734,8 +21638,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -21747,7 +21651,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -803,
+    "cantidad": -860,
     "codigoBarra": "4PN14S5CU",
     "descripcion": "X-GRASA GRABYA *500G.",
     "descuento": 0.00,
@@ -21758,8 +21662,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -21782,8 +21686,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -21795,7 +21699,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -336,
+    "cantidad": -357,
     "codigoBarra": "4PO13C18H",
     "descripcion": "Y-FERNET 1882 6*700CC.",
     "descuento": 0.00,
@@ -21830,8 +21734,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -21854,8 +21758,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -21878,8 +21782,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -21902,8 +21806,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -21915,7 +21819,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -78,
+    "cantidad": -102,
     "codigoBarra": "4PO148GZV",
     "descripcion": "Y-DR.LEMON 12*650CC. VODKA",
     "descuento": 0.00,
@@ -21926,8 +21830,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -21939,7 +21843,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -153,
+    "cantidad": -178,
     "codigoBarra": "4PO1496BM",
     "descripcion": "Y-DR. LEMON  12*650CC. LIMON",
     "descuento": 0.00,
@@ -21950,8 +21854,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -21974,8 +21878,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -21987,7 +21891,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1254,
+    "cantidad": -1266,
     "codigoBarra": "4PR0MET66",
     "descripcion": "Z-RESERO 6*700CC. TINTO",
     "descuento": 0.00,
@@ -22035,7 +21939,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -20,
+    "cantidad": -22,
     "codigoBarra": "4PV0NRCPS",
     "descripcion": "X-FIDEOS GENTLEMAN LINGUINE-ITALIA-*500G.",
     "descuento": 0.00,
@@ -22046,8 +21950,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -22070,8 +21974,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -22094,8 +21998,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -22118,8 +22022,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -22142,8 +22046,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -22166,8 +22070,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -22190,8 +22094,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -22214,8 +22118,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -22238,8 +22142,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -22262,8 +22166,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -22310,8 +22214,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -22334,8 +22238,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -22347,7 +22251,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -84,
+    "cantidad": -87,
     "codigoBarra": "4PV16MAYL",
     "descripcion": "BUDIN FANTASIO *200G. VAINILLA",
     "descuento": 0.00,
@@ -22371,7 +22275,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -77,
+    "cantidad": -80,
     "codigoBarra": "4PV16NPMP",
     "descripcion": "BUDIN FANTASIO *200G. MARMOLADO",
     "descuento": 0.00,
@@ -22395,7 +22299,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -98,
+    "cantidad": -106,
     "codigoBarra": "4PV16OGG4",
     "descripcion": "BUDIN FANTASIO 12*200G. C/CHIPS",
     "descuento": 0.00,
@@ -22419,7 +22323,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -98,
+    "cantidad": -102,
     "codigoBarra": "4PV16P8E8",
     "descripcion": "BUDIN FANTASIO 12*200G. FRUTA",
     "descuento": 0.00,
@@ -22563,7 +22467,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -297,
+    "cantidad": -311,
     "codigoBarra": "4PW0L6G7Y",
     "descripcion": "Y-AMERICANO GANCIA *450CC.",
     "descuento": 0.00,
@@ -22574,8 +22478,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -22587,7 +22491,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1566,
+    "cantidad": -1620,
     "codigoBarra": "4PX12MHXH",
     "descripcion": "Z-BAGGIO 18*330CC. DURAZNO",
     "descuento": 0.00,
@@ -22611,7 +22515,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3199,
+    "cantidad": -3381,
     "codigoBarra": "4PX14CTC6",
     "descripcion": "HIERBITAL 24*500G.",
     "descuento": 0.00,
@@ -22659,7 +22563,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 2,
+    "cantidad": 1,
     "codigoBarra": "4Q111FWPK",
     "descripcion": "X-HILERET SOBRE *100U.",
     "descuento": 0.00,
@@ -22670,8 +22574,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -22683,7 +22587,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -661,
+    "cantidad": -675,
     "codigoBarra": "4Q117ZVBC",
     "descripcion": "Z-TRES TORRES 12*1500CC. SERRANO",
     "descuento": 0.00,
@@ -22707,7 +22611,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -267,
+    "cantidad": -273,
     "codigoBarra": "4QB10PE5Q",
     "descripcion": "Z-JUGO MOCORETA 6*1.5L. LIMONADA",
     "descuento": 0.00,
@@ -22742,8 +22646,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -22755,7 +22659,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1311,
+    "cantidad": -1355,
     "codigoBarra": "4QH0KZCAY",
     "descripcion": "Z-COCA COLA 8* 2L.-RETORNABLE-",
     "descuento": 0.00,
@@ -22779,7 +22683,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -404,
+    "cantidad": -406,
     "codigoBarra": "4QH198TZG",
     "descripcion": "Z-ACEITE MAIZOL*4.5L. GIRASOL",
     "descuento": 0.00,
@@ -22803,7 +22707,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -45,
+    "cantidad": -46,
     "codigoBarra": "4QK0L64DP",
     "descripcion": "COCTEL DE FRUTAS `` LA HUERTAÂ´Â´ *820G.",
     "descuento": 0.00,
@@ -22827,7 +22731,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3411,
+    "cantidad": -3538,
     "codigoBarra": "4QN0OT5D3",
     "descripcion": "X-ALF. GENIO NEVARES 40*38G. NEGRO",
     "descuento": 0.00,
@@ -22838,8 +22742,8 @@ export const productsMock =
       "unidades": 40
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -22910,8 +22814,8 @@ export const productsMock =
       "unidades": 36
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -22934,8 +22838,8 @@ export const productsMock =
       "unidades": 15
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -22958,8 +22862,8 @@ export const productsMock =
       "unidades": 15
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -22971,7 +22875,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -6201,
+    "cantidad": -6573,
     "codigoBarra": "4QU10AZDY",
     "descripcion": "Z-TORO VIEJO -CLASICO-6*700. TINTO",
     "descuento": 0.00,
@@ -22995,7 +22899,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -816,
+    "cantidad": -894,
     "codigoBarra": "4QU10CLH5",
     "descripcion": "Z-TORO VIEJO -CLASICO- 6*700CC. BLANCO",
     "descuento": 0.00,
@@ -23019,7 +22923,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -2462,
+    "cantidad": -2518,
     "codigoBarra": "4QU10DMWS",
     "descripcion": "Z-VINO TORO -BOTELLA-  8*930CC. TINTO",
     "descuento": 0.00,
@@ -23043,7 +22947,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -20574,
+    "cantidad": -21051,
     "codigoBarra": "4QU10FVR0",
     "descripcion": "Z-VINO TORO 12*1L. TINTO",
     "descuento": 0.00,
@@ -23067,7 +22971,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -7830,
+    "cantidad": -8178,
     "codigoBarra": "4QU10H0TI",
     "descripcion": "Z-VINO TORO 12*1L. BLANCO",
     "descuento": 0.00,
@@ -23091,7 +22995,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -34,
+    "cantidad": -51,
     "codigoBarra": "4QX13T28B",
     "descripcion": "GELATINA  12*170GS. FRUTILLA",
     "descuento": 0.00,
@@ -23115,7 +23019,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 15,
+    "cantidad": 7,
     "codigoBarra": "4QX1464WB",
     "descripcion": "GELATINA 12*170G. CEREZA",
     "descuento": 0.00,
@@ -23139,7 +23043,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 28,
+    "cantidad": 26,
     "codigoBarra": "4QX146VDZ",
     "descripcion": "GELATINA 12*170G. DURAZNO",
     "descuento": 0.00,
@@ -23211,7 +23115,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -21,
+    "cantidad": -24,
     "codigoBarra": "4QX14GHXT",
     "descripcion": "FLAN 12*120G. CARAMELO",
     "descuento": 0.00,
@@ -23235,7 +23139,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -282,
+    "cantidad": -310,
     "codigoBarra": "4R10TG68B",
     "descripcion": "Z-SPRITE 8*2L.-RETORNABLE-",
     "descuento": 0.00,
@@ -23318,8 +23222,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VARIOS",
+      "idcategoria": 21
     },
     "idiva": {
       "idiva": 1,
@@ -23331,7 +23235,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -298,
+    "cantidad": -337,
     "codigoBarra": "4RI1843QF",
     "descripcion": "Z-FANTA 8*2.25L.",
     "descuento": 0.00,
@@ -23379,7 +23283,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -22,
+    "cantidad": -25,
     "codigoBarra": "4RM10VNML",
     "descripcion": "W-COPETONA 36 AZUL",
     "descuento": 0.00,
@@ -23398,12 +23302,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": 1,
+    "cantidad": -2,
     "codigoBarra": "4RM11DU1R",
     "descripcion": "W-COPETONA 36 NEGRA",
     "descuento": 0.00,
@@ -23422,7 +23326,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23446,7 +23350,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23470,12 +23374,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -2,
+    "cantidad": -5,
     "codigoBarra": "4RM11G3QG",
     "descripcion": "W-COPETONA 38 AZUL",
     "descuento": 0.00,
@@ -23494,7 +23398,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23518,7 +23422,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23542,7 +23446,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23566,7 +23470,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23590,7 +23494,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23614,7 +23518,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23638,12 +23542,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": 1,
+    "cantidad": 0,
     "codigoBarra": "4RM1218TI",
     "descripcion": "W-COPETONA 41 NEGRA",
     "descuento": 0.00,
@@ -23662,7 +23566,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23686,7 +23590,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23710,7 +23614,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23734,7 +23638,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23758,7 +23662,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23782,7 +23686,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -23806,12 +23710,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": 5,
+    "cantidad": 4,
     "codigoBarra": "4RM125UU3",
     "descripcion": "W-COPETONA 45 NEGRA",
     "descuento": 0.00,
@@ -23830,12 +23734,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -213,
+    "cantidad": -230,
     "codigoBarra": "4RO11KEDO",
     "descripcion": "TEREPIN SOFT *330G. AVELLANA",
     "descuento": 0.00,
@@ -23870,8 +23774,8 @@ export const productsMock =
       "unidades": 50
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -23907,7 +23811,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 241,
+    "cantidad": 223,
     "codigoBarra": "4RX0GP5JN",
     "descripcion": "Z-SIDRA REINO DE CASTILLA 6*910CC.",
     "descuento": 0.00,
@@ -24051,7 +23955,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -12,
+    "cantidad": -13,
     "codigoBarra": "4S10RPTGO",
     "descripcion": "Y-DR. LEMON(LATA) 6*473CC. C/VODKA",
     "descuento": 0.00,
@@ -24062,8 +23966,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -24075,7 +23979,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -57,
+    "cantidad": -61,
     "codigoBarra": "4S70Q0A3I",
     "descripcion": "Y-LATA WARSTEINER 6*473CC.",
     "descuento": 0.00,
@@ -24094,12 +23998,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 113.36,
+    "precioVenta": 123.63,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -165,
+    "cantidad": -179,
     "codigoBarra": "4S70Q39Z4",
     "descripcion": "Y-LATA ISENBECK 6*473CC.",
     "descuento": 0.00,
@@ -24118,7 +24022,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 74.85,
+    "precioVenta": 86.26,
     "stockMinimo": 0
   },
   {
@@ -24147,7 +24051,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -234,
+    "cantidad": -270,
     "codigoBarra": "4SG10V4R3",
     "descripcion": "Z-TOMATE PERITA LATA   DE LA HUERTA 24*400G.",
     "descuento": 0.00,
@@ -24195,7 +24099,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -275,
+    "cantidad": -284,
     "codigoBarra": "4SG11NFNY",
     "descripcion": "Z-BAGGIO FRESH 8*1L. MANZANA",
     "descuento": 0.00,
@@ -24230,8 +24134,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
     },
     "idiva": {
       "idiva": 1,
@@ -24339,7 +24243,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -401,
+    "cantidad": -573,
     "codigoBarra": "4ST106PY2",
     "descripcion": "BISC. 9 DE ORO *200G. CLASICO",
     "descuento": 0.00,
@@ -24358,12 +24262,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 7.35,
+    "precioVenta": 8.62,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -872,
+    "cantidad": -1017,
     "codigoBarra": "4ST10A1P9",
     "descripcion": "BISC. 9 DE ORO *200G. AGRIDULCE",
     "descuento": 0.00,
@@ -24382,12 +24286,12 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 7.35,
+    "precioVenta": 8.62,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -109,
+    "cantidad": -155,
     "codigoBarra": "4ST10AU6I",
     "descripcion": "BISC. 9 DE ORO *21OG. AZUCARADOS",
     "descuento": 0.00,
@@ -24406,7 +24310,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 7.35,
+    "precioVenta": 8.62,
     "stockMinimo": 0
   },
   {
@@ -24435,7 +24339,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -180,
+    "cantidad": -198,
     "codigoBarra": "4SU163VEV",
     "descripcion": "Z- SIDRA LA VICTORIA 6*910CC.",
     "descuento": 0.00,
@@ -24459,7 +24363,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -175,
+    "cantidad": -190,
     "codigoBarra": "4SU165K8Q",
     "descripcion": "Z-FRIZZE EVOLUTION BLUE  6*750CC.",
     "descuento": 0.00,
@@ -24483,7 +24387,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3285,
+    "cantidad": -3381,
     "codigoBarra": "4SV10X0T8",
     "descripcion": "Z-BALANCE  S/GAS 6*1500CC. MANZANA",
     "descuento": 0.00,
@@ -24507,7 +24411,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3349,
+    "cantidad": -3493,
     "codigoBarra": "4SV1189G4",
     "descripcion": "Z-BALANCE S/GAS 6*1500CC. NARANJA",
     "descuento": 0.00,
@@ -24531,7 +24435,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -311,
+    "cantidad": -320,
     "codigoBarra": "4SV11WS8T",
     "descripcion": "X-RINDE DOS 20*18G NAR/DUR",
     "descuento": 0.00,
@@ -24542,8 +24446,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "Z",
-      "idcategoria": 15
+      "descripcion": "JUGOS",
+      "idcategoria": 62
     },
     "idiva": {
       "idiva": 1,
@@ -24566,8 +24470,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
     },
     "idiva": {
       "idiva": 1,
@@ -24590,8 +24494,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
     },
     "idiva": {
       "idiva": 1,
@@ -24603,7 +24507,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -141,
+    "cantidad": -145,
     "codigoBarra": "4T612AJ23",
     "descripcion": "X-MAYONESA DE LA HUERTA 12*500CC.",
     "descuento": 0.00,
@@ -24614,8 +24518,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -25155,7 +25059,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -163,
+    "cantidad": -169,
     "codigoBarra": "4TR0I0GAU",
     "descripcion": "Z-TRES TORRES 12*1500CC. CUYANO",
     "descuento": 0.00,
@@ -25179,7 +25083,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -34868,
+    "cantidad": -36065,
     "codigoBarra": "4TS0HA5VZ",
     "descripcion": "Z-SECCO 6*2.25L.. ET.ROJA",
     "descuento": 0.00,
@@ -25238,8 +25142,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VINOS FECOVITA",
+      "idcategoria": 33
     },
     "idiva": {
       "idiva": 1,
@@ -25275,7 +25179,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1782,
+    "cantidad": -1875,
     "codigoBarra": "4TW0H3OR1",
     "descripcion": "Z-BALANCE S/GAS 6*1500CC. POMELO",
     "descuento": 0.00,
@@ -25299,7 +25203,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -942,
+    "cantidad": -1032,
     "codigoBarra": "4TW0H4HNT",
     "descripcion": "Z-BALANCE S/GAS 6*1500CC. PERA",
     "descuento": 0.00,
@@ -25371,7 +25275,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -18,
+    "cantidad": -21,
     "codigoBarra": "4UA0MM21E",
     "descripcion": "X-CAR.ARCOR MENTA CRISTAL 935GRS",
     "descuento": 0.00,
@@ -25382,8 +25286,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -25395,7 +25299,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -133,
+    "cantidad": -150,
     "codigoBarra": "4UE17DP57",
     "descripcion": "FANTOCHE YAYITA 12*275G.",
     "descuento": 0.00,
@@ -25443,7 +25347,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -126,
+    "cantidad": -138,
     "codigoBarra": "4UF0O9UB6",
     "descripcion": "OBLEA ITAMARATY 40*110G. ATREVIDOS",
     "descuento": 0.00,
@@ -25491,7 +25395,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 35,
+    "cantidad": 33,
     "codigoBarra": "4UF0OBPBH",
     "descripcion": "OBLEA ITAMARATY 40*110G. LIMON",
     "descuento": 0.00,
@@ -25563,7 +25467,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1373,
+    "cantidad": -1406,
     "codigoBarra": "4UF0ONOBO",
     "descripcion": "CARILO GALL. ARROZ 18*150G. C/SAL",
     "descuento": 0.00,
@@ -25587,7 +25491,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -248,
+    "cantidad": -262,
     "codigoBarra": "4UF0OPD7P",
     "descripcion": "CARILO GALL. ARROZ 18*150G. DULCE",
     "descuento": 0.00,
@@ -25611,7 +25515,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -268,
+    "cantidad": -284,
     "codigoBarra": "4UF0OQC6I",
     "descripcion": "CARILO GALL. ARROZ 18*150G. S/SAL",
     "descuento": 0.00,
@@ -25635,7 +25539,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -729,
+    "cantidad": -765,
     "codigoBarra": "4UH0QIU1D",
     "descripcion": "Z-BALANCE S/GAS 6*1500CC.LIMON",
     "descuento": 0.00,
@@ -25678,7 +25582,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -25702,7 +25606,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -25726,7 +25630,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -25750,7 +25654,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 65.81,
+    "precioVenta": 69.11,
     "stockMinimo": 0
   },
   {
@@ -25779,7 +25683,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -2335,
+    "cantidad": -2488,
     "codigoBarra": "4UO12QUOU",
     "descripcion": "Z-JUGO BIOFRUT 12*1L. NARANJA",
     "descuento": 0.00,
@@ -25814,8 +25718,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "SNACK",
+      "idcategoria": 9
     },
     "idiva": {
       "idiva": 1,
@@ -25899,7 +25803,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -129,
+    "cantidad": -135,
     "codigoBarra": "4US1734PV",
     "descripcion": "Y-CANCILLER BLEND -VII-6*750CC. BONARDA/SYRAH/MALBEC",
     "descuento": 0.00,
@@ -25910,8 +25814,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
     },
     "idiva": {
       "idiva": 1,
@@ -25934,8 +25838,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VINOS FINOS",
+      "idcategoria": 32
     },
     "idiva": {
       "idiva": 1,
@@ -25947,7 +25851,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -528,
+    "cantidad": -564,
     "codigoBarra": "4US17LN3I",
     "descripcion": "Z-VINO TORO 12*1L. ROSADO",
     "descuento": 0.00,
@@ -25982,8 +25886,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -25995,7 +25899,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -42,
+    "cantidad": -45,
     "codigoBarra": "4UV0JV4W2",
     "descripcion": "X-NUCETE PICKLES EN VINAGRE FRASCO *200/330G.",
     "descuento": 0.00,
@@ -26006,8 +25910,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -26030,8 +25934,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -26043,7 +25947,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -18,
+    "cantidad": -20,
     "codigoBarra": "4UV0ORHVO",
     "descripcion": "X-NUCETE ACEITUNAS RODAJAS DOY PACK *150/300G.",
     "descuento": 0.00,
@@ -26054,8 +25958,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -26078,8 +25982,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -26102,8 +26006,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -26126,8 +26030,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -26139,7 +26043,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -20,
+    "cantidad": -22,
     "codigoBarra": "4V00ODJB6",
     "descripcion": "X-ENERGIZER AAA *4U.",
     "descuento": 0.00,
@@ -26150,8 +26054,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VARIOS",
+      "idcategoria": 21
     },
     "idiva": {
       "idiva": 1,
@@ -26174,8 +26078,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VARIOS",
+      "idcategoria": 21
     },
     "idiva": {
       "idiva": 1,
@@ -26198,8 +26102,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VARIOS",
+      "idcategoria": 21
     },
     "idiva": {
       "idiva": 1,
@@ -26211,7 +26115,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -26,
+    "cantidad": -27,
     "codigoBarra": "4V20MMRVC",
     "descripcion": "X-FOSFOROS TRES PATITOS *10CAJITAS",
     "descuento": 0.00,
@@ -26222,8 +26126,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VARIOS",
+      "idcategoria": 21
     },
     "idiva": {
       "idiva": 1,
@@ -26235,7 +26139,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -216,
+    "cantidad": -240,
     "codigoBarra": "4V20N2JYC",
     "descripcion": "X-SALADIX CAJITA *80/100G.",
     "descuento": 0.00,
@@ -26259,7 +26163,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -19,
+    "cantidad": -20,
     "codigoBarra": "4V20N74Z7",
     "descripcion": "X-CHUP. TROMPITO*50U.",
     "descuento": 0.00,
@@ -26270,8 +26174,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26283,7 +26187,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -97,
+    "cantidad": -99,
     "codigoBarra": "4V20N9ZEG",
     "descripcion": "X-CHUP. MR POPS *50U.",
     "descuento": 0.00,
@@ -26294,8 +26198,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26318,8 +26222,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26342,8 +26246,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26366,8 +26270,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26379,7 +26283,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1431,
+    "cantidad": -1563,
     "codigoBarra": "4V613O8IJ",
     "descripcion": "X-GONGYS *28G.",
     "descuento": 0.00,
@@ -26390,8 +26294,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26414,8 +26318,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -26475,7 +26379,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -108,
+    "cantidad": -115,
     "codigoBarra": "4VB0IPY92",
     "descripcion": "SARAVA PALMERITAS 16*200G.",
     "descuento": 0.00,
@@ -26534,8 +26438,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26571,7 +26475,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -58,
+    "cantidad": -67,
     "codigoBarra": "4VD13V8HS",
     "descripcion": "FANTOCHE ESPUMITA 12*300G.",
     "descuento": 0.00,
@@ -26691,9 +26595,9 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -20,
+    "cantidad": -35,
     "codigoBarra": "4VE143PY4",
-    "descripcion": "X-CHUP.FIERITA SUPER TATOO*50U. TUTTI-FRUTTI",
+    "descripcion": "X-CHUP.FIERITA SUPER TATOO*50U. LIGA DE LA JUSTICIA",
     "descuento": 0.00,
     "idarticulo": 2262,
     "idbulto": {
@@ -26702,20 +26606,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 59.04,
+    "precioVenta": 55.73,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -26,
+    "cantidad": -28,
     "codigoBarra": "4VE145G1N",
     "descripcion": "X-CHUP.FIERITA SUPER TATOO *50U. ANANA",
     "descuento": 0.00,
@@ -26726,44 +26630,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 59.04,
+    "precioVenta": 55.73,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -8,
-    "codigoBarra": "4VE1464MX",
-    "descripcion": "X-CHUP.FIERITA SUPER TATOO *50U. MANDARINA",
-    "descuento": 0.00,
-    "idarticulo": 2264,
-    "idbulto": {
-      "descripcion": "X UNIDAD",
-      "idbulto": 1,
-      "unidades": 1
-    },
-    "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
-    },
-    "idiva": {
-      "idiva": 1,
-      "porcentaje": 21.00
-    },
-    "precioCompra": 0.00,
-    "precioVenta": 59.04,
-    "stockMinimo": 0
-  },
-  {
-    "activo": "S",
-    "cantidad": -198,
+    "cantidad": -243,
     "codigoBarra": "4VF12DB83",
     "descripcion": "X-SURTIDO BAGLEY 21*400G.",
     "descuento": 0.00,
@@ -26798,8 +26678,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -26811,7 +26691,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -135,
+    "cantidad": -138,
     "codigoBarra": "4VF12MF4C",
     "descripcion": "X- SURTIDO DIVERSION  21*400G.",
     "descuento": 0.00,
@@ -26846,8 +26726,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26870,8 +26750,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -26894,8 +26774,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -26918,8 +26798,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -26942,8 +26822,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -26966,8 +26846,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -26990,8 +26870,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -27014,8 +26894,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -27038,8 +26918,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -27062,8 +26942,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -27075,7 +26955,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -235,
+    "cantidad": -248,
     "codigoBarra": "4VM0MNBLN",
     "descripcion": "BISCOCHOS JORGITO 12*400G.",
     "descuento": 0.00,
@@ -27099,7 +26979,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -5,
+    "cantidad": -6,
     "codigoBarra": "4VN0P6QAQ",
     "descripcion": "X-GOMITA PLENARIO *800G. TUTTI-FRUTTI",
     "descuento": 0.00,
@@ -27110,8 +26990,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27134,8 +27014,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27147,7 +27027,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -10,
+    "cantidad": -12,
     "codigoBarra": "4VN0P8H4F",
     "descripcion": "X-GOMITA PLENARIO *800G. JELLY WHEEL",
     "descuento": 0.00,
@@ -27158,8 +27038,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27182,8 +27062,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27195,7 +27075,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -19,
+    "cantidad": -23,
     "codigoBarra": "4VN0PA7E3",
     "descripcion": "X-GOMITA PLENARIO *800G. BANANITAS",
     "descuento": 0.00,
@@ -27206,8 +27086,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27219,7 +27099,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -66,
+    "cantidad": -67,
     "codigoBarra": "4VN0PB0I0",
     "descripcion": "X-GOMITA PLENARIO *800G. ANIMALITOS",
     "descuento": 0.00,
@@ -27230,8 +27110,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27254,8 +27134,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27302,8 +27182,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -27315,7 +27195,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -1603,
+    "cantidad": -1907,
     "codigoBarra": "4VP113XD5",
     "descripcion": "X-TURRON PALMESANO *50U.",
     "descuento": 0.00,
@@ -27326,8 +27206,8 @@ export const productsMock =
       "unidades": 50
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27350,8 +27230,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27374,8 +27254,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27398,8 +27278,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27411,7 +27291,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -195,
+    "cantidad": -213,
     "codigoBarra": "4VP12I1Z5",
     "descripcion": "X- CANUTO C/BILLETE *50U.",
     "descuento": 0.00,
@@ -27422,8 +27302,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27446,8 +27326,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27459,7 +27339,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -13,
+    "cantidad": -21,
     "codigoBarra": "4VQ0EXS5V",
     "descripcion": "X-OBLEA BAÃ‘ADA OBLITA 20*28G. BLANCA",
     "descuento": 0.00,
@@ -27470,8 +27350,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27494,8 +27374,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -27507,7 +27387,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -7,
+    "cantidad": -8,
     "codigoBarra": "4VQ11C4JJ",
     "descripcion": "X-LENTEJAS DE CHOCOLATE *800G. PLENARIO",
     "descuento": 0.00,
@@ -27518,8 +27398,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27542,8 +27422,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -27566,8 +27446,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -27590,8 +27470,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27614,8 +27494,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27627,7 +27507,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -55,
+    "cantidad": -59,
     "codigoBarra": "4VQ12AEL8",
     "descripcion": "X- TIRAS PALMESANO *10U. ESFERAS",
     "descuento": 0.00,
@@ -27638,8 +27518,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27651,7 +27531,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -79,
+    "cantidad": -80,
     "codigoBarra": "4VQ12CCVG",
     "descripcion": "X-TIRAS PALMESANO *10U. CHOCOLATE",
     "descuento": 0.00,
@@ -27662,8 +27542,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27675,7 +27555,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -135,
+    "cantidad": -157,
     "codigoBarra": "4VQ12DFDJ",
     "descripcion": "X-TIRAS PALMESANO *10U. BANANA FRUTALES",
     "descuento": 0.00,
@@ -27686,8 +27566,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27699,7 +27579,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -52,
+    "cantidad": -55,
     "codigoBarra": "4VQ12E8KR",
     "descripcion": "X-TIRAS PALMESANO *10U. HUESITOS",
     "descuento": 0.00,
@@ -27710,8 +27590,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27723,7 +27603,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -33,
+    "cantidad": -34,
     "codigoBarra": "4VQ12ERBV",
     "descripcion": "X-TIRAS PALMESANO *10U. LENTEJITAS",
     "descuento": 0.00,
@@ -27734,8 +27614,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27747,7 +27627,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -455,
+    "cantidad": -475,
     "codigoBarra": "4VQ17T4WJ",
     "descripcion": "X-MAYONESA DE LA HUERTA 12*250CC.",
     "descuento": 0.00,
@@ -27758,8 +27638,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -27782,8 +27662,8 @@ export const productsMock =
       "unidades": 30
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27795,7 +27675,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -121,
+    "cantidad": -139,
     "codigoBarra": "4VS0ZXYZQ",
     "descripcion": "Z-FANTA 6*1.5L.",
     "descuento": 0.00,
@@ -27819,7 +27699,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -16,
+    "cantidad": -18,
     "codigoBarra": "4VS11GE4A",
     "descripcion": "X-ENERGIZER CHICAS *4U.",
     "descuento": 0.00,
@@ -27830,8 +27710,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VARIOS",
+      "idcategoria": 21
     },
     "idiva": {
       "idiva": 1,
@@ -27854,8 +27734,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "VARIOS",
+      "idcategoria": 21
     },
     "idiva": {
       "idiva": 1,
@@ -27867,7 +27747,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -600,
+    "cantidad": -636,
     "codigoBarra": "4VW0MU93P",
     "descripcion": "X-MARILY PEPAS 12*300G.",
     "descuento": 0.00,
@@ -27891,7 +27771,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -240,
+    "cantidad": -266,
     "codigoBarra": "4VW0MVZUW",
     "descripcion": "X-MARILY POLVORONES C/CHIPS 12*270G.",
     "descuento": 0.00,
@@ -27915,7 +27795,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -210,
+    "cantidad": -222,
     "codigoBarra": "4VW0MWSOT",
     "descripcion": "X-MARILY SURTIDAS 12*300G.",
     "descuento": 0.00,
@@ -27939,7 +27819,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -318,
+    "cantidad": -338,
     "codigoBarra": "4VW0MXEL1",
     "descripcion": "X-MARILY FAROLINA 12*300G.",
     "descuento": 0.00,
@@ -27963,7 +27843,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -9,
+    "cantidad": -10,
     "codigoBarra": "4VW0NY8A6",
     "descripcion": "X-LENTEJAS DE CHOCOLATE *500G. PALMESANO",
     "descuento": 0.00,
@@ -27974,8 +27854,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -27987,7 +27867,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -2100,
+    "cantidad": -2346,
     "codigoBarra": "4VW112I76",
     "descripcion": "Z-GAS.SECCO 6*3L. ET.ROJA",
     "descuento": 0.00,
@@ -28022,8 +27902,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -28035,7 +27915,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 989,
+    "cantidad": 880,
     "codigoBarra": "4WB0H16CZ",
     "descripcion": "Z-ACEITE ZANONI  15*900CC. GIRASOL",
     "descuento": 0.00,
@@ -28142,8 +28022,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28155,9 +28035,9 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -14,
+    "cantidad": -15,
     "codigoBarra": "4WW0O0MWW",
-    "descripcion": "X-LULEMUU OBLEA LIMU  *20U.",
+    "descripcion": "X-CER. LULEMUU BARRA  *20U. ARROZ C/CHOCOLATE",
     "descuento": 0.00,
     "idarticulo": 2421,
     "idbulto": {
@@ -28166,20 +28046,20 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 79.46,
+    "precioVenta": 100.24,
     "stockMinimo": 0
   },
   {
     "activo": "S",
-    "cantidad": -1019,
+    "cantidad": -1085,
     "codigoBarra": "4X20YI2WC",
     "descripcion": "Z-GAS. MOCORETA 6*2.25L. LIMONADA",
     "descuento": 0.00,
@@ -28203,7 +28083,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -70,
+    "cantidad": -75,
     "codigoBarra": "4X312K3J1",
     "descripcion": "X-ALF.RIQUITO *60U. BCO.",
     "descuento": 0.00,
@@ -28214,8 +28094,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28227,7 +28107,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -83,
+    "cantidad": -87,
     "codigoBarra": "4X312LFKB",
     "descripcion": "X- ALF.RIQUITO *60U. NEGRO",
     "descuento": 0.00,
@@ -28238,8 +28118,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28262,8 +28142,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28323,7 +28203,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -30,
+    "cantidad": -37,
     "codigoBarra": "4XQ0MQT57",
     "descripcion": "X-MONEDA BEL *100U.",
     "descuento": 0.00,
@@ -28334,8 +28214,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -28358,8 +28238,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28371,7 +28251,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -33,
+    "cantidad": -35,
     "codigoBarra": "4Y40PMSDS",
     "descripcion": "X-ACEITE ZANONI 4*5L. GIRASOL",
     "descuento": 0.00,
@@ -28382,8 +28262,8 @@ export const productsMock =
       "unidades": 4
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -28406,8 +28286,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -28454,8 +28334,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -28478,8 +28358,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -28502,8 +28382,8 @@ export const productsMock =
       "unidades": 6
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
     },
     "idiva": {
       "idiva": 1,
@@ -28574,8 +28454,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28598,8 +28478,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -28622,8 +28502,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "APERITIVOS",
+      "idcategoria": 108
     },
     "idiva": {
       "idiva": 1,
@@ -28670,8 +28550,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28694,8 +28574,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -28718,8 +28598,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -28742,8 +28622,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
     },
     "idiva": {
       "idiva": 1,
@@ -28798,7 +28678,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 82.63,
+    "precioVenta": 90.89,
     "stockMinimo": 0
   },
   {
@@ -28838,8 +28718,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "CHOCOLATES",
+      "idcategoria": 20
     },
     "idiva": {
       "idiva": 1,
@@ -28851,7 +28731,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 0,
+    "cantidad": -1,
     "codigoBarra": "4Z10FQW16",
     "descripcion": "AC.OLIVA \"EL SUPREMO\" 6*500CC.(VIDRIO)",
     "descuento": 0.00,
@@ -28875,7 +28755,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -7,
+    "cantidad": -10,
     "codigoBarra": "4Z30RSEXA",
     "descripcion": "X- LA YAPA *36U.",
     "descuento": 0.00,
@@ -28886,8 +28766,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28910,8 +28790,8 @@ export const productsMock =
       "unidades": 24
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28923,7 +28803,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -3,
+    "cantidad": -6,
     "codigoBarra": "4Z40OGLWN",
     "descripcion": "X-CAR. ARCOR DELICIAS *810G. MENTA Y CHOCOLATE",
     "descuento": 0.00,
@@ -28934,8 +28814,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28947,7 +28827,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -2,
+    "cantidad": -3,
     "codigoBarra": "4Z40OPEOL",
     "descripcion": "X-MENTHOPLUS *12U. S/AZUCAR",
     "descuento": 0.00,
@@ -28958,8 +28838,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -28971,7 +28851,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -9,
+    "cantidad": -10,
     "codigoBarra": "4Z810HR0U",
     "descripcion": "X-VODKA SKYY 12*750CC.",
     "descuento": 0.00,
@@ -28982,8 +28862,8 @@ export const productsMock =
       "unidades": 12
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
     },
     "idiva": {
       "idiva": 1,
@@ -28995,7 +28875,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -31,
+    "cantidad": -40,
     "codigoBarra": "4Z811AB2D",
     "descripcion": "X-GALLETITAS ANGIOLA 18*200G.LIMON(LIBRES DE GLUTEN)",
     "descuento": 0.00,
@@ -29019,7 +28899,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -30,
+    "cantidad": -39,
     "codigoBarra": "4Z811EVI9",
     "descripcion": "X-GALLETITAS ANGIOLA 18*200G.VAINILLA(LIBRES DE GLUTEN)",
     "descuento": 0.00,
@@ -29078,8 +28958,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -29091,7 +28971,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -5,
+    "cantidad": -6,
     "codigoBarra": "4Z811KEJW",
     "descripcion": "X-ALFAJOR BAÃ‘ADO ANGIOLA *12U.(LIBRE DE GLUTEN)",
     "descuento": 0.00,
@@ -29102,8 +28982,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -29126,8 +29006,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -29139,7 +29019,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -200,
+    "cantidad": -261,
     "codigoBarra": "4ZF0GGJDM",
     "descripcion": "Z-JUGO BIOFRUT 12*1L. MULTIFRUTA",
     "descuento": 0.00,
@@ -29163,7 +29043,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -15,
+    "cantidad": -40,
     "codigoBarra": "4ZF0PMZD1",
     "descripcion": "Z-TRES TORRES 12*1500CC. LIMON",
     "descuento": 0.00,
@@ -29187,7 +29067,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -11,
+    "cantidad": -12,
     "codigoBarra": "4ZM0Q6B6J",
     "descripcion": "LECHELISTA 6*800G.",
     "descuento": 0.00,
@@ -29235,7 +29115,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 0,
+    "cantidad": -6,
     "codigoBarra": "4ZW0QVEYH",
     "descripcion": "X-PAN DULCE DON LORENZO 12*400G.",
     "descuento": 0.00,
@@ -29259,7 +29139,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -17,
+    "cantidad": -23,
     "codigoBarra": "4ZZ0Z5ISE",
     "descripcion": "TEREPIN SOFT 30*165G. FRUTILLA",
     "descuento": 0.00,
@@ -29307,7 +29187,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": -13,
+    "cantidad": -30,
     "codigoBarra": "4ZZ149H0B",
     "descripcion": "PALITO SALADO 10*100G.",
     "descuento": 0.00,
@@ -29331,7 +29211,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 0,
+    "cantidad": -12,
     "codigoBarra": "5070YNACK",
     "descripcion": "OBLEAS OBLITA 48*100G. ANANA",
     "descuento": 0.00,
@@ -29355,7 +29235,7 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 0,
+    "cantidad": -3,
     "codigoBarra": "50D0NSLHQ",
     "descripcion": "X-CALABAZA HALLOWEEN(COMUN)",
     "descuento": 0.00,
@@ -29366,8 +29246,8 @@ export const productsMock =
       "unidades": 1
     },
     "idcategoria": {
-      "descripcion": "GALLETITAS",
-      "idcategoria": 1
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
     },
     "idiva": {
       "idiva": 1,
@@ -29379,11 +29259,323 @@ export const productsMock =
   },
   {
     "activo": "S",
-    "cantidad": 0,
+    "cantidad": -1,
     "codigoBarra": "50D0NUPZB",
     "descripcion": "X-CALABAZA HALLOWEEN(CON LUZ)",
     "descuento": 0.00,
     "idarticulo": 2588,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 140.84,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 0,
+    "codigoBarra": "50D10E6OF",
+    "descripcion": "X-AMARULA *750CC.",
+    "descuento": 0.00,
+    "idarticulo": 2590,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "LICORES / ALTA GRADUACION",
+      "idcategoria": 100
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 437.19,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -39,
+    "codigoBarra": "50G0O7PA3",
+    "descripcion": "X-MAST. CRAZY  ARCOR *120U.",
+    "descuento": 0.00,
+    "idarticulo": 2600,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 25.38,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 0,
+    "codigoBarra": "50G0OEDF8",
+    "descripcion": "X-MAST.HALLOWEN  *396G. FRUTALES",
+    "descuento": 0.00,
+    "idarticulo": 2602,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 35.12,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 0,
+    "codigoBarra": "50G0OHQI1",
+    "descripcion": "X-MAST.HALLOWEEN *800G.HUESOS",
+    "descuento": 0.00,
+    "idarticulo": 2604,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 74.95,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 0,
+    "codigoBarra": "50G0OPF6R",
+    "descripcion": "X-CHUP. EVOLUTION HALLOWEEN *24U. BLOODY",
+    "descuento": 0.00,
+    "idarticulo": 2606,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 45.86,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -1,
+    "codigoBarra": "50G0P65GV",
+    "descripcion": "X-CER. LULEMUU BARRA *20U. ARROZ BLANCO",
+    "descuento": 0.00,
+    "idarticulo": 2608,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 100.24,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2,
+    "codigoBarra": "50G0P96DK",
+    "descripcion": "X-ALF.ARROZ LULEMUU *12U. LIMON",
+    "descuento": 0.00,
+    "idarticulo": 2610,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 85.73,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2,
+    "codigoBarra": "50G0PBQ3Y",
+    "descripcion": "X-ALF.ARROZ LULEMUU *12U. CHOC.D.D.LECHE",
+    "descuento": 0.00,
+    "idarticulo": 2611,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 85.73,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": -2,
+    "codigoBarra": "50G0PCPA4",
+    "descripcion": "X-ALF.ARROZ LULEMUU *12U. YOGURT FRUTILLA",
+    "descuento": 0.00,
+    "idarticulo": 2612,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 85.73,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 0,
+    "codigoBarra": "50G0PEG3E",
+    "descripcion": "X-CHOCOARROZ DELI LIGHT *24U. D.D.LECHE",
+    "descuento": 0.00,
+    "idarticulo": 2613,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 210.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 0,
+    "codigoBarra": "50G0PNDAT",
+    "descripcion": "X-CHOCOARROZ DELI LIGHT *24U. MARROC",
+    "descuento": 0.00,
+    "idarticulo": 2614,
+    "idbulto": {
+      "descripcion": "X UNIDAD",
+      "idbulto": 1,
+      "unidades": 1
+    },
+    "idcategoria": {
+      "descripcion": "GOLOSINAS",
+      "idcategoria": 5
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 210.37,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 0,
+    "codigoBarra": "50K10040O",
+    "descripcion": "CHOCLO ENTERO LA HUERTA 24*350G",
+    "descuento": 0.00,
+    "idarticulo": 2618,
+    "idbulto": {
+      "descripcion": "BULTO X 24",
+      "idbulto": 9,
+      "unidades": 24
+    },
+    "idcategoria": {
+      "descripcion": "COMESTIBLES",
+      "idcategoria": 50
+    },
+    "idiva": {
+      "idiva": 1,
+      "porcentaje": 21.00
+    },
+    "precioCompra": 0.00,
+    "precioVenta": 13.33,
+    "stockMinimo": 0
+  },
+  {
+    "activo": "S",
+    "cantidad": 0,
+    "codigoBarra": "50M11XE31",
+    "descripcion": "X-CHOCOFIGU EMOJI 60*5G. FELFORT",
+    "descuento": 0.00,
+    "idarticulo": 2625,
     "idbulto": {
       "descripcion": "X UNIDAD",
       "idbulto": 1,
@@ -29398,7 +29590,7 @@ export const productsMock =
       "porcentaje": 21.00
     },
     "precioCompra": 0.00,
-    "precioVenta": 140.84,
+    "precioVenta": 189.00,
     "stockMinimo": 0
   }
 ]
