@@ -9,7 +9,10 @@ import { StorageService } from '../../services/storageService';
 import { sellers, defectValues } from '../../utils/constants';
 
 import { AuthService } from '../../services/authService';
+<<<<<<< HEAD
 import { Content } from 'ionic-angular';
+=======
+>>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
 
 @Component({
     selector: 'page-home',
@@ -34,7 +37,11 @@ export class HomePage {
         this.salesPromise = this.getSales();
 
         this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
+<<<<<<< HEAD
             this.currentSeller = sellers[idCurrentSeller - 1];
+=======
+            this.currentSeller = sellers[idCurrentSeller];
+>>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
         });
 
     }
@@ -77,6 +84,7 @@ export class HomePage {
     }
 
     setNewCurrentSeller(idNewCurrentSeller) {
+<<<<<<< HEAD
         console.log(idNewCurrentSeller);
         this.currentSeller = sellers[idNewCurrentSeller - 1];
 
@@ -108,3 +116,17 @@ export class HomePage {
     
     
     
+=======
+        this.currentSeller = sellers[idNewCurrentSeller - 1];
+
+        this.authService.getArticulos(idNewCurrentSeller).subscribe(allProducts => {
+            this.storageService.setStorage('products', allProducts.json());
+        });
+
+    }
+
+    
+}
+
+
+>>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
