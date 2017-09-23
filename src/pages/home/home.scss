@@ -13,7 +13,7 @@ page-home {
         .current-seller {
             display: inline-block;
             position: relative;
-            left: 88%;
+            left: 80%;
             top: 9px;
             ion-icon ion-label {
                 display: inline-block;
@@ -42,14 +42,19 @@ page-home {
         }
         .sales-container {
             width: 100%;
-            height: 265px;
-            margin-bottom: 5%;
+            margin-bottom: 2%;
             
         }
     }
 
     .img-container {
-        width: 28%;
+        width: 565px;
+        // margin-top: 6% !important;
+        
+        ion-img {
+            margin: 0 auto;
+            display: block;
+        }
     }
 
     .main-footer {
@@ -70,7 +75,5 @@ page-home {
                 background: $gray1;
             }
         }
-    }
-
-    
+    }    
 }

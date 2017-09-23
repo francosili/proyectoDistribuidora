@@ -4,8 +4,6 @@ import { ModalController } from 'ionic-angular';
 
 import { Slides } from 'ionic-angular';
 
-import { FileUploadService } from '../../services/fileUploadService';
-
 @Component({
 	selector: 'page-sales',
 	templateUrl: 'sales.html',
@@ -17,17 +15,12 @@ export class SalesPage {
 
     salesReformated = [];
 
-    constructor(
-        fileUploadService: FileUploadService
-    ) {
-        fileUploadService.test();
-    }
+    constructor() { }
 
     ngOnInit(){
-
-
         this.salesPromise.then(salesReformatedPromise => {
             this.salesReformated = salesReformatedPromise;
+            // console.log(this.salesReformated);
         })
     }
 

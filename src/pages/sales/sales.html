@@ -1,16 +1,22 @@
 <ion-slides pager loop = false>
+    <ion-spinner></ion-spinner>                    
     <ion-slide class="sales" *ngFor="let itemRef of salesReformated">
         <ion-card col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
-            (click)="onClickItem(item)" 
             class="item" 
             *ngFor="let item of itemRef">
 
             <div class="img-container">
-                <!--<img src="assets/img/productos/{{item.idarticulo}}.jpg"/>    -->
-                <img src="assets/img/productos/999.jpeg"/>
+                <img src="assets/img/productos/{{item.idarticulo}}.jpg"/>   
+                <!-- <img src="assets/img/productos/999.jpeg"/> -->
             </div>
             <div class="footer-card">
-                <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(2)}}</h1>
+                <h1>
+                    <ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(2)}}
+                    <div class="precio-venta">
+                        <a> (${{item.precioVenta}} unidad)</a>
+                    </div>
+                </h1>
+                
                 <h2>{{item.descripcion}}</h2>                    
             </div>              
 

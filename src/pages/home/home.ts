@@ -1,18 +1,23 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, AlertController } from 'ionic-angular';
 import { ItemsPage } from '../../pages/items/items';
 import { MenuOptionsPage } from '../../pages/menuOptions/menuOptions';
 import { MenuController } from 'ionic-angular';
 import { categoriesMock } from '../../test/mocks/categoriesMock';
 import { ItemsService } from '../../services/itemsService';
 import { StorageService } from '../../services/storageService';
-import { defectValues } from '../../utils/constants';
+import { sellers, defectValues } from '../../utils/constants';
+
+import { AuthService } from '../../services/authService';
+import { Content } from 'ionic-angular';
 
 @Component({
     selector: 'page-home',
     templateUrl: 'home.html'
 })
 export class HomePage {
+    @ViewChild(Content) content: Content;
+    
     categorySearched: string;
     salesPromise;
     currentSeller: string;
@@ -21,19 +26,21 @@ export class HomePage {
         public navCtrl: NavController,
         public menuCtrl: MenuController,
         private itemsService: ItemsService,
-        private storageService: StorageService
+        private storageService: StorageService,
+        private authService: AuthService,
     ) {};
 
     ngOnInit(){
         this.salesPromise = this.getSales();
 
-        this.storageService.getStorage('currentSeller').then(currentSeller => {
-            this.currentSeller = currentSeller;
+        this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
+            this.currentSeller = sellers[idCurrentSeller - 1];
         });
 
     }
 
     goToPage(page: string) {
+        
         switch (page) {
             case 'categoriesPage':
                 this.navCtrl.setRoot(ItemsPage, { itemType: 'categories'});
@@ -69,8 +76,35 @@ export class HomePage {
 		});
     }
 
-    setNewCurrentSeller(newCurrentSeller) {
-        this.currentSeller = newCurrentSeller;
-    }
+    setNewCurrentSeller(idNewCurrentSeller) {
+        console.log(idNewCurrentSeller);
+        this.currentSeller = sellers[idNewCurrentSeller - 1];
 
+        this.authService.getArticulos(idNewCurrentSeller).subscribe(allProducts => {
+            this.storageService.setStorage('products', allProducts.json());
+
+            // Para actualizar el home y los sales
+            // this.navCtrl.setRoot(HomePage);
+            // window.location.reload();            
+        });
+        
+        // this.storageService.getStorage('products').then(spyProducts=>{
+    
+        //     this.salesPromise = this.getSales().then(sales => {
+        //         return sales.push(this.itemsService.getSales(spyProducts))
+        //     });
+    
+        //     setTimeout(() => {
+                
+        //         console.log('resize');
+        //         this.content.resize();
+        //         console.log(this.content.getContentDimensions());
+        //     }, 500)
+        // })
+    }
+        
+        
 }
+    
+    
+    

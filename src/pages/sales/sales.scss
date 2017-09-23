@@ -49,8 +49,28 @@ page-sales {
         }
     }
 
+    // Override ionic styles
     .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
         //TODO: Esto mejorar (por ahora queda bien, probar en tablet)
         bottom: 3px;
+    }
+
+    ion-spinner {
+        margin: auto auto;
+        display: block;
+    }
+
+    .precio-venta {
+        display: inline-block;
+        // text-align: right;
+        // right: 6px;
+        // position: absolute;
+        // top: -5px;
+        a {
+            font-weight: bold;
+            font-size: 1.3rem;
+            color: white;
+            padding-left: 4%;
+        }
     }
 }

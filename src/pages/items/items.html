@@ -3,24 +3,24 @@
         <div ion-button clear color="dark" class="back-button" (click)="onClickBackButton()">
             <ion-icon name='arrow-back'></ion-icon>
         </div>
-        <ion-searchbar showCancelButton (ionInput)="reloadItems($event)">
+        <ion-searchbar debounce=500 (ionInput)="reloadItems($event)">
         </ion-searchbar>
-        <div ion-button clear color="dark" class="funnel-button">
 
+        <!-- <div ion-button clear color="dark" class="funnel-button">
             <ion-icon name='funnel'></ion-icon>
-             
             <ion-select [(ngModel)]="catFilterParam" interface="popover">
                 <ion-option value="all">Todos</ion-option>
                 <ion-option value="onlyWithProducts">Contienen Productos</ion-option>
             </ion-select>
-            
-         </div>  
+        </div>   -->
 
     </ion-navbar>
 </ion-header>
 
-<ion-slides pager>
-    <ion-slide *ngFor="let itemRef of itemsReformated">
+<ion-slides loop pager  (ionSlideReachEnd)="slideReachEnd()" >
+    <ion-spinner></ion-spinner>                    
+    <!-- <ion-slide *ngFor="let itemRef of itemsReformated">-->
+    <ion-slide *ngFor="let itemRef of itemsOptimized">
          <div class="grid card-background-page row">
             <ion-card [ngStyle]="changeStyleCards()" col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
                 (click)="onClickItem(item)" 
@@ -29,21 +29,33 @@
                 
                 <div *ngIf="itemType === 'categories'">
                     <div class="img-container">
-                         <img src="assets/img/logo/logo.jpg"/>     
+                         <img src="assets/img/categorias/{{item.idcategoria}}.jpg"/>     
                     </div>
                     <div class="footer-card">
-                        <h1>{{item.descripcion}}</h1>
-                        <h2><ion-icon name='basket'></ion-icon>{{item.cantProductos}} Productos</h2>                    
+                        <h2 class="category-h2"><ion-icon name='basket'></ion-icon>{{item.descripcion}}</h2>
+                        <!-- <h2>{{item.descripcion}}</h2>                     -->
                     </div>
+
+                    <!-- <div class="footer-card">
+                        <h1><ion-icon name='basket'></ion-icon>{{item.cantProductos}} Productos</h1>
+                        <h2>{{item.descripcion}}</h2>                    
+                    </div>-->
                 </div>
 
                 <div *ngIf="(itemType === 'products')">
                     
                     <div class="img-container">
-                         <img src="assets/img/productos/{{item.idarticulo}}.jpg"/>     
+                        <!-- <img src="{{srcStorageImages.products}}{{item.idarticulo}}.jpg" />  -->
+                        <img src="assets/img/productos/{{item.idarticulo}}.jpg" />
                     </div>
                     <div class="footer-card">
-                        <h1><ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(2)}}</h1>
+                        <h1>
+                            <ion-icon name='logo-usd'></ion-icon>
+                            {{(item.precioVenta*item.idbulto.unidades).toFixed(1)}}
+                            <div class="precio-venta">
+                                <a> (${{item.precioVenta}} unidad)</a>
+                            </div>
+                        </h1>
                         <h2>{{item.descripcion}}</h2>                    
                     </div>                  
                 </div>

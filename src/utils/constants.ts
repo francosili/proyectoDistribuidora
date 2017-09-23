@@ -1,5 +1,5 @@
 export const defectValues = {
-    'seller': 'juan',
+    'seller': '1',
     'cantItemsShowed': 8,
     'cantSalesShowed': 3
 };
@@ -10,4 +10,9 @@ export const itemTypes = {
     'products': 'products'
 };
 
-export const sellers = ['juan', 'pedro', 'carlos', 'roberto'];   
+export const sellers = ['juan', 'pedro', 'carlos', 'roberto', 'ignacio'];   
+
+export const srcStorageImages = {
+    'products': 'file:///storage/emulated/0/Distribuidora/productos/',
+    'categories': 'nadaPorAqui'
+}

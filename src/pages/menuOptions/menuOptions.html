@@ -1,6 +1,6 @@
 <ion-menu [content]="mycontent"> 
     <ion-content>
-        <!--TODO: ESTILAR MEJOR ESTA ESCORIA-->
+
         <ion-list radio-group [(ngModel)]="currentSeller" (ionChange)="onRadioChange($event)">
             <ion-list-header>
                 Vendedor Activo
@@ -28,6 +28,12 @@
                 <ion-label>{{sellers[3]}}</ion-label>
                 <ion-radio value=4></ion-radio>
             </ion-item>
+
+            <ion-item>
+                <ion-icon name="person" item-start color="primary"></ion-icon>
+                <ion-label>{{sellers[4]}}</ion-label>
+                <ion-radio value=5></ion-radio>
+            </ion-item>
         </ion-list>
 
         <ion-list>
@@ -36,9 +42,9 @@
                 <ion-label text-right>{{categsToShow}}</ion-label>
             </ion-list-header>
             <ion-item>
-                <ion-range  (ionChange)="onRangeChange('categories')" min="2" max="14" step="2" snaps="true" [(ngModel)]="categsToShow">
+                <ion-range  (ionChange)="onRangeChange('categories')" min="2" max="10" step="2" snaps="true" [(ngModel)]="categsToShow">
                     <ion-label range-left class="small-text">0</ion-label>
-                    <ion-label range-right>28</ion-label>
+                    <ion-label range-right>10</ion-label>
                 </ion-range>
             </ion-item>
         </ion-list>
@@ -49,9 +55,9 @@
                 <ion-label text-right>{{productsToShow}}</ion-label>
             </ion-list-header>
             <ion-item>
-                <ion-range  (ionChange)="onRangeChange('products')" min="2" max="14" step="2" snaps="true" [(ngModel)]="productsToShow">
+                <ion-range  (ionChange)="onRangeChange('products')" min="2" max="10" step="2" snaps="true" [(ngModel)]="productsToShow">
                     <ion-label range-left class="small-text">0</ion-label>
-                    <ion-label range-right>28</ion-label>
+                    <ion-label range-right>10</ion-label>
                 </ion-range>
             </ion-item>
         </ion-list>
@@ -61,26 +67,12 @@
                 Base de datos
             </ion-list-header>
 
-            <button ion-item>
+            <button (click)="onClickUpdate()" ion-item>
                 <ion-icon name="cloud-download" item-start color="primary"></ion-icon>
                 <ion-label>Actualizar</ion-label>
                 <ion-note item-end></ion-note>
             </button>
             
-            <button ion-item>
-                <!--TODO: Probar estos iconos: papel-plane  -->
-                <ion-icon name="code" item-start color="primary"></ion-icon>
-                <ion-label>IP</ion-label>
-                <ion-note item-end>192.168.0.100</ion-note>
-            </button>
-
-            <button ion-item>
-                <!--TODO: Probar estos iconos: rss, radio  -->
-                <!--TODO: Acá es para mostrar por ahora, ver si implementar lo de cambiarlo o no  -->
-                <ion-icon name="git-branch" item-start color="primary"></ion-icon>
-                <ion-label>Puerto</ion-label>
-                <ion-note item-end>:8080</ion-note>
-            </button>
         </ion-list>
 
 
