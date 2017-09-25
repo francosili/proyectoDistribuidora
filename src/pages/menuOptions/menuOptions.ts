@@ -10,10 +10,6 @@ import { sellers, defectValues } from '../../utils/constants';
 
 import { AuthService } from '../../services/authService';
 
-<<<<<<< HEAD
-=======
-import { Content } from 'ionic-angular';
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
 
 
 @Component({
@@ -21,10 +17,6 @@ import { Content } from 'ionic-angular';
     templateUrl: 'menuOptions.html'
 })
 export class MenuOptionsPage {
-<<<<<<< HEAD
-=======
-    @ViewChild(Content) content: Content;
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
     
     @Output() CloseMenu = new EventEmitter();
     @Output() OnClickRadioButton = new EventEmitter();
@@ -84,40 +76,6 @@ export class MenuOptionsPage {
     }
 
     onRadioChange(newSeller) {
-<<<<<<< HEAD
-=======
-
-        // if (newSeller) {
-
-        //     this.updateBD(newSeller, () => {
-        //         // if (newSeller) {
-        //             this.storageService.setStorage('currentSeller', newSeller);
-        //         // };
-        
-        //         this.OnClickRadioButton.emit(newSeller);
-    
-        //         let alert = this.alertCtrl.create({
-        //             title: 'Completado',
-        //             subTitle: 'Se actualizaron los productos del vendedor elegido',
-        //             buttons: ['Ok']
-        //         });
-        //         alert.present();
-        //     }, err => {
-        //         let alert = this.alertCtrl.create({
-        //             title: 'Error',
-        //             subTitle: 'No estás conectado al WIFI de la distribuidora',
-        //             buttons: ['Ok']
-        //         });
-        //         alert.present();
-        //     })
-        // }
-
-
-        // Esto es viejo, dejar asi por las dudas
-        if (newSeller) {
-            this.storageService.setStorage('currentSeller', newSeller);
-        };
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
 
         if (!newSeller) {
             return;
@@ -175,11 +133,8 @@ export class MenuOptionsPage {
     }
     
     onClickUpdate() {
-<<<<<<< HEAD
         // this.OnClickRadioButton.emit(4);
         
-=======
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
         this.storageService.getStorage('currentSeller').then(currentSeller => {
             this.updateBD(currentSeller, () => {
                 this.authService.getCategorias().subscribe(
@@ -200,12 +155,7 @@ export class MenuOptionsPage {
                             subTitle: 'Se actualizaron los productos y las categorías',
                             buttons: ['Ok']
                         });
-<<<<<<< HEAD
                         alert.present();              
-=======
-                        alert.present();
-                        this.content.resize();                        
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
                     }
                 );
             }, err => {

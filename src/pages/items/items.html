@@ -17,16 +17,10 @@
     </ion-navbar>
 </ion-header>
 
-<<<<<<< HEAD
 <ion-slides loop pager  (ionSlideReachEnd)="slideReachEnd()" >
     <ion-spinner></ion-spinner>                    
     <!-- <ion-slide *ngFor="let itemRef of itemsReformated">-->
     <ion-slide *ngFor="let itemRef of itemsOptimized">
-=======
-<ion-slides pager>
-    <ion-spinner></ion-spinner>                    
-    <ion-slide *ngFor="let itemRef of itemsReformated">
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
          <div class="grid card-background-page row">
             <ion-card [ngStyle]="changeStyleCards()" col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
                 (click)="onClickItem(item)" 
@@ -45,11 +39,7 @@
                     <!-- <div class="footer-card">
                         <h1><ion-icon name='basket'></ion-icon>{{item.cantProductos}} Productos</h1>
                         <h2>{{item.descripcion}}</h2>                    
-<<<<<<< HEAD
                     </div>-->
-=======
-                    </div> -->
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
                 </div>
 
                 <div *ngIf="(itemType === 'products')">

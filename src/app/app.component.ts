@@ -35,14 +35,12 @@ export class MyApp {
             splashScreen.hide();
 
 
-<<<<<<< HEAD
             // this.storageService.setStorage('products', productsMock);
 
             // this.storageService.setStorage('categories', categoriesMock);
             
             
             this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
-                
                 this.authService.getArticulos(idCurrentSeller).subscribe(allProducts => {
                     // TODO: Si allProducts === products entonces no reemplazar al pedo
                     // CHECKJEAR ESTO QUE LO HICE SIN VER EL BACKEND
@@ -53,7 +51,6 @@ export class MyApp {
                     })
                 });
 
-
                 this.authService.getCategorias(idCurrentSeller).subscribe(allCategories => {
 
                     console.log(allCategories);
@@ -61,50 +58,11 @@ export class MyApp {
                     this.storageService.setStorage('categories', allCategories.json());
                 });
 
-
-
                 if (!idCurrentSeller) {
                     this.storageService.setStorage('currentSeller', defectValues.seller);
                 }
             })
-            
-            
-            
-            
-            // this.storageService.getStorage('currentSeller').then(oldSeller => {
-              
-            // })
-=======
-            this.storageService.setStorage('products', productsMock);
-
-            this.storageService.setStorage('categories', categoriesMock);
-            
-            
-            // this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
-            //     console.log(idCurrentSeller);
-            //     this.authService.getArticulos(idCurrentSeller).subscribe(allProducts => {
-            //         // TODO: Si allProducts === products entonces no reemplazar al pedo
-            //         // CHECKJEAR ESTO QUE LO HICE SIN VER EL BACKEND
-            //         this.storageService.getStorage('products').then(currentProducts => {
-            //             if (allProducts !== currentProducts) {
-            //                 this.storageService.setStorage('products', allProducts.json());
-            //             }
-            //         })
-            //     });
-            // })
-            
-            // this.authService.getCategorias().subscribe(allCategories => {
-            //     this.storageService.setStorage('categories', allCategories.json());
-            // });
-            
-            
-            
-            this.storageService.getStorage('currentSeller').then(oldSeller => {
-              if (!oldSeller) {
-                this.storageService.setStorage('currentSeller', defectValues.seller);
-              }
-            })
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
+        
 
         });
 

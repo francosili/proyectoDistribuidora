@@ -10,17 +10,9 @@ export const itemTypes = {
     'products': 'products'
 };
 
-<<<<<<< HEAD
 export const sellers = ['juan', 'pedro', 'carlos', 'roberto', 'ignacio'];   
-=======
-export const sellers = ['juan', 'pedro', 'carlos', 'roberto'];   
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
 
 export const srcStorageImages = {
     'products': 'file:///storage/emulated/0/Distribuidora/productos/',
     'categories': 'nadaPorAqui'
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef

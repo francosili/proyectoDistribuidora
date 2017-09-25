@@ -48,11 +48,7 @@
         "@ionic/app-scripts": "2.0.2",
         "@ionic/cli-plugin-cordova": "1.6.2",
         "@ionic/cli-plugin-ionic-angular": "1.4.1",
-<<<<<<< HEAD
-        "ionic": "3.12.0",
-=======
         "ionic": "3.10.3",
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
         "typescript": "2.3.4"
     },
     "description": "An Ionic project",

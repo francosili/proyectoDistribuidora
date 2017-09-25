@@ -88,7 +88,6 @@ export class ItemsService {
 			newStyleCards['max-width'] = '16%';
 		}
 		return newStyleCards;
-<<<<<<< HEAD
     }
     
     optimizeSlides(itemsReformated, indexItemsOptimized){
@@ -112,9 +111,6 @@ export class ItemsService {
     }
 
 
-=======
-    }      
->>>>>>> e1e9ee2511bb97cb1e672e13de37893815a94bef
 
     // getCantProductsOfACategory(category: string) {        
     //     return this.getItems('products', category).then(products => {
