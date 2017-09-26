@@ -52,7 +52,7 @@ page-sales {
     // Override ionic styles
     .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
         //TODO: Esto mejorar (por ahora queda bien, probar en tablet)
-        bottom: 3px;
+        bottom: 0px;
     }
 
     ion-spinner {
