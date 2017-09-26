@@ -1,31 +1,23 @@
-<ion-header *ngIf="categorySelected !== 'sales'">
+<ion-header>
     <ion-navbar>
-        <div ion-button clear color="dark" class="back-button" (click)="onClickBackButton()">
+        <!--  [ngClass]="{'back-button': itemType === 'categories','back-button-products': itemType === 'products'}"  -->
+        <div ion-button clear color="dark" class="back-button"(click)="onClickBackButton()">
             <ion-icon name='arrow-back'></ion-icon>
         </div>
-        <ion-searchbar debounce=500 (ionInput)="reloadItems($event)">
+        <!--  *ngIf="itemType !== 'products'" -->
+        <ion-searchbar [(ngModel)]="itemSearched" debounce=500 (ionInput)="reloadItems($event)">
         </ion-searchbar>
-
-        <!-- <div ion-button clear color="dark" class="funnel-button">
-            <ion-icon name='funnel'></ion-icon>
-            <ion-select [(ngModel)]="catFilterParam" interface="popover">
-                <ion-option value="all">Todos</ion-option>
-                <ion-option value="onlyWithProducts">Contienen Productos</ion-option>
-            </ion-select>
-        </div>   -->
-
     </ion-navbar>
 </ion-header>
 
-<ion-slides loop pager  (ionSlideReachEnd)="slideReachEnd()" >
+<ion-slides speed=500 loop pager=false (ionSlideReachEnd)="slideReach('End')" (ionSlideReachStart)="slideReach('Start')">
     <ion-spinner></ion-spinner>                    
-    <!-- <ion-slide *ngFor="let itemRef of itemsReformated">-->
-    <ion-slide *ngFor="let itemRef of itemsOptimized">
+    <ion-slide>
          <div class="grid card-background-page row">
             <ion-card [ngStyle]="changeStyleCards()" col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3
                 (click)="onClickItem(item)" 
                 class="item" 
-                *ngFor="let item of itemRef">
+                *ngFor="let item of actualSlide">
                 
                 <div *ngIf="itemType === 'categories'">
                     <div class="img-container">
@@ -33,27 +25,21 @@
                     </div>
                     <div class="footer-card">
                         <h2 class="category-h2"><ion-icon name='basket'></ion-icon>{{item.descripcion}}</h2>
-                        <!-- <h2>{{item.descripcion}}</h2>                     -->
                     </div>
-
-                    <!-- <div class="footer-card">
-                        <h1><ion-icon name='basket'></ion-icon>{{item.cantProductos}} Productos</h1>
-                        <h2>{{item.descripcion}}</h2>                    
-                    </div>-->
                 </div>
 
                 <div *ngIf="(itemType === 'products')">
                     
                     <div class="img-container">
-                        <!-- <img src="{{srcStorageImages.products}}{{item.idarticulo}}.jpg" />  -->
-                        <img src="assets/img/productos/{{item.idarticulo}}.jpg" />
+                        <img src="{{srcStorageImages.products}}{{item.idarticulo}}.jpg" /> 
+                        <!-- <img src="assets/img/productos/{{item.idarticulo}}.jpg" /> -->
                     </div>
                     <div class="footer-card">
                         <h1>
                             <ion-icon name='logo-usd'></ion-icon>
-                            {{(item.precioVenta*item.idbulto.unidades).toFixed(1)}}
-                            <div class="precio-venta">
-                                <a> (${{item.precioVenta}} unidad)</a>
+                            {{item.precioVenta}}
+                            <div class="precio-bulto">
+                                <a> (${{(item.precioVenta*item.idbulto.unidades).toFixed(1)}} bulto)</a>
                             </div>
                         </h1>
                         <h2>{{item.descripcion}}</h2>                    
@@ -65,3 +51,7 @@
         </div> 
     </ion-slide>
 </ion-slides>
+
+<ion-badge class="slide-index" item-end>{{indexActualSlide + 1}} / {{itemsReformated?.length}}</ion-badge>
+
+<!-- <div class="slide-index">{{indexActualSlide}} / {{itemsReformated?.length}}</div> -->

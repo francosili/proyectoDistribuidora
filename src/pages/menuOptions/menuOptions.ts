@@ -79,14 +79,10 @@ export class MenuOptionsPage {
 
         if (!newSeller) {
             return;
-        }
+        };
 
         this.storageService.getStorage('currentSeller').then(currentSeller => {
-            console.log('newSeller:' + newSeller);
-            console.log('currentSeller:' + currentSeller);
             if (currentSeller && (newSeller !== currentSeller)) {
-                console.log('SI');
-                
                 this.updateBD(newSeller, () => {
                     this.storageService.setStorage('currentSeller', newSeller);
                     
@@ -114,15 +110,6 @@ export class MenuOptionsPage {
                 
             }
         })
-
-
-
-        // Esto es viejo, dejar asi por las dudas
-        // if (newSeller) {
-        //     this.storageService.setStorage('currentSeller', newSeller);
-        // };
-
-        // this.OnClickRadioButton.emit(newSeller);
     }
 
 
@@ -132,9 +119,7 @@ export class MenuOptionsPage {
         }, onError, onComplete);
     }
     
-    onClickUpdate() {
-        // this.OnClickRadioButton.emit(4);
-        
+    onClickUpdate() {        
         this.storageService.getStorage('currentSeller').then(currentSeller => {
             this.updateBD(currentSeller, () => {
                 this.authService.getCategorias().subscribe(

@@ -37,16 +37,19 @@ export class HomePage {
             this.currentSeller = sellers[idCurrentSeller];
         });
 
+        this.storageService.removeStorage('itemsReformatedSearched');
+        this.storageService.removeStorage('itemSearched');
+
     }
 
     goToPage(page: string) {
         
         switch (page) {
             case 'categoriesPage':
-                this.navCtrl.setRoot(ItemsPage, { itemType: 'categories'});
+                this.navCtrl.setRoot(ItemsPage, { itemType: 'categories', indexActualSlide: 0});
                 break;
             case 'productsPage':
-                this.navCtrl.setRoot(ItemsPage, { itemType: 'products', categorySelected: 'all'});
+                this.navCtrl.setRoot(ItemsPage, { itemType: 'products', categorySelected: 'all', indexActualSlide: 0});
                 break;                
         }
         

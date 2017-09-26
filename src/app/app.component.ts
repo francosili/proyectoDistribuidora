@@ -35,33 +35,31 @@ export class MyApp {
             splashScreen.hide();
 
 
-            // this.storageService.setStorage('products', productsMock);
+            this.storageService.setStorage('products', productsMock);
 
-            // this.storageService.setStorage('categories', categoriesMock);
+            this.storageService.setStorage('categories', categoriesMock);
+            this.storageService.setStorage('currentSeller', defectValues.seller);
             
-            
-            this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
-                this.authService.getArticulos(idCurrentSeller).subscribe(allProducts => {
-                    // TODO: Si allProducts === products entonces no reemplazar al pedo
-                    // CHECKJEAR ESTO QUE LO HICE SIN VER EL BACKEND
-                    this.storageService.getStorage('products').then(currentProducts => {
-                        if (allProducts !== currentProducts) {
-                            this.storageService.setStorage('products', allProducts.json());
-                        }
-                    })
-                });
+            // this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
+            //     this.authService.getArticulos(idCurrentSeller).subscribe(allProducts => {
+            //         this.storageService.getStorage('products').then(currentProducts => {
+            //             if (allProducts !== currentProducts) {
+            //                 this.storageService.setStorage('products', allProducts.json());
+            //             }
+            //         })
+            //     });
 
-                this.authService.getCategorias(idCurrentSeller).subscribe(allCategories => {
+            //     this.authService.getCategorias(idCurrentSeller).subscribe(allCategories => {
 
-                    console.log(allCategories);
+            //         console.log(allCategories);
 
-                    this.storageService.setStorage('categories', allCategories.json());
-                });
+            //         this.storageService.setStorage('categories', allCategories.json());
+            //     });
 
-                if (!idCurrentSeller) {
-                    this.storageService.setStorage('currentSeller', defectValues.seller);
-                }
-            })
+            //     if (!idCurrentSeller) {
+            //         this.storageService.setStorage('currentSeller', defectValues.seller);
+            //     }
+            // });
         
 
         });

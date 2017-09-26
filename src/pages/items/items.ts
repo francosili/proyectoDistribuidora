@@ -1,6 +1,7 @@
-import { Component, EventEmitter, Input, Output, ViewChild, OnInit, AfterViewInit, DoCheck, SimpleChanges} from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewChild, OnInit, DoCheck, SimpleChanges} from '@angular/core';
 import { NavController, NavParams, AlertController } from 'ionic-angular';
 import { ItemsService } from '../../services/itemsService';
+import { StorageService } from '../../services/storageService';
 import { Slides } from 'ionic-angular';
 import { PopoverController, PopoverOptions } from 'ionic-angular';
 
@@ -12,21 +13,20 @@ import { defectValues, srcStorageImages, itemTypes } from '../../utils/constants
 	selector: 'page-items',
 	templateUrl: 'items.html'
 })
-// export class ItemsPage implements DoCheck {
-export class ItemsPage{// implements AfterViewInit {
+
+export class ItemsPage{
 	@Input() itemType: string;
 	@Input() categorySelected: string;
-	// @Input() itemsOptimizedInput; 
+	@Input() indexActualSlide = 0;
 
 	@Output() SelectItem = new EventEmitter();
     @ViewChild(Slides) slides: Slides;
 
 	items;
-	itemSearched: string;
 	itemsReformated;
+	itemSearched;
 
-	@Input() itemsOptimized;
-	indexItemsOptimized;
+	actualSlide;
 
 	cantItemsShowed: number;
 
@@ -37,16 +37,11 @@ export class ItemsPage{// implements AfterViewInit {
 		private itemsService: ItemsService,
 		private params: NavParams,
 		public alertCtrl: AlertController,
-		public popoverCtrl: PopoverController
+		public popoverCtrl: PopoverController,
+		private storageService: StorageService
 	) {
 		this.initValueItems(this.params)
 	}
-
-	// ngAfterViewInit(){
-	// 	console.log('ojadsojsajo');
-	// 	// Despues probar con esto
-	// 	// this.slides.ionSlideTransitionStart.emit();
-	// }
 
 	initValueItems(params){
 		if (!this.itemType) {
@@ -55,17 +50,12 @@ export class ItemsPage{// implements AfterViewInit {
 		if (!this.categorySelected) {
 			this.categorySelected = params.data.categorySelected;
 		};
-		if (!this.itemsOptimized) {
-			this.itemsOptimized = params.data.itemsOptimized;
+		if (!this.indexActualSlide) {
+			this.indexActualSlide = params.data.indexActualSlide;
 		};
-		this.indexItemsOptimized = 0;
 	}
 
 	ngOnInit(){
-		console.log('oooooooooo');
-		console.log(this.itemsOptimized);
-		console.log('oooooooooo');
-
 		this.itemsService.getCantItemsShowed(this.itemType, this.categorySelected).then(itemsToShow => {
 			if (itemsToShow) {
 				this.cantItemsShowed = itemsToShow;
@@ -78,19 +68,26 @@ export class ItemsPage{// implements AfterViewInit {
 			this.initItems(allItems);
 		});
 
+		this.storageService.getStorage('itemSearched').then(itemSearched => {
+			this.itemSearched = itemSearched;
+		});
+
 	}
-	
 
 	initItems(itemsArray){
-		if (!this.itemsOptimized) {
 		this.items = this.itemsService.itemsToLowerCase(itemsArray);
-		this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
-
-			// debugger;
-			this.itemsOptimized = this.itemsService.optimizeSlides(this.itemsReformated, this.indexItemsOptimized)
-		}
-		console.log(this.itemsOptimized);
-		
+		this.storageService.getStorage('itemsReformatedSearched').then(itemsReformatedSearched => {
+			if (!itemsReformatedSearched) {
+				this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
+			} else {
+				this.itemsReformated = itemsReformatedSearched;	
+			};
+			this.setActualSlide(this.itemsReformated[this.indexActualSlide]);
+		});
+	}
+	
+	setActualSlide(actualSlide) {
+		this.actualSlide = actualSlide;
 	}
 
 	reloadItems(ev: any) {
@@ -98,88 +95,45 @@ export class ItemsPage{// implements AfterViewInit {
 			let allItemsLower = this.itemsService.itemsToLowerCase(allItems);
 			this.items = allItemsLower;
 			let val = ev.target.value;
+			this.storageService.setStorage('itemSearched', val);
 			if (val && val.trim() != '') {
 				this.items = allItemsLower.filter((item) => {
 					let keyToFind = 'descripcion';
-					
 					return (item[keyToFind].toLowerCase().indexOf(val.toLowerCase()) > -1);
 				})
 			}
 			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, this.items);
-			
-
-			// this.itemsOptimized = this.itemsService.optimizeSlides(this.itemsReformated, this.indexItemsOptimized);// ESTO VA A ROMPER!!
-			
-			
-			this.slides.slideTo(0);
+			this.storageService.setStorage('itemsReformatedSearched', this.itemsReformated);
+			this.indexActualSlide = 0;
+			this.setActualSlide(this.itemsReformated[0]);
 		});
+	}
+
+
+	slideReach(direc: string) {
+		this.indexActualSlide = this.itemsService.getNextSlide(this.indexActualSlide, direc, this.itemsReformated.length);
+		if (this.itemType === itemTypes.categories) {
+			this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.categories, indexActualSlide: this.indexActualSlide });
+		} else {
+			this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: this.categorySelected, indexActualSlide: this.indexActualSlide});
+		};
 	}
 
 	onClickItem(category: any) {
 		if (this.itemType !== itemTypes.categories) return;
-		
-		this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase(), comeFromHome: false});
-
+		this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase(), indexActualSlide: 0});
 	}
+
+	onClickBackButton() {
+		if (this.itemType === itemTypes.categories) {
+			this.navCtrl.setRoot(HomePage);
+		} else {
+			this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.categories, indexActualSlide: 0 });
+		}
+	}
+
 
 	changeStyleCards() {
 		return this.itemsService.changeStyleCards(this.cantItemsShowed);
 	}
-
-	onClickBackButton() {
-		if (this.itemType === 'categories') {
-			this.navCtrl.setRoot(HomePage);
-		} else {
-			this.navCtrl.setRoot(ItemsPage, { itemType: 'categories' });
-		}
-	}
-
-
-	slideReachEnd() {
-
-		console.log(this.slides.getActiveIndex());
-	
-		this.indexItemsOptimized = this.indexItemsOptimized + 2;
-		this.itemsOptimized = this.itemsService.optimizeSlides(this.itemsReformated, this.indexItemsOptimized);
-		// debugger;
-		// Mirar esta solucion
-		if (this.itemType === 'categories') {
-			this.navCtrl.setRoot(ItemsPage, { itemType: 'categories', itemsOptimized: this.itemsOptimized });
-			// debugger;
-		} else {
-			// this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase(), comeFromHome: false});
-		}
-
-	}
-
-	//ionSlideReachEnd event
-	// slideReachEnd() {
-	// 	console.log('IONSLIDEREACHEDD');
-		
-	// 	this.itemsOptimized = this.itemsService.optimizeSlides(this.itemsReformated, this.itemsOptimized);
-	// }
-
 }
-
-
-	// catFilterParam: string;
-	// oldCatFilterParam: string;
-
-	//En InitValues
-	// this.catFilterParam = 'all';
-	// this.oldCatFilterParam = 'all';
-	// TODO: Probar cambia esto por (click) en el ion-option del ion-select
-	// ngDoCheck(){
-	// 	if (this.catFilterParam !== this.oldCatFilterParam) {
-	// 		console.log(this.allReformatedCategories);
-	// 		if (this.catFilterParam === 'all') {
-	// 			this.itemsReformated = this.allReformatedCategories;
-	// 			this.oldCatFilterParam = this.catFilterParam;
-	// 		} else {
-	// 			let auxItems = this.itemsService.filterCategories(this.catFilterParam, this.items);
-	// 			this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, auxItems);
-	// 			this.oldCatFilterParam = this.catFilterParam;
-	// 		};
-	// 		this.slides.slideTo(0);
-	// 	}
-	// }

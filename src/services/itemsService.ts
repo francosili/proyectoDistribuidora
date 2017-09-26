@@ -1,6 +1,7 @@
 import * as _ from 'lodash';
 import { Injectable } from '@angular/core';
 import { StorageService } from './storageService';
+import { defectValues } from '../utils/constants';
 
 @Injectable()
 export class ItemsService {
@@ -89,26 +90,25 @@ export class ItemsService {
 		}
 		return newStyleCards;
     }
-    
-    optimizeSlides(itemsReformated, indexItemsOptimized){
 
-        let auxItemsReformated = itemsReformated;
-
-        // // Tengo que contar cuantos itemsOptimized voy de alguna manera
-        // if (oldItemsOptimized) {
-        //     auxItemsReformated = _.drop(auxItemsReformated, oldItemsOptimized.length);
-            
-        // }
-
-
-
-        auxItemsReformated = _.drop(auxItemsReformated, indexItemsOptimized);
-
-        let itemsOptimized = _.dropRight(auxItemsReformated, (auxItemsReformated.length - 2));
-        // debugger;
-        return itemsOptimized;
-
+    getNextSlide(indexActualSlide, direc, lengthItemsReformated) {
+        let newIndexActualSlide = indexActualSlide;
+        if (direc === 'End') {
+            if (indexActualSlide + 1 <= lengthItemsReformated - 1) {
+                newIndexActualSlide += 1;
+            } 
+        } else if (direc === 'Start') {
+            if (indexActualSlide - 1 >= 0) {
+                newIndexActualSlide -= 1;
+            } 
+        };
+        return newIndexActualSlide;
     }
+
+   
+}
+
+
 
 
 
@@ -140,6 +140,3 @@ export class ItemsService {
     //     }
     //     return newCategoriesCollection;
     // }
-
-   
-}

@@ -1,7 +1,8 @@
 export const defectValues = {
     'seller': '1',
     'cantItemsShowed': 8,
-    'cantSalesShowed': 3
+    'cantSalesShowed': 3,
+    'cantSlideInMemory': 1
 };
 
 export const itemTypes = {
