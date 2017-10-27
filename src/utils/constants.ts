@@ -11,7 +11,7 @@ export const itemTypes = {
     'products': 'products'
 };
 
-export const sellers = ['juan', 'pedro', 'carlos', 'roberto', 'ignacio'];   
+export const sellers = ['fernando veron', 'supervisor', 'camilo', 'fernanda re', 'matias'];   
 
 export const srcStorageImages = {
     'products': 'file:///storage/emulated/0/Distribuidora/productos/',

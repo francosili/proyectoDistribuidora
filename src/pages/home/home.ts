@@ -34,7 +34,7 @@ export class HomePage {
         this.salesPromise = this.getSales();
 
         this.storageService.getStorage('currentSeller').then(idCurrentSeller => {
-            this.currentSeller = sellers[idCurrentSeller];
+            this.currentSeller = sellers[idCurrentSeller - 1];
         });
 
         this.storageService.removeStorage('itemsReformatedSearched');
@@ -80,17 +80,23 @@ export class HomePage {
     }
 
     setNewCurrentSeller(idNewCurrentSeller) {
-        console.log(idNewCurrentSeller);
         this.currentSeller = sellers[idNewCurrentSeller - 1];
 
         this.authService.getArticulos(idNewCurrentSeller).subscribe(allProducts => {
             this.storageService.setStorage('products', allProducts.json());
 
-            // Para actualizar el home y los sales
-            // this.navCtrl.setRoot(HomePage);
-            // window.location.reload();            
+                        
+        });
+
+        this.authService.getCategorias(idNewCurrentSeller).subscribe(allCategories => {
+        
+            this.storageService.setStorage('categories', allCategories.json());
         });
         
+// Para actualizar el home y los sales, esto va en la promise de arriba
+            // this.navCtrl.setRoot(HomePage);
+            // window.location.reload();
+
         // this.storageService.getStorage('products').then(spyProducts=>{
     
         //     this.salesPromise = this.getSales().then(sales => {

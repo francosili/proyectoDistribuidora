@@ -81,6 +81,8 @@ export class MenuOptionsPage {
             return;
         };
 
+
+
         this.storageService.getStorage('currentSeller').then(currentSeller => {
             console.log(newSeller);
             console.log(currentSeller);
