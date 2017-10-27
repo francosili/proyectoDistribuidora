@@ -76,18 +76,19 @@ export class ItemsService {
 		let newStyleCards = {};
 
 		if (cantItemsShowed <= 6) {
-			newStyleCards['max-height'] = '50%';
-			newStyleCards['max-width'] = '50%';
+			newStyleCards['max-height'] = '225px';
+            newStyleCards['max-width'] = '267px';
 			if (cantItemsShowed <= 3){
-				newStyleCards['top'] = '18%';
+				newStyleCards['top'] = '18%';// Aca ponerme especifico
 			}
 		} else if (cantItemsShowed > 6 && cantItemsShowed < 10) {
 			newStyleCards['max-height'] = '50%';
 			newStyleCards['max-width'] = '20%';
-		} else {
-			newStyleCards['max-height'] = '40%';
-			newStyleCards['max-width'] = '16%';
-		}
+        };
+        // else {
+		// 	newStyleCards['max-height'] = '40%';
+		// 	newStyleCards['max-width'] = '16%';
+		// }
 		return newStyleCards;
     }
 

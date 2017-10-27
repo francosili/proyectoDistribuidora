@@ -82,6 +82,8 @@ export class MenuOptionsPage {
         };
 
         this.storageService.getStorage('currentSeller').then(currentSeller => {
+            console.log(newSeller);
+            console.log(currentSeller);
             if (currentSeller && (newSeller !== currentSeller)) {
                 this.updateBD(newSeller, () => {
                     this.storageService.setStorage('currentSeller', newSeller);
@@ -95,7 +97,6 @@ export class MenuOptionsPage {
                     });
                     alert.present();
                 }, err => {
-
                     this.currentSeller = currentSeller;
 
                     let alert = this.alertCtrl.create({

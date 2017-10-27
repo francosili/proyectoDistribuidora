@@ -18,6 +18,7 @@ export class ItemsPage{
 	@Input() itemType: string;
 	@Input() categorySelected: string;
 	@Input() indexActualSlide = 0;
+	@Input() resetItems: boolean;
 
 	@Output() SelectItem = new EventEmitter();
     @ViewChild(Slides) slides: Slides;
@@ -53,6 +54,11 @@ export class ItemsPage{
 		if (!this.indexActualSlide) {
 			this.indexActualSlide = params.data.indexActualSlide;
 		};
+		// if (!this.resetItems) {
+		// 	this.resetItems = params.data.resetItems;
+		// } else {
+		// 	this.resetItems = false;
+		// };
 	}
 
 	ngOnInit(){
@@ -77,8 +83,10 @@ export class ItemsPage{
 	initItems(itemsArray){
 		this.items = this.itemsService.itemsToLowerCase(itemsArray);
 		this.storageService.getStorage('itemsReformatedSearched').then(itemsReformatedSearched => {
+			// if (!itemsReformatedSearched || this.resetItems) {
 			if (!itemsReformatedSearched) {
 				this.itemsReformated = this.itemsService.chunkItems(this.cantItemsShowed, itemsArray);
+				this.resetItems = false;//??
 			} else {
 				this.itemsReformated = itemsReformatedSearched;	
 			};
@@ -121,7 +129,16 @@ export class ItemsPage{
 
 	onClickItem(category: any) {
 		if (this.itemType !== itemTypes.categories) return;
+		// this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase(), indexActualSlide: 0, resetItems: true});
+		
+		this.storageService.getStorage('itemsReformatedSearched').then(itemsReformatedSearched => {
+			if (itemsReformatedSearched) {
+				this.storageService.removeStorage('itemsReformatedSearched');
+			}
+		});			
+		
 		this.navCtrl.setRoot(ItemsPage, { itemType: itemTypes.products, categorySelected: category.descripcion.toUpperCase(), indexActualSlide: 0});
+
 	}
 
 	onClickBackButton() {
