@@ -11,9 +11,9 @@
             </div>
             <div class="footer-card">
                 <h1>
-                    <ion-icon name='logo-usd'></ion-icon>{{(item.precioVenta*item.idbulto.unidades).toFixed(2)}}
+                    <ion-icon name='logo-usd'></ion-icon>{{item.precioVenta}}
                     <div class="precio-venta">
-                        <a> (${{item.precioVenta}} unidad)</a>
+                        <a> (${{(item.precioVenta*item.idbulto.unidades).toFixed(2)}} Bulto)</a>
                     </div>
                 </h1>
                 

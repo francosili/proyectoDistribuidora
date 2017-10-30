@@ -137,8 +137,8 @@ page-items {
 
             h1, h2 {
                 text-transform: capitalize;
-                color: $white-color;
-                padding-left: 10px;
+                color: #290071;
+                padding-left: 5px;
             }
 
             h1 {
@@ -146,7 +146,7 @@ page-items {
                 white-space: nowrap;
                 ion-icon{
                     font-size: 2vw;
-                    padding-right: 6px;
+                    //padding-right: 6px;
                 }
             }
 
@@ -157,11 +157,11 @@ page-items {
             .category-h2 {
                 // h2 {
                     text-transform: capitalize;
-                    color: $white-color;
+                    color: #290071;
                     padding-left: 10px;
                     ion-icon{
                         font-size: 2vw;
-                        padding-right: 6px;
+                        //padding-right: 6px;
                     }
                     font-size: 1.25vw
                 // }
