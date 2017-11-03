@@ -25,6 +25,8 @@ import { HttpModule } from '@angular/http';
 import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { AndroidPermissions } from '@ionic-native/android-permissions';
+import { NavigationBar } from '@ionic-native/navigation-bar';
+
 
 @NgModule({
   declarations: [
@@ -62,7 +64,8 @@ import { AndroidPermissions } from '@ionic-native/android-permissions';
     StorageService,
     AuthService,
     ItemsService,
-    AndroidPermissions
+    AndroidPermissions,
+    NavigationBar
   ]
 })
 export class AppModule {}

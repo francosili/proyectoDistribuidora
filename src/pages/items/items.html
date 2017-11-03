@@ -21,7 +21,8 @@
                 
                 <div *ngIf="itemType === 'categories'">
                     <div class="img-container">
-                         <img src="assets/img/categorias/{{item.idcategoria}}.jpg"/>     
+                         <!-- <img src="assets/img/categorias/{{item.idcategoria}}.jpg"/>      -->
+                         <img src="{{srcStorageImages.categories}}{{item.idcategoria}}.jpg" /> 
                     </div>
                     <div class="footer-card">
                         <h2 class="category-h2"><ion-icon name='basket'></ion-icon>{{item.descripcion}}</h2>

@@ -15,6 +15,8 @@ import { defectValues } from '../utils/constants';
 
 import { AndroidPermissions } from '@ionic-native/android-permissions';
 
+import { NavigationBar } from '@ionic-native/navigation-bar';
+
 
 @Component({
     templateUrl: 'app.html'
@@ -28,15 +30,15 @@ export class MyApp {
         splashScreen: SplashScreen,
         private storageService: StorageService,
         private authService: AuthService,
-        private androidPermissions: AndroidPermissions
+        private androidPermissions: AndroidPermissions,
+        private navigationBar: NavigationBar
     ) {
         platform.ready().then(() => {
             statusBar.styleDefault();
+            statusBar.hide();
             splashScreen.hide();
 
-
             // this.storageService.setStorage('products', productsMock);
-
             // this.storageService.setStorage('categories', categoriesMock);
             // this.storageService.setStorage('currentSeller', defectValues.seller);
             
@@ -72,5 +74,14 @@ export class MyApp {
                 this.androidPermissions.requestPermission(this.androidPermissions.PERMISSION.WRITE_EXTERNAL_STORAGE);
             }
         );
+
+        // let autoHide: boolean = true;
+        this.navigationBar.hideNavigationBar().then(
+            success => console.log('Navigation bar sussefulled hide'),
+            err => {
+                console.log('No se escondió ni ahí');
+            }
+        )
+
     }
 }

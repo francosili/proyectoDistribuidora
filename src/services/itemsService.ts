@@ -78,8 +78,17 @@ export class ItemsService {
 		if (cantItemsShowed <= 6) {
 			newStyleCards['max-height'] = '225px';
             newStyleCards['max-width'] = '267px';
-			if (cantItemsShowed <= 3){
-				newStyleCards['top'] = '18%';// Aca ponerme especifico
+			if (cantItemsShowed === 2){
+                // newStyleCards['max-height'] = '425px';
+                // newStyleCards['max-width'] = '410px';
+                newStyleCards['max-height'] = '80%';
+                newStyleCards['max-width'] = '55%';
+            }
+            if (cantItemsShowed === 4){
+                // newStyleCards['max-height'] = '225px';
+                // newStyleCards['max-width'] = '410px';
+                newStyleCards['max-height'] = '45%';
+                newStyleCards['max-width'] = '55%';
 			}
 		} else if (cantItemsShowed > 6 && cantItemsShowed < 10) {
 			newStyleCards['max-height'] = '50%';

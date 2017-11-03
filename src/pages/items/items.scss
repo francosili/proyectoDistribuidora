@@ -132,12 +132,14 @@ page-items {
             width: 100%;
             padding-bottom: 1%;
             padding-top: 2%;
-            background: $palet-grey;
+            // background: $palet-grey;
+            background: yellow;
             text-align: left;
 
             h1, h2 {
                 text-transform: capitalize;
-                color: #290071;
+                // color: #290071;
+                color: black;
                 padding-left: 5px;
             }
 
@@ -157,11 +159,12 @@ page-items {
             .category-h2 {
                 // h2 {
                     text-transform: capitalize;
-                    color: #290071;
+                    color: black;
                     padding-left: 10px;
                     ion-icon{
                         font-size: 2vw;
                         //padding-right: 6px;
+                        margin-right: 5px;
                     }
                     font-size: 1.25vw
                 // }
@@ -176,7 +179,7 @@ page-items {
                 a {
                     font-weight: bold;
                     font-size: 1.3rem;
-                    color: white;
+                    color: slategray;
                     padding-left: 4%;
                 }
             }
@@ -189,7 +192,7 @@ page-items {
         bottom: 16%;
         margin: 0 auto;
         display: block;
-        width: 5%;
+        width: 7%;
         background: $palet-grey;      
     }
     

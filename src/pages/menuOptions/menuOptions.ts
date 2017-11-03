@@ -40,9 +40,8 @@ export class MenuOptionsPage {
         let categsToShowPromise = this.storageService.getStorage('categsToShow') ;
         let productsToShowPromise = this.storageService.getStorage('productsToShow');
         Promise.all([categsToShowPromise, productsToShowPromise]).then(itemsToShow => {
-            let defectItemsToShow = 9;
-            this.categsToShow = itemsToShow[0] ? itemsToShow[0] : defectItemsToShow;
-            this.productsToShow = itemsToShow[1] ? itemsToShow[1] : defectItemsToShow;;  
+            this.categsToShow = itemsToShow[0] ? itemsToShow[0] : defectValues.cantItemsShowed;
+            this.productsToShow = itemsToShow[1] ? itemsToShow[1] : defectValues.cantItemsShowed;;  
         });
 
         // this.currentSeller = defectValues.seller; //ARREGLAR ESTO

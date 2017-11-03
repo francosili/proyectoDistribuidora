@@ -1,6 +1,6 @@
 export const defectValues = {
     'seller': '1',
-    'cantItemsShowed': 8,
+    'cantItemsShowed': 6,
     'cantSalesShowed': 3,
     'cantSlideInMemory': 1
 };
@@ -15,5 +15,5 @@ export const sellers = ['fernando veron', 'supervisor', 'camilo', 'fernanda re',
 
 export const srcStorageImages = {
     'products': 'file:///storage/emulated/0/Distribuidora/productos/',
-    'categories': 'nadaPorAqui'
+    'categories': 'file:///storage/emulated/0/Distribuidora/categorias/',
 }

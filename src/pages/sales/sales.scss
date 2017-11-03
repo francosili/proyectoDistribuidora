@@ -11,7 +11,7 @@ page-sales {
     .footer-card {
         padding-bottom: 1%;
         padding-top: 2%;
-        background: $palet-grey;
+        background: yellow;
         text-align: left;
 
         position: relative;
@@ -20,7 +20,7 @@ page-sales {
 
         h1, h2 {
             text-transform: capitalize;
-            color: #290071;
+            color: black;
             padding-left: 10px;
         }
 
@@ -69,7 +69,7 @@ page-sales {
         a {
             font-weight: bold;
             font-size: 1.3rem;
-            color: white;
+            color: slategray;
             padding-left: 4%;
         }
     }
